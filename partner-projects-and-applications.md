@@ -1,0 +1,28 @@
+# Partner projects and applications
+
+- Secondary Mathematics Teachers Content Knowledge [UMich_UoA_Project.doc](/wiki/download/attachments/3816950946/UMich_UoA_Project.doc?version=1&modificationDate=1539354110000&cacheVersion=1&api=v2)
+- Earthquake Engineering [NZ Nees@Auckland](http://www.nznees.auckland.ac.nz) – Civil Engineering UoA
+- Climate Physics - Physics UoA
+- Biomedical (e.g. BIRN) and Physiome Project – Bioengineering UoA
+- Bioinformatics UoA, UoC
+- [NZ Biomirror](http://www.cebl.auckland.ac.nz/biomirror/)
+- Geosciences (e.g. GIS,GEON), UoA, UoC
+- [Network Simulation and Design Research Group](http://www.ndsg.net.nz), [Operations Research](http://www.esc.auckland.ac.nz/research/groups/OR/index.html), [Auckland](http://www.auckland.ac.nz)
+- Computational Intelligence – Advanced Intelligent Systems Lab MU
+- Molecular Ecology and Evolution – Allan Wilson Centre (CoRE) MU
+- Theoretical and Computational Chemistry Research Centre MU
+- Structural Biophysics Group MU
+- Molecular Genetics UoC
+- Ecological Genomics – Molecular Ecology Research Lab UoC
+- Icecube Neutrino Observatory UoC
+- Microlensing Observations in Astrophysics (MOA) Project - MU, UoA, UoC
+- SALT project – Physics and Astronomy UoC, UoA
+- Climatology and Meterology – Physics and Geography UoA, UoC
+- Computational Algebra - Mathematics/NZIMA CoRE UoA
+- Electron microscopy – Chemical and Materials Engineering UoA
+- Sociology UoA
+- Synchrotron Analysis (Australian Synchrotron) – Materials Chemistry UoA
+- [OMEP & Early Childhood Education research](http://www.omep-ong.net/OMEP%20E-forum/home.htm) - Jean Rockel UoA and VUW
+- Conceptions in Education - Gavin Brown (Education) - UoA (PoP Community June 2007)
+- Intelligent and Interoperable Manufacturing Systems Research - Xun Xu (Engineering) - UoA (Forum Jan 2007)
+- Internet Domain Name Data Mining - Computer Science / ITS research project - UoA

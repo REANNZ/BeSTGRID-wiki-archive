@@ -1,0 +1,5 @@
+# Getting Started Roadmap
+
+|  Start Computing on BeSTGRID                                       |                                                                          |                                                                            |                                                                   |                                                                           |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------- |
+|  [Using or Joining BeSTGRID](https://www.bestgrid.org/getstarted)  |  1. [Obtain a Grid Certificate](/wiki/spaces/BeSTGRID/pages/3816950662)  |  2. [Join a Virtual Organisation](/wiki/spaces/BeSTGRID/pages/3816950526)  |  3. [Proxy Certificates](/wiki/spaces/BeSTGRID/pages/3816950916)  |  4. [Submitting jobs with Grisu](/wiki/spaces/BeSTGRID/pages/3816950979)  |

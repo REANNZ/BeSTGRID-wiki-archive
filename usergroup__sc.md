@@ -1,0 +1,31 @@
+# Usergroup__sc
+
+- nickdjones@bestgrid.org
+- PaulBonnington@bestgrid.org
+- NeilGemmell@bestgrid.org
+- Ngemmell@bestgrid.org
+- MartinJohnson@bestgrid.org
+- Chris Messom@bestgrid.org
+- NevilBrownlee@bestgrid.org
+- TimChaffe@bestgrid.org
+- Tcha030@auckland.ac.nz
+- Robin@bestgrid.org
+- Tim David@bestgrid.org
+- Heath James@bestgrid.org
+- Ian Bond@bestgrid.org
+- JohnRaine@bestgrid.org
+- SamSearle@bestgrid.org
+- gerritbahlman@bestgrid.org
+- Mik Black@bestgrid.org
+- NeilJames@bestgrid.org
+- cbon010@auckland.ac.nz
+- Jennih1@bestgrid.org
+- RobertHamilton@bestgrid.org
+- NeilJames@openidp2.federation.org.au
+- rham054@auckland.ac.nz
+- Rmh78@idp.canterbury.ac.nz
+- Rha50@canterbury.ac.nz
+- Robert.gibb@bestgrid.org
+- JohnHine@bestgrid.org
+- Jbro111@auckland.ac.nz
+- Njon001@auckland.ac.nz
