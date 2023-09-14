@@ -4,7 +4,7 @@
 
 This article describes my (Eric's) steps to install Shibboleth Authentication supported Sakai.
 
-Work Plan: [BeSTGRID Shibboleth Authentication for Sakai Work Plan](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Authentication_for_Sakai_Work_Plan&linkCreation=true&fromPageId=3816950687)
+Work Plan: [BeSTGRID Shibboleth Authentication for Sakai Work Plan](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Authentication_for_Sakai_Work_Plan&linkCreation=true&fromPageId=3818228639)
 
 # Prerequisites
 
@@ -17,7 +17,7 @@ The followings are my installation environment, you could adjust this settings f
 # Create and install SSL certificate
 
 - Create a SSL certificate
-- Copy [createCertReq.sh](/wiki/spaces/BeSTGRID/pages/3816950732) and save it into a sub directory, e.g. scripts/createCertReq.sh
+- Copy [createCertReq.sh](/wiki/spaces/BeSTGRID/pages/3818228684) and save it into a sub directory, e.g. scripts/createCertReq.sh
 
 - Given execution right to this script
 
@@ -56,7 +56,7 @@ yum install mod_ssl --enablerepo=centosplus
 
 # Setup Shibboleth SP
 
-- Please have a look the [Install Shibboleth SP 1.3](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3816950687) guide for detailed installation and configuration.
+- Please have a look the [Install Shibboleth SP 1.3](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3818228639) guide for detailed installation and configuration.
 
 - NOTE
 
@@ -70,7 +70,7 @@ yum install curl --enablerepo=centosplus
 
 - The followings are the example configuration for vre.test.bestgrid.org
 
-- [shibboleth.xml](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Sakai_vre.test.bestgrid.org_shibboleth.xml&linkCreation=true&fromPageId=3816950687)
+- [shibboleth.xml](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Sakai_vre.test.bestgrid.org_shibboleth.xml&linkCreation=true&fromPageId=3818228639)
 
 - Edit /etc/httpd/conf.d/shib.conf
 
@@ -123,8 +123,8 @@ Following the installation guide below to install Sakai
 //confluence.sakaiproject.org/confluence/display/DOC/Install+Guide+-Build%282.4%29]
 
 NOTE: apply the following patches before run Maven to build and deploy Sakai
-- sessionend-fix.patch :  [BeSTGRID local copy](/wiki/spaces/BeSTGRID/pages/3816950599)  | [Original copy from Stockholm University](http://people.su.se/~kllin/patches/sakai/sessionend-fix.patch)
-- su-shibb.patch: [BeSTGRID local copy](/wiki/spaces/BeSTGRID/pages/3816950639) | [Original copy from Stockholm University](http://people.su.se/~kllin/patches/sakai/su-shibb.patch)
+- sessionend-fix.patch :  [BeSTGRID local copy](/wiki/spaces/BeSTGRID/pages/3818228551)  | [Original copy from Stockholm University](http://people.su.se/~kllin/patches/sakai/sessionend-fix.patch)
+- su-shibb.patch: [BeSTGRID local copy](/wiki/spaces/BeSTGRID/pages/3818228591) | [Original copy from Stockholm University](http://people.su.se/~kllin/patches/sakai/su-shibb.patch)
 
 ``` 
 

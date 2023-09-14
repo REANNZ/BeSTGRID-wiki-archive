@@ -45,7 +45,7 @@ The GUMS configuration mechanism is fairly flexible, and with multiple **HostGro
 
 The installation is based on the [ARCS NgGums installation guide](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums), and adds some VDT 2.0 specific instructions (and refines the installation steps).
 
-When users have personal accounts on the cluster and it's desired to let them access the personal accounts via the grid, then this installation should be followed by installing the AuthTool and the [Shibbolized AuthTool](/wiki/spaces/BeSTGRID/pages/3816950613).
+When users have personal accounts on the cluster and it's desired to let them access the personal accounts via the grid, then this installation should be followed by installing the AuthTool and the [Shibbolized AuthTool](/wiki/spaces/BeSTGRID/pages/3818228565).
 
 # Prerequsites
 
@@ -186,7 +186,7 @@ using `yum`, and from a VDT mirror, using `pacman`.
 ``` 
 cd /etc/yum.repos.d && wget http://projects.arcs.org.au/dist/arcs.repo
 ```
-- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3816950469) repository in `/etc/yum.repos.d/arcs.repo` to: 
+- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3818228421) repository in `/etc/yum.repos.d/arcs.repo` to: 
 
 ``` 
 baseurl=http://projects.arcs.org.au/dist/production/$releasever/i386
@@ -320,7 +320,7 @@ and ensure that VDT includes those files in any subsequent updates:
 
 In order to prevent Apache from throwing warnings like:
 
->  [23:47 2010](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Fri Apr 09 12&title=23%3A47%202010) [warn](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=warn&linkCreation=true&fromPageId=3816950469) RSA server certificate CommonName (CN) `my.server.name' does NOT match server name!?
+>  [23:47 2010](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Fri Apr 09 12&title=23%3A47%202010) [warn](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=warn&linkCreation=true&fromPageId=3818228421) RSA server certificate CommonName (CN) `my.server.name' does NOT match server name!?
 
 Server Name has to be set appropriately in `/opt/vdt/apache/conf/extra/httpd-ssl.conf` and `/opt/vdt/apache/conf/httpd.conf`, locate the `ServerName` entry in the file and change it to match the CN used in the certificate request.
 
@@ -630,7 +630,7 @@ To address these issues, apply the following patches to the master copies of the
 >  vdt-control --off
 >  vdt-control --on
 
-- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-RFTstagingfails).
+- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails).
 
 # Next: Install Auth Tool
 
@@ -894,11 +894,11 @@ grant ALL PRIVILEGES ON GUMS_1_3.* TO 'gums'@'localhost' IDENTIFIED BY 'SECRET';
 
 don't forget to wipe the `/root/.mysql_history` again, as there's a password in it.
 
-- Next, [install the Shibbolized Auth Tool](/wiki/spaces/BeSTGRID/pages/3816950613)
+- Next, [install the Shibbolized Auth Tool](/wiki/spaces/BeSTGRID/pages/3818228565)
 	
 - This allows users using a SLCS certificate to authenticate with their Shibboleth login and link their SLCS DN with a local account.
 
-More information can be found in the [Canterbury local accounts setup](http://www.bestgrid.org/index.php/Setup_NGGums_at_University_of_Canterbury#Mapping_to_local_user_accounts) and [Canterbury Auth Tool setup](/wiki/spaces/BeSTGRID/pages/3816950942) - including advanced topics like using ssh to verify local account credentials.
+More information can be found in the [Canterbury local accounts setup](http://www.bestgrid.org/index.php/Setup_NGGums_at_University_of_Canterbury#Mapping_to_local_user_accounts) and [Canterbury Auth Tool setup](/wiki/spaces/BeSTGRID/pages/3818228894) - including advanced topics like using ssh to verify local account credentials.
 
 ## Extra Notes
 

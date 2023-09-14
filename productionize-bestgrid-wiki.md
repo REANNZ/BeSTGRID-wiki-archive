@@ -227,7 +227,7 @@ and then comment this as followings:
 
 # Shibbolize MediaWiki
 
-- [Install Shibboleth Service Provider and configure it](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3816951039)
+- [Install Shibboleth Service Provider and configure it](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3818228991)
 
 - Setup a cron job to download AAF level-1-metadata regularly.
 

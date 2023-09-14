@@ -1,10 +1,10 @@
 # Setup Grid at University of Canterbury
 
-The `Grid` virtual machine is a system with client part of Globus Toolkit installed, which the users can use to submit jobs to the grid.  The system also has PBS client tools installed, which allows users to submit jobs locally to the BeSTGRID prototype cluster.  For general setup, we follow the rules for [Vladimir__Bootstrapping a virtual machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping%20a%20virtual%20machine&linkCreation=true&fromPageId=3816950580)
+The `Grid` virtual machine is a system with client part of Globus Toolkit installed, which the users can use to submit jobs to the grid.  The system also has PBS client tools installed, which allows users to submit jobs locally to the BeSTGRID prototype cluster.  For general setup, we follow the rules for [Vladimir__Bootstrapping a virtual machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping%20a%20virtual%20machine&linkCreation=true&fromPageId=3818228532)
 
 # Setup client PBS
 
-- Get Torque client binaries - follow [Vladimir__Setup NGCompute#Setup PBS](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NGCompute&linkCreation=true&fromPageId=3816950580)
+- Get Torque client binaries - follow [Vladimir__Setup NGCompute#Setup PBS](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NGCompute&linkCreation=true&fromPageId=3818228532)
 - add to `/etc/services`
 
 >   pbs             15000/tcp       # added by Vladimir Mencl
@@ -33,7 +33,7 @@ The `Grid` virtual machine is a system with client part of Globus Toolkit instal
 
 - allow remote job submission at `ngcompute`
 
-- allow `ngcompute` to scp results back - see [Vladimir__Setup NGCompute#Permit grid and ng2 to submit jobs to ngcompute](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NGCompute&linkCreation=true&fromPageId=3816950580)
+- allow `ngcompute` to scp results back - see [Vladimir__Setup NGCompute#Permit grid and ng2 to submit jobs to ngcompute](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NGCompute&linkCreation=true&fromPageId=3818228532)
 
 - allow incoming mail: In `/etc/mail/sendmail.cf` change the following:
 
@@ -100,7 +100,7 @@ To put these changes into effect, do:
 
 ## Machine startup dependencies
 
-Note that in order for these shares to be available, `grid` must be started before `ng2` and `ngcompute`.  This has been achieved with lexicographical ordering of virtual machine (config file) names, and xendomains was [modified to use reverse shutdown order](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20XenHost&linkCreation=true&fromPageId=3816950580).
+Note that in order for these shares to be available, `grid` must be started before `ng2` and `ngcompute`.  This has been achieved with lexicographical ordering of virtual machine (config file) names, and xendomains was [modified to use reverse shutdown order](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20XenHost&linkCreation=true&fromPageId=3818228532).
 
 For unknown reason, even 
 

@@ -1,6 +1,6 @@
 # Software Configuration for Portable Node
 
-Be sure to also read **[Access GRID sessions to UK sites](/wiki/spaces/BeSTGRID/pages/3816950471)**
+Be sure to also read **[Access GRID sessions to UK sites](/wiki/spaces/BeSTGRID/pages/3818228423)**
 
 # Software Configuration for Access Grid 2.4 (Preferred version for use in NZ)
 

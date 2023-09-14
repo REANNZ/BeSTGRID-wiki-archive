@@ -2,7 +2,7 @@
 
 >  An E-Research Collaboration
 
-**: *NEWS: ****[Photos](/wiki/spaces/BeSTGRID/pages/3816951034)**** from the first Oxford-Auckland session 7 December 2006.**
+**: *NEWS: ****[Photos](/wiki/spaces/BeSTGRID/pages/3818228986)**** from the first Oxford-Auckland session 7 December 2006.**
 
 - 
 - School of Education, University of Michigan (UMich)

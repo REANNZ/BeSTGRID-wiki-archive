@@ -81,23 +81,23 @@ Daniel Patrick, Social Sciences Data Service
 >  [http://www.nzsds.org.nz](http://www.nzsds.org.nz)
 
 
->  [WorkShop__GEON Auckland](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=WorkShop__GEON%20Auckland&linkCreation=true&fromPageId=3816950447)
+>  [WorkShop__GEON Auckland](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=WorkShop__GEON%20Auckland&linkCreation=true&fromPageId=3818228399)
 >  [http://ist.psu.edu/ist/directory/faculty/?EmployeeID=72](http://ist.psu.edu/ist/directory/faculty/?EmployeeID=72)
 >  [http://www.geog.psu.edu/people/gahegan/](http://www.geog.psu.edu/people/gahegan/)
->  [WorkShop__GEON Auckland](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=WorkShop__GEON%20Auckland&linkCreation=true&fromPageId=3816950447)
+>  [WorkShop__GEON Auckland](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=WorkShop__GEON%20Auckland&linkCreation=true&fromPageId=3818228399)
 >  [http://ist.psu.edu/ist/directory/faculty/?EmployeeID=72](http://ist.psu.edu/ist/directory/faculty/?EmployeeID=72)
 >  [http://www.geog.psu.edu/people/gahegan/](http://www.geog.psu.edu/people/gahegan/)
 
 - Teaching
 [http://www.karen.net.nz/EVO-trial/](http://www.karen.net.nz/EVO-trial/)
 
-Paper on Lecture Recording in Mathematics [Lecture-rec.doc](/wiki/download/attachments/3816950447/Lecture-rec.doc?version=1&modificationDate=1539354127000&cacheVersion=1&api=v2)
+Paper on Lecture Recording in Mathematics [Lecture-rec.doc](/wiki/download/attachments/3818228399/Lecture-rec.doc?version=1&modificationDate=1539354127000&cacheVersion=1&api=v2)
 
 ## Other Material
 
 - KAREN Forum
 
-[KAREN 2007 Workshop Videos](/wiki/spaces/BeSTGRID/pages/3816950537)
+[KAREN 2007 Workshop Videos](/wiki/spaces/BeSTGRID/pages/3818228489)
 
 - Europe
 

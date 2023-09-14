@@ -20,11 +20,11 @@ First example in NZ of **cross-institutional live teaching using DVD quality vid
 
 ## Location & Facilities were easy to access
 
-- Taught from the comfort of David Bryant's University of Auckland office using [BeSTGRID portable equipment](/wiki/spaces/BeSTGRID/pages/3816950535)
+- Taught from the comfort of David Bryant's University of Auckland office using [BeSTGRID portable equipment](/wiki/spaces/BeSTGRID/pages/3818228487)
 
 
->  *A*regular teaching room* was used at Canterbury, again using the [BeSTGRID/HitLab portable equipment](/wiki/spaces/BeSTGRID/pages/3816950535)
->  *A*regular teaching room* was used at Canterbury, again using the [BeSTGRID/HitLab portable equipment](/wiki/spaces/BeSTGRID/pages/3816950535)
+>  *A*regular teaching room* was used at Canterbury, again using the [BeSTGRID/HitLab portable equipment](/wiki/spaces/BeSTGRID/pages/3818228487)
+>  *A*regular teaching room* was used at Canterbury, again using the [BeSTGRID/HitLab portable equipment](/wiki/spaces/BeSTGRID/pages/3818228487)
 
 ## An engaging experience for all
 
@@ -43,7 +43,7 @@ First example in NZ of **cross-institutional live teaching using DVD quality vid
 ![Evo_ball.png](./attachments/Evo_ball.png)
 - DVD-quality (XGA resolution) video used for David Bryant and regular office whiteboard.
 - There were multiple video feeds from the Auckland office: DVD-video for Whiteboard, full resolution desktop computer display (as video), and two CIF-resolution camera feeds from other points in the office
-- [EVO (Enabling Virtual Organisations)](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Template__EVO_vignette&linkCreation=true&fromPageId=3816950731) software was used for all aspects of the remote teaching
+- [EVO (Enabling Virtual Organisations)](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Template__EVO_vignette&linkCreation=true&fromPageId=3818228683) software was used for all aspects of the remote teaching
 - Multiple platforms used: Windows, Macintosh. Multicast network was not required. Session was operated by lecturers Neil Gemmell and David Bryant.
 
 # Photos from the Lecture (Selected Screen Shots)

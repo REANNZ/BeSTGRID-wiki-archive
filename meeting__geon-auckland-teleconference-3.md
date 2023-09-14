@@ -2,7 +2,7 @@
 
 sc,,geon
 
-[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3816950943)
+[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3818228895)
 
 - 20 November 2007
 
@@ -28,6 +28,6 @@ sc,,geon
 
 ## Action Items
 
->  Maintained under [Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3816950943)
+>  Maintained under [Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3818228895)
 
 _*NOTOC*_

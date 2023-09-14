@@ -8,7 +8,7 @@ This article shows how to setup multiple sites on Drupal by go through an exampl
 
 New Zealand Social Science Data Service (NZSSDS, formerly known as SSDASH) has two domains: www.nzssds.org and www.nzssds.org.nz. Both domains point to same VM. The IP addresses of these two domains are 130.216.189.67 and 130.216.189.68 respectively.
 
-A Drupal site has been setup on this VM, please have a look [Drupal5-Installation](/wiki/spaces/BeSTGRID/pages/3816950589) for more details
+A Drupal site has been setup on this VM, please have a look [Drupal5-Installation](/wiki/spaces/BeSTGRID/pages/3818228541) for more details
 
 # Apache Configuration
 
@@ -33,7 +33,7 @@ Listen 130.216.189.68:80
 
 # Drupal Configuration
 
-- Create another database instance. Please look at [here](/wiki/spaces/BeSTGRID/pages/3816950589#Drupal5-Installation-Create_Database) for instruction how to create a database instance.
+- Create another database instance. Please look at [here](/wiki/spaces/BeSTGRID/pages/3818228541#Drupal5-Installation-Create_Database) for instruction how to create a database instance.
 
 - Create a subdirectory within `drupal_web_root`/sites directory. Each subdirectory must have a 'settings.php' file with related configuration. You should obtain a clean copy of 'setting.php' if you like to use different configuration (e.g. different database instance), otherwise you could obtain a copy from sites/default/setting.php.
 

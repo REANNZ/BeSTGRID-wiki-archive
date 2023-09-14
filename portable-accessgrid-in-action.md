@@ -4,4 +4,4 @@
 
 ### [Video of Mike Steel's Virtual Seminar](http://www.youtube.com/watch?v=znin1TDnw84)
 
-### [Photos of Auckland-Oxford Linkup](/wiki/spaces/BeSTGRID/pages/3816951034)
+### [Photos of Auckland-Oxford Linkup](/wiki/spaces/BeSTGRID/pages/3818228986)

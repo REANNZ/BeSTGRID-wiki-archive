@@ -94,7 +94,7 @@ nameserver 139.80.64.1
 - configure VDT to use IGTF CA bundle
 - switch to invoking fetch-crl-2.6.6
 
-(See attached patch file [Build_nggums_diff-vdt181-vdt1101.patch.txt](/wiki/download/attachments/3816950976/Build_nggums_diff-vdt181-vdt1101.patch.txt?version=1&modificationDate=1539354388000&cacheVersion=1&api=v2) and the original [build_nggums_vdt181.sh](http://www.vpac.org/~sam/build_nggums_vdt181.sh))
+(See attached patch file [Build_nggums_diff-vdt181-vdt1101.patch.txt](/wiki/download/attachments/3818228928/Build_nggums_diff-vdt181-vdt1101.patch.txt?version=1&modificationDate=1539354388000&cacheVersion=1&api=v2) and the original [build_nggums_vdt181.sh](http://www.vpac.org/~sam/build_nggums_vdt181.sh))
 
 - Create `/etc/grid-security` and install host certificate there.
 
@@ -137,7 +137,7 @@ Go to [https://gums.otago.ac.nz:8443/gums/](https://gums.otago.ac.nz:8443/gums/)
 
 # Create GUMS Configuration
 
-Same as when [setting up Canterbury GUMS server](/wiki/spaces/BeSTGRID/pages/3816950726):
+Same as when [setting up Canterbury GUMS server](/wiki/spaces/BeSTGRID/pages/3818228678):
 
 - Create ARCS and APACGrid VOMRS servers
 
@@ -198,7 +198,7 @@ More damage to fix:
 
 - missing GRAM AUDIT in `container-log4j.properties`
 - `/opt/vdt/globus/libexec/globus-job-manager-script-real.pl` overwritten
-- re-apply [mysqld](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=mysqld&linkCreation=true&fromPageId=3816950976) in `/opt/vdt/mysql/var/my.cnf`
+- re-apply [mysqld](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=mysqld&linkCreation=true&fromPageId=3818228928) in `/opt/vdt/mysql/var/my.cnf`
 
 
 >    wait_timeout=2764800
@@ -209,10 +209,10 @@ More damage to fix:
 
 - Accepted difference: RFT and GRAM won't use client certificates and will not register to MDS.
 
-- It looked like MDS would not start - but that was related to the PBS server being down for maintenance.  See [my experience report on that](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-MDSbroken).
+- It looked like MDS would not start - but that was related to the PBS server being down for maintenance.  See [my experience report on that](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-MDSbroken).
 
 # Minor enhancements
 
-- [Configuring correct shutdown](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup_NGGums_at_University_of_Canterbury&linkCreation=true&fromPageId=3816950976)
+- [Configuring correct shutdown](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup_NGGums_at_University_of_Canterbury&linkCreation=true&fromPageId=3818228928)
 
 - Configure VDT Apache to use a small CA certificate bundle to work around an Apache / mod_ssl bug - as documented in [ARCS GUMS install guide](https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums#MOD_SSLBug)

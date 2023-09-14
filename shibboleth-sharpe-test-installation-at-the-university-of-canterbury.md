@@ -1,6 +1,6 @@
 # Shibboleth ShARPE Test Installation at the University of Canterbury
 
-ShARPE is installed on top of the [identity provider test installation](/wiki/spaces/BeSTGRID/pages/3816951033).
+ShARPE is installed on top of the [identity provider test installation](/wiki/spaces/BeSTGRID/pages/3818228985).
 
 It is installed according to the [MAMS ShARPE install instructions](http://www.federation.org.au/twiki/bin/view/Federation/ShARPEInstall).
 

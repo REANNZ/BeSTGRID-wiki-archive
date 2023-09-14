@@ -5,7 +5,7 @@
 ![Submitting_jobs_with_Grisu_flowchart.png](./attachments/Submitting_jobs_with_Grisu_flowchart.png)
 # What are Compute Jobs?
 
-Compute Jobs are packages of work submitted to a computer, which could be the workstation at your desk or a supercomputer on the [BeSTGRID Computation Grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Computational_Grid&linkCreation=true&fromPageId=3816950979).	A Compute Job consists of: a **description** of the work to be done, some **data** to be worked on, and a list of **resources** required to do the work, though some of these could be trivial or empty. BeSTGRID provides services for non-trivial compute jobs that are beyond the resources of an individual researcher’s workstation or even the computing facilities of an individual research institute.
+Compute Jobs are packages of work submitted to a computer, which could be the workstation at your desk or a supercomputer on the [BeSTGRID Computation Grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Computational_Grid&linkCreation=true&fromPageId=3818228931).	A Compute Job consists of: a **description** of the work to be done, some **data** to be worked on, and a list of **resources** required to do the work, though some of these could be trivial or empty. BeSTGRID provides services for non-trivial compute jobs that are beyond the resources of an individual researcher’s workstation or even the computing facilities of an individual research institute.
 
 Compute jobs take many shapes:
 
@@ -25,7 +25,7 @@ Due to the variety of resources available, there’s likely to be a resource alr
 
 # How do I submit a Compute Job?
 
-To submit a compute job, download and install one of the [Grisu](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grisu&linkCreation=true&fromPageId=3816950979) clients. These clients are used to create compute jobs by; attaching a **description**, in the form of a script or command to be executed, including some **data**, and requesting appropriate **resources**. Once the compute job is set up, the client submits it via the KAREN network, or a standard internet connection, to one of the compute resources on the BeSTGRID Computational Grid.
+To submit a compute job, download and install one of the [Grisu](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grisu&linkCreation=true&fromPageId=3818228931) clients. These clients are used to create compute jobs by; attaching a **description**, in the form of a script or command to be executed, including some **data**, and requesting appropriate **resources**. Once the compute job is set up, the client submits it via the KAREN network, or a standard internet connection, to one of the compute resources on the BeSTGRID Computational Grid.
 
 # What is Grisu?
 

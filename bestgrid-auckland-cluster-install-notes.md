@@ -6,7 +6,7 @@
 
 # Preparation
 
-- [Presentation on BeSTGRID Auckland Cluster by SGI](/wiki/spaces/BeSTGRID/pages/3816950592) to:
+- [Presentation on BeSTGRID Auckland Cluster by SGI](/wiki/spaces/BeSTGRID/pages/3818228544) to:
 	
 - ITS Operations
 - System Management

@@ -1,6 +1,6 @@
 # Setting up a GUMS server on Ubuntu
 
-This guide is tightly meshed with the [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3816950966) guide. It tries to avoid redundancies and refers back frequently to its parent.
+This guide is tightly meshed with the [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918) guide. It tries to avoid redundancies and refers back frequently to its parent.
 
 At time of writing the descriptions are based on the (64 bit) server release of Ubuntu 10.04 LTS (Long Term Support, code name "Lucid Lynx"). It is likely to work equally well with slightly older or newer releases, 32 bit releases and with (some minor) modifications with current Debian releases as well.
 
@@ -8,28 +8,28 @@ Note: Some of these notes may not be 100% in proper chronological order. The ord
 
 # Preliminaries
 
-See also [Setting up a GUMS server#Preliminaries](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-Preliminaries).
+See also [Setting up a GUMS server#Preliminaries](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-Preliminaries).
 
 ## OS requirements
 
-See also [Setting up a GUMS server#OS requirements](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-OSrequirements).
+See also [Setting up a GUMS server#OS requirements](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-OSrequirements).
 
 
 # GUMS install
 
 ## Clean the System
 
-See also [Setting up a GUMS server#Clean CentOS Install](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-CleanCentOSInstall).
+See also [Setting up a GUMS server#Clean CentOS Install](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-CleanCentOSInstall).
 
 We're not running CentOS, but it may still make sense to check the system for a clean install. Make sure there is no Apache web server (package `apache2`) or MySQL server (package `mysql-server`) installed. Remove or purge these package first to insure a working setup.
 
 ## Check Firewall
 
-See also [Setting up a GUMS server#Check Firewall](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-CheckFirewall).
+See also [Setting up a GUMS server#Check Firewall](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-CheckFirewall).
 
 ## Prerequisite Packages
 
-See also [Setting up a GUMS server#Prerequisite Packages](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-PrerequisitePackages).
+See also [Setting up a GUMS server#Prerequisite Packages](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-PrerequisitePackages).
 
 No repositories need to be added/edited.
 
@@ -39,8 +39,8 @@ Get and install the APAC GridPulse system monitor:
 - Convert it with the `alien` tool to a Debian package (do not use the `--scripts` option), copy the Debian package to the host and install it.
 
 
->  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3816950479/Gridpulse.sh?version=1&modificationDate=1539354115000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
->  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3816950479/Gridpulse.sh?version=1&modificationDate=1539354115000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
+>  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3818228431/Gridpulse.sh?version=1&modificationDate=1539354115000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
+>  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3818228431/Gridpulse.sh?version=1&modificationDate=1539354115000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
 
 - Create a file `/usr/local/lib/gridpulse/system_packages.pulse` and add the following line to it:
 
@@ -56,7 +56,7 @@ Get and install the APAC GridPulse system monitor:
 
 ## Pacman and VDT
 
-See also [Setting up a GUMS server#Pacman and VDT](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-PacmanandVDT).
+See also [Setting up a GUMS server#Pacman and VDT](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-PacmanandVDT).
 
 Most of these steps are *much* more easily performed with a root shell. To obtain one use the following:
 
@@ -98,31 +98,31 @@ Following steps using a root shell use a preceding shell prompt "`#`".
 
 ## Configure VDT certificate distribution
 
-Proceed as described in [Setting up a GUMS server#Configure VDT certificate distribution](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-ConfigureVDTcertificatedistribution).
+Proceed as described in [Setting up a GUMS server#Configure VDT certificate distribution](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-ConfigureVDTcertificatedistribution).
 
 ## Set ServerName in Apache
 
-Proceed as described in [Setting up a GUMS server#Set ServerName in Apache](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-SetServerNameinApache).
+Proceed as described in [Setting up a GUMS server#Set ServerName in Apache](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-SetServerNameinApache).
 
 ## MOD_SSL Bug
 
-Proceed as described in [Setting up a GUMS server#MOD_SSL Bug](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-MOD_SSLBug).
+Proceed as described in [Setting up a GUMS server#MOD_SSL Bug](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-MOD_SSLBug).
 
 ## Turn VDT services on
 
-Proceed as described in [Setting up a GUMS server#Turn VDT services on](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-TurnVDTserviceson).
+Proceed as described in [Setting up a GUMS server#Turn VDT services on](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-TurnVDTserviceson).
 
 # Post-install configuration
 
-Proceed as described in [Setting up a GUMS server#Post-install configuration](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-Post-installconfiguration).
+Proceed as described in [Setting up a GUMS server#Post-install configuration](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-Post-installconfiguration).
 
 # Populate GUMS configuration
 
-Proceed as described in [Setting up a GUMS server#Populate GUMS configuration](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-PopulateGUMSconfiguration).
+Proceed as described in [Setting up a GUMS server#Populate GUMS configuration](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-PopulateGUMSconfiguration).
 
 # Polishing Globus
 
-See also [Setting up a GUMS server#Polishing Globus](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-PolishingGlobus).
+See also [Setting up a GUMS server#Polishing Globus](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-PolishingGlobus).
 
 Do not edit the starting scripts for fixing the starting order. Do proceed in this following way, however to fix the problem with the starting order of MySQL, Tomcat and Apache:
 
@@ -164,6 +164,6 @@ Do not edit the starting scripts for fixing the starting order. Do proceed in th
 
 # Next: Install Auth Tool
 
-See also [Setting up a GUMS server#Next___Install Auth Tool](/wiki/spaces/BeSTGRID/pages/3816950966#SettingupaGUMSserver-Next___InstallAuthTool).
+See also [Setting up a GUMS server#Next___Install Auth Tool](/wiki/spaces/BeSTGRID/pages/3818228918#SettingupaGUMSserver-Next___InstallAuthTool).
 
 Setup content of this section has not been tested for Ubuntu.

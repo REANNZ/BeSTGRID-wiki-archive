@@ -2,14 +2,14 @@
 
 # Introduction
 
-MATLAB's compiled runtime environment allows compiled MATLAB scripts be executed on a Rocks cluster without the purchase of additional MATLAB licenses. The MATLAB runtime installer can be installed on Rocks using a modified version of [Distributing binary installers to Rocks compute nodes](/wiki/spaces/BeSTGRID/pages/3816950486).
+MATLAB's compiled runtime environment allows compiled MATLAB scripts be executed on a Rocks cluster without the purchase of additional MATLAB licenses. The MATLAB runtime installer can be installed on Rocks using a modified version of [Distributing binary installers to Rocks compute nodes](/wiki/spaces/BeSTGRID/pages/3818228438).
 
 # Procedure
 
 # Distribute binary and options file
 
 - Download the MATLAB Compilier Runtime from [MathWorks](http://www.mathworks.com/downloads/web_downloads/) (Registration Required)
-- Set it up as per [Distributing the binary](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Distributing%20binary%20installers%20to%20Rocks%20compute_nodes&linkCreation=true&fromPageId=3816950487).
+- Set it up as per [Distributing the binary](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Distributing%20binary%20installers%20to%20Rocks%20compute_nodes&linkCreation=true&fromPageId=3818228439).
 - Create or modify `opts.txt` with the following declaration:
 
 ``` 
@@ -17,7 +17,7 @@ MATLAB's compiled runtime environment allows compiled MATLAB scripts be executed
 -P installLocation="/opt/MATLAB/MATLAB_Compiler_Runtime"
 
 ```
-- Set up `opts.txt` as per [Distributing the binary](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Distributing%20binary%20installers%20to%20Rocks%20compute_nodes&linkCreation=true&fromPageId=3816950487).
+- Set up `opts.txt` as per [Distributing the binary](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Distributing%20binary%20installers%20to%20Rocks%20compute_nodes&linkCreation=true&fromPageId=3818228439).
 - Create torrents for both files & rebuild the Rocks distribution.
 
 # Integrate installation onto the compute nodes at reinstall

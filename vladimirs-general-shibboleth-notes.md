@@ -190,7 +190,7 @@ Surprisingly, doing so results in a 50% failure rate in creating sessions, with 
 
 displayed in the HTML response, and SP log saying:
 
->  2008-02-26 13:52:13 ERROR shibd.Listener [23](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=23&linkCreation=true&fromPageId=3816950783) sessionNew: caught exception while creating session: SOAPHTTPBindingProvider::send() failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
+>  2008-02-26 13:52:13 ERROR shibd.Listener [23](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=23&linkCreation=true&fromPageId=3818228735) sessionNew: caught exception while creating session: SOAPHTTPBindingProvider::send() failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
 
 and no useful information in the IdP log.
 

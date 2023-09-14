@@ -1,6 +1,6 @@
 # GridTechWG-20090226
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3816950451): meeting February 26, 2009.
+[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting February 26, 2009.
 
 At this meeting, I would like to show what I've been working on for the University of Otago Biochemistry department - grid-enabling ("gridifying") their GenePattern server (a scientific workflow web portal commonly used in their discipline).
 

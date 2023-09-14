@@ -1,6 +1,6 @@
 # Setup AUT GUMS server
 
-This page documents the setup of a GUMS server at AUT, as a part of their grid gateway.  There's nothing atypical at this server and the installation primarily follows [https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums).  See the [Otago GUMS installation notes](/wiki/spaces/BeSTGRID/pages/3816950976) for more verbose documentation of a similar install.
+This page documents the setup of a GUMS server at AUT, as a part of their grid gateway.  There's nothing atypical at this server and the installation primarily follows [https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums).  See the [Otago GUMS installation notes](/wiki/spaces/BeSTGRID/pages/3818228928) for more verbose documentation of a similar install.
 
 ## Preliminaries
 
@@ -151,4 +151,4 @@ SSLCACertificateFile /etc/grid-security/arcs-bundle.crt
 2. To shutdown in reverse order
 3. To create a lock in /var/lock/subsys when started - so that a system shutdown knows to close down these services gracefully.
 
-See my description of the [problem](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-RFTstagingfails), a fix to [startup order](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-Fixingstartuporder), and a fix for [correct shutdown](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-Fixingshutdown)
+See my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails), a fix to [startup order](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingstartuporder), and a fix for [correct shutdown](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingshutdown)

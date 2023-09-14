@@ -8,7 +8,7 @@ The local job scheduler is commonly referred to as a *local resource manager* (L
 
 as it may do more than merely schedule jobs. This document will use that latter terminology.
 
-The NG2 runs the Globus Tookit 4, installed from the [Virtual Data Toolkit](http://vdt.cs.wisc.edu/) (VDT) distribution, version 2.0.0 at the time of writing.  The NG2 is configured to make authorization decisions through callouts to a GUMS server (instead of a plain text grid-mapfile), so [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3816950966) is an essential pre-requisite to setting up an NG2.
+The NG2 runs the Globus Tookit 4, installed from the [Virtual Data Toolkit](http://vdt.cs.wisc.edu/) (VDT) distribution, version 2.0.0 at the time of writing.  The NG2 is configured to make authorization decisions through callouts to a GUMS server (instead of a plain text grid-mapfile), so [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918) is an essential pre-requisite to setting up an NG2.
 
 As an NG2 maps user requests to local "unix" accounts and uploads files to their home directories, it can only handle one cluster - or a set of clusters within a single administrative domain, i.e., one set of accounts and home directories.  **Important:** If you are connecting multiple clusters with distinct account sets / different home directories, you will need a separate NG2 for each cluster.
 
@@ -16,12 +16,12 @@ This guide is based on the [ARCS NG2 installation guide](http://projects.arcs.or
 
 The installation of an NG2 is very site specific - it depends a lot on the LRM - but also on other aspects, such as the user account management system and the filesystem used for home directories.  This guide will cover the default case (PBS is the LRM) and will hint on solutions for the other situations.
 
-As a "parallel companion" to this page, setup instructions are given for an NG2 on an Ubuntu server base system: [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3816950445)
+As a "parallel companion" to this page, setup instructions are given for an NG2 on an Ubuntu server base system: [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228397)
 
 This page uses the following LRM-specific pages as supplementary material:
 
-- [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3816950633)
-- [Setting up an NG2/SGE specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3816950633)
+- [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228585)
+- [Setting up an NG2/SGE specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228585)
 
 # Preliminaries
 
@@ -100,7 +100,7 @@ and those you provide upon the cluster, and hence on the NG2.
 
 ## Certificates
 
-Before proceeding with the certificate, [obtain a host certificate](/wiki/spaces/BeSTGRID/pages/3816950550) for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates)
+Before proceeding with the certificate, [obtain a host certificate](/wiki/spaces/BeSTGRID/pages/3818228502) for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates)
 
 - If no other software has created the directory `/etc/grid-security` then it needs to be created
 
@@ -143,7 +143,7 @@ First, we setup the ARCS repository and install GridPulse (the ARCS system monit
 ``` 
 cd /etc/yum.repos.d && wget http://projects.arcs.org.au/dist/arcs.repo
 ```
-- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3816950633) repository in `/etc/yum.repos.d/arcs.repo` to: 
+- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3818228585) repository in `/etc/yum.repos.d/arcs.repo` to: 
 
 ``` 
 baseurl=http://projects.arcs.org.au/dist/production/$releasever/i386
@@ -177,8 +177,8 @@ The procedure will include:
 
 Please see the following links for LRM-specific instructions:
 
-- PBS: [Access with PBS](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3816950633)
-- SGE: [Access with SGE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3816950633)
+- PBS: [Access with PBS](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228585)
+- SGE: [Access with SGE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228585)
 
 ## Configure LRM log replication from LRM server to the NG2
 
@@ -192,8 +192,8 @@ With the gateway architecture of deploying Globus on a separate VM, it is necess
 
 This is again a LRM-specific task - so please see the relevant LRM-specific instructions:
 
-- PBS: [Setting up an NG2/PBS specific parts#Log replication](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3816950633)
-- SGE: [Setting up an NG2/SGE specific parts#Log replication](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3816950633)
+- PBS: [Setting up an NG2/PBS specific parts#Log replication](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228585)
+- SGE: [Setting up an NG2/SGE specific parts#Log replication](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228585)
 
 # Installing VDT
 
@@ -372,8 +372,8 @@ Also, it is necessary to configure the LRM interface script (e.g., pbs.pm)
 
 This is again a LRM-specific task - so please see the relevant LRM-specific instructions:
 
-- PBS: [Setting up an NG2/PBS specific parts#Globus integration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3816950633)
-- SGE: [Setting up an NG2/SGE specific parts#Globus integration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3816950633)
+- PBS: [Setting up an NG2/PBS specific parts#Globus integration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228585)
+- SGE: [Setting up an NG2/SGE specific parts#Globus integration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228585)
 
 ## Start VDT services
 
@@ -463,8 +463,8 @@ Victoria chose to use a similar `NZ-VUW`.
 
 This is again a LRM-specific task - so please see the relevant LRM-specific instructions:
 
-- PBS: [Setting up an NG2/PBS specific parts#Usage reporting](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3816950633)
-- SGE: [Setting up an NG2/SGE specific parts#Usage reporting](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3816950633)
+- PBS: [Setting up an NG2/PBS specific parts#Usage reporting](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228585)
+- SGE: [Setting up an NG2/SGE specific parts#Usage reporting](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228585)
 
 # Setup MDS/MIP
 
@@ -510,7 +510,7 @@ This section assumes you'll be advertising in MDS:
 
 - If you need to advertise more ComputeElements, adjust the configuration accordingly (providing multiple IDs/names for the elements) - but please do not advertise multiple queues providing access to the same physical resources.  That would break the metascheduling algorithms used in Grisu.
 - If you need to advertise multiple clusters (with the same home directories and user accounts), the changes will be still straightforward.
-- If you need to advertise multiple clusters with the different home directories and user accounts (and you are already running multiple NG2s), it will be more complex - and you may have to use MIP integrator to aggregate data from multiple NG2s.  See [Setup MIP on NG2HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3816950514) for more information on how that was done at Canterbury.
+- If you need to advertise multiple clusters with the different home directories and user accounts (and you are already running multiple NG2s), it will be more complex - and you may have to use MIP integrator to aggregate data from multiple NG2s.  See [Setup MIP on NG2HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228466) for more information on how that was done at Canterbury.
 
 ### Configure default.pl
 
@@ -552,8 +552,8 @@ Provide the following information:
 	
 - Configure appropriately for your local resource manager
 		
-- PBS: [MIP Configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3816950633)
-- SGE: [MIP Configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3816950633)
+- PBS: [MIP Configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228585)
+- SGE: [MIP Configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228585)
 - `computeElement.Name` : The name of the queue as it is named in your LRM
 - `computeElement.HostName` : The hostname of the job submission gateway to the cluster
 - `computeElement.ContactString` : Use the WSGRAM suggestion in the comment on this line, giving
@@ -567,7 +567,7 @@ https://gateway.host.name:8443/wsrf/services/ManagedJobFactoryService
 }}
 - `computeElement.DefaultSE` : The hostname of the job submission gateway to the cluster
 - `computeElement.GRAMVersion` : Update to match the installed GRAM version (use `vdt-version` to obtain this)
-- `computeElement.ACL` :  can be optionally set to a list of VOs permitted to use the cluster eg ['/ARCS/BeSTGRID', '/ARCS/NGAdmin'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27%2FARCS%2FBeSTGRID%27%2C%20%27%2FARCS%2FNGAdmin%27&linkCreation=true&fromPageId=3816950633).  If not provided, the list will be synthesized as union of all VOView ACLs.
+- `computeElement.ACL` :  can be optionally set to a list of VOs permitted to use the cluster eg ['/ARCS/BeSTGRID', '/ARCS/NGAdmin'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27%2FARCS%2FBeSTGRID%27%2C%20%27%2FARCS%2FNGAdmin%27&linkCreation=true&fromPageId=3818228585).  If not provided, the list will be synthesized as union of all VOView ACLs.
 - There should be one `VOView` and one `StorageArea` element for each VO group supported (like /ARCS/BeSTGRID, /ARCS/NGAdmin).  Edit the configuration accordingly.
 
 ``` 
@@ -637,7 +637,7 @@ APACSchemaDirectory: /usr/local/share/
 
 ### Testing and finishing up
 
-- [Define software packages](/wiki/spaces/BeSTGRID/pages/3816950915) in /usr/local/mip/modules/apac_py/SubCluster/softwareInfoData/localSoftware.xml
+- [Define software packages](/wiki/spaces/BeSTGRID/pages/3818228867) in /usr/local/mip/modules/apac_py/SubCluster/softwareInfoData/localSoftware.xml
 - Test your MIP works and produces valid information
 	
 - Run 
@@ -662,12 +662,12 @@ When collecting the MIP information, you also need to interface with the LRM - i
 
 Please see the relevant LRM-specific instructions:
 
-- PBS: [Setting up an NG2/PBS specific parts#PBS MIP configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3816950633)
-- SGE: [Setting up an NG2/SGE specific parts#SGE MIP configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3816950633)
+- PBS: [Setting up an NG2/PBS specific parts#PBS MIP configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228585)
+- SGE: [Setting up an NG2/SGE specific parts#SGE MIP configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228585)
 
 ### More about configuring MIP
 
-Check the pages for [MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3816950633) for specific information about how to configure a cluster's applications and services with MIP.
+Check the pages for [MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3818228585) for specific information about how to configure a cluster's applications and services with MIP.
 
 ## Activating MDS in Globus
 
@@ -818,7 +818,7 @@ To address these issues, apply the following patches to the master copies of the
 >  vdt-control --off
 >  vdt-control --on
 
-- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-RFTstagingfails).
+- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails).
 
 # Making local cluster accounts ready for the grid
 

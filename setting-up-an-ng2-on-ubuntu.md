@@ -1,14 +1,14 @@
 # Setting up an NG2 on Ubuntu
 
-This guide is tightly meshed with the [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3816950633) guide. It tries to avoid redundancies and refers back frequently to its parent. Please refer to the parent and the LRM-specific pages additionally to this guide.
+This guide is tightly meshed with the [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585) guide. It tries to avoid redundancies and refers back frequently to its parent. Please refer to the parent and the LRM-specific pages additionally to this guide.
 
 At time of writing the descriptions are based on the (64 bit) server release of Ubuntu 10.04 LTS (Long Term Support, code name "Lucid Lynx"). It is likely to work equally well with slightly older or newer releases, 32 bit releases and with (some minor) modifications with current Debian releases as well.
 
-**Note:** Some of these notes may not be 100% in proper chronological order. The order has been retained from the [original NG2 install notes](/wiki/spaces/BeSTGRID/pages/3816950633) to keep them in sync. But it should be quite obvious that certain configuration can only be integrated into VDT once VDT has been installed. Please, keep this in mind when using this guide.
+**Note:** Some of these notes may not be 100% in proper chronological order. The order has been retained from the [original NG2 install notes](/wiki/spaces/BeSTGRID/pages/3818228585) to keep them in sync. But it should be quite obvious that certain configuration can only be integrated into VDT once VDT has been installed. Please, keep this in mind when using this guide.
 
 # Preliminaries
 
-See also [Setting up an NG2#Preliminaries](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-Preliminaries).
+See also [Setting up an NG2#Preliminaries](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-Preliminaries).
 
 ## OS requirements
 
@@ -29,7 +29,7 @@ Set up the users' home directory by configuring the host for NFS mounts (and pot
 
 ## Configuring local scheduler access
 
-See also [Setting up an NG2#Configuring local scheduler access](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-Configuringlocalscheduleraccess).
+See also [Setting up an NG2#Configuring local scheduler access](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-Configuringlocalscheduleraccess).
 
 This is dependent on the LRM used. The description given here is for Torque/PBS.
 
@@ -55,8 +55,8 @@ Get and install the APAC GridPulse system monitor:
 - Convert it with the `alien` tool to a Debian package (do not use the `--scripts` option), copy the Debian package to the host and install it.
 
 
->  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3816950445/Gridpulse.sh?version=1&modificationDate=1539354080000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
->  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3816950445/Gridpulse.sh?version=1&modificationDate=1539354080000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
+>  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3818228397/Gridpulse.sh?version=1&modificationDate=1539354080000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
+>  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3818228397/Gridpulse.sh?version=1&modificationDate=1539354080000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
 
 - Create a file `/usr/local/lib/gridpulse/system_packages.pulse` and add the following line to it:
 
@@ -124,16 +124,16 @@ Get and install the `Ggateway` package:
 >      $remote_shell = '/usr/bin/ssh';
 >  }
 
-- Some further configuration for PBS may be necessary here. See: [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3816950445)
+- Some further configuration for PBS may be necessary here. See: [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228397)
 - Add the installed `ggateway` packages to a line in the gridpulse checker configuration (`/usr/local/lib/gridpulse/system_packages.pulse`)
 
 ## Configure LRM log replication from LRM server to the NG2
 
-See also [Setting up an NG2#Configure LRM log replication from LRM server to the NG2](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-ConfigureLRMlogreplicationfromLRMservertotheNG2).
+See also [Setting up an NG2#Configure LRM log replication from LRM server to the NG2](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-ConfigureLRMlogreplicationfromLRMservertotheNG2).
 
 ## Configuring local scheduler access
 
-See also [Setting up an NG2#Configuring local scheduler access](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-Configuringlocalscheduleraccess).
+See also [Setting up an NG2#Configuring local scheduler access](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-Configuringlocalscheduleraccess).
 
 To link up the Torque/PBS log output to the local NG2, a "log sender" (`pbs-telltail`) on the Torque/PBS head node is required to pick up the logs and "send" them, and on the NG2 a local "log maker" (`pbs-logmaker`) is required.
 
@@ -142,7 +142,7 @@ To link up the Torque/PBS log output to the local NG2, a "log sender" (`pbs-tell
 
 # Installing VDT
 
-See also [Setting up an NG2#Installing VDT](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-InstallingVDT).
+See also [Setting up an NG2#Installing VDT](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-InstallingVDT).
 
 Most of these steps are *much* more easily performed with a root shell. To obtain one use the following:
 
@@ -212,15 +212,15 @@ Following steps using a root shell use a preceding shell prompt "`#`".
 
 # Post-install configuration
 
-Follow all steps according to [Setting up an NG2#Post-install configuration](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-Post-installconfiguration).
+Follow all steps according to [Setting up an NG2#Post-install configuration](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-Post-installconfiguration).
 
 # Setup job reporting
 
-Follow all steps according to [Setting up an NG2#Setup job reporting](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-Setupjobreporting).
+Follow all steps according to [Setting up an NG2#Setup job reporting](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-Setupjobreporting).
 
 # Setup MDS/MIP
 
-See also [Setting up an NG2#Setup MDS/MIP](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-SetupMDS/MIP).
+See also [Setting up an NG2#Setup MDS/MIP](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-SetupMDS/MIP).
 
 The steps described here approach the configuration of the MIP script in a slightly different manner than the NG2 install guide. Here, we are following the steps given in the ARCS documentation, by installing the `APAC-mip-module-py-config` package, and then configuring a "master configuration Perl script" (`/usr/local/mip/config/apac_py/mip-config.pl`). The complete MIP configuration then should be generated through this script without manual touchups necessary. It has worked, but the approach seems a bit "filthy" to me. But hey, you make a choice and try it out. Here is the link to the ARCS documentation in question: [https://projects.arcs.org.au/trac/systems/wiki/InfoSystems/InstallConfigSteps](https://projects.arcs.org.au/trac/systems/wiki/InfoSystems/InstallConfigSteps)
 
@@ -242,11 +242,11 @@ The steps described here approach the configuration of the MIP script in a sligh
 >  -cd /home/eshook/Projects/MIP/mip
 >  +export PYTHONPATH="/usr/local/mip/modules/apac_py:$PYTHONPATH"
 >  +cd /usr/local/mip
->   if [\! -z "$1"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-z%20%22%241%22&linkCreation=true&fromPageId=3816950445); then
->      if ["$1" h1. "-remote"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20h1.%20%22-remote%22&linkCreation=true&fromPageId=3816950445); then
+>   if [\! -z "$1"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-z%20%22%241%22&linkCreation=true&fromPageId=3818228397); then
+>      if ["$1" h1. "-remote"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20h1.%20%22-remote%22&linkCreation=true&fromPageId=3818228397); then
 > - ./mip-remote.pl /home/eshook/Projects/MIP/mip/config
 >  +      ./mip-remote.pl /usr/local/mip/config
->      elif ["$1" "-int" -o "$1" h1. "-integrator"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20%22-int%22%20-o%20%22%241%22%20h1.%20%22-integrator%22&linkCreation=true&fromPageId=3816950445); then
+>      elif ["$1" "-int" -o "$1" h1. "-integrator"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20%22-int%22%20-o%20%22%241%22%20h1.%20%22-integrator%22&linkCreation=true&fromPageId=3818228397); then
 > - ./integrator.pl /home/eshook/Projects/MIP/mip/config
 >  +      ./integrator.pl /usr/local/mip/config
 >      else
@@ -261,18 +261,18 @@ The steps described here approach the configuration of the MIP script in a sligh
 >  -cd /home/eshook/Projects/MIP/mip
 >  +export PYTHONPATH="/usr/local/mip/modules/apac_py:$PYTHONPATH"
 >  +cd /usr/local/mip
->   if [\! -z "$1"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-z%20%22%241%22&linkCreation=true&fromPageId=3816950445); then
->      if ["$1" h1. "-remote"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20h1.%20%22-remote%22&linkCreation=true&fromPageId=3816950445); then
+>   if [\! -z "$1"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-z%20%22%241%22&linkCreation=true&fromPageId=3818228397); then
+>      if ["$1" h1. "-remote"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20h1.%20%22-remote%22&linkCreation=true&fromPageId=3818228397); then
 > - ./mip-remote.pl /home/eshook/Projects/MIP/mip/config
 >  +      ./mip-remote.pl /usr/local/mip/config
->      elif ["$1" "-int" -o "$1" h1. "-integrator"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20%22-int%22%20-o%20%22%241%22%20h1.%20%22-integrator%22&linkCreation=true&fromPageId=3816950445); then
+>      elif ["$1" "-int" -o "$1" h1. "-integrator"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20%22-int%22%20-o%20%22%241%22%20h1.%20%22-integrator%22&linkCreation=true&fromPageId=3818228397); then
 > - ./integrator.pl /home/eshook/Projects/MIP/mip/config
 >  +      ./integrator.pl /usr/local/mip/config
 >      else
 >         ./mip.pl $1
 >      fi
 
-- Generate and edit a MIP configuration file (see [Setting up an NG2#Configuring MIP](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-ConfiguringMIP) for further information on this):
+- Generate and edit a MIP configuration file (see [Setting up an NG2#Configuring MIP](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-ConfiguringMIP) for further information on this):
 	
 - Check the MIP generated configuration file for the requirements `/usr/local/mip/config/apac_config.py`, and make sure the listed element names in `/usr/local/mip/config/default.pl` are matching!
 - Continue configuring as described.

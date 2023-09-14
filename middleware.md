@@ -45,11 +45,11 @@ Some notes:
 - If you want GRAM5, install it on an NG1.  This was the name for GT2 gateways.  An NG1 would run in parallel with NG2.
 - : You don't need NGData unless you are merely running data-specific services. An NG2 must run GridFTP, so if you have both compute and data resources, an NG2 server will suffice.
 
-See our instructions on [Setting up a grid gateway](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_grid_gateway&linkCreation=true&fromPageId=3816950983)
+See our instructions on [Setting up a grid gateway](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_grid_gateway&linkCreation=true&fromPageId=3818228935)
 
 
 ---
 
 ## Is there a recommended set of software packages generally useful for users of resources within BeSTGRID?
 
-A: The minimum requirement for BeSTGRID is purely those required for providing resource access via BeSTGRID, being the BeSTGRID Gateways (see [Setting up a grid gateway](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_grid_gateway&linkCreation=true&fromPageId=3816950983)). However there is a useful [Job wrapper environment](/wiki/spaces/BeSTGRID/pages/3816950725), helpful for those looking to manage more complex computational tasks, where they might require some form of scripting or other support.
+A: The minimum requirement for BeSTGRID is purely those required for providing resource access via BeSTGRID, being the BeSTGRID Gateways (see [Setting up a grid gateway](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_grid_gateway&linkCreation=true&fromPageId=3818228935)). However there is a useful [Job wrapper environment](/wiki/spaces/BeSTGRID/pages/3818228677), helpful for those looking to manage more complex computational tasks, where they might require some form of scripting or other support.

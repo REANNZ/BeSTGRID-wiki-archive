@@ -2,8 +2,8 @@
 
 # Configurations and Localisations
 
-- [How to set up a quick URL to VRE sites](/wiki/spaces/BeSTGRID/pages/3816950521)
-- [How to configure Sakai to store uploaded files on the filesystem](/wiki/spaces/BeSTGRID/pages/3816950495)
+- [How to set up a quick URL to VRE sites](/wiki/spaces/BeSTGRID/pages/3818228473)
+- [How to configure Sakai to store uploaded files on the filesystem](/wiki/spaces/BeSTGRID/pages/3818228447)
 
 # Customising the Sakai skin
 

@@ -14,7 +14,7 @@ Given the rather low load expected on the MyProxy server, I have assigned it les
 
 # Basic Install
 
-Installing the OS: [Install a Xen Virtual Machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping_a_virtual_machine&linkCreation=true&fromPageId=3816950493) and [Update the Xen Virtual Machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Updating%20a%20virtual%20machine&linkCreation=true&fromPageId=3816950493).
+Installing the OS: [Install a Xen Virtual Machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping_a_virtual_machine&linkCreation=true&fromPageId=3818228445) and [Update the Xen Virtual Machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Updating%20a%20virtual%20machine&linkCreation=true&fromPageId=3818228445).
 
 Next, the install follows how `BuildNg2Vdt161.sh` would install a Ng2 machine - but the install was done by cut-n-pasting only the relevant parts into a terminal session.  The following steps were done:
 

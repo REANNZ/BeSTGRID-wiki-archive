@@ -8,15 +8,15 @@ This page specifically documents the setup of the Shibbolized Auth Tool on top o
 
 # Basic assumptions
 
-GUMS server running CentOS 5, with GUMS software installed from VDT, following [http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums) - or setup following the BeSTGRID instructions for [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3816950966)
+GUMS server running CentOS 5, with GUMS software installed from VDT, following [http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums) - or setup following the BeSTGRID instructions for [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918)
 
-GUMS server already configured with the basic Auth Tool. For this, use the [ARCS AuthTool](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallAuthTool) documentation as the primary source, and the [Canterbury Auth Tool install notes](/wiki/spaces/BeSTGRID/pages/3816950942) as additional source of information.
+GUMS server already configured with the basic Auth Tool. For this, use the [ARCS AuthTool](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallAuthTool) documentation as the primary source, and the [Canterbury Auth Tool install notes](/wiki/spaces/BeSTGRID/pages/3818228894) as additional source of information.
 
 # Setup Shibboleth
 
 The first step is to setup the GUMS server as a Shibboleth Service Provider - and register the host in AAF.
 
-This part is based on general instructions for [Installing a Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3816950790), but differs in that the Shibboleth module is to be loaded by VDT Apache and not system Apache.
+This part is based on general instructions for [Installing a Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3818228742), but differs in that the Shibboleth module is to be loaded by VDT Apache and not system Apache.
 
 - Install latest Shibboleth SP via YUM
 
@@ -152,7 +152,7 @@ phpinfo();
 
 # Install Shib Auth Tool
 
-Here, we assume you already have the Auth Tool deployed in /opt/vdt/apache/htdocs/auth, according to the [ARCS Auth Tool install guides](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallAuthTool) and [Setup AuthTool for HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3816950942).  The ShibAuthTool will be configured to use the same mapfile, `/opt/vdt/apache/htdocs/mapfile/mapfile`
+Here, we assume you already have the Auth Tool deployed in /opt/vdt/apache/htdocs/auth, according to the [ARCS Auth Tool install guides](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallAuthTool) and [Setup AuthTool for HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228894).  The ShibAuthTool will be configured to use the same mapfile, `/opt/vdt/apache/htdocs/mapfile/mapfile`
 
 - Create a directory for Shib Auth Tool
 

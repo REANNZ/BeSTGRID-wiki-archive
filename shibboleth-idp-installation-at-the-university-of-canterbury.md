@@ -1,6 +1,6 @@
 # Shibboleth IdP Installation at the University of Canterbury
 
-This page documents installing the Shibboleth Identity Provider (IdP) at the University of Canterbury.  The installation primarily follows the [MAMS IdP installation instructions](http://www.federation.org.au/twiki/bin/view/Federation/ManualInstallIdP), and builds on the experience from [installing the Test IdP](/wiki/spaces/BeSTGRID/pages/3816951033).  Thus, this page is rather brief, and documents mainly what was done differently, and focuses on details of the key commands and configuration entries used.
+This page documents installing the Shibboleth Identity Provider (IdP) at the University of Canterbury.  The installation primarily follows the [MAMS IdP installation instructions](http://www.federation.org.au/twiki/bin/view/Federation/ManualInstallIdP), and builds on the experience from [installing the Test IdP](/wiki/spaces/BeSTGRID/pages/3818228985).  Thus, this page is rather brief, and documents mainly what was done differently, and focuses on details of the key commands and configuration entries used.
 
 # Installation Prerequisites
 
@@ -246,7 +246,7 @@ The final SSL configuration including the workaround is as follows:
 
 # Federation Membership & Metadata updates
 
-The IdP has a dual membership in the AAF Level-2 federation and in the [BeSTGRID Federation Metadata](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID%20Federation&linkCreation=true&fromPageId=3816950511).
+The IdP has a dual membership in the AAF Level-2 federation and in the [BeSTGRID Federation Metadata](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID%20Federation&linkCreation=true&fromPageId=3818228463).
 
 ## BeSTGRID Federation
 
@@ -305,7 +305,7 @@ IDP_HOME=$SHIB_HOME $SHIB_HOME/bin/metadatatool -i file:////usr/local/shibboleth
 
 Download the update script from here:
 
-- [idp-bestgrid-metadata](/wiki/download/attachments/3816950511/Idp-bestgrid-metadata.txt?version=1&modificationDate=1539354143000&cacheVersion=1&api=v2) (download)
+- [idp-bestgrid-metadata](/wiki/download/attachments/3818228463/Idp-bestgrid-metadata.txt?version=1&modificationDate=1539354143000&cacheVersion=1&api=v2) (download)
 - !Idp-bestgrid-metadata.txt!
  (file information)
 

@@ -13,7 +13,7 @@ This article represents the approach of my exploration of GridSphere R Portal pr
 ![GridSphereExampleScenario.PNG](./attachments/GridSphereExampleScenario.PNG)
 # Install GridSphere Portal Framework
 
-- There is a brief instruction about how to [install GridSphere Port Framework](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Install_GridSphere_Portal_Framework&linkCreation=true&fromPageId=3816950753)
+- There is a brief instruction about how to [install GridSphere Port Framework](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Install_GridSphere_Portal_Framework&linkCreation=true&fromPageId=3818228705)
 
 # Install Axis
 

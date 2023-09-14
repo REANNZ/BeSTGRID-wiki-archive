@@ -30,7 +30,7 @@ $globus_job_epr =~ s/\?([-0-9a-f]*)/'?' . main::encode_base64(main::sha1($1),"")
 - Add variables `GLOBUS_USER_DN` to the job environment.
 - Add these variables also as PBS variables with `#PBS -v VARNAME=value` in the job script.
 
-The script retrieving the `subject_name` from the `auditDatabase` for a `job_grid_id` (assumed to be in `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/GetJobDN.sh`) can be very brief - it's essence is just to invoke MySQL with a single query, and the rest is just setting environment variables to safely invoke MySQL even in a SUID environment.  The script does sanitize the job EPR passed, and it also sets the `MYSQL_CONF` to a MySQ configuration with the password stored (see below).  Either copy the file from its inline version below, or download from here: [GetJobDN.sh](/wiki/download/attachments/3816950918/GetJobDN.sh.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2)
+The script retrieving the `subject_name` from the `auditDatabase` for a `job_grid_id` (assumed to be in `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/GetJobDN.sh`) can be very brief - it's essence is just to invoke MySQL with a single query, and the rest is just setting environment variables to safely invoke MySQL even in a SUID environment.  The script does sanitize the job EPR passed, and it also sets the `MYSQL_CONF` to a MySQ configuration with the password stored (see below).  Either copy the file from its inline version below, or download from here: [GetJobDN.sh](/wiki/download/attachments/3818228870/GetJobDN.sh.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2)
 
 ``` 
 
@@ -115,7 +115,7 @@ The `auditquery` script can be fixed by:
 >  delete from  gram_audit_table where local_job_id is NULL **and finished_flag = 'true**';
 >  delete from  gram_audit_table where local_job_id is NULL **and finished_flag = 'true**';
 
-These changes are summarized by the following patch to `/etc/cron.hourly/auditquery` ([auditquery-fix-NULL-id.diff](/wiki/download/attachments/3816950918/Auditquery-fix-NULL-id.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2), file info: 
+These changes are summarized by the following patch to `/etc/cron.hourly/auditquery` ([auditquery-fix-NULL-id.diff](/wiki/download/attachments/3818228870/Auditquery-fix-NULL-id.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2), file info: 
 
 !Auditquery-fix-NULL-id.diff.txt!
 
@@ -167,13 +167,13 @@ chmod 666 /opt/vdt/globus/var/pbs-acct/jobdn-subm.log
 
 ```
 - Note: the `jobdn-subm.log` must be world-writable, because pbs.pm runs with the permission of the local user account to which the grid user is mapped.  On the contrary, jobdn.log is written to only by auditquery running as root, so no access permissions have to be granted.
-- Download the script [GetJobDN.sh](/wiki/download/attachments/3816950918/GetJobDN.sh.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) and store it as `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/GetJobDN.sh`
+- Download the script [GetJobDN.sh](/wiki/download/attachments/3818228870/GetJobDN.sh.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) and store it as `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/GetJobDN.sh`
 - Create `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/audit-mysql.conf`, readable only by daemon, containing the following two lines (with password replaced with the actual `audit` MySQL password, stored in `$GLOBUS_LOCATION/etc/gram-service/jndi-config.xml`):
 
 
->  [client](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=client&linkCreation=true&fromPageId=3816950918)
+>  [client](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=client&linkCreation=true&fromPageId=3818228870)
 >  password=auditpassword
->  [client](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=client&linkCreation=true&fromPageId=3816950918)
+>  [client](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=client&linkCreation=true&fromPageId=3818228870)
 >  password=auditpassword
 
 - Make the `GetJobDN.sh` script executable as `daemon` via `sudo`: add the following line to `/etc/sudoers` (edit with `visudo`):
@@ -182,13 +182,13 @@ chmod 666 /opt/vdt/globus/var/pbs-acct/jobdn-subm.log
 >  ALL ALL=(daemon)               NOPASSWD: /opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/GetJobDN.sh *
 >  ALL ALL=(daemon)               NOPASSWD: /opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/GetJobDN.sh *
 
-- Download the patch [pbs.pm-tag-dn-from-audit.diff](/wiki/download/attachments/3816950918/Pbs.pm-tag-dn-from-audit.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) and use it to patch `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/pbs.pm`
+- Download the patch [pbs.pm-tag-dn-from-audit.diff](/wiki/download/attachments/3818228870/Pbs.pm-tag-dn-from-audit.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) and use it to patch `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/pbs.pm`
 - Modify auditquery as indicated above: insert the following line at the beginning of the while loop, just above the logger command:
 
 ``` 
 echo     "`date` Job-DN: $Line" >> /opt/vdt/globus/var/pbs-acct/jobdn.log
 ```
-- Install the fix to `auditquery` described above in [Avoid loss of JobDN data](#PBSjobtagging-Fixingauditquery___avoidlossofJobDNdata) - apply the patch [auditquery-fix-NULL-id.diff](/wiki/download/attachments/3816950918/Auditquery-fix-NULL-id.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) to `/etc/cron.hourly/auditquery`
+- Install the fix to `auditquery` described above in [Avoid loss of JobDN data](#PBSjobtagging-Fixingauditquery___avoidlossofJobDNdata) - apply the patch [auditquery-fix-NULL-id.diff](/wiki/download/attachments/3818228870/Auditquery-fix-NULL-id.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) to `/etc/cron.hourly/auditquery`
 - Try submitting a job - the extension should work now, and you should be able see the additional information as described [below](#PBSjobtagging-Accessinguserjobinformation).
 
 # Old method: Installation
@@ -204,8 +204,8 @@ chmod 666 /opt/vdt/globus/var/pbs-acct/jobdn-subm.log
 
 ```
 - Note: the `jobdn-subm.log` must be world-writable, because pbs.pm runs with the permission of the local user account to which the grid user is mapped.  On the contrary, jobdn.log is written to only by auditquery running as root, so no access permissions have to be granted.
-- Download the perl module [getcertndn.pm](/wiki/download/attachments/3816950918/Getcertdn.pm.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) and store it as `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/getcertdn.pm`
-- Download the patch [pbs.pm-tag-dn-email-log-jobdn.diff](/wiki/download/attachments/3816950918/Pbs.pm-tag-dn-email-log-jobdn.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) and use it to patch `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/pbs.pm`
+- Download the perl module [getcertndn.pm](/wiki/download/attachments/3818228870/Getcertdn.pm.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) and store it as `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/getcertdn.pm`
+- Download the patch [pbs.pm-tag-dn-email-log-jobdn.diff](/wiki/download/attachments/3818228870/Pbs.pm-tag-dn-email-log-jobdn.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) and use it to patch `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/pbs.pm`
 - Modify auditquery as indicated above: insert the following line at the beginning of the while loop, just above the logger command:
 
 ``` 
@@ -227,6 +227,6 @@ qstat -f
 
 # pbs.pm patch
 
-The patch based on GRAM audit database is [pbs.pm-tag-dn-from-audit.diff](/wiki/download/attachments/3816950918/Pbs.pm-tag-dn-from-audit.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2).
+The patch based on GRAM audit database is [pbs.pm-tag-dn-from-audit.diff](/wiki/download/attachments/3818228870/Pbs.pm-tag-dn-from-audit.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2).
 
-The old patch, based on certificates, is [pbs.pm-tag-dn-email-log-jobdn.diff](/wiki/download/attachments/3816950918/Pbs.pm-tag-dn-email-log-jobdn.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) 
+The old patch, based on certificates, is [pbs.pm-tag-dn-email-log-jobdn.diff](/wiki/download/attachments/3818228870/Pbs.pm-tag-dn-email-log-jobdn.diff.txt?version=1&modificationDate=1539354082000&cacheVersion=1&api=v2) 

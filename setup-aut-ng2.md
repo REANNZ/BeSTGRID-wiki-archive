@@ -162,7 +162,7 @@ touch /etc/grid-security/mds-grid-mapfile
 2. To shutdown in reverse order
 3. To create a lock in /var/lock/subsys when started - so that a system shutdown knows to close down these services gracefully.
 
-See my description of the [problem](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-RFTstagingfails), a fix to [startup order](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-Fixingstartuporder), and a fix for [correct shutdown](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-Fixingshutdown)
+See my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails), a fix to [startup order](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingstartuporder), and a fix for [correct shutdown](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingshutdown)
 
 # Install SLCS certificates
 
@@ -192,7 +192,7 @@ See my description of the [problem](/wiki/spaces/BeSTGRID/pages/3816950583#Vladi
 
 Install customized pbs.pm into /opt/vdt/globus/lib/perl/Globus/GRAM/JobManager
 
-See [Canterbury NG2 installation](/wiki/spaces/BeSTGRID/pages/3816950735) and [Canterbury gateway enhancements for a list of features](/wiki/spaces/BeSTGRID/pages/3816950953).
+See [Canterbury NG2 installation](/wiki/spaces/BeSTGRID/pages/3818228687) and [Canterbury gateway enhancements for a list of features](/wiki/spaces/BeSTGRID/pages/3818228905).
 
 - Retrieving User DN from early audit database - needs `GetJobDN.sh` script + sudo access in /etc/sudoers:
 
@@ -221,8 +221,8 @@ On Nautilus, install /usr/local/sbin/send_grid_usage (as documented at [https://
 - Configure sendmail to send youtgoing mail: put the following into /etc/mail/mailertable
 
 
->  .       smtp:[ulduar.aut.ac.nz](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=ulduar.aut.ac.nz&linkCreation=true&fromPageId=3816950620)
->  .       smtp:[ulduar.aut.ac.nz](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=ulduar.aut.ac.nz&linkCreation=true&fromPageId=3816950620)
+>  .       smtp:[ulduar.aut.ac.nz](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=ulduar.aut.ac.nz&linkCreation=true&fromPageId=3818228572)
+>  .       smtp:[ulduar.aut.ac.nz](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=ulduar.aut.ac.nz&linkCreation=true&fromPageId=3818228572)
 
 - And run
 

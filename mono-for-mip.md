@@ -2,7 +2,7 @@
 
 # Introduction
 
-This article will describe how a `xml` file ought to be configured to describe [Mono](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Mono&linkCreation=true&fromPageId=3816950574) with [MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3816950574) so that Mono is available in a standard form for BeSTGRID users.
+This article will describe how a `xml` file ought to be configured to describe [Mono](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Mono&linkCreation=true&fromPageId=3818228526) with [MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3818228526) so that Mono is available in a standard form for BeSTGRID users.
 
 # Configuration
 

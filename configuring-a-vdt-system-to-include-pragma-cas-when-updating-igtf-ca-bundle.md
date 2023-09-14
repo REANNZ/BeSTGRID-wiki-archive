@@ -9,7 +9,7 @@ VDT CA updater can be simply installed and activated with:
 >  pacman -pretend-platform linux-rhel-4 -get [http://projects.arcs.org.au/mirror/vdt/vdt_181_cache:CA-Certificates-Updater](http://projects.arcs.org.au/mirror/vdt/vdt_181_cache:CA-Certificates-Updater)
 >  vdt-control --on vdt-update-certs
 
-- more details on this are at the [automatic install update notes](/wiki/spaces/BeSTGRID/pages/3816950953#GridgatewayenhancementsatUniversityofCanterbury-AutomaticCertificateUpdates)
+- more details on this are at the [automatic install update notes](/wiki/spaces/BeSTGRID/pages/3818228905#GridgatewayenhancementsatUniversityofCanterbury-AutomaticCertificateUpdates)
 
 # Configuring VDT updater to include PRAGMA CA bundle
 
@@ -117,14 +117,14 @@ rm $TMPFILE
 
 >  cd /etc/grid-security/pragma-certificates/old
 >  for FILE in **.** ; do
->     if [\! -f /etc/grid-security/pragma-certificates/$FILE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-f%20%2Fetc%2Fgrid-security%2Fpragma-certificates%2F%24FILE&linkCreation=true&fromPageId=3816950566) ; then
+>     if [\! -f /etc/grid-security/pragma-certificates/$FILE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-f%20%2Fetc%2Fgrid-security%2Fpragma-certificates%2F%24FILE&linkCreation=true&fromPageId=3818228518) ; then
 >       echo "Deleting /etc/grid-security/certificates/$FILE"
 >       rm -f /etc/grid-security/certificates/$FILE
 >     fi
 >  done
 >  cd /etc/grid-security/pragma-certificates/old
 >  for FILE in **.** ; do
->     if [\! -f /etc/grid-security/pragma-certificates/$FILE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-f%20%2Fetc%2Fgrid-security%2Fpragma-certificates%2F%24FILE&linkCreation=true&fromPageId=3816950566) ; then
+>     if [\! -f /etc/grid-security/pragma-certificates/$FILE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-f%20%2Fetc%2Fgrid-security%2Fpragma-certificates%2F%24FILE&linkCreation=true&fromPageId=3818228518) ; then
 >       echo "Deleting /etc/grid-security/certificates/$FILE"
 >       rm -f /etc/grid-security/certificates/$FILE
 >     fi

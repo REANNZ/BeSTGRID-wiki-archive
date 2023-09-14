@@ -49,4 +49,4 @@ It is important to understand some terminologies before you go further. If you a
 - [A similar project undertaken at OSS Watch UK|http
 
 //wiki.oss-watch.ac.uk/SakaiVre/ShibbolethIntegration?highlight=%28%5ESakaiVre/.%2A%29]
-- [Shibboleth installations and configurations](/wiki/spaces/BeSTGRID/pages/3816951017)
+- [Shibboleth installations and configurations](/wiki/spaces/BeSTGRID/pages/3818228969)

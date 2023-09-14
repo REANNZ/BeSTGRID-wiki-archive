@@ -25,7 +25,7 @@ On top of that, the job submission portlet is installed following the [Usefulpor
 >  vi /etc/yum.repos.d/APAC-Grid.repo
 >  vi /etc/yum.repos.d/APAC-Grid.repo
 
->  [apacdevel](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=apacdevel&linkCreation=true&fromPageId=3816951006)
+>  [apacdevel](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=apacdevel&linkCreation=true&fromPageId=3818228958)
 >  ...
 >  **enabled=1**
 
@@ -526,7 +526,7 @@ To install an application already know by the portal onto a cluster, the steps a
 
 - install the application on the cluster and record the path to the executable (if the cluster does not support *modules* yet, make sure the executable is in the default `PATH`
 - register the application in the cluster's software information file (like `/usr/local/mip/modules/apac_py/SubCluster/softwareInfoData/ngcompute-localSoftware.xml`) on the gateway.
-- in the registration, use the exact name and version as used by the portal - see version details in `/usr/local/apache-tomcat/webapps/interpreter_client/config/configuration.xml` (and the executable directory and name) - see the MrBayes sample configuration in the [NG2 setup instructions](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup_NG2&linkCreation=true&fromPageId=3816951006).
+- in the registration, use the exact name and version as used by the portal - see version details in `/usr/local/apache-tomcat/webapps/interpreter_client/config/configuration.xml` (and the executable directory and name) - see the MrBayes sample configuration in the [NG2 setup instructions](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup_NG2&linkCreation=true&fromPageId=3818228958).
 - After the MDS information propagates (10-20 min), the application registration should be visible in `/home/tomcat/portal/preferences/mds.xml` (restart
 
 tomcat if not updated)
@@ -629,7 +629,7 @@ log4j.appender.LOGFILE.layout.ConversionPattern=%r:%p:(%F:%M:%L)%n< %m >%n%n
 ```
 
 
-- commit the [GT4Helper changes](/wiki/download/attachments/3816951006/Gt4helper-ports-credlifetime.patch.txt?version=1&modificationDate=1539354348000&cacheVersion=1&api=v2) (
+- commit the [GT4Helper changes](/wiki/download/attachments/3818228958/Gt4helper-ports-credlifetime.patch.txt?version=1&modificationDate=1539354348000&cacheVersion=1&api=v2) (
 !Gt4helper-ports-credlifetime.patch.txt!
 ) to David Laing (GT4Helper)
 	

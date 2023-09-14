@@ -30,7 +30,7 @@ Examples:
 
 > 1. print network configuration of every node
 >  cluster-fork ifconfig
-> 2. print "hello" on all nodes compute-1-x (query runs against [Rocks Database](/wiki/spaces/BeSTGRID/pages/3816950766))
+> 2. print "hello" on all nodes compute-1-x (query runs against [Rocks Database](/wiki/spaces/BeSTGRID/pages/3818228718))
 >  cluster-fork -query="select name from nodes where name like 'compute-1%'" echo hello
 > 3. run job in background
 >  cluster-fork --bg echo hello
@@ -49,7 +49,7 @@ stolen from rocks mailing list, author Travis Daygale.
 > 1. Change this as necessary:
 >  RocksDistro=/home/install/contrib/4.2.1/x86_64/RPMS/
 
->  if [\! -d $RocksDistro](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-d%20%24RocksDistro&linkCreation=true&fromPageId=3816950967)
+>  if [\! -d $RocksDistro](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-d%20%24RocksDistro&linkCreation=true&fromPageId=3818228919)
 >  then
 >  echo "No directory $RocksDistro, are you sure this is a rocks node?"
 >  echo "No changes made, aborting"
@@ -182,4 +182,4 @@ see [http://www.centos.org/docs/4/html/rhel-sag-en-4/s1-kickstart2-startinginsta
 
 # Rocks Database
 
-[Rocks Database](/wiki/spaces/BeSTGRID/pages/3816950766)
+[Rocks Database](/wiki/spaces/BeSTGRID/pages/3818228718)

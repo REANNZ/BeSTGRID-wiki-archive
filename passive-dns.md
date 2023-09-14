@@ -21,7 +21,7 @@ Collected information can easily identify fast-flux hosts; this can help with an
 
 DNS data is captured passively by sensors at the network edge, using an architecture designed to make implementation of sensors as simple as possible. A sensor is connected to a router SPAN port in order to get complete access to all network traffic. Sensors run tcpdump, configured to write captured packets to a pcap file. Since we are only interested in DNS messages, we used the following tcpdump filter:
 
->  udp port 53 and ( udp[10](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=10&linkCreation=true&fromPageId=3816950794) & 0x04 != 0 )
+>  udp port 53 and ( udp[10](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=10&linkCreation=true&fromPageId=3818228746) & 0x04 != 0 )
 
 Note that our filter only captures UDP DNS replies from authoritative sources, since we filter on their "Authoritative Answer" bit. We ignore TCP (for now) to simplify our parsing code, and because we observe relatively little TCP DNS traffic at the router. Since DNS replies always include the query data (in the Question section), there is little need to also collect DNS queries. Alas, our filter can cause some problems on certain large responses. If the DNS reply is larger than the path MTU, the UDP message will be fragmented. If that occurs, the first fragment usually contains enough information for anomaly detection.
 

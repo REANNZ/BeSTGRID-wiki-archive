@@ -4,7 +4,7 @@ The BeSTGRID Test Federation exists to test new services before they are put int
 
 The primary source of the federation metadata is at the TEST WAYF server at [https://wayf.test.bestgrid.org/metadata/bestgrid-test-metadata.xml](https://wayf.test.bestgrid.org/metadata/bestgrid-test-metadata.xml).  To change the metadata, edit `/usr/local/shibboleth-wayf/bestgrid-test-metadata.xml` on `wayf.test.bestgrid.org`.  For downloading the metadata, check the WAYF server's certificate, issued by the BeSTGRID CA - the root certificate is included below.
 
-For information on how to update the metadata, please see the page [Updating Federation Metadata](/wiki/spaces/BeSTGRID/pages/3816950858).
+For information on how to update the metadata, please see the page [Updating Federation Metadata](/wiki/spaces/BeSTGRID/pages/3818228810).
 
 # Metadata consistency
 

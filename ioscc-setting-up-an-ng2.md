@@ -26,7 +26,7 @@ from Vlad's "Setting up an NG2" page
 
 # Top of Vlad's stuff
 
-An NG2 server acts as a job submission gateway, accepting jobs via the WS-GRAM4 protocol and passing them on to the local scheduler. The NG2 is configured to make authorization decisions through callouts to a GUMS server (instead of a plain text grid-mapfile), so [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3816950966) is an essential pre-requisite to setting up an NG2.
+An NG2 server acts as a job submission gateway, accepting jobs via the WS-GRAM4 protocol and passing them on to the local scheduler. The NG2 is configured to make authorization decisions through callouts to a GUMS server (instead of a plain text grid-mapfile), so [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918) is an essential pre-requisite to setting up an NG2.
 
 As an NG2 maps user requests to local "unix" accounts and uploads files to their home directories, it can only handle one cluster - or a set of clusters within a single administrative domain, i.e., one set of accounts and home directories.  **Important:** If you are connecting multiple clusters with distinct account sets / different home directories, you will need a separate NG2 for each cluster.
 
@@ -192,7 +192,7 @@ using `yum`, and from a VDT mirror, using `pacman`.
 ``` 
 cd /etc/yum.repos.d && wget http://projects.arcs.org.au/dist/arcs.repo
 ```
-- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3816950743) repository in `/etc/yum.repos.d/arcs.repo` to: 
+- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3818228695) repository in `/etc/yum.repos.d/arcs.repo` to: 
 
 ``` 
 baseurl=http://projects.arcs.org.au/dist/production/$releasever/i386
@@ -705,7 +705,7 @@ This section assumes you'll be advertising in MDS:
 
 - If you need to advertise more ComputeElements, adjust the configuration accordingly (providing multiple IDs/names for the elements) - but please do not advertise multiple queues providing access to the same physical resources.  That would break the metascheduling algorithms used in Grisu.
 - If you need to advertise multiple clusters (with the same home directories and user accounts), the changes will be still straightforward.
-- If you need to advertise multiple clusters with the different home directories and user accounts (and you are already running multiple NG2s), it will be more complex - and you may have to use MIP integrator to aggregate data from multiple NG2s.  See [Setup MIP on NG2HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3816950514) for more information on how that was done at Canterbury.
+- If you need to advertise multiple clusters with the different home directories and user accounts (and you are already running multiple NG2s), it will be more complex - and you may have to use MIP integrator to aggregate data from multiple NG2s.  See [Setup MIP on NG2HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228466) for more information on how that was done at Canterbury.
 
 ### default.pl
 
@@ -971,7 +971,7 @@ To address these issues, apply the following patches to the master copies of the
 >  vdt-control --off
 >  vdt-control --on
 
-- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-RFTstagingfails).
+- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails).
 
 # Making local cluster accounts ready for the grid
 
@@ -1007,7 +1007,7 @@ can't use `-passive` and `-active`
 
 I have started to gather this info together, away from the clutter of the install instructions here
 
-[Administering_an_NG2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Administering_an_NG2&linkCreation=true&fromPageId=3816950743)
+[Administering_an_NG2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Administering_an_NG2&linkCreation=true&fromPageId=3818228695)
 
 # My SGE Notes 
 

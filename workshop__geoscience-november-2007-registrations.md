@@ -2,7 +2,7 @@
 
 sc,,geon
 
-[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3816950943)
+[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3818228895)
 
 ## Registered Attendees
 

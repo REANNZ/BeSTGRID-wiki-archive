@@ -102,7 +102,7 @@ mkdir -p /usr/local/pkg/globus/5.0.0
 >  make
 >  make install
 
-- Optional: also build [UDT support for GridFTP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup_GRAM5_on_CentOS_5&linkCreation=true&fromPageId=3816950721): 
+- Optional: also build [UDT support for GridFTP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup_GRAM5_on_CentOS_5&linkCreation=true&fromPageId=3818228673): 
 
 ``` 
 make udt

@@ -19,11 +19,11 @@
 [**Vladimir Mencl**](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir) - Blue Fern Group, University of Canterbury
 
 ***Project Governance***
-- [Steering Committee](/wiki/spaces/BeSTGRID/pages/3816950924)
+- [Steering Committee](/wiki/spaces/BeSTGRID/pages/3818228876)
 
 ### Technical Working Group
 
-The BeSTGRID **[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3816950451)** coordinates the technical programme of work within BeSTGRID.
+The BeSTGRID **[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403)** coordinates the technical programme of work within BeSTGRID.
 
 ## Communication
 

@@ -1,6 +1,6 @@
 # GridTechWG-20100325
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3816950451): meeting March 25, 2010.
+[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting March 25, 2010.
 
 ## Program
 
@@ -34,7 +34,7 @@ project up at the meeting - or invite the future users.
 
 Attending: Vladimir Mencl, Guy Kloss, Stuart Charters, Tim Molteno, Mik Black, Kevin Buckley, Andrey Kharuk, Yuriy Halytskyy
 
-- Vladimir gave a brief overview of iRODS and of the [iRODS deployment plan](/wiki/spaces/BeSTGRID/pages/3816950597)
+- Vladimir gave a brief overview of iRODS and of the [iRODS deployment plan](/wiki/spaces/BeSTGRID/pages/3818228549)
 
 - Mik suggests two initial projects:
 	

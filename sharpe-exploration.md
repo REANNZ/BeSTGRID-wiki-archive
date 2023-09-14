@@ -33,7 +33,7 @@ This error usually caused by unsuccessful ShARPE initialization if you have conf
 - Fail to get requested file
 
 $IDP_HOME$/etc/$EXTENSION_NAME$/crosswalk.properties
-- This is a bug in 0.7.3 build.xml file. It doesn't replace the variables $IDP_HOME$ and $EXTENSION_NAME$ with real value in crosswork.properties configuration. Therefore please apply a [ShARPE crosswork configuration patch](/wiki/spaces/BeSTGRID/pages/3816950571) to it as following:
+- This is a bug in 0.7.3 build.xml file. It doesn't replace the variables $IDP_HOME$ and $EXTENSION_NAME$ with real value in crosswork.properties configuration. Therefore please apply a [ShARPE crosswork configuration patch](/wiki/spaces/BeSTGRID/pages/3818228523) to it as following:
 
 ``` 
 [shib@kilrogg ShARPE]$patch -p0 < ShARPE_0.7.3_patch.txt 

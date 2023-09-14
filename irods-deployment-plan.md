@@ -1,6 +1,6 @@
 # IRODS deployment plan
 
-**'NOTE: THIS DOCUMENT IS NOW OBSOLETE**' as all useful contents has been merged into the [Installing an iRODS slave server](/wiki/spaces/BeSTGRID/pages/3816950600) document.
+**'NOTE: THIS DOCUMENT IS NOW OBSOLETE**' as all useful contents has been merged into the [Installing an iRODS slave server](/wiki/spaces/BeSTGRID/pages/3818228552) document.
 
 The ARCS are successfully operating the ARCS DataFabric, based on iRODS as a distributed storage system and Davis as the web and webDAV interface.
 
@@ -69,22 +69,22 @@ Database=ICAT
 
 
 >     zone: **BeSTGRID**
->     Starting Server Port [20000](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20000&linkCreation=true&fromPageId=3816950597)? 40000
->     Ending Server Port [20199](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20199&linkCreation=true&fromPageId=3816950597)? 40199
->     Resource name [demoResc](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=demoResc&linkCreation=true&fromPageId=3816950597)? **griddata.canterbury.ac.nz**
+>     Starting Server Port [20000](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20000&linkCreation=true&fromPageId=3818228549)? 40000
+>     Ending Server Port [20199](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20199&linkCreation=true&fromPageId=3818228549)? 40199
+>     Resource name [demoResc](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=demoResc&linkCreation=true&fromPageId=3818228549)? **griddata.canterbury.ac.nz**
 >     Directory ? **/hpc/griddata/irods**
 >     New Postgres directory? /usr/local/pkg/irods/Postgres
->     Include GSI [no](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=no&linkCreation=true&fromPageId=3816950597)? yes
->     GLOBUS_LOCATION [/usr/local/pkg/globus/5.0.0](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%2Fusr%2Flocal%2Fpkg%2Fglobus%2F5.0.0&linkCreation=true&fromPageId=3816950597)?
+>     Include GSI [no](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=no&linkCreation=true&fromPageId=3818228549)? yes
+>     GLOBUS_LOCATION [/usr/local/pkg/globus/5.0.0](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%2Fusr%2Flocal%2Fpkg%2Fglobus%2F5.0.0&linkCreation=true&fromPageId=3818228549)?
 >     GSI Install Type to use? vendorcc64dbg
 >     zone: **BeSTGRID**
->     Starting Server Port [20000](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20000&linkCreation=true&fromPageId=3816950597)? 40000
->     Ending Server Port [20199](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20199&linkCreation=true&fromPageId=3816950597)? 40199
->     Resource name [demoResc](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=demoResc&linkCreation=true&fromPageId=3816950597)? **griddata.canterbury.ac.nz**
+>     Starting Server Port [20000](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20000&linkCreation=true&fromPageId=3818228549)? 40000
+>     Ending Server Port [20199](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20199&linkCreation=true&fromPageId=3818228549)? 40199
+>     Resource name [demoResc](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=demoResc&linkCreation=true&fromPageId=3818228549)? **griddata.canterbury.ac.nz**
 >     Directory ? **/hpc/griddata/irods**
 >     New Postgres directory? /usr/local/pkg/irods/Postgres
->     Include GSI [no](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=no&linkCreation=true&fromPageId=3816950597)? yes
->     GLOBUS_LOCATION [/usr/local/pkg/globus/5.0.0](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%2Fusr%2Flocal%2Fpkg%2Fglobus%2F5.0.0&linkCreation=true&fromPageId=3816950597)?
+>     Include GSI [no](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=no&linkCreation=true&fromPageId=3818228549)? yes
+>     GLOBUS_LOCATION [/usr/local/pkg/globus/5.0.0](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%2Fusr%2Flocal%2Fpkg%2Fglobus%2F5.0.0&linkCreation=true&fromPageId=3818228549)?
 >     GSI Install Type to use? vendorcc64dbg
 
 - Post-install instructions:
@@ -426,7 +426,7 @@ ichmod inherit /BeSTGRID/projects/open
 
 - Based on [https://projects.arcs.org.au/trac/davis/wiki/HowTo/Install](https://projects.arcs.org.au/trac/davis/wiki/HowTo/Install)
 
-- Shibboleth: install ngdata.canterbury.ac.nz as a [Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3816950790), using the name df.bestgrid.org in URLs and entityID.
+- Shibboleth: install ngdata.canterbury.ac.nz as a [Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3818228742), using the name df.bestgrid.org in URLs and entityID.
 
 - Configure Apache:
 	
@@ -728,10 +728,10 @@ Davis will still talk directly to iRODS at hpcgrid1, but these are the steps I d
 - Run `irodssetup`:
 
 
->      Build an iRODS server [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816950597)?
->      Make this Server ICAT-Enabled [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816950597)? no
->      Build an iRODS server [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816950597)?
->      Make this Server ICAT-Enabled [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816950597)? no
+>      Build an iRODS server [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228549)?
+>      Make this Server ICAT-Enabled [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228549)? no
+>      Build an iRODS server [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228549)?
+>      Make this Server ICAT-Enabled [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228549)? no
 
 - Configure certificate (irodscert, environment)
 - Configure irods environment `/etc/profile.d/irods.sh`
@@ -764,7 +764,7 @@ export MYPROXY_SERVER
 
 # Upgrading Davis
 
-This section has moved to [Administering the DataFabric#Upgrading Davis](/wiki/spaces/BeSTGRID/pages/3816951032#AdministeringtheDataFabric-UpgradingDavis)
+This section has moved to [Administering the DataFabric#Upgrading Davis](/wiki/spaces/BeSTGRID/pages/3818228984#AdministeringtheDataFabric-UpgradingDavis)
 
 # Deploying Griffin
 

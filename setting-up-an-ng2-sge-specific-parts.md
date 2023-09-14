@@ -1,6 +1,6 @@
 # Setting up an NG2 SGE specific parts
 
-This page contains the Sun Grid Engine (SGE) specific supplementary material for the instructions on [setting up a job submission gateway](/wiki/spaces/BeSTGRID/pages/3816950633).
+This page contains the Sun Grid Engine (SGE) specific supplementary material for the instructions on [setting up a job submission gateway](/wiki/spaces/BeSTGRID/pages/3818228585).
 
 Scripts used within this page should have their most recent copy in the [ARCS Gitorious server sge-scripts project](http://code.arcs.org.au/gitorious/grid-usage/sge-scripts)
 
@@ -8,7 +8,7 @@ Scripts used within this page should have their most recent copy in the [ARCS Gi
 
 - The job submission gateway and the SGE cluster should have a common user space (i.e. users have the same credentials, attributes, and home directories).
 	
-- [Sharing Rocks users with LDAP](/wiki/spaces/BeSTGRID/pages/3816950641)
+- [Sharing Rocks users with LDAP](/wiki/spaces/BeSTGRID/pages/3818228593)
 
 - SGE must be configured to log enough information into the "reporting" and "accounting" files.
 - **The default for SGE is*not** to do reporting.

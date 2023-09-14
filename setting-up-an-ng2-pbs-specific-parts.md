@@ -1,6 +1,6 @@
 # Setting up an NG2 PBS specific parts
 
-This page contains the PBS(/Torque)-specific supplementary material for the instructions on [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3816950633)
+This page contains the PBS(/Torque)-specific supplementary material for the instructions on [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585)
 
 # LRM access
 
@@ -77,7 +77,7 @@ chkconfig pbs-telltail on ; service pbs-telltail start
 
 - You may have to customize this module for your site: particularly, the location of `qsub` and `qstat` and the exact way to invoke `mpiexec`
 	
-- See [Grid gateway enhancements at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3816950953) and [PBS job tagging](/wiki/spaces/BeSTGRID/pages/3816950918) for more enhancements to put into `pbs.pm` - these should however be configured after the gateway is fully setup.
+- See [Grid gateway enhancements at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228905) and [PBS job tagging](/wiki/spaces/BeSTGRID/pages/3818228870) for more enhancements to put into `pbs.pm` - these should however be configured after the gateway is fully setup.
 - You may wish to keep the original Globus pbs.pm and pbs.pm.APAC under different filenames for future reference.
 
 # Usage reporting

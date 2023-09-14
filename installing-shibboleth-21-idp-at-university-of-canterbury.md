@@ -8,7 +8,7 @@ This page documents the installation of the Shibboleth 2.1 IdP at the University
 
 The installation was done as a minimal install to get Shibboleth going - and worked well and is now being used in production.
 
-The installation was followed by [installing uApprove](/wiki/spaces/BeSTGRID/pages/3816950723).
+The installation was followed by [installing uApprove](/wiki/spaces/BeSTGRID/pages/3818228675).
 
 # Preliminary considerations
 
@@ -114,7 +114,7 @@ Keystore: changeit
 
 - Endorsed XML libs
 
-Remove `/var/lib/tomcat5/common/endorsed/*` ([xml-commons-apis](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=xml-commons-apis&linkCreation=true&fromPageId=3816950954).jar [jaxp_parser_impl](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=jaxp_parser_impl&linkCreation=true&fromPageId=3816950954).jar), symbolic links to `/usr/share/java/` and install all jars from `/root/inst/shibboleth-identityprovider-2.1.2/endorsed/` into `/var/lib/tomcat5/common/endorsed`
+Remove `/var/lib/tomcat5/common/endorsed/*` ([xml-commons-apis](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=xml-commons-apis&linkCreation=true&fromPageId=3818228906).jar [jaxp_parser_impl](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=jaxp_parser_impl&linkCreation=true&fromPageId=3818228906).jar), symbolic links to `/usr/share/java/` and install all jars from `/root/inst/shibboleth-identityprovider-2.1.2/endorsed/` into `/var/lib/tomcat5/common/endorsed`
 
 ## Deploy Shibboleth IdP WAR
 
@@ -826,7 +826,7 @@ The change done to `/usr/local/shibboleth-idp/conf/service.xml` is thus:
 - Change registration URLs explicitly configured at selected SPs (Confluence wiki test+production, E-Cast)
 - Until these changes propagate, use `ProxyPass` to pass the old shib13 URLs to Shib21
 
-- Proceed with [installing uApprove](/wiki/spaces/BeSTGRID/pages/3816950723)
+- Proceed with [installing uApprove](/wiki/spaces/BeSTGRID/pages/3818228675)
 
 # Registering the IdP in the AAF Pilot Resource Registry
 

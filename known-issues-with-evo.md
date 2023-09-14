@@ -68,7 +68,7 @@ If you encounter a problem when starting EVO:
 
 ## Linux specific EVO issues
 
-For detailed notes on Linux-specific EVO issues, see [EVO Under Linux](/wiki/spaces/BeSTGRID/pages/3816950819).
+For detailed notes on Linux-specific EVO issues, see [EVO Under Linux](/wiki/spaces/BeSTGRID/pages/3818228771).
 
 ## EVO and Osprey
 

@@ -1,6 +1,6 @@
 # Setup GridFTP on IBM p520
 
-The IBM p520 (named `hpcgrid1.canterbury.ac.nz` was designed to be the server for the BeSTGRID storage system, integrated into the p575 HPC cluster.  Installing GridFTP on the p520 is the first step in using this server to make the storage system available on the grid.  Up to now, it was only accessible via [NG2HPC](/wiki/spaces/BeSTGRID/pages/3816950735), which is a Linux x86 Xen virtual machine with the storage system mounted via NFS.  GridFTP running on hpcgrid1 will be significantly more efficient, as hpcgrid1 has direct connection to the GPFS filesystem used on the BeSTGRID storage.
+The IBM p520 (named `hpcgrid1.canterbury.ac.nz` was designed to be the server for the BeSTGRID storage system, integrated into the p575 HPC cluster.  Installing GridFTP on the p520 is the first step in using this server to make the storage system available on the grid.  Up to now, it was only accessible via [NG2HPC](/wiki/spaces/BeSTGRID/pages/3818228687), which is a Linux x86 Xen virtual machine with the storage system mounted via NFS.  GridFTP running on hpcgrid1 will be significantly more efficient, as hpcgrid1 has direct connection to the GPFS filesystem used on the BeSTGRID storage.
 
 HpcGrid1 runs AIX (on Power5+), and the Globus Toolkit has binaries available for this platform.  This page documents the steps necessary to get GridFTP running on hpcgrid1.
 
@@ -139,7 +139,7 @@ And I had to do a few modifications to the `edg-fetch-crl` script:
 - change getopt invocation to conform to AIX getopt syntax (no long options)
 - change mktemp location to /usr/local/bin/mktemp
 
-The following patch (download as [edg-fetch-crl-aix-nolongopt-mktemp.diff](/wiki/download/attachments/3816950497/Edg-fetch-crl-aix-nolongopt-mktemp.diff.txt?version=1&modificationDate=1539354084000&cacheVersion=1&api=v2)) documents all the changes made to the `edg-fetch-crl` script:
+The following patch (download as [edg-fetch-crl-aix-nolongopt-mktemp.diff](/wiki/download/attachments/3818228449/Edg-fetch-crl-aix-nolongopt-mktemp.diff.txt?version=1&modificationDate=1539354084000&cacheVersion=1&api=v2)) documents all the changes made to the `edg-fetch-crl` script:
 
 ``` 
 
@@ -326,7 +326,7 @@ callouts, run the setup-globus-gaa-authz-callout setup script.
 
 ```
 
-Well, I had to compile PRIMA from source code, and on AIX, it was a very painful process, documented on a [separate page on compiling PRIMA](/wiki/spaces/BeSTGRID/pages/3816950640).
+Well, I had to compile PRIMA from source code, and on AIX, it was a very painful process, documented on a [separate page on compiling PRIMA](/wiki/spaces/BeSTGRID/pages/3818228592).
 
 Switching to use PRIMA to call out to the GUMS server has made the architecture much simpler.  Otherwise, I would have to keep a mechanism in place to update the `grid-mapfile` file on the p520.
 
@@ -408,4 +408,4 @@ Both these measures have been temporary: disable the cron jobs:
 - on ng2hpc, disable daemon's cron-job copying ng2hpc's grid-mapfile to `/hpc/projects/packages/local.aix/pkg/globus/4.0.6/etc/grid-mapfile`
 - leave host cert in `/root/.globus` (no risk, and gives me gums-service running)
 
-The configuration now in place is using PRIMA - see the section on [activating PRIMA](/wiki/spaces/BeSTGRID/pages/3816950640#SetupPRIMAonIBMp520-ConfiguringandactivatingPRIMA).
+The configuration now in place is using PRIMA - see the section on [activating PRIMA](/wiki/spaces/BeSTGRID/pages/3818228592#SetupPRIMAonIBMp520-ConfiguringandactivatingPRIMA).

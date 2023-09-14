@@ -18,7 +18,7 @@ Cause: a host certificate of idp.bestgrid.org is expired.
 
 Status: fixed by replacing the expired certificate for fresh one.
 
-[Technical details](/wiki/spaces/BeSTGRID/pages/3816950675)
+[Technical details](/wiki/spaces/BeSTGRID/pages/3818228627)
 
 # Friday, 22nd August from 7pm
 

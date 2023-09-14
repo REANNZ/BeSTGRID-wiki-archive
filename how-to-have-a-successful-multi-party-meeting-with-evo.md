@@ -11,9 +11,9 @@
 
 # During the meeting
 
-- Audio, audio, audio! If using a Chat50 or 150 read [this section using echo cancellation devices with EVO](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Known_Issues_with_EVO&linkCreation=true&fromPageId=3816950847)
+- Audio, audio, audio! If using a Chat50 or 150 read [this section using echo cancellation devices with EVO](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Known_Issues_with_EVO&linkCreation=true&fromPageId=3818228799)
 - Make sure the participants know how to mute and unmute their audio.  Ask participants to keep the audio muted while they are not talking.
-- Make sure participants understand how they can control their 'Audio Transmit Gain'.  Please see [Configuring EVO for the first time](/wiki/spaces/BeSTGRID/pages/3816950603).
+- Make sure participants understand how they can control their 'Audio Transmit Gain'.  Please see [Configuring EVO for the first time](/wiki/spaces/BeSTGRID/pages/3818228555).
 - Avoid moving cameras, it is disruptive to the other participants
 - Make sure you can see the chat window (lower right of Koala) during the session – important messages are exchanged this way.
 - If you lose video streams, during the meeting, try "Restart Video" in the Video Tab, under the AV controls Tab (in the Koala Window).

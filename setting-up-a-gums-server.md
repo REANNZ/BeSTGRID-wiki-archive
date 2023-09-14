@@ -19,11 +19,11 @@ The GUMS configuration mechanism is fairly flexible, and with multiple `HostGrou
 
 The installation is based on the [ARCS NgGums installation guide](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums), and adds some VDT 2.0 specific instructions (and refines the installation steps).
 
-When users have personal accounts on the cluster and it's desired to let them access the personal accounts via the grid, then this installation should be followed by installing the AuthTool and the [Shibbolized AuthTool](/wiki/spaces/BeSTGRID/pages/3816950613).
+When users have personal accounts on the cluster and it's desired to let them access the personal accounts via the grid, then this installation should be followed by installing the AuthTool and the [Shibbolized AuthTool](/wiki/spaces/BeSTGRID/pages/3818228565).
 
-As a "parallel companion" to this page, setup instructions are given for GUMS on an Ubuntu server base system: [Setting up a GUMS server on Ubuntu](/wiki/spaces/BeSTGRID/pages/3816950479)
+As a "parallel companion" to this page, setup instructions are given for GUMS on an Ubuntu server base system: [Setting up a GUMS server on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228431)
 
-**NOTE:** The original method described on this page results in all BeSTGRID users using a common username and home directory, which is a security risk. It is recommended that all production sites switch to using [pooled and individual accounts](/wiki/spaces/BeSTGRID/pages/3816951003).
+**NOTE:** The original method described on this page results in all BeSTGRID users using a common username and home directory, which is a security risk. It is recommended that all production sites switch to using [pooled and individual accounts](/wiki/spaces/BeSTGRID/pages/3818228955).
 
 # Preliminaries
 
@@ -60,7 +60,7 @@ The following is recommended:
 
 ## Certificates
 
-Before proceeding with the certificate, [obtain a host certificate](/wiki/spaces/BeSTGRID/pages/3816950550) for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates)
+Before proceeding with the certificate, [obtain a host certificate](/wiki/spaces/BeSTGRID/pages/3818228502) for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates)
 
 - If no other software has created the directories `/etc/grid-security` and `/etc/grid-security/http` then they need to be created
 
@@ -194,7 +194,7 @@ cacerts_url = http://vdt.cs.wisc.edu/software/certificates/vdt-igtf-ca-certs-ver
 
 In order to prevent Apache from throwing warnings like:
 
->  [23:47 2010](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Fri Apr 09 12&title=23%3A47%202010) [warn](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=warn&linkCreation=true&fromPageId=3816950966) RSA server certificate CommonName (CN) `my.server.name' does NOT match server name!?
+>  [23:47 2010](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Fri Apr 09 12&title=23%3A47%202010) [warn](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=warn&linkCreation=true&fromPageId=3818228918) RSA server certificate CommonName (CN) `my.server.name' does NOT match server name!?
 
 Server Name has to be set appropriately in `/opt/vdt/apache/conf/extra/httpd-ssl.conf` and `/opt/vdt/apache/conf/httpd.conf`, locate the `ServerName` entry in the file and change it to match the CN used in the certificate request.
 
@@ -353,7 +353,7 @@ GUMS ACCESS: Read Self
 
 ```
 
-**NOTE: If installing a new GUMS server, instead of creating a "group" account mapper mapping all users to the same account, it is adviced to use a pooled account mapper instead.  Please see the documentation on ****[Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3816951003)**** for more instructions on doing that.** |
+**NOTE: If installing a new GUMS server, instead of creating a "group" account mapper mapping all users to the same account, it is adviced to use a pooled account mapper instead.  Please see the documentation on ****[Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3818228955)**** for more instructions on doing that.** |
 
 - Add an Account Mapper for each local grid (shared) account that would be mapped to a VO Group.  Typically, this would include `grid-admin` for /ARCS/NGAdmin and on BeSTGRID also `grid-bestgrid` for /ARCS/BeSTGRID
 	
@@ -497,7 +497,7 @@ To address these issues, apply the following patches to the master copies of the
 >  vdt-control --off
 >  vdt-control --on
 
-- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-RFTstagingfails).
+- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails).
 
 # Next: Install Auth Tool
 
@@ -566,7 +566,7 @@ Now, proceed to installing the Auth Tool:
 - This allows the users to authenticate with an APACGrid certificate loaded in their browser and link their DN with a local account.
 - Note: when installing the `gumsmanualmap.py` script, use the VDT 2.0 specific version.
 
-- Next, [install the Shibbolized Auth Tool](/wiki/spaces/BeSTGRID/pages/3816950613)
+- Next, [install the Shibbolized Auth Tool](/wiki/spaces/BeSTGRID/pages/3818228565)
 	
 - This allows users using a SLCS certificate to authenticate with their Shibboleth login and link their SLCS DN with a local account.
 
@@ -574,4 +574,4 @@ Now, proceed to installing the Auth Tool:
 
 >  yum groupinstall "Development Tools"
 
-More information can be found in the [Canterbury local accounts setup](http://www.bestgrid.org/index.php/Setup_NGGums_at_University_of_Canterbury#Mapping_to_local_user_accounts) and [Canterbury Auth Tool setup](/wiki/spaces/BeSTGRID/pages/3816950942) - including advanced topics like using ssh to verify local account credentials.
+More information can be found in the [Canterbury local accounts setup](http://www.bestgrid.org/index.php/Setup_NGGums_at_University_of_Canterbury#Mapping_to_local_user_accounts) and [Canterbury Auth Tool setup](/wiki/spaces/BeSTGRID/pages/3818228894) - including advanced topics like using ssh to verify local account credentials.

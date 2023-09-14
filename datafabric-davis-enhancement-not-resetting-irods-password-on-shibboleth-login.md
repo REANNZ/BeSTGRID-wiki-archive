@@ -76,9 +76,9 @@ shib-use-admin-login=false
 
 The code has been committed to a feature-branch in the googlecode webDavis repository: [http://webdavis.googlecode.com/svn/davis/branches/0.9.6.dev-shib-no-pwd-reset](http://webdavis.googlecode.com/svn/davis/branches/0.9.6.dev-shib-no-pwd-reset)
 
-The code is also available as patch: [davis-clientusername-login.diff](/wiki/download/attachments/3816950962/Davis-clientusername-login.diff.txt?version=1&modificationDate=1539354381000&cacheVersion=1&api=v2)
+The code is also available as patch: [davis-clientusername-login.diff](/wiki/download/attachments/3818228914/Davis-clientusername-login.diff.txt?version=1&modificationDate=1539354381000&cacheVersion=1&api=v2)
 
-This patch depends on modifications to Jargon - these are pending to be committed to Jargon-classic svn an and are available as patch [jargon-add-clientusername.diff](/wiki/download/attachments/3816950962/Jargon-add-clientusername.diff.txt?version=1&modificationDate=1539354381000&cacheVersion=1&api=v2)
+This patch depends on modifications to Jargon - these are pending to be committed to Jargon-classic svn an and are available as patch [jargon-add-clientusername.diff](/wiki/download/attachments/3818228914/Jargon-add-clientusername.diff.txt?version=1&modificationDate=1539354381000&cacheVersion=1&api=v2)
 
 ### Building jargon with this patch
 
@@ -123,7 +123,7 @@ Part of this extension is a simple PHP page that based on Shibboleth authenticat
 - This page is typically at: /dfpassword/
 - This page needs `rods` admin access to set the user password.
 - Source code for the page is available at [https://subversion.ceres.auckland.ac.nz/BeSTGRID/df/usermgmt/dfpassword/](https://subversion.ceres.auckland.ac.nz/BeSTGRID/df/usermgmt/dfpassword/)
-- Installation instructions will be covered in the [Slave server install manual](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_an_iRODS_slave_server&linkCreation=true&fromPageId=3816950962)
+- Installation instructions will be covered in the [Slave server install manual](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_an_iRODS_slave_server&linkCreation=true&fromPageId=3818228914)
 
 # Changing a user passsword
 
@@ -132,4 +132,4 @@ Part of this extension is also a simple PHP page that allows changing password b
 - This page is typically at: /dfchangepw/
 - This page acts as if the user executed an `ipasswd` command.  The page does not need any privileged access.
 - Source code for the page is available at [https://subversion.ceres.auckland.ac.nz/BeSTGRID/df/usermgmt/dfchangepw/](https://subversion.ceres.auckland.ac.nz/BeSTGRID/df/usermgmt/dfchangepw/)
-- Installation instructions will be covered in the [Slave server install manual](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_an_iRODS_slave_server&linkCreation=true&fromPageId=3816950962)
+- Installation instructions will be covered in the [Slave server install manual](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_an_iRODS_slave_server&linkCreation=true&fromPageId=3818228914)

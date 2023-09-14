@@ -2,7 +2,7 @@
 
 This page provides the LoadLeveler specific details for setting up a GRAM5 grid gateway.
 
-Start by first installing a plain GRAM5, following the instructions on the [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3816950554) page (skipping all PBS-specific steps), then proceed from here.
+Start by first installing a plain GRAM5, following the instructions on the [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) page (skipping all PBS-specific steps), then proceed from here.
 
 This procedure for setting up a LoadLeveler grid gateway is based on the `llgrid.tar` module that comes with LoadLeveler, and adapts it for GT5 with a patch coming from the EU IGE project.  Hence, you will need the LoadLeveler distribution available to proceed.
 
@@ -30,7 +30,7 @@ ng2hpc-c:    type = machine   central_manager = false  schedd_host = false submi
 
 # Installing GRAM5
 
-Install GRAM5 as per [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3816950554) page, skipping all PBS-specific steps.
+Install GRAM5 as per [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) page, skipping all PBS-specific steps.
 
 # Patching and Compiling llgrid module
 
@@ -212,7 +212,7 @@ lib/libglobus_seg_loadleveler_<flavour>.*
 
 # Customizing LoadLeveler.pm
 
-- Customize your loadleveler.pm - as per [Canterbury ng2hpc LoadLeveler Tweaks](/wiki/spaces/BeSTGRID/pages/3816950712#SetupNG2HPCatUniversityofCanterbury-Tweakingloadleveler.pm) or contact the [author of this documentation](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir)
+- Customize your loadleveler.pm - as per [Canterbury ng2hpc LoadLeveler Tweaks](/wiki/spaces/BeSTGRID/pages/3818228664#SetupNG2HPCatUniversityofCanterbury-Tweakingloadleveler.pm) or contact the [author of this documentation](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir)
 
 - Note: if you are using LoadLeveler submit filters that depend on LoadLeveler binaries being in the PATH, you will need to modify `loadleveler.pm` by adding the following (Globus drops PATH when executing the perl job manager (loadleveler.pm) so this may be the simplest way):
 

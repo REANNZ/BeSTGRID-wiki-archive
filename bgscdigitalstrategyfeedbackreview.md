@@ -2,7 +2,7 @@
 
 um,,uc,,ua,,sc
 
-Review of the [BgscDigitalStrategyFeedback](/wiki/spaces/BeSTGRID/pages/3816950456) discussion to formulate the official BeSTGRID eResearch submission.
+Review of the [BgscDigitalStrategyFeedback](/wiki/spaces/BeSTGRID/pages/3818228408) discussion to formulate the official BeSTGRID eResearch submission.
 
 # Attendees
 

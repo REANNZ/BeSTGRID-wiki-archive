@@ -8,7 +8,7 @@ This page however documents what it takes to link a cluster to the grid - and ma
 
 # Create VM
 
-Follow general rules - [Vladimir__Bootstrapping a virtual machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping%20a%20virtual%20machine&linkCreation=true&fromPageId=3816950795)
+Follow general rules - [Vladimir__Bootstrapping a virtual machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping%20a%20virtual%20machine&linkCreation=true&fromPageId=3818228747)
 
 # Setup PBS
 
@@ -206,7 +206,7 @@ Reason: PBS occasionally send email back to submitting user.
 
 # Setup NFS client
 
-To mount directories [provided by ](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20Grid&linkCreation=true&fromPageId=3816950795)[grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20Grid&linkCreation=true&fromPageId=3816950795), the following has to be turned on:
+To mount directories [provided by ](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20Grid&linkCreation=true&fromPageId=3818228747)[grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20Grid&linkCreation=true&fromPageId=3818228747), the following has to be turned on:
 
 Edit `/etc/fstab`
 

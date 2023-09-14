@@ -2,9 +2,9 @@
 
 Initially, the grid gateways were configured to map all users in the same VO Group to the same local system account.  While this works well for a small project, it shouldn't be used at large scale projects where the users don't closely collaborate / don't know each other.
 
-A much more preferred way is to map each user to an individual account.  This might be the user's already existing account on the system (if they link the local identity with their grid identity either via the Auth Tool or the [Shib Auth Tool](/wiki/spaces/BeSTGRID/pages/3816950613)), or it could be an account from a large account pool pre-created on the system.  
+A much more preferred way is to map each user to an individual account.  This might be the user's already existing account on the system (if they link the local identity with their grid identity either via the Auth Tool or the [Shib Auth Tool](/wiki/spaces/BeSTGRID/pages/3818228565)), or it could be an account from a large account pool pre-created on the system.  
 
-This page documents how to configure a [GUMS server](/wiki/spaces/BeSTGRID/pages/3816950966) to perform both kinds of mappings, individual account mappings and pooled account mappings.
+This page documents how to configure a [GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918) to perform both kinds of mappings, individual account mappings and pooled account mappings.
 
 # Prerequisites
 
@@ -25,9 +25,9 @@ The recommended naming scheme would be naming the accounts `grid001` - `grid500`
 
 To illustrate this, a very simple approach to creating the accounts would be:
 
->  ACCT=1 ; while [Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3816951003) ; do ACCT_NAME=$( printf 'grid%03d' $A ) ; adduser $ACCT_NAME ; ACCT=$(( $ACCT + 1 )) ; done
+>  ACCT=1 ; while [Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3818228955) ; do ACCT_NAME=$( printf 'grid%03d' $A ) ; adduser $ACCT_NAME ; ACCT=$(( $ACCT + 1 )) ; done
 
-A a more detailed description how this would be done [on a Rocks cluster](/wiki/spaces/BeSTGRID/pages/3816950715)
+A a more detailed description how this would be done [on a Rocks cluster](/wiki/spaces/BeSTGRID/pages/3818228667)
 
 # Configuring GUMS
 

@@ -33,7 +33,7 @@ These errors all indicate that the gridmap is not set up correctly. This section
 - Run /opt/vdt/edg/sbin/edg-mkgridmap to regenerate the grid map
 - If /opt/vdt/edg/sbin/edg-mkgridmap does not exist, then maybe you ran Pacman from the wrong directory - try to install the EDG-Make-Gridmap package again, but cd to /opt/vdt before running the pacman command.
 - Check /opt/vdt/edg/log/edg-mkgridmap.log for errors
-- If the actual grid map /etc/grid-security/grid-mapfile is empty then check the steps under [Vladimir__Setup_NG2#APACGrid_NG2_Setup](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup_NG2&linkCreation=true&fromPageId=3816950897) and try to generate the map again. In particular make sure that you have the correct VOMS servers in /opt/vdt/edg/etc/edg-mkgridmap.conf.
+- If the actual grid map /etc/grid-security/grid-mapfile is empty then check the steps under [Vladimir__Setup_NG2#APACGrid_NG2_Setup](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup_NG2&linkCreation=true&fromPageId=3818228849) and try to generate the map again. In particular make sure that you have the correct VOMS servers in /opt/vdt/edg/etc/edg-mkgridmap.conf.
 
 # MDS Errors
 
@@ -119,4 +119,4 @@ If you get repeatedly the following message even for globusrun-ws jobs with no s
 
 >     globusrun-ws: Job failed: Staging error for RSL element fileCleanUp.
 
-Your RFT initialization might have failed and you need to restart the container.  The failure occurred because MySQL wasn't yet running when RFT was initialized - see [this discussion](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-RFTstagingfails) for more information.
+Your RFT initialization might have failed and you need to restart the container.  The failure occurred because MySQL wasn't yet running when RFT was initialized - see [this discussion](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails) for more information.

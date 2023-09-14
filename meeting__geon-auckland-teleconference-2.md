@@ -2,7 +2,7 @@
 
 sc,,geon
 
-[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3816950943)
+[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3818228895)
 
 - 7 November 2007
 
@@ -25,7 +25,7 @@ sc,,geon
 - **Brendan was happy to coordinate sending out announcements about the workshops to colleagues and members of the NZ Geo Forum.*Robert** to action.
 - **Robert suggested Brendan would be an appropriate person to present during the afternoon sessions on local activity from a all of government perspective.*Robert** to action.
 2. Registrations
-3. **[Registrations](/wiki/spaces/BeSTGRID/pages/3816951010)**** will be updated as received by*Nick**.
+3. **[Registrations](/wiki/spaces/BeSTGRID/pages/3818228962)**** will be updated as received by*Nick**.
 4. Publicity
 5. ***Robert** will approach Brendan Whiteman as noted above.
 6. ***Nick** has approached Vicki Lindsay from REANNZ to make an email announcement via the REANNZ mailing list.
@@ -53,6 +53,6 @@ sc,,geon
 15. Next teleconference, 20 November 10am.
 16. ***Nick** to setup.
 	
-- Agenda: [Meeting__GEON Auckland Teleconference 3](/wiki/spaces/BeSTGRID/pages/3816950763)
+- Agenda: [Meeting__GEON Auckland Teleconference 3](/wiki/spaces/BeSTGRID/pages/3818228715)
 
 _*NOTOC*_

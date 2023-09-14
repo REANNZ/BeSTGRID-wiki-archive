@@ -4,7 +4,7 @@ Rocks 5.0 (V) for i386 and x86_64 architectures has been released on 30th April.
 
 # Partition table
 
-We recreated partitions for the iteration 2. Previous layout has been described [here](/wiki/spaces/BeSTGRID/pages/3816950672).
+We recreated partitions for the iteration 2. Previous layout has been described [here](/wiki/spaces/BeSTGRID/pages/3818228624).
 
 Rocks 5.0 ISO file has been connected via IPMI/BMC tool to the Headnode. The Headnode had been rebooted with option:
 
@@ -64,7 +64,7 @@ Public IP Address is **130.216.189.80**
 
 The installation had been finished without any issues.
 
-Network interfaces had been swapped according the [this note](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Rocks_5.0_Installation&linkCreation=true&fromPageId=3816951028).
+Network interfaces had been swapped according the [this note](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Rocks_5.0_Installation&linkCreation=true&fromPageId=3818228980).
 
 # Convention for IP addresses and node names of the Cluster
 

@@ -285,7 +285,7 @@ ure to this site as well as to other services I will access.
 
 # Bug fixes
 
-I have found two critical bugs and one cosmetic issues.  See the description below.  Download the patches against the uApprove 2.1.2 source code and the modified Plugin.class and Controller.class from [UApprove-2.1.2-patch.zip](/wiki/download/attachments/3816950723/UApprove-2.1.2-patch.zip?version=1&modificationDate=1539354236000&cacheVersion=1&api=v2).
+I have found two critical bugs and one cosmetic issues.  See the description below.  Download the patches against the uApprove 2.1.2 source code and the modified Plugin.class and Controller.class from [UApprove-2.1.2-patch.zip](/wiki/download/attachments/3818228675/UApprove-2.1.2-patch.zip?version=1&modificationDate=1539354236000&cacheVersion=1&api=v2).
 
 - Inject updated Plugin.class into
 

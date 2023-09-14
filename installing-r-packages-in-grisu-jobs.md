@@ -2,7 +2,7 @@
 
 # Introduction
 
-[R](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=R&linkCreation=true&fromPageId=3816950864) can dynamically install packages from [CRAN](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=CRAN&linkCreation=true&fromPageId=3816950864). It is recommended that the [CRAN repository at Auckland University](http://cran.stat.auckland.ac.nz) is used as it is available via [KAREN](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=KAREN&linkCreation=true&fromPageId=3816950864). Some packages are pre-installed by the cluster administrators, particularly those that have external dependencies, or required to meet BeSTGRID's standard application deployment, so the installation process ought to check that each package has not previously been installed. Packages installed by grid users will not be persistent, and will need to be reinstalled every time a script is run.
+[R](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=R&linkCreation=true&fromPageId=3818228816) can dynamically install packages from [CRAN](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=CRAN&linkCreation=true&fromPageId=3818228816). It is recommended that the [CRAN repository at Auckland University](http://cran.stat.auckland.ac.nz) is used as it is available via [KAREN](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=KAREN&linkCreation=true&fromPageId=3818228816). Some packages are pre-installed by the cluster administrators, particularly those that have external dependencies, or required to meet BeSTGRID's standard application deployment, so the installation process ought to check that each package has not previously been installed. Packages installed by grid users will not be persistent, and will need to be reinstalled every time a script is run.
 
 # Requirements
 
@@ -13,7 +13,7 @@ R scripts that need to install packages should meet the following requirements:
 - Install the packages every time the script is executed
 - Check for HTTP Proxy settings
 
-These requirements will apply for both serial (R) and parallel ([R_mpi_SNOW](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=R_mpi_SNOW&linkCreation=true&fromPageId=3816950864)) R jobs.
+These requirements will apply for both serial (R) and parallel ([R_mpi_SNOW](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=R_mpi_SNOW&linkCreation=true&fromPageId=3818228816)) R jobs.
 
 # Example
 

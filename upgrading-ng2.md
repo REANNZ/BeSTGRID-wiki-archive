@@ -16,7 +16,7 @@ The following steps have been performed:
 
 # Installing VDT 1.10.1b
 
-This process based on VDT installation procedure described [here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Auckland_Test_Gateway&linkCreation=true&fromPageId=3816950709)
+This process based on VDT installation procedure described [here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Auckland_Test_Gateway&linkCreation=true&fromPageId=3818228661)
 
 There weren't special issues.
 

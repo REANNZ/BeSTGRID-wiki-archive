@@ -4,12 +4,12 @@
 
 As recommended in the deployment guidelines for ARCS and BeSTGRID, this GUMS server is being deployed.
 
-This host is a Virtual Machine, using the x86_64 64 bit system architecture.  The Distribution is Debian Lenny (5.0), amd64.  The system image is based on a `debootstrap` generated system image, rather than an install from an ISO.  This meant that various debconf settings were not done on installation.  See [Debian Tips](/wiki/spaces/BeSTGRID/pages/3816950813)
+This host is a Virtual Machine, using the x86_64 64 bit system architecture.  The Distribution is Debian Lenny (5.0), amd64.  The system image is based on a `debootstrap` generated system image, rather than an install from an ISO.  This meant that various debconf settings were not done on installation.  See [Debian Tips](/wiki/spaces/BeSTGRID/pages/3818228765)
 
 It was installed following these documents:
 
-- [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3816950633)
-- [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3816950445)
+- [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585)
+- [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228397)
 
 Notes on the various stages and differences follow below.
 
@@ -36,7 +36,7 @@ Contact email: symphony_admins@wand.net.nz
 
 Emails with regard to renewal will come to the above address.  The certificate, its signing request, and the key can all be found in `/etc/grid-security` on the machine.  The key file is unencrypted. This certificate request and key are read-only for the root user.
 
-The steps in [Debian Tips](/wiki/spaces/BeSTGRID/pages/3816950813) were carried out to make the machine more administrator friendly, with an emphasis on remote access.
+The steps in [Debian Tips](/wiki/spaces/BeSTGRID/pages/3818228765) were carried out to make the machine more administrator friendly, with an emphasis on remote access.
 
 # SMTP Mail Server Details
 
@@ -44,13 +44,13 @@ Post fix was installed with `apt-get install postfix`.  It is configured as a `S
 
 # Configuring Torque
 
-Follow [Setting up an NG2 on Ubuntu#Configuring_local_scheduler_access](/wiki/spaces/BeSTGRID/pages/3816950445#SettingupanNG2onUbuntu-Configuring_local_scheduler_access)
+Follow [Setting up an NG2 on Ubuntu#Configuring_local_scheduler_access](/wiki/spaces/BeSTGRID/pages/3818228397#SettingupanNG2onUbuntu-Configuring_local_scheduler_access)
 
 On the Symphony cluster, torque is packaged as `torque-commands, torque-common,` etc.  
 
 # Grid pulse setup
 
-The instructions up at [Setting_up_an_NG2_on_Ubuntu#GridPulse](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3816950933) were followed.
+The instructions up at [Setting_up_an_NG2_on_Ubuntu#GridPulse](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885) were followed.
 
 Here's a tip for Debian Lenny, or Debian 5. I installed `fakeroot` and `alien`, and did the following in my home directory:
 
@@ -64,11 +64,11 @@ $ fakeroot alien APAC-gateway-gridpulse-0.3-4.noarch.rpm
 
 # Ggateway
 
-Proceed as per [Setting_up_an_NG2_on_Ubuntu#Ggateway](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3816950933)
+Proceed as per [Setting_up_an_NG2_on_Ubuntu#Ggateway](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885)
 
 # LRM log replication - PBS Telltail/logmaker
 
-Proceed mostly as per [Setting_up_an_NG2_on_Ubuntu#Configure_LRM_log_replication_from_LRM_server_to_the_NG2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3816950933)
+Proceed mostly as per [Setting_up_an_NG2_on_Ubuntu#Configure_LRM_log_replication_from_LRM_server_to_the_NG2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885)
 
 `pbs-logmaker` is now a separate package from pbs-telltail.  Download it from [pbs-logmaker-1.0.3-1.noarch.rpm](http://projects.arcs.org.au/dist/production/5/x86_64/noarch/pbs-logmaker-1.0.3-1.noarch.rpm)
 
@@ -142,11 +142,11 @@ apt-get install daemon
 
 ```
 
-and then proceed as per [Setting_up_an_NG2_on_Ubuntu#Configuring_local_scheduler_access_2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3816950933)
+and then proceed as per [Setting_up_an_NG2_on_Ubuntu#Configuring_local_scheduler_access_2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885)
 
 # VDT Pacman set up
 
-As per [Setting_up_an_NG2_on_Ubuntu#Installing_VDT](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3816950933). Since we are on Debian 5, no major problems here.
+As per [Setting_up_an_NG2_on_Ubuntu#Installing_VDT](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885). Since we are on Debian 5, no major problems here.
 
 Do the following first:
 
@@ -184,17 +184,17 @@ and the `/etc/profile.d` directory created.
 
 ```
 
-Then proceed as per [Setting_up_an_NG2_on_Ubuntu#Installing_VDT](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3816950933).
+Then proceed as per [Setting_up_an_NG2_on_Ubuntu#Installing_VDT](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885).
 
 # Post-install configuration
 
-Follow all steps according to [Setting up an NG2#Post-install configuration](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-Post-installconfiguration). Only thing to do before `vdt-control --on` is to:
+Follow all steps according to [Setting up an NG2#Post-install configuration](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-Post-installconfiguration). Only thing to do before `vdt-control --on` is to:
 
 - Edit `/opt/vdt/post-install/globus-ws` has to be edited to remove `tomcat-55` and `condor` from its `#Required-Start:` line.
 
 # Setup job reporting
 
-Follow all steps according to [Setting up an NG2#Setup job reporting](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-Setupjobreporting).
+Follow all steps according to [Setting up an NG2#Setup job reporting](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-Setupjobreporting).
 
 # Setup MDS/MIP
 
@@ -206,7 +206,7 @@ apt-get install python-lxml libxml2-utils
 
 ```
 
-and proceed according to [Setting_up_an_NG2_on_Ubuntu#Setup MDS/MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3816950933)
+and proceed according to [Setting_up_an_NG2_on_Ubuntu#Setup MDS/MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885)
 
 # Getting it all going
 
@@ -312,7 +312,7 @@ Copy over pbs.pm from Canterbury.  Primarily: add "-np" to mpiexec to fix a prob
 
 touch /etc/grid-security/mds-grid-mapfile
 
-- Create /usr/local/bin/mds-primer.sh (as documented in [Setting up an NG2#Activating MDS in Globus](/wiki/spaces/BeSTGRID/pages/3816950633#SettingupanNG2-ActivatingMDSinGlobus)
+- Create /usr/local/bin/mds-primer.sh (as documented in [Setting up an NG2#Activating MDS in Globus](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-ActivatingMDSinGlobus)
 
 - Comment out a check for queue_type ="Execution in computingelement.py: (batch is not an execution queue)
 

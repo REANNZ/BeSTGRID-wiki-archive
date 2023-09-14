@@ -1,6 +1,6 @@
 # Sakai Server Install
 
-[To The Gateway Server Configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=The_GateWay_Configuration&linkCreation=true&fromPageId=3816950762)
+[To The Gateway Server Configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=The_GateWay_Configuration&linkCreation=true&fromPageId=3818228714)
 
 - BeSTGRID Sakai VRE - Production/Pilot deployment details
 [http://jira.sakaiproject.org/jira/browse/PROD-118](http://jira.sakaiproject.org/jira/browse/PROD-118)

@@ -66,7 +66,7 @@ Contents of hand-crafted `/opt/vdt/vomrs-1.3/etc/init.d/vomrs-wrap-all`
 > 	
 > 1. 
 > 1. END INIT INFO
->   if [-e /opt/vdt/setup.sh](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=-e%20%2Fopt%2Fvdt%2Fsetup.sh&linkCreation=true&fromPageId=3816950583); then source /opt/vdt/setup.sh; fi
+>   if [-e /opt/vdt/setup.sh](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=-e%20%2Fopt%2Fvdt%2Fsetup.sh&linkCreation=true&fromPageId=3818228535); then source /opt/vdt/setup.sh; fi
 >   VOMRS_NAMES="BeSTGRID"
 > 1. 
 > 1. 
@@ -260,7 +260,7 @@ Command lines that work:
 Problem:
 
 >   edg-mkgridmap
->   /opt/vdt/edg/sbin/edg-mkgridmap: line 100: [missing `](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=missing%20%60&linkCreation=true&fromPageId=3816950583)'
+>   /opt/vdt/edg/sbin/edg-mkgridmap: line 100: [missing `](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=missing%20%60&linkCreation=true&fromPageId=3818228535)'
 
 Fix:
 
@@ -270,11 +270,11 @@ Fix:
 > 1. overwrite the grid-mapfile unless it's changed. (See below)
 > 2. We also make sure that ${GRIDMAP}.new is empty if we don't have
 > 3. an existing grid-mapfile.
-> - if [-e $\{GRIDMAP\}.new](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=-e%20%24%5C%7BGRIDMAP%5C%7D.new&linkCreation=true&fromPageId=3816950583); then
->  +  if [-e $\{GRIDMAP\}.new](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=-e%20%24%5C%7BGRIDMAP%5C%7D.new&linkCreation=true&fromPageId=3816950583); then
+> - if [-e $\{GRIDMAP\}.new](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=-e%20%24%5C%7BGRIDMAP%5C%7D.new&linkCreation=true&fromPageId=3818228535); then
+>  +  if [-e $\{GRIDMAP\}.new](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=-e%20%24%5C%7BGRIDMAP%5C%7D.new&linkCreation=true&fromPageId=3818228535); then
 >       rm ${GRIDMAP}.new
 >     fi
->     if [-e $\{GRIDMAP\}](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=-e%20%24%5C%7BGRIDMAP%5C%7D&linkCreation=true&fromPageId=3816950583); then
+>     if [-e $\{GRIDMAP\}](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=-e%20%24%5C%7BGRIDMAP%5C%7D&linkCreation=true&fromPageId=3818228535); then
 
 Doc:
 [http://vdt.cs.wisc.edu/extras/edg-mkgridmap.html](http://vdt.cs.wisc.edu/extras/edg-mkgridmap.html)
@@ -501,7 +501,7 @@ To configure a CentOS5 system to accept an XDMCP login:
 ``` 
 yum install gdm xterm
 ```
-- Enable xdmcp in gdm configuration: edit `/etc/gdm/custom.conf` and add `Enable=true` into the [xdmcp](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=xdmcp&linkCreation=true&fromPageId=3816950583) section:
+- Enable xdmcp in gdm configuration: edit `/etc/gdm/custom.conf` and add `Enable=true` into the [xdmcp](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=xdmcp&linkCreation=true&fromPageId=3818228535) section:
 
 ``` 
 

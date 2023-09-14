@@ -1,6 +1,6 @@
 # Technical Overview for Institutional GRID Gateways
 
-- Physical Gateway Server: [IBM x3500](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=The%20GateWay%20Configuration&linkCreation=true&fromPageId=3816950467)
+- Physical Gateway Server: [IBM x3500](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=The%20GateWay%20Configuration&linkCreation=true&fromPageId=3818228419)
 - [Xen Domain 0](http://www.vpac.org/twiki/bin/view/APACgrid/XenInstall) Xen hypervisor - a manager of Virtual machines on Gateway Server (re: APAC)
 - [NG2 Virtual Machine](http://www.vpac.org/twiki/bin/view/APACgrid/VmdetailsNg2) (1st Virtual machine) Gateway for Computational GRID
 	
@@ -20,7 +20,7 @@
 	
 - a gate for data storage
 - Hosts only GSIftp server
-- NGPortal (Gridsphere portal – currently one [setup at Canterbury](/wiki/spaces/BeSTGRID/pages/3816951006))
+- NGPortal (Gridsphere portal – currently one [setup at Canterbury](/wiki/spaces/BeSTGRID/pages/3818228958))
 - At APAC
 	
 - Myproxy server

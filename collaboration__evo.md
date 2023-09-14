@@ -19,7 +19,7 @@ To **access EVO**, use the EVO Client 'Koala'
 
 ;Status
 
-- Experiment in the EVO "Universe" community including running of [BeSTGRID Steering Committee](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Steering%20Committee&linkCreation=true&fromPageId=3816950827) meetings.
-- First [New Zealand EVO Panda reflector node setup](/wiki/spaces/BeSTGRID/pages/3816950667) [at the University of Auckland](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=University%20of%20Auckland%20EVO%20Panda%20reflector%20node%20configuration&linkCreation=true&fromPageId=3816950827) within BeSTGRID by Phillipe Galvez on 15th December - thanks Phillipe!
+- Experiment in the EVO "Universe" community including running of [BeSTGRID Steering Committee](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Steering%20Committee&linkCreation=true&fromPageId=3818228779) meetings.
+- First [New Zealand EVO Panda reflector node setup](/wiki/spaces/BeSTGRID/pages/3818228619) [at the University of Auckland](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=University%20of%20Auckland%20EVO%20Panda%20reflector%20node%20configuration&linkCreation=true&fromPageId=3818228779) within BeSTGRID by Phillipe Galvez on 15th December - thanks Phillipe!
 
 ![Bestgrid-panda.jpg](./attachments/Bestgrid-panda.jpg)

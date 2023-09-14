@@ -2,7 +2,7 @@
 
 # Introduction
 
-This guide describes how to install a Shibboleth Service Provider 1.3 on a Windows XP machine with IIS 5.x. The configuration in Microsoft Windows platform is similar to [Linux platform](/wiki/spaces/BeSTGRID/pages/3816950611#ShibbolethServiceProviderSetup-RHEL4-ConfigurationsofServiceProvider)
+This guide describes how to install a Shibboleth Service Provider 1.3 on a Windows XP machine with IIS 5.x. The configuration in Microsoft Windows platform is similar to [Linux platform](/wiki/spaces/BeSTGRID/pages/3818228563#ShibbolethServiceProviderSetup-RHEL4-ConfigurationsofServiceProvider)
 
 This guide can also be applied to other MS Windows OSs with IIS installed (e.g. Windows 2003 server). But they have not been test yet.
 
@@ -104,18 +104,18 @@ openssl pkcs12 -export -in yifan-jiang.enarc.auckland.ac.nz.crt
 
 # Configure Shibboleth Service Provider
 
-The configuration of SP in Windows is similar to [Linux](/wiki/spaces/BeSTGRID/pages/3816950611#ShibbolethServiceProviderSetup-RHEL4-ConfigurationsofServiceProvider) except the path name. e.g.
+The configuration of SP in Windows is similar to [Linux](/wiki/spaces/BeSTGRID/pages/3818228563#ShibbolethServiceProviderSetup-RHEL4-ConfigurationsofServiceProvider) except the path name. e.g.
 
 - In Linux: /etc/shibboleth/....
 - In Windows: C:/opt/shibboleth-sp/...
 
 # Protecting a web directory
 
-Protecting a web directory in IIS is different from Apache, it depends on the [XML Access Control Policies](/wiki/spaces/BeSTGRID/pages/3816950611#ShibbolethServiceProviderSetup-RHEL4-XML_Access_Control) that defined in the configuration file.
+Protecting a web directory in IIS is different from Apache, it depends on the [XML Access Control Policies](/wiki/spaces/BeSTGRID/pages/3818228563#ShibbolethServiceProviderSetup-RHEL4-XML_Access_Control) that defined in the configuration file.
 
 # Common Problems
 
-I only listed the problems that I found during my installation of SP in MS Windows. Please find other common problems in [here](/wiki/spaces/BeSTGRID/pages/3816950611#ShibbolethServiceProviderSetup-RHEL4-CommonProblems).
+I only listed the problems that I found during my installation of SP in MS Windows. Please find other common problems in [here](/wiki/spaces/BeSTGRID/pages/3818228563#ShibbolethServiceProviderSetup-RHEL4-CommonProblems).
 
 ## Session creation failure - (is not encoded in Based64)
 

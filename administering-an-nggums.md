@@ -1,6 +1,6 @@
 # Administering an NGGUMS
 
-This page follows on from the [Setting_up_a_GUMS_server](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_GUMS_server&linkCreation=true&fromPageId=3816951021) resource in that it seeks to provide
+This page follows on from the [Setting_up_a_GUMS_server](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_GUMS_server&linkCreation=true&fromPageId=3818228973) resource in that it seeks to provide
 
 the information needed to administer your GUMS server once it has been deployed.
 
@@ -93,4 +93,4 @@ to bring your installation up to a level that the VDT packagers consider current
 
 Whilst a full re-install will always bring your NGGUMS up to date with the revisions of VDT packages being distributed at any time, it is possible to do the update using VDT's own updater, which preserves all bar a few local customisations of the deployment.
 
-This document details one such experience [Experiences updating an NGGUMS at VUW](/wiki/spaces/BeSTGRID/pages/3816951023)
+This document details one such experience [Experiences updating an NGGUMS at VUW](/wiki/spaces/BeSTGRID/pages/3818228975)

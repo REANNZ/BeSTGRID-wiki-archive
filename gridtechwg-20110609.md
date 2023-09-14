@@ -1,6 +1,6 @@
 # GridTechWG-20110609
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3816950451): meeting June 9th, 2011.
+[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting June 9th, 2011.
 
 ## Program
 

@@ -14,7 +14,7 @@ This guide is written by Jun Huh, and the guide begins at a point where the mach
 References:
 
 - [Native SP Installation](https://spaces.internet2.edu/display/SHIB2/NativeSPLinuxInstall)
-- [Shibboleth Service Provider Setup - RHEL4](/wiki/spaces/BeSTGRID/pages/3816950611) for references on firewall configuration and SSL setup on RHEL4.
+- [Shibboleth Service Provider Setup - RHEL4](/wiki/spaces/BeSTGRID/pages/3818228563) for references on firewall configuration and SSL setup on RHEL4.
 
 # Installation of Shibboleth Service Provider 2
 
@@ -50,7 +50,7 @@ rpm -ivh log4shib-1.0.3-1.1.i386.rpm \
 
 - Configure the Service Provider by editing the shibboleth2.xml (located at /etc/shibboleth/)
 
-- Download the example [Shibboleth2.xml](/wiki/spaces/BeSTGRID/pages/3816950503).
+- Download the example [Shibboleth2.xml](/wiki/spaces/BeSTGRID/pages/3818228455).
 
 ## Federation Metadata
 
@@ -74,4 +74,4 @@ root# /etc/init.d/shibd start
 
 # Appendix
 
-- [Shibboleth2.xml](/wiki/spaces/BeSTGRID/pages/3816950503)
+- [Shibboleth2.xml](/wiki/spaces/BeSTGRID/pages/3818228455)

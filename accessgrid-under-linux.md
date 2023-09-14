@@ -27,7 +27,7 @@ In order to find out which C libraries are missing, run Vic or RAT from the comm
 AccessGrid still uses an older version of the video client software, and will not properly interface with the v4linux2 drivers, which are required by most modern video capture hardware. If you get a video feed from your camera that looks like the image below then your camera is probably not supported by the Video for Linux 1 drivers.
 
 ![Vic-mess.jpg](./attachments/Vic-mess.jpg)
-In the case that your camera is not supported by the Video for Linux 1 drivers, it is possible to modify the Vic source code so that it will talk to the video4linux2 drivers; see [Hacking VIC to Use Video4Linux2](/wiki/spaces/BeSTGRID/pages/3816950489).
+In the case that your camera is not supported by the Video for Linux 1 drivers, it is possible to modify the Vic source code so that it will talk to the video4linux2 drivers; see [Hacking VIC to Use Video4Linux2](/wiki/spaces/BeSTGRID/pages/3818228441).
 
 ## Where to Download Software
 

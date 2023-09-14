@@ -2,9 +2,9 @@
 
 um,,uc,,ua,,sc
 
-TortoiseSVN is a free [SubVersion](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID__SubVersion%20Repository&linkCreation=true&fromPageId=3816950969) client available at [http://tortoisesvn.tigris.org/](http://tortoisesvn.tigris.org/). To describe briefly, it enables collaboration among team members on a single project (or even a single file). 
+TortoiseSVN is a free [SubVersion](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID__SubVersion%20Repository&linkCreation=true&fromPageId=3818228921) client available at [http://tortoisesvn.tigris.org/](http://tortoisesvn.tigris.org/). To describe briefly, it enables collaboration among team members on a single project (or even a single file). 
 
-[SubVersion repositories](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID__SubVersion%20Repository&linkCreation=true&fromPageId=3816950969) can be likened to a central file server. Each member maintains a local copy of a repository. 
+[SubVersion repositories](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID__SubVersion%20Repository&linkCreation=true&fromPageId=3818228921) can be likened to a central file server. Each member maintains a local copy of a repository. 
 
 When a member `commits` a file, any change to the local file is transmitted to the server. 
 
@@ -30,4 +30,4 @@ At the end of the installation, restart the computer to integrate TortoiseSVN pr
 - [TortoiseSVN help](http://tortoisesvn.sourceforge.net/docs/release/TortoiseSVN_en/help-onepage.html):
 
 Provides a comprehensive introduction to the tool, recommended
-- [Repositories](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID__SubVersion%20Repository&linkCreation=true&fromPageId=3816950969)
+- [Repositories](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID__SubVersion%20Repository&linkCreation=true&fromPageId=3818228921)

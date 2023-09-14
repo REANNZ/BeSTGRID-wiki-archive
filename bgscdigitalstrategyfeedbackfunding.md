@@ -4,11 +4,11 @@ um,,uc,,ua,,sc
 
 # Digital Strategy Feedback
 
-- [Digital Strategy Feedback](/wiki/spaces/BeSTGRID/pages/3816950456) - discussion on the BeSTGRID / eResearch submission
+- [Digital Strategy Feedback](/wiki/spaces/BeSTGRID/pages/3818228408) - discussion on the BeSTGRID / eResearch submission
 
 # Meetings
 
-- [Digital Strategy Feedback review](/wiki/spaces/BeSTGRID/pages/3816950696)
+- [Digital Strategy Feedback review](/wiki/spaces/BeSTGRID/pages/3818228648)
 
 # Sharing Research Infrastructure
 

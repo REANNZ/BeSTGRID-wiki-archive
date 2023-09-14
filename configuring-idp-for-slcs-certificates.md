@@ -97,7 +97,7 @@ Because `slcs1.arcs.org.au` is only registered at Level 1, I had to manually add
 
 - For new version Autograph, also embed the Service Provider Description (SPD) inside the metadata
 
-You may download the attached file [extra-metadata.xml](/wiki/download/attachments/3816950476/Extra-metadata.xml.txt?version=1&modificationDate=1539354128000&cacheVersion=1&api=v2).
+You may download the attached file [extra-metadata.xml](/wiki/download/attachments/3818228428/Extra-metadata.xml.txt?version=1&modificationDate=1539354128000&cacheVersion=1&api=v2).
 
 # Registration with SLCS server administrator
 
@@ -156,10 +156,10 @@ Finally, in the bin directory, run
 - The shibd logs on the SLCS server contain the following message (after successfully going through one Artifact resolution query):
 
 
->  2008-09-12 14:45:19 ERROR SAML.SAMLSOAPHTTPBinding [511](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=511&linkCreation=true&fromPageId=3816950476) sessionNew: failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
->  2008-09-12 14:45:19 ERROR shibd.Listener [511](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=511&linkCreation=true&fromPageId=3816950476) sessionNew: caught exception while creating session: SOAPHTTPBindingProvider::send() failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
->  2008-09-12 14:45:19 ERROR SAML.SAMLSOAPHTTPBinding [511](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=511&linkCreation=true&fromPageId=3816950476) sessionNew: failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
->  2008-09-12 14:45:19 ERROR shibd.Listener [511](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=511&linkCreation=true&fromPageId=3816950476) sessionNew: caught exception while creating session: SOAPHTTPBindingProvider::send() failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
+>  2008-09-12 14:45:19 ERROR SAML.SAMLSOAPHTTPBinding [511](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=511&linkCreation=true&fromPageId=3818228428) sessionNew: failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
+>  2008-09-12 14:45:19 ERROR shibd.Listener [511](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=511&linkCreation=true&fromPageId=3818228428) sessionNew: caught exception while creating session: SOAPHTTPBindingProvider::send() failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
+>  2008-09-12 14:45:19 ERROR SAML.SAMLSOAPHTTPBinding [511](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=511&linkCreation=true&fromPageId=3818228428) sessionNew: failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
+>  2008-09-12 14:45:19 ERROR shibd.Listener [511](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=511&linkCreation=true&fromPageId=3818228428) sessionNew: caught exception while creating session: SOAPHTTPBindingProvider::send() failed while contacting SAML responder: error:1408F06B:SSL routines:SSL3_GET_RECORD:bad decompression
 
 - Wireshark shows the message to be "SSLv3 Alert: Decompression failure"
 - This is documented as a known problem with decompression at [http://www.davidpashley.com/blog/debian/libssl-bad-decompression](http://www.davidpashley.com/blog/debian/libssl-bad-decompression)

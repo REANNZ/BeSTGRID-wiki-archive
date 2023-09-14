@@ -4,13 +4,13 @@
 
 # Production
 
-[Upgrading NG2](/wiki/spaces/BeSTGRID/pages/3816950709)
+[Upgrading NG2](/wiki/spaces/BeSTGRID/pages/3818228661)
 
 # Test
 
 Is used to share virtual test cluster.
 
-[Auckland Test Gateway](/wiki/spaces/BeSTGRID/pages/3816950533) - ng2test.auckland.ac.nz
+[Auckland Test Gateway](/wiki/spaces/BeSTGRID/pages/3818228485) - ng2test.auckland.ac.nz
 
 # Clusters 
 
@@ -53,11 +53,11 @@ To add roll to reference cluster without installing it (as it contains specific 
 
 - not decided yet *
 
-## [Auckland Rocks Cluster Backup and Restore Procedure](/wiki/spaces/BeSTGRID/pages/3816950624)
+## [Auckland Rocks Cluster Backup and Restore Procedure](/wiki/spaces/BeSTGRID/pages/3818228576)
 
 # Test
 
-[Auckland Cluster Testing](/wiki/spaces/BeSTGRID/pages/3816950666) 
+[Auckland Cluster Testing](/wiki/spaces/BeSTGRID/pages/3818228618) 
 
 # Documentation 
 

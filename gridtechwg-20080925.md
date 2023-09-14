@@ -1,6 +1,6 @@
 # GridTechWG-20080925
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3816950451): meeting September 25, 2008.
+[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting September 25, 2008.
 
 This was the second meeting of the group.
 
@@ -27,8 +27,8 @@ Tim Molteno has taken the following notes (edited by Vladimir):
 	
 - Install the SLCS CA from ARCS. No face-to-face meeting. Limited to 1 million seconds. Instructions on BestGRID.
 		
-- Admin instructions: [Configuring IdP for SLCS certificates](/wiki/spaces/BeSTGRID/pages/3816950476)
-- User instructions: [Using SLCS certificates at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3816950494)
+- Admin instructions: [Configuring IdP for SLCS certificates](/wiki/spaces/BeSTGRID/pages/3818228428)
+- User instructions: [Using SLCS certificates at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228446)
 
 - Status of Institutions.
 	

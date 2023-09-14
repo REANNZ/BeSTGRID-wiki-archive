@@ -44,8 +44,8 @@ Should be (CentOS):
 >  hub 5-0:1.0: USB hub found
 >  hub 5-0:1.0: 2 ports detected
 >  usb 5-1: new full speed USB device using address 2
->  input: USB HID v1.01 Keyboard [HP Virtual Keyboard](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=HP%20Virtual%20Keyboard&linkCreation=true&fromPageId=3816950561) on usb-0000:01:04.4-1
->  input: USB HID v1.01 Mouse [HP Virtual Keyboard](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=HP%20Virtual%20Keyboard&linkCreation=true&fromPageId=3816950561) on usb-0000:01:04.4-1
+>  input: USB HID v1.01 Keyboard [HP Virtual Keyboard](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=HP%20Virtual%20Keyboard&linkCreation=true&fromPageId=3818228513) on usb-0000:01:04.4-1
+>  input: USB HID v1.01 Mouse [HP Virtual Keyboard](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=HP%20Virtual%20Keyboard&linkCreation=true&fromPageId=3818228513) on usb-0000:01:04.4-1
 >  usb 5-2: new full speed USB device using address 3
 >  hub 5-2:1.0: USB hub found
 >  hub 5-2:1.0: 7 ports detected

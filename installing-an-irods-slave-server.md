@@ -11,7 +11,7 @@ This guide covers the following:
 
 While this document was original written to assist in deploying a Slave server to join the BeSTGRID DataFabric, it has become the authoritative document for installing an iRODS server - including the master.  The parts specific to a master are clearly marked so.
 
-In addition, when setting up a fresh iRODS zone, several steps are to be taken as one-off steps (e.g., granting read access to the pre-created top-level directories).  These have been merged from the now obsolete [IRODS deployment plan document](/wiki/spaces/BeSTGRID/pages/3816950597) into the [Public and Anonymous access section](#InstallinganiRODSslaveserver-PublicandAnonymousaccess).
+In addition, when setting up a fresh iRODS zone, several steps are to be taken as one-off steps (e.g., granting read access to the pre-created top-level directories).  These have been merged from the now obsolete [IRODS deployment plan document](/wiki/spaces/BeSTGRID/pages/3818228549) into the [Public and Anonymous access section](#InstallinganiRODSslaveserver-PublicandAnonymousaccess).
 
 # Deployment considerations
 
@@ -100,7 +100,7 @@ Your iRODS server needs to have direct filesystem access to the storage resource
 
 ## Certificates
 
-Before proceeding with the certificate, [obtain a grid host certificate](/wiki/spaces/BeSTGRID/pages/3816950550)] for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates).  The name in this certificate should be how other systems on the grid call your system (and must be the same as what your IP address resolves back to).  If installing Davis on a separate system, get also a separate grid certificate for this box (again with the CN matching the reverse lookup of the system's IP).
+Before proceeding with the certificate, [obtain a grid host certificate](/wiki/spaces/BeSTGRID/pages/3818228502)] for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates).  The name in this certificate should be how other systems on the grid call your system (and must be the same as what your IP address resolves back to).  If installing Davis on a separate system, get also a separate grid certificate for this box (again with the CN matching the reverse lookup of the system's IP).
 
 For Davis, **get a "commercial" certificate** that would be trust in major browsers.  This may depend on your site's policies and supplier preferences - just follow them, there's nothing special about this certificate, it only has to be trusted by browsers.  The name in this certificate should be how your users will call this system.  This may be the same as the irods system, or it can be a CNAME alias, or it can be a different hostname if Davis is installed on a separate system.
 
@@ -469,7 +469,7 @@ As for the Postgres SQL version selection:
 - The script will fail with creating an empty odbc.ini on the first run but will succeed on on a second try.
 
 
-- Edit `/etc/yum.repos.d/CentOS-Base.repo`, add the following to the [base](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=base&linkCreation=true&fromPageId=3816950600) and [updates](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=updates&linkCreation=true&fromPageId=3816950600) sections:
+- Edit `/etc/yum.repos.d/CentOS-Base.repo`, add the following to the [base](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=base&linkCreation=true&fromPageId=3818228552) and [updates](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=updates&linkCreation=true&fromPageId=3818228552) sections:
 
 ``` 
 
@@ -588,27 +588,27 @@ kernel.sem='250        32000   32      256'
 >  ***For iRODS 3.1**, apply the following patches:
 
 - 
-- [iRODS_3.1_Patch_2](https://www.irods.org/index.php/iRODS_3.1_Patch_2), locally available as [irods-3.1-patch-2-Naur.diff](/wiki/download/attachments/3816950600/Irods-3.1-patch-2-Naur.diff.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2)
-- [Irods-3.1-fileOpr-race.patch](/wiki/download/attachments/3816950600/Irods-3.1-fileOpr-race.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), Rob Burrows' fix to a race condition (iRODS 3.1 version)
-- [Irods-3.1-igsi-intsize-n-format-typecast.patch.txt](/wiki/download/attachments/3816950600/Irods-3.1-igsi-intsize-n-format-typecast.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing mismatched int sizes in igsi.c
-- [Irods-3.1-sec-no-anon-exec.patch.txt](/wiki/download/attachments/3816950600/Irods-3.1-sec-no-anon-exec.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2) to ℹ make server deny access on failed server-server authentication and (ii) deny script execution to ANONYMOUS user (as user rods)
+- [iRODS_3.1_Patch_2](https://www.irods.org/index.php/iRODS_3.1_Patch_2), locally available as [irods-3.1-patch-2-Naur.diff](/wiki/download/attachments/3818228552/Irods-3.1-patch-2-Naur.diff.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2)
+- [Irods-3.1-fileOpr-race.patch](/wiki/download/attachments/3818228552/Irods-3.1-fileOpr-race.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), Rob Burrows' fix to a race condition (iRODS 3.1 version)
+- [Irods-3.1-igsi-intsize-n-format-typecast.patch.txt](/wiki/download/attachments/3818228552/Irods-3.1-igsi-intsize-n-format-typecast.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing mismatched int sizes in igsi.c
+- [Irods-3.1-sec-no-anon-exec.patch.txt](/wiki/download/attachments/3818228552/Irods-3.1-sec-no-anon-exec.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2) to ℹ make server deny access on failed server-server authentication and (ii) deny script execution to ANONYMOUS user (as user rods)
 
 >  ***For iRODS 3.2**, apply the following patches:
 
 - 
 - [iRODS_3.2_Patch_3](https://www.irods.org/index.php/iRODS_3.2_Patch_3) - needed for GSI builds
-- [Irods-3.2-fileOpr-race.patch](/wiki/download/attachments/3816950600/Irods-3.2-fileOpr-race.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), Rob Burrows' fix to a race condition (iRODS 3.2 version)
-- [Irods-3.2-igsi-format-typecast.patch.txt](/wiki/download/attachments/3816950600/Irods-3.2-igsi-format-typecast.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing mismatched int sizes in igsi.c
+- [Irods-3.2-fileOpr-race.patch](/wiki/download/attachments/3818228552/Irods-3.2-fileOpr-race.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), Rob Burrows' fix to a race condition (iRODS 3.2 version)
+- [Irods-3.2-igsi-format-typecast.patch.txt](/wiki/download/attachments/3818228552/Irods-3.2-igsi-format-typecast.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing mismatched int sizes in igsi.c
 
 >  ***For iRODS 3.3.1**, apply the following patches:
 
 - 
-- [Irods-3.3.1-fileOpr-race.patch](/wiki/download/attachments/3816950600/Irods-3.3.1-fileOpr-race.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), Rob Burrows' fix to a race condition (iRODS 3.3.1 version)
-- [Irods-3.3.1-igsi-format-typecast.patch](/wiki/download/attachments/3816950600/Irods-3.3.1-igsi-format-typecast.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing mismatched int sizes in string formatting in igsi.c
-- [Irods-3.3.1-reInit-delay.patch](/wiki/download/attachments/3816950600/Irods-3.3.1-reInit-delay.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing irods initialization (needed for correct ACL settings)
-- [Irods-3.3.1-rule-exec-patches.patch](/wiki/download/attachments/3816950600/Irods-3.3.1-rule-exec-patches.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing rule execution engine not to drop recurring rules - see https://groups.google.com/forum/#\!topic/irod-chat/fiR9swpScIo (original patches are [and [https://github.com/irods/irods-legacy/commit/033469ce88d1589c19c415aca85ca3632b44262a](https://github.com/irods/irods-legacy/commit/58078900d8da68ac12594874db34a58ed9d84267)])
-- [Irods-3.3.1-patch1.patch](/wiki/download/attachments/3816950600/Irods-3.3.1-patch1.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), iRODS 3.3.1 patch as per [https://wiki.irods.org/index.php/iRODS_3.3.1.Patch_1](https://wiki.irods.org/index.php/iRODS_3.3.1.Patch_1) and https://groups.google.com/forum/#\!topic/irod-chat/cJy1pyyqxQk
-- [Irods-3.3.1-gsi-proxy-auth-fed.patch](/wiki/download/attachments/3816950600/Irods-3.3.1-gsi-proxy-auth-fed.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), to correctly search for client user in GSI proxy authentication.
+- [Irods-3.3.1-fileOpr-race.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-fileOpr-race.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), Rob Burrows' fix to a race condition (iRODS 3.3.1 version)
+- [Irods-3.3.1-igsi-format-typecast.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-igsi-format-typecast.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing mismatched int sizes in string formatting in igsi.c
+- [Irods-3.3.1-reInit-delay.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-reInit-delay.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing irods initialization (needed for correct ACL settings)
+- [Irods-3.3.1-rule-exec-patches.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-rule-exec-patches.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing rule execution engine not to drop recurring rules - see https://groups.google.com/forum/#\!topic/irod-chat/fiR9swpScIo (original patches are [and [https://github.com/irods/irods-legacy/commit/033469ce88d1589c19c415aca85ca3632b44262a](https://github.com/irods/irods-legacy/commit/58078900d8da68ac12594874db34a58ed9d84267)])
+- [Irods-3.3.1-patch1.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-patch1.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), iRODS 3.3.1 patch as per [https://wiki.irods.org/index.php/iRODS_3.3.1.Patch_1](https://wiki.irods.org/index.php/iRODS_3.3.1.Patch_1) and https://groups.google.com/forum/#\!topic/irod-chat/cJy1pyyqxQk
+- [Irods-3.3.1-gsi-proxy-auth-fed.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-gsi-proxy-auth-fed.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), to correctly search for client user in GSI proxy authentication.
 
 - Prepare answers to the questions asked by the iRODS installer. Namely:
 - ***Make this Server ICAT-Enabled**.  Answering "yes" makes this server the master server.  Answer yes if either installing (or re-installing) the master server, or if installing a server to be ready to step-in for the master.  (In that case, change the configuration manually to point to the actual master afterwards).
@@ -955,7 +955,7 @@ Davis is deployed as a standalone web application (it comes with the Jetty web a
 Davis normally resets the internal iRODS password associated with an iRODS user account during a Shibboleth login - so that Davis can then connect as a user.
 
 - An alternative login method has been implemented as an extension to Davis for the BeSTGRID DataFabric
-- Please read more at [DataFabric Davis enhancement - not resetting iRODS password on Shibboleth login](/wiki/spaces/BeSTGRID/pages/3816950962)
+- Please read more at [DataFabric Davis enhancement - not resetting iRODS password on Shibboleth login](/wiki/spaces/BeSTGRID/pages/3818228914)
 
 The following section describes the installation of a patched version of Davis that includes this patch. This way, users logging into the data fabric with Shibboleth can set an iRODS password of their own choice and use it to access the data fabric from outside a web browser.
 
@@ -963,7 +963,7 @@ Before proceeding with this section, agree on the hostname users would using for
 
 You will need X509 certificates issued in the name of DAVIS-HOSTNAME before proceeding.  For a production server, these certificates MUST be issued by a CA trusted by the major web browsers.
 
-**Note**: To upgrade Davis to a newer release, follow the notes on [upgrading davis](/wiki/spaces/BeSTGRID/pages/3816950597#IRODSdeploymentplan-UpgradingDavis) - which extract the steps that need to be re-applied to a new Davis installation.
+**Note**: To upgrade Davis to a newer release, follow the notes on [upgrading davis](/wiki/spaces/BeSTGRID/pages/3818228549#IRODSdeploymentplan-UpgradingDavis) - which extract the steps that need to be re-applied to a new Davis installation.
 
 - Shibboleth: setup the system running Davis as a [Shibboleth 2.x SP](https://tuakiri.ac.nz/confluence/display/Tuakiri/Installing+Shibboleth+2.x+SP+on+RedHat+based+Linux), using DAVIS-HOSTNAME in the URLs and in the entityID.
 	
@@ -1246,7 +1246,7 @@ ui-include-head=<!-- Google Analytics -->       \n\
 
 ## Adding hook for user registration
 
-Edit `davis-host.properties` again and add the additional code to `ui-include-head` for registering users as documented in the [DataFabric Administrator's guide - Registering users](/wiki/spaces/BeSTGRID/pages/3816951032#AdministeringtheDataFabric-RegisteringDataFabricusers).
+Edit `davis-host.properties` again and add the additional code to `ui-include-head` for registering users as documented in the [DataFabric Administrator's guide - Registering users](/wiki/spaces/BeSTGRID/pages/3818228984#AdministeringtheDataFabric-RegisteringDataFabricusers).
 
 ## Adding ZenDesk support tab
 
@@ -1320,7 +1320,7 @@ If you are installing Davis on a standalone system, install the CA certificate a
 
 ## Installing additional pages - landing page and setting and changing an iRODS password
 
-These pages are part of the [enhancement discussed in the previous section](/wiki/spaces/BeSTGRID/pages/3816950962).
+These pages are part of the [enhancement discussed in the previous section](/wiki/spaces/BeSTGRID/pages/3818228914).
 
 - A Shibboleth-protected page for setting a password.
 	
@@ -1445,7 +1445,7 @@ $df_servers = "gridgwtest.canterbury.ac.nz:ngdata.vuw.ac.nz";
 
 ```
 
-Install user registration page (as originally documente in [Administering the DataFabric#Registering DataFabric users](/wiki/spaces/BeSTGRID/pages/3816951032#AdministeringtheDataFabric-RegisteringDataFabricusers))
+Install user registration page (as originally documente in [Administering the DataFabric#Registering DataFabric users](/wiki/spaces/BeSTGRID/pages/3818228984#AdministeringtheDataFabric-RegisteringDataFabricusers))
 
 
 - If your system is running with SELinux enabled and in enforcing mode, make the following changes so that Apache can invoke iCommands (and GeoIP):
@@ -1649,7 +1649,7 @@ Under a user account
 >  log_level info,warn,error
 >  log_single /var/log/gridftp.log
 
-- Install sharing certs and enable sharing as per [Setting up a Data Transfer Node#Enable Globus.org Sharing](/wiki/spaces/BeSTGRID/pages/3816948880#SettingupaDataTransferNode-EnableGlobus.orgSharing)
+- Install sharing certs and enable sharing as per [Setting up a Data Transfer Node#Enable Globus.org Sharing](/wiki/spaces/BeSTGRID/pages/3818226832#SettingupaDataTransferNode-EnableGlobus.orgSharing)
 
 - iRODS configuration
 

@@ -49,7 +49,7 @@ For users who do have a grid certificate, it may be the easiest to use their gri
 
 To delegate a certificate into MyProxy:
 
-- Start [Grix](/wiki/spaces/BeSTGRID/pages/3816950787#GridTools-Grix): [Grix Java WebStart](http://ngportal.canterbury.ac.nz/grid/grix-jdk5-bestgrid.jnlp)
+- Start [Grix](/wiki/spaces/BeSTGRID/pages/3818228739#GridTools-Grix): [Grix Java WebStart](http://ngportal.canterbury.ac.nz/grid/grix-jdk5-bestgrid.jnlp)
 
 
 >  **Select*Authentication** tab
@@ -145,11 +145,11 @@ When accessing a project that has been made **anonymously** accessible, and the 
 
 On Windows Vista, it is necessary to use external tools for mounting a webDAV URL - and Windows XP users may also get additional performance.
 
-The tools available are [NetDrive](http://www.netdrive.net/), [WebDrive](http://www.webdrive.com/products/webdrive/), and [BitKinex](http://www.bitkinex.com/). Read a brief comparison and review of these clients [here](/wiki/spaces/BeSTGRID/pages/3816951036), note that only BitKinex has shown to reliably transfer files greater than 2GB in size.
+The tools available are [NetDrive](http://www.netdrive.net/), [WebDrive](http://www.webdrive.com/products/webdrive/), and [BitKinex](http://www.bitkinex.com/). Read a brief comparison and review of these clients [here](/wiki/spaces/BeSTGRID/pages/3818228988), note that only BitKinex has shown to reliably transfer files greater than 2GB in size.
 
 ### Using BitKinex
 
-BitKinex is the recommended alternative client, a complete procedure for getting started with the Data Fabric using the BitKinex client is described in the [Accessing the Data Fabric with Grix and BitKinex](/wiki/spaces/BeSTGRID/pages/3816950629) and [WebDAV using BitKinex](/wiki/spaces/BeSTGRID/pages/3816950462) pages.
+BitKinex is the recommended alternative client, a complete procedure for getting started with the Data Fabric using the BitKinex client is described in the [Accessing the Data Fabric with Grix and BitKinex](/wiki/spaces/BeSTGRID/pages/3818228581) and [WebDAV using BitKinex](/wiki/spaces/BeSTGRID/pages/3818228414) pages.
 
 **NOTE:** Some of the alternative clients do not work with files or directories with special characters. Use only letters, numbers, spaces, dashes, underscores, and periods in file and directory names.
 
@@ -351,7 +351,7 @@ Unfortunately, this has to be repeated at least every 10 days - the lifetime of 
 
 To get a SLCS certificate and delegate it into MyProxy:
 
-- Start [Grix](/wiki/spaces/BeSTGRID/pages/3816950787#GridTools-Grix): [Grix Java WebStart](http://www.bestgrid.org/grix)
+- Start [Grix](/wiki/spaces/BeSTGRID/pages/3818228739#GridTools-Grix): [Grix Java WebStart](http://www.bestgrid.org/grix)
 
 
 >  **Select*Authentication** tab
@@ -377,11 +377,11 @@ To get a SLCS certificate and delegate it into MyProxy:
 
 - You can now use Webdav to login to the DF with the username and password you entered in the last window.
 
-[Using_the_DataFabric#Windows_XP_with_default_webDAV_client](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using_the_DataFabric&linkCreation=true&fromPageId=3816950565)
+[Using_the_DataFabric#Windows_XP_with_default_webDAV_client](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using_the_DataFabric&linkCreation=true&fromPageId=3818228517)
 
-A Better Windows client, which works with files bigger than 2G [WebDAV_using_BitKinex](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=WebDAV_using_BitKinex&linkCreation=true&fromPageId=3816950565)
+A Better Windows client, which works with files bigger than 2G [WebDAV_using_BitKinex](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=WebDAV_using_BitKinex&linkCreation=true&fromPageId=3818228517)
 
-[Using_the_DataFabric#Mac_-_using_Finder](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using_the_DataFabric&linkCreation=true&fromPageId=3816950565)
+[Using_the_DataFabric#Mac_-_using_Finder](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using_the_DataFabric&linkCreation=true&fromPageId=3818228517)
 
 This process will not work through a HTTP proxy.
 

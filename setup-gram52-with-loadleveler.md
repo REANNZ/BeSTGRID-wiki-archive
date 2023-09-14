@@ -2,9 +2,9 @@
 
 This page provides the LoadLeveler specific details for setting up a GRAM5.2 grid gateway.
 
-**Note: This page is a GRAM 5.2 rehash of ****[Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3816950547)** |
+**Note: This page is a GRAM 5.2 rehash of ****[Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228499)** |
 
-Start by first installing a plain GRAM5.2, following the instructions on the [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3816950554) page (skipping all PBS-specific steps), then proceed from here.
+Start by first installing a plain GRAM5.2, following the instructions on the [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) page (skipping all PBS-specific steps), then proceed from here.
 
 This procedure for setting up a LoadLeveler grid gateway is based on the `llgrid.tar` module that comes with LoadLeveler, and adapts it for GT5.2 with a patch coming from the EU IGE project and additinal locally developed extensions.  Hence, you will need the LoadLeveler distribution available to proceed.
 
@@ -101,7 +101,7 @@ Post-install:
 
 # Installing GRAM5.2
 
-Install a generic GRAM5.2 gateway.  Note: as of 5.2, the Globus Toolkit is distributed in an RPM distribution.  Most of the steps for setting up the gateway are covered in [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3816950554) - but as opposed to the compile-from-source instructions there (relevant for GRAM5.0), install from RPMs.
+Install a generic GRAM5.2 gateway.  Note: as of 5.2, the Globus Toolkit is distributed in an RPM distribution.  Most of the steps for setting up the gateway are covered in [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) - but as opposed to the compile-from-source instructions there (relevant for GRAM5.0), install from RPMs.
 
 # Installing Globus LoadLeveler module
 
@@ -150,7 +150,7 @@ The changes primarily change file locations due to the shift from $GLOBUS_LOCATI
 
 The following changes assume deploy.sh will be invoked with GLOBUS_LOCATION=/usr
 
-In deploy.sh, make the following changes - as per patch file:  [llgrid-tar-gt50-to-52.diff](/wiki/download/attachments/3816950742/Llgrid-tar-gt50-to-52.diff.txt?version=1&modificationDate=1539354226000&cacheVersion=1&api=v2)
+In deploy.sh, make the following changes - as per patch file:  [llgrid-tar-gt50-to-52.diff](/wiki/download/attachments/3818228694/Llgrid-tar-gt50-to-52.diff.txt?version=1&modificationDate=1539354226000&cacheVersion=1&api=v2)
 
 
 In `seg-src/configure` (the configure script for the SEG module), make the following changes (covered in the patch file linked above):
@@ -194,7 +194,7 @@ GlobusExtensionDefineModule(globus_seg_loadleveler) =
 globus_common_get_attribute_from_config_file("/etc/globus", "globus-loadleveler.conf", "log_path", &state->path);
 ```
 
-In `loadleveler.pm`, make at least the following changes - as per the patch snippet below - or download the patch file [loadleveler-pm-50-to-52.diff](/wiki/download/attachments/3816950742/Loadleveler-pm-50-to-52.diff.txt?version=1&modificationDate=1539354226000&cacheVersion=1&api=v2)
+In `loadleveler.pm`, make at least the following changes - as per the patch snippet below - or download the patch file [loadleveler-pm-50-to-52.diff](/wiki/download/attachments/3818228694/Loadleveler-pm-50-to-52.diff.txt?version=1&modificationDate=1539354226000&cacheVersion=1&api=v2)
 
 - Correct the path to the globus-loadleveler configuration file: 
 

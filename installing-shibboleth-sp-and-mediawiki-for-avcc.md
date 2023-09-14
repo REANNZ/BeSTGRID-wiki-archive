@@ -66,7 +66,7 @@ This system is based on Debian, and thus packages are installed with `apt-get in
 
 - Compile xml-security: no changes (needs libssl-dev)
 - Compile opensaml: no changes (needs libcurl-dev)
-- Compile shibboleth-sp: apache is 2.2 [needs apache2-dev](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=needs%20apache2-dev&linkCreation=true&fromPageId=3816950964)
+- Compile shibboleth-sp: apache is 2.2 [needs apache2-dev](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=needs%20apache2-dev&linkCreation=true&fromPageId=3818228916)
 
 
 >    ./configure --prefix=$SHIB_SP_HOME --with-log4cpp=$SHIB_SP_HOME --enable-apache-22 --with-apxs2=/usr/bin/apxs2 --disable-mysql
@@ -114,7 +114,7 @@ server clock1.canterbury.ac.nz
 ``` 
 /usr/local/shibboleth-sp/libexec/mod_shib_22.so
 ```
-- Create `/etc/apache2/mods-available/mod_shib.conf`: should include directives as instructed, and also should make the [logo and stylesheet available for inclusion](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s%20general%20Shiboleth%20notes&linkCreation=true&fromPageId=3816950964) in error pages.  Thus, the contents of the file should be:
+- Create `/etc/apache2/mods-available/mod_shib.conf`: should include directives as instructed, and also should make the [logo and stylesheet available for inclusion](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s%20general%20Shiboleth%20notes&linkCreation=true&fromPageId=3818228916) in error pages.  Thus, the contents of the file should be:
 
 ``` 
 
@@ -174,7 +174,7 @@ Register the service with the AAF federation:
 
  **Edit **`/usr/local/shibboleth-sp/etc/shibboleth/shibboleth.xml`** to configure membership in the BeSTGRID Federation (second*MetadataProvider** provider for `"/usr/local/shibboleth-sp/etc/shibboleth/bestgrid-metadata.xml"`) and change the `SessionInitiator` `wayfURL` attribute to `"https://wayf.bestgrid.org/shibboleth-wayf/WAYF"`.
 
-- For both federations, setup automatic metadata updating as documented in this page on [Updating Federation Metadata](/wiki/spaces/BeSTGRID/pages/3816950858).
+- For both federations, setup automatic metadata updating as documented in this page on [Updating Federation Metadata](/wiki/spaces/BeSTGRID/pages/3818228810).
 
 Note that initially, the BeSTGRID WAYF server may display an empty selection, possibly due to metadata on the server not being updated.  This issue should disappear after the metadata is updated.
 
@@ -246,7 +246,7 @@ After an `invoke-rc.d apache2 restart`, the location [https://uc-avcc.canterbury
 
 ## Enforcing Canonical Hostname
 
-As the machine had been known under two distinct hostnames, it has become necessary to enforce the use of it's canonical hostname - otherwise, logins via the non-canonical hostname fail, as described in this section on [canonical hostnames](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s_general_Shiboleth_notes&linkCreation=true&fromPageId=3816950964) in my grid notes.
+As the machine had been known under two distinct hostnames, it has become necessary to enforce the use of it's canonical hostname - otherwise, logins via the non-canonical hostname fail, as described in this section on [canonical hostnames](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s_general_Shiboleth_notes&linkCreation=true&fromPageId=3818228916) in my grid notes.
 
 To enforce the use of canonical hostnames, it is not sufficient to use the Apache directive
 
@@ -340,7 +340,7 @@ The default MAMS instructions ask for a line in the HTTPS Virtual host configura
 
 # Configuring MediaWiki for Shibboleth authentication
 
-Following the guide on [shibbolizing mediawiki](/wiki/spaces/BeSTGRID/pages/3816950921), I could get this done pretty easily.  The very essence is just the matter of installing the [ShibAuthPlugin.php](/wiki/spaces/BeSTGRID/pages/3816950660) into `/var/www/extensions`, and configuring `LocalSettings.php` to use the plugin for authentication.
+Following the guide on [shibbolizing mediawiki](/wiki/spaces/BeSTGRID/pages/3818228873), I could get this done pretty easily.  The very essence is just the matter of installing the [ShibAuthPlugin.php](/wiki/spaces/BeSTGRID/pages/3818228612) into `/var/www/extensions`, and configuring `LocalSettings.php` to use the plugin for authentication.
 
 - ShibAuthPlugin: even though at MediaWiki, version 1.1.6 is already available ([http://www.mediawiki.org/wiki/Extension:Shibboleth_Authentication](http://www.mediawiki.org/wiki/Extension:Shibboleth_Authentication), with an older version at [http://meta.wikimedia.org/w/index.php?title=Shibboleth_Authentication&oldid=401874](http://meta.wikimedia.org/w/index.php?title=Shibboleth_Authentication&oldid=401874)), this version is smaller and "looks older" than the version 1.1.3 at www.bestgrid.org, so I'm installing the BeSTGRID one instead.
 
@@ -365,7 +365,7 @@ and `LocalSettings.php` says:
 
 - modified ShibAuthPlugin.php: SSOAddLink: change target URL to plain http
 - disable discussions: comment out 'talk' tab definition in `includes/SkinTemplate.php` 661-669
-- [disable caching](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3816950964): modify `LocalSettings.php`:
+- [disable caching](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3818228916): modify `LocalSettings.php`:
 
 
 >  $wgMainCacheType = CACHE_NONE; 
@@ -393,7 +393,7 @@ and `LocalSettings.php` says:
 
 ```
 
-Note that if other URLs would be protected as well (with more restrictive access control), they must be specified after this Location element (see the [discussion here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s%20general%20Shiboleth%20notes&linkCreation=true&fromPageId=3816950964)).
+Note that if other URLs would be protected as well (with more restrictive access control), they must be specified after this Location element (see the [discussion here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s%20general%20Shiboleth%20notes&linkCreation=true&fromPageId=3818228916)).
 
 - to accept `eduPersonTargetedID` (should we ever need it), I have removed `Scoped="true"` from `/usr/local/shibboleth-sp/etc/shibboleth/AAP.xml`.
 
@@ -419,7 +419,7 @@ Notes:
 <AttributeRule Name="urn:mace:dir:attribute-def:mail" Header="Shib-InetOrgPerson-mail" Alias="mail">
 ```
 
-Based on the above list of attributes, the [AVCC SPDescription file](http://www.federation.org.au/FedManager/viewServiceDescriptionFile.do?id=308) ([local download](/wiki/download/attachments/3816950964/Urn_mace_federation_org_au_testfed_uc-avcc_canterbury_ac_nz.xml.txt?version=1&modificationDate=1539354412000&cacheVersion=1&api=v2)) defines *Basic* and *Full* service level for use with ShARPE and Autograph.
+Based on the above list of attributes, the [AVCC SPDescription file](http://www.federation.org.au/FedManager/viewServiceDescriptionFile.do?id=308) ([local download](/wiki/download/attachments/3818228916/Urn_mace_federation_org_au_testfed_uc-avcc_canterbury_ac_nz.xml.txt?version=1&modificationDate=1539354412000&cacheVersion=1&api=v2)) defines *Basic* and *Full* service level for use with ShARPE and Autograph.
 
 # Plan for moving to production
 
@@ -489,7 +489,7 @@ Access to pages would be controlled with /accesscontrol/um,,uc,,ua,,sc//accessco
 
 Group membership would be controlled via pages named Usergroup:groupname
 
-Installation of the extension is described at [BeSTGRID Shibbolized Wiki Group Control](/wiki/spaces/BeSTGRID/pages/3816950955).
+Installation of the extension is described at [BeSTGRID Shibbolized Wiki Group Control](/wiki/spaces/BeSTGRID/pages/3818228907).
 
 Note: when comparing the accesscontrol package source distribution and the version installed at the BeSTGRID wiki, there are no modifications to the code itself, and only minor modifications to the configuration:
 
@@ -530,8 +530,8 @@ The redirects affected are the automatic login when editing a page (in ShibAuthP
 
 This value is initialized from the `Shib-Identity-Provider` http header, as shown in the following fragment of code documenting the modifications made to `LocalSettings.php`
 
->    $shib_UN = $_SERVER['REMOTE_USER'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27REMOTE_USER%27&linkCreation=true&fromPageId=3816950964);
->  + $shib_IdP = $_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27HTTP_SHIB_IDENTITY_PROVIDER%27&linkCreation=true&fromPageId=3816950964);
+>    $shib_UN = $_SERVER['REMOTE_USER'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27REMOTE_USER%27&linkCreation=true&fromPageId=3818228916);
+>  + $shib_IdP = $_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27HTTP_SHIB_IDENTITY_PROVIDER%27&linkCreation=true&fromPageId=3818228916);
 >  + if (($shib_UN null) && ($shib_IdP != null)) $shib_LoginHint = 'No PrincipalName attribute received.  Please obtain the attribute and try logging in again.';
 
 ## Overview of changes
@@ -708,7 +708,7 @@ if (isset($_GET['target'] )) {
 
 # Upgrade to MediaWiki 1.13
 
-Please see the detailed notes on [Re-installing ShibAuthPlugin after upgrading AVCC MediaWiki to 1.13](/wiki/spaces/BeSTGRID/pages/3816950834)
+Please see the detailed notes on [Re-installing ShibAuthPlugin after upgrading AVCC MediaWiki to 1.13](/wiki/spaces/BeSTGRID/pages/3818228786)
 
 # Debian notes
 

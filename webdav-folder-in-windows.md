@@ -1,6 +1,6 @@
 # WebDAV Folder in Windows
 
-When accessing [Sakai](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Sakai&linkCreation=true&fromPageId=3816950655) via WebDav, there is a problem with creating WebDAV folder in Windows XP for using **Upload-Download Multiple Resources**. Currently the reason of this problem is unknown. We can suggest two solutions how to skip this problem. When we have better solution of know the reason of this problem we will change this page.
+When accessing [Sakai](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Sakai&linkCreation=true&fromPageId=3818228607) via WebDav, there is a problem with creating WebDAV folder in Windows XP for using **Upload-Download Multiple Resources**. Currently the reason of this problem is unknown. We can suggest two solutions how to skip this problem. When we have better solution of know the reason of this problem we will change this page.
 
 ## The first solution
 

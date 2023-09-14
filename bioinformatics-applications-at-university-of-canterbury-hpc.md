@@ -186,13 +186,13 @@ patch -p 1 < filename.patch
 
 ):
 	
-1. Fix problem with SumP hanging in MPI on error: [mrbayes-3.1.2-fix-sump-mpi.diff](/wiki/download/attachments/3816950536/Mrbayes-3.1.2-fix-sump-mpi.diff.txt?version=1&modificationDate=1539354275000&cacheVersion=1&api=v2) (
+1. Fix problem with SumP hanging in MPI on error: [mrbayes-3.1.2-fix-sump-mpi.diff](/wiki/download/attachments/3818228488/Mrbayes-3.1.2-fix-sump-mpi.diff.txt?version=1&modificationDate=1539354275000&cacheVersion=1&api=v2) (
 !Mrbayes-3.1.2-fix-sump-mpi.diff.txt!
 )
-2. Fix minor issue in mcmcdiagn param print: [mrbayes-3.1.2-fix-mcmcdiagnparamprint.diff](/wiki/download/attachments/3816950536/Mrbayes-3.1.2-fix-mcmcdiagnparamprint.diff.txt?version=1&modificationDate=1539354275000&cacheVersion=1&api=v2) (
+2. Fix minor issue in mcmcdiagn param print: [mrbayes-3.1.2-fix-mcmcdiagnparamprint.diff](/wiki/download/attachments/3818228488/Mrbayes-3.1.2-fix-mcmcdiagnparamprint.diff.txt?version=1&modificationDate=1539354275000&cacheVersion=1&api=v2) (
 !Mrbayes-3.1.2-fix-mcmcdiagnparamprint.diff.txt!
 )
-3. If compiling for 64-bit architecture, apply [mb_64bit_safe.patch](/wiki/download/attachments/3816950536/Mb_64bit-safe.patch.txt?version=1&modificationDate=1539354275000&cacheVersion=1&api=v2) (
+3. If compiling for 64-bit architecture, apply [mb_64bit_safe.patch](/wiki/download/attachments/3818228488/Mb_64bit-safe.patch.txt?version=1&modificationDate=1539354275000&cacheVersion=1&api=v2) (
 !Mb_64bit-safe.patch.txt!
 ) and compile with parameter `_64BIT=yes`.
 

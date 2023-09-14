@@ -86,7 +86,7 @@ xerces-c-2.6.1-2.i386.rpm xml-security-c-1.2.0-2.i386.rpm
 
 - Configure the Service Provider by edit the shibboleth.xml (usually at /etc/shibboleth/)
 
-- Download the example [Shibboleth.xml](/wiki/spaces/BeSTGRID/pages/3816950727).
+- Download the example [Shibboleth.xml](/wiki/spaces/BeSTGRID/pages/3818228679).
 
 - urn:mace namespace is a Uniform Resource Name namespace for [MACE](http://middleware.internet2.edu/MACE/) working groups. The namespace is intended to be delegated to different working groups or organizations that registered with MACE. For example, the URN namespace of the University of Auckland (UoA) in MACE is 'urn:mace:UoAFederation'.
 
@@ -169,7 +169,7 @@ xerces-c-2.6.1-2.i386.rpm xml-security-c-1.2.0-2.i386.rpm
 
 ```
 
-- Sessions may contain one or more SessionInitiator. Please look at [Shibbolize MediaWiki](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3816950611) for more details.
+- Sessions may contain one or more SessionInitiator. Please look at [Shibbolize MediaWiki](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3818228563) for more details.
 
 - CredentialsProvider is the configuration that describes the details of the CredentialUse element. It defines the paths of private keys and certificates. An example is shown below:
 
@@ -334,7 +334,7 @@ The following explanation of Attribute Acceptance Policy (AAP) is directly quote
 
 - *Aliases by which attributes can be referenced in access control policy rules, such as Apache require commands. SAML attributes tend to have machine-friendly names, so aliases allow more admin-friendly names to be used instead.*
 
-- Download the example [AAP.xml](/wiki/spaces/BeSTGRID/pages/3816950860) and save it to the URI that defined by the AAPProvider element. (usually at /etc/shibboleth/)
+- Download the example [AAP.xml](/wiki/spaces/BeSTGRID/pages/3818228812) and save it to the URI that defined by the AAPProvider element. (usually at /etc/shibboleth/)
 
 - An example of [how to obtain attributes from an Identity Provider](#ShibbolethServiceProviderSetup-RHEL4-HowtoobtainattributesfromanIdentityProvider) is shown below .
 
@@ -623,7 +623,7 @@ There are several mistakes in the configuration file shibboleth.xml that may cau
 
 ## How to enable HTTP front end communication while maintaining attribute assertion on HTTPS
 
-Configure handlerSSL="true" in Shibboleth SP configuration (usually at /etc/shibboleth/shibboleth.xml). Please look at [here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3816950611) for a Mediawiki example.
+Configure handlerSSL="true" in Shibboleth SP configuration (usually at /etc/shibboleth/shibboleth.xml). Please look at [here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3818228563) for a Mediawiki example.
 
 ## SSL3_READ_BYTES:sslv3 alert unsupported certificate
 
@@ -671,5 +671,5 @@ A possible solution for this error is to disable both "checkAddress" and "consis
 
 # Appendix
 
-- [Shibboleth.xml](/wiki/spaces/BeSTGRID/pages/3816950727)
-- [AAP.xml](/wiki/spaces/BeSTGRID/pages/3816950860)
+- [Shibboleth.xml](/wiki/spaces/BeSTGRID/pages/3818228679)
+- [AAP.xml](/wiki/spaces/BeSTGRID/pages/3818228812)

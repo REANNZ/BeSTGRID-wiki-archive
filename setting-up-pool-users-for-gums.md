@@ -2,11 +2,11 @@
 
 # Introduction
 
-The [initial set up of GUMS](/wiki/spaces/BeSTGRID/pages/3816950966) is not ideal, as all BeSTGRID users end up using the same `grid-bestgrid` account. It is recommended that GUMS is reconfigured to provide pool users, that is a collection of anonymous user accounts that are dynamically mapped to individual Grid users. This will provide some persistence of their user space, and keep the users isolated from each other.
+The [initial set up of GUMS](/wiki/spaces/BeSTGRID/pages/3818228918) is not ideal, as all BeSTGRID users end up using the same `grid-bestgrid` account. It is recommended that GUMS is reconfigured to provide pool users, that is a collection of anonymous user accounts that are dynamically mapped to individual Grid users. This will provide some persistence of their user space, and keep the users isolated from each other.
 
 # Prerequisites
 
-An operating GUMS server set up as a BeSTGRID gateway server is set up [according to these instructions](/wiki/spaces/BeSTGRID/pages/3816950966)
+An operating GUMS server set up as a BeSTGRID gateway server is set up [according to these instructions](/wiki/spaces/BeSTGRID/pages/3818228918)
 
 # Setting up the pool accounts
 
@@ -72,7 +72,7 @@ sudo rocks sync users
 
 ## Migrating users to LDAP
 
-- Log into the head node of the Rocks Cluster, which should already be configured to [share Rocks users with LDAP](/wiki/spaces/BeSTGRID/pages/3816950641).
+- Log into the head node of the Rocks Cluster, which should already be configured to [share Rocks users with LDAP](/wiki/spaces/BeSTGRID/pages/3818228593).
 - Export user and group data from `etc/passwd` and `/etc/group` respectivly:
 
 ``` 
@@ -143,4 +143,4 @@ ldapdelete -x -h localhost -D "cn=manager,dc=your,dc=cluster,dc=com" -W -f  dnde
 
 # Configuring GUMS
 
-GUMS and the job submission gateway should now be configured according to this article [here](/wiki/spaces/BeSTGRID/pages/3816951003).
+GUMS and the job submission gateway should now be configured according to this article [here](/wiki/spaces/BeSTGRID/pages/3818228955).

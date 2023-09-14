@@ -1,12 +1,12 @@
 # GridTechWG-20091029
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3816950451): meeting October 29, 2009.
+[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting October 29, 2009.
 
 ## Program
 
 **R on the grid**
 
-- Mik's presentation: [Mik_black-R_on_the_Grid.pdf](/wiki/download/attachments/3816951008/Mik_black-R_on_the_Grid.pdf?version=1&modificationDate=1539354313000&cacheVersion=1&api=v2)
+- Mik's presentation: [Mik_black-R_on_the_Grid.pdf](/wiki/download/attachments/3818228960/Mik_black-R_on_the_Grid.pdf?version=1&modificationDate=1539354313000&cacheVersion=1&api=v2)
 - Links:
 	
 - [Schmidberger et al. (2009)](http://www.jstatsoft.org/v31/i01/paper)

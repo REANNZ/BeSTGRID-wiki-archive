@@ -35,7 +35,7 @@ This instruction is for MediaWiki 1.7
 - PHP 5.x
 - MySQL 4.x
 - Apache 2.x
-- Shibboleth Service Provider 1.3, successfully installed and correctly configured (see the [Shibboleth Service Provider Setup](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3816950921) article for more details)
+- Shibboleth Service Provider 1.3, successfully installed and correctly configured (see the [Shibboleth Service Provider Setup](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3818228873) article for more details)
 
 # Lazy Sessions
 
@@ -146,7 +146,7 @@ The extension below was originally written by the Administrative Computing and T
 
 ## Installation
 
-Download [ShibAuthPlugin.php](/wiki/spaces/BeSTGRID/pages/3816950660) and save this extension into **web_root**/wiki/extensions/
+Download [ShibAuthPlugin.php](/wiki/spaces/BeSTGRID/pages/3818228612) and save this extension into **web_root**/wiki/extensions/
 
 ## Configuration
 
@@ -281,7 +281,7 @@ HTTPS would slow down the server performance because SSL overhead. Therefore it 
 
 ## Modification on mediawiki
 
-Replace the original **$personal_urls****['login'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27login%27&linkCreation=true&fromPageId=3816950921)** value in SSOLinkAdd method with following, (i.e. change the target from https:// to http://:
+Replace the original **$personal_urls****['login'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27login%27&linkCreation=true&fromPageId=3818228873)** value in SSOLinkAdd method with following, (i.e. change the target from https:// to http://:
 
 ``` 
 
@@ -302,8 +302,8 @@ Edit Shibboleth SP configuration (usually is /etc/shibboleth/shibboleth.xml) and
 # References
 
 - [Shibboleth Home - Internet 2](http://shibboleth.internet2.edu/)
-- [Shibboleth](/wiki/spaces/BeSTGRID/pages/3816951017)
-- [Shibboleth Service Provider Setup - RHEL4](/wiki/spaces/BeSTGRID/pages/3816950611)
+- [Shibboleth](/wiki/spaces/BeSTGRID/pages/3818228969)
+- [Shibboleth Service Provider Setup - RHEL4](/wiki/spaces/BeSTGRID/pages/3818228563)
 - [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki)
 - [Shibboleth Deployment Background](https://spaces.internet2.edu/display/SHIB/DeploymentBackground)
 - [Shibboleth Authentication -Meta](http://meta.wikimedia.org/wiki/Shibboleth_Authentication)

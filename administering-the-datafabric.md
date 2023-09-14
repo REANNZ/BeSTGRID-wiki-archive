@@ -165,7 +165,7 @@ Before setting up the project, get the following information from the project le
 - Ask the project leader and all project members to login to the DataFabric at least once - so that their account gets created.
 - Optionally: get an estimate of the total space used for the project.
 
-Record the project in [List of DataFabric projects](/wiki/spaces/BeSTGRID/pages/3816950665)
+Record the project in [List of DataFabric projects](/wiki/spaces/BeSTGRID/pages/3818228617)
 
 The following commands should be run as an iRODS administrator (typically the `rods` user):
 
@@ -371,18 +371,18 @@ Copy irods.config from the old version into the new one
 - Answer the three questions with default "yes" answers:
 
 
->     Have you run one of those? [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816951032)? yes
->     Use the existing iRODS configuration without changes [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816951032)? yes
->     Start iRODS build [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816951032)? yes
->     Have you run one of those? [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816951032)? yes
->     Use the existing iRODS configuration without changes [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816951032)? yes
->     Start iRODS build [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3816951032)? yes
+>     Have you run one of those? [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
+>     Use the existing iRODS configuration without changes [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
+>     Start iRODS build [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
+>     Have you run one of those? [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
+>     Use the existing iRODS configuration without changes [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
+>     Start iRODS build [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
 
 This completes the setup and starts iRODS.
 
 ## Reapply local iRODS changes
 
-Reapply all the steps from [iRODS post-configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_an_iRODS_slave_server&linkCreation=true&fromPageId=3816951032)
+Reapply all the steps from [iRODS post-configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_an_iRODS_slave_server&linkCreation=true&fromPageId=3818228984)
 
 
 >  reRuleSet   bestgrid,core
@@ -726,7 +726,7 @@ To upgrade Davis (do these steps preferrably as user `davis`):
 >  cp ~/inst/df-ui/images/* webapps/images/
 >  cp ~/inst/df-ui/images/* webapps/images/
 
-- Reapply any changes to `/opt/davis/davis/webapps/root/WEB-INF/ui.html` if applicable.  Check the for the current list in the [instructions on customizing a new Davis install](/wiki/spaces/BeSTGRID/pages/3816950600#InstallinganiRODSslaveserver-CustomizeDavis).
+- Reapply any changes to `/opt/davis/davis/webapps/root/WEB-INF/ui.html` if applicable.  Check the for the current list in the [instructions on customizing a new Davis install](/wiki/spaces/BeSTGRID/pages/3818228552#InstallinganiRODSslaveserver-CustomizeDavis).
 - **Example (*non-authoritative list**)
 
 ``` 

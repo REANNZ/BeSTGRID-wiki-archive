@@ -6,7 +6,7 @@
 
 A Virtual Organisation (VO), or in a more informally, a "group", is a collection of people with permission to access particular services.
 
-By joining a group, and having your request accepted, you gain access to the services associated with that group. **This is done through ****[Grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3816950526)****.**
+By joining a group, and having your request accepted, you gain access to the services associated with that group. **This is done through ****[Grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3818228478)****.**
 
 The default BeSTGRID VO is the `/ARCS/BeSTGRID` group, it provides access to all the 'freely shared' resources provided by BeSTGRID. Other groups provide increased levels of access to specific resources for a specific project, team, or institution associated to those VOs. In the procedure below `/ARCS/BeSTGRID` will be used as an example, just subsitute a different VO to apply for membership.
 
@@ -14,13 +14,13 @@ The default BeSTGRID VO is the `/ARCS/BeSTGRID` group, it provides access to all
 
 Before you can apply for membership to a VO, you must have previously:
 
-- Installed [Grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3816950526)
-- Requested a [Grid Certificate](/wiki/spaces/BeSTGRID/pages/3816950618)
+- Installed [Grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3818228478)
+- Requested a [Grid Certificate](/wiki/spaces/BeSTGRID/pages/3818228570)
 - Retrieved your Grid Certificate with Grix
 
 To Join a VO:
 
-1. Start the [Grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3816950526) application
+1. Start the [Grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3818228478) application
 2. Select the **Authentication** tab
 3. Select the **Local x509** tab in the **Create/Retrieve proxy** panel
 4. Enter your passphrase and click on **Authenticate**

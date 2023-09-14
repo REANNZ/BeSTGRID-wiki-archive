@@ -33,13 +33,13 @@ First it is necessary to create a new virtual machine on a Xen-kernel machine.
 For virtual machine set-up see:
 
 - [APAC Grid Xen Install](http://www.vpac.org/twiki/bin/view/APACgrid/XenInstall)
-- [Vladimir__Bootstrapping_a_virtual_machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping_a_virtual_machine&linkCreation=true&fromPageId=3816950830)
+- [Vladimir__Bootstrapping_a_virtual_machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping_a_virtual_machine&linkCreation=true&fromPageId=3818228782)
 
 After which PBS can be installed and set-up on the virtual machine.
 
 For detailed guides on NGCompute and PBS set-up:
 
-- [Vladimir__Setup NGCompute](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NGCompute&linkCreation=true&fromPageId=3816950830)
+- [Vladimir__Setup NGCompute](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NGCompute&linkCreation=true&fromPageId=3818228782)
 
 ## Set Up Information
 
@@ -49,4 +49,4 @@ For detailed guides on NGCompute and PBS set-up:
 
 ## Set Up Information
 
-- [Massey NG2 Gateway Set Up Notes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Massey%20NG2%20Gateway%20Set%20Up%20Notes&linkCreation=true&fromPageId=3816950830)
+- [Massey NG2 Gateway Set Up Notes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Massey%20NG2%20Gateway%20Set%20Up%20Notes&linkCreation=true&fromPageId=3818228782)

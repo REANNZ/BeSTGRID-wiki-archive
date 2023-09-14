@@ -6,7 +6,7 @@ This page documents how to configure mappings from the VOMRS project groups to l
 
 This page documents two alternative methods: either using a `edg-mkgridmap` to generate a `grid-mapfile`, or using a callout to a GUMS server.
 
-This page assumes that the [PRAGMA CAs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Configuring_a_VDT_system_to_include_PRAGMA_CAs_when_updating_IGTF_CA_bundle&linkCreation=true&fromPageId=3816950997) are already installed on the grid gateway (and also by the GUMS server if used).
+This page assumes that the [PRAGMA CAs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Configuring_a_VDT_system_to_include_PRAGMA_CAs_when_updating_IGTF_CA_bundle&linkCreation=true&fromPageId=3818228949) are already installed on the grid gateway (and also by the GUMS server if used).
 
 # Configuring edg-mkgridmap
 
@@ -128,7 +128,7 @@ When installing both PRIMA and PRIMA-GT4, the `configure_prima_gt4` script will 
 
 The main advantage of a GUMS server is that it allows a user to choose each time which project group membership should be used in the mapping - or whether to map to a local account instead, if the user has one.
 
-Other pages already document detailed instructions on how to [setup a GUMS server](/wiki/spaces/BeSTGRID/pages/3816950726), and how to [configure local account mappings](/wiki/spaces/BeSTGRID/pages/3816950942).
+Other pages already document detailed instructions on how to [setup a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228678), and how to [configure local account mappings](/wiki/spaces/BeSTGRID/pages/3818228894).
 
 Assuming a GUMS server is already setup, and the Globus on the grid gateway is configured to ask the GUMS server with user authorization requests via the PRIMA call-outs, the following will configure the GUMS server to accept the PRAGMA user mappings:
 
@@ -290,4 +290,4 @@ To pick between different group memberships and two request a specific mapping t
 
 Jobs submitted with a VOMS-proxy will then run under the account corresponding to the VO selected to be the first listed with the `-order` parameter.
 
-Related: Configured [Tomcat on PRAGMA VOMRS server to accept proxies](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Configuring_PRAGMA_VOMRS_server_to_work_with_BeSTGRID&linkCreation=true&fromPageId=3816950997), otherwise voms-proxy-init won't work.
+Related: Configured [Tomcat on PRAGMA VOMRS server to accept proxies](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Configuring_PRAGMA_VOMRS_server_to_work_with_BeSTGRID&linkCreation=true&fromPageId=3818228949), otherwise voms-proxy-init won't work.

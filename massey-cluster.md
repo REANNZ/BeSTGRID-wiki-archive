@@ -2,9 +2,9 @@
 
 # Summary
 
-The architecture and specifications of the cluster at Massey Albany for participation in the [BeSTGRID](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID&linkCreation=true&fromPageId=3816950940) Project are detailed here.
+The architecture and specifications of the cluster at Massey Albany for participation in the [BeSTGRID](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID&linkCreation=true&fromPageId=3818228892) Project are detailed here.
 
-The cluster at Massey is connected to the Grid via the [KAREN](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=KAREN&linkCreation=true&fromPageId=3816950940) high speed national network.
+The cluster at Massey is connected to the Grid via the [KAREN](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=KAREN&linkCreation=true&fromPageId=3818228892) high speed national network.
 
 The Massey cluster hosts a large number of machines facilitating mass storage and mass computation, which are centrally coordinated by a Server Gateway Node (see diagram below), which is directly connected to KAREN.
 
@@ -28,7 +28,7 @@ The use of Virtualisation allows multiple, fully-independent systems to operate,
 
 In theory, at least, virtualised systems are state-portable to other machines, and easy to backup and restore.
 
-The [Virtual Machines](/wiki/spaces/BeSTGRID/pages/3816950830) page contains full details of the various Virtual Machines on the server, including their various tasks, resource allocation plans, and detailed set-up guides.
+The [Virtual Machines](/wiki/spaces/BeSTGRID/pages/3818228782) page contains full details of the various Virtual Machines on the server, including their various tasks, resource allocation plans, and detailed set-up guides.
 
 # Link to KAREN High Speed Network
 

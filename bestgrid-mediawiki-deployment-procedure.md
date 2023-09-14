@@ -10,7 +10,7 @@ This article describes how to deploy the BeSTGRID Mediawiki from current product
 - Latest Shibbolized Mediawiki installed (1.10.1 is the latest version at the time of writing)
 - New skin patched
 
-Please have a look [here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3816950635) for more details
+Please have a look [here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3818228587) for more details
 
 # Setup automated SSH
 
@@ -67,8 +67,8 @@ ssh wiki@www.bestgrid.org
 cp -r /var/www/html wiki
 ```
 - Edit AdminSettings.php to reflect local settings.
-- Copy [addScopeToMediaWikiUsers.php](/wiki/spaces/BeSTGRID/pages/3816950886) to the working directory and  modified username, password and database to reflect correct local settings.
-- Copy [upgradeScript.sh](/wiki/spaces/BeSTGRID/pages/3816950805) to the working directory and then grant execution privilege to owner
+- Copy [addScopeToMediaWikiUsers.php](/wiki/spaces/BeSTGRID/pages/3818228838) to the working directory and  modified username, password and database to reflect correct local settings.
+- Copy [upgradeScript.sh](/wiki/spaces/BeSTGRID/pages/3818228757) to the working directory and then grant execution privilege to owner
 
 ``` 
 chmod u+w upgradeScript.sh 

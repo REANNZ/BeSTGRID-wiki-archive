@@ -2,9 +2,9 @@
 
 # Introduction
 
-This article will describe how a `xml` file ought to be configured to describe [R](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=R&linkCreation=true&fromPageId=3816950699) using [MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3816950699) with the Rmpi and snow packages so that parallel R is available in a standard form for BeSTGRID users.
+This article will describe how a `xml` file ought to be configured to describe [R](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=R&linkCreation=true&fromPageId=3818228651) using [MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3818228651) with the Rmpi and snow packages so that parallel R is available in a standard form for BeSTGRID users.
 
-This article is intended only to cover the configuration of R in a parallel environment (e.g. [OpenMPI](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=OpenMPI&linkCreation=true&fromPageId=3816950699)). For configuring R for serial environments see the equivalent article on [R](/wiki/spaces/BeSTGRID/pages/3816950631).
+This article is intended only to cover the configuration of R in a parallel environment (e.g. [OpenMPI](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=OpenMPI&linkCreation=true&fromPageId=3818228651)). For configuring R for serial environments see the equivalent article on [R](/wiki/spaces/BeSTGRID/pages/3818228583).
 
 # Configuration
 

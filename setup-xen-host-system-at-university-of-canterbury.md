@@ -2,7 +2,7 @@
 
 All configuration steps are documented in `ucgridgw:/root/inst/instlog.log`
 
-Xen boot configuration is documented at [Vladimir__Booting Xen on HP DL380 G5](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Booting%20Xen%20on%20HP%20DL380%20G5&linkCreation=true&fromPageId=3816951001).
+Xen boot configuration is documented at [Vladimir__Booting Xen on HP DL380 G5](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Booting%20Xen%20on%20HP%20DL380%20G5&linkCreation=true&fromPageId=3818228953).
 
 Xendomains configuration changes is described below
 

@@ -6,7 +6,7 @@ um,,uc,,ua,,sc
 
 # Meetings
 
-- [Digital Strategy Feedback](/wiki/spaces/BeSTGRID/pages/3816950696)
+- [Digital Strategy Feedback](/wiki/spaces/BeSTGRID/pages/3818228648)
 
 # Framing comments
 
@@ -99,7 +99,7 @@ I suggest we submit the same content via all available channels, as each channel
 ## 3.2 Connection Priorities and Challenges
 
 - John: I wonder if we should push for "investor in R+D" to be added to the government's roles in second para of 3.2?
-- Sam: International connections are noted at bottom of p.17 as an infrastructure gap. [But are not translated into any obvious actions in 3.3?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=But%20are%20not%20translated%20into%20any%20obvious%20actions%20in%203.3%3F&linkCreation=true&fromPageId=3816950456)
+- Sam: International connections are noted at bottom of p.17 as an infrastructure gap. [But are not translated into any obvious actions in 3.3?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=But%20are%20not%20translated%20into%20any%20obvious%20actions%20in%203.3%3F&linkCreation=true&fromPageId=3818228408)
 
 3.2 also has a boxed section on "eResearch in New Zealand" on p.18.
 

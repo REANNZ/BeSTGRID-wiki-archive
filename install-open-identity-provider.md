@@ -74,7 +74,7 @@ $ sudo su (change to root user)
 ## Configure OpenLDAP Server
 
 - Edit /usr/local/openldap/etc/openldap/sldap.conf
-- An example configuration file is located at [sldap.conf here](/wiki/spaces/BeSTGRID/pages/3816950567).
+- An example configuration file is located at [sldap.conf here](/wiki/spaces/BeSTGRID/pages/3818228519).
 - Create a shielded password for the root DN.
 
 
@@ -134,7 +134,7 @@ e.g. DSmailhost.auckland.ac.nz
 
 # References
 
-[eduPerson Schema](/wiki/spaces/BeSTGRID/pages/3816950558)
+[eduPerson Schema](/wiki/spaces/BeSTGRID/pages/3818228510)
 
 # Maintenance
 

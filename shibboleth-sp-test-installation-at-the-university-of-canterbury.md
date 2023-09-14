@@ -98,7 +98,7 @@ When I compile the tool chain with `gcc34` and `g+``34`, `xml-security` compiles
 	
 - Download the startup script from here:
 		
-- [RHEL-init-d-shibboleth.txt](/wiki/download/attachments/3816950622/RHEL-init-d-shibboleth.txt?version=1&modificationDate=1539354195000&cacheVersion=1&api=v2) (download)
+- [RHEL-init-d-shibboleth.txt](/wiki/download/attachments/3818228574/RHEL-init-d-shibboleth.txt?version=1&modificationDate=1539354195000&cacheVersion=1&api=v2) (download)
 - !RHEL-init-d-shibboleth.txt!
  (file information)
 - Enable automatic startup with 
@@ -148,7 +148,7 @@ $SP_HOME/sbin/siterefresh --url $METADATA_URL --cert /etc/certs/www.federation.o
 
 ```
 
-Note that the `siterefresh` tool does not support the https protocol, so unlike for the [IdP](/wiki/spaces/BeSTGRID/pages/3816951033#ShibbolethIdPTestInstallationattheUniversityofCanterbury-Metadataupdates), we have to get the metadata via plain http (reasonably safe if we verify the signature afterwards - up to DOS intended network outage).
+Note that the `siterefresh` tool does not support the https protocol, so unlike for the [IdP](/wiki/spaces/BeSTGRID/pages/3818228985#ShibbolethIdPTestInstallationattheUniversityofCanterbury-Metadataupdates), we have to get the metadata via plain http (reasonably safe if we verify the signature afterwards - up to DOS intended network outage).
 
 # Running and Testing
 

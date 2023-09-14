@@ -12,17 +12,17 @@ Typically, a grid gateway would consist of several virtual machines:
 
 The following documentation is relevant for this task:
 
-- [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3816950966) (Alternatively, see [Setting up a GUMS server on Ubuntu](/wiki/spaces/BeSTGRID/pages/3816950479) - courtesy Guy Kloss)
+- [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918) (Alternatively, see [Setting up a GUMS server on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228431) - courtesy Guy Kloss)
 	
-- [Deploying Shibbolized AuthTool on a GUMS server](/wiki/spaces/BeSTGRID/pages/3816950613)
-- [Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3816951003)
-- [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3816950633) (Alternatively, see [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3816950445) - courtesy Guy Kloss)
+- [Deploying Shibbolized AuthTool on a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228565)
+- [Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3818228955)
+- [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585) (Alternatively, see [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228397) - courtesy Guy Kloss)
 	
-- [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3816950594)
-- [Setting up an NG2/SGE specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3816950594)
+- [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228546)
+- [Setting up an NG2/SGE specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228546)
 
-- [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3816950554) (PBS centric)
+- [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) (PBS centric)
 	
-- [Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3816950547) (LoadLeveler specific details)
+- [Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228499) (LoadLeveler specific details)
 
-- [Updating a grid gateway](/wiki/spaces/BeSTGRID/pages/3816950879)
+- [Updating a grid gateway](/wiki/spaces/BeSTGRID/pages/3818228831)

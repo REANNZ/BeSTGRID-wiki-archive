@@ -4,9 +4,9 @@
 
 This article describes my (Eric's) steps to install Shibboleth Authentication supported GridSphere.
 
-Work Plan: [BeSTGRID Shibboleth Authentication for GridSphere Work Plan](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Authentication_for_GridSphere_Work_Plan&linkCreation=true&fromPageId=3816950680)
+Work Plan: [BeSTGRID Shibboleth Authentication for GridSphere Work Plan](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Authentication_for_GridSphere_Work_Plan&linkCreation=true&fromPageId=3818228632)
 
-Please look at [BeSTGRID Shibbolized Sakai Installation](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibbolized_Sakai_Installation&linkCreation=true&fromPageId=3816950680) and [Shibboleth Service Provider Installation on RHEL4](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3816950680) for Shibboleth 1.3 SP installation and it will also guide you how to become AAF Level 1 member.
+Please look at [BeSTGRID Shibbolized Sakai Installation](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibbolized_Sakai_Installation&linkCreation=true&fromPageId=3818228632) and [Shibboleth Service Provider Installation on RHEL4](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3818228632) for Shibboleth 1.3 SP installation and it will also guide you how to become AAF Level 1 member.
 
 # Prerequisites
 
@@ -15,7 +15,7 @@ Please look at [BeSTGRID Shibbolized Sakai Installation](https://reannz.atlassia
 - Tomcat installed.
 - MySQL installed. (or other SQL database)
 
-(Please look at [BeSTGRID Shibbolized Sakai Installation](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibbolized_Sakai_Installation&linkCreation=true&fromPageId=3816950680) for an example setup)
+(Please look at [BeSTGRID Shibbolized Sakai Installation](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibbolized_Sakai_Installation&linkCreation=true&fromPageId=3818228632) for an example setup)
 
 # Installation
 

@@ -2,18 +2,18 @@
 
 These IPs allocated for virtual machines which reside on **gateway.auckland.ac.nz (GateWay)** server. 
 
-IPs 130.216.189.[47,48,49](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=47%2C48%2C49&linkCreation=true&fromPageId=3816950518) allocated for VRE Server and BeSTGRID Media Wiki Server. Both servers reside on **pleyads.bestgrid.org (Pleyads)** server.
+IPs 130.216.189.[47,48,49](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=47%2C48%2C49&linkCreation=true&fromPageId=3818228470) allocated for VRE Server and BeSTGRID Media Wiki Server. Both servers reside on **pleyads.bestgrid.org (Pleyads)** server.
 
 **IP address****Purpose****Aliases****gateway.auckland.ac.nz.org******ng2.auckland.ac.nz****ngdata.auckland.ac.nz******sakai.bestgrid.org****data.bestgrid.org****gridsphere.bestgrid.org****solver.bestgrid.org****language.psy.auckland.ac.nz****services.bestgrid.org****srs.bestgrid.org****xenbr1****xenbr2****xenbr3****xenbr4****xenbr5****wiki.test.bestgrid.org****openidp.test.bestgrid.org****wayf.test.bestgrid.org****vre.test.bestgrid.org****wiki.bestgrid.org****www.bestgrid.org****gstest.bestgrid.org**  |     |     |     |  
 
-|      130.216.189.1       |      [Domain0 of Xen](/wiki/spaces/BeSTGRID/pages/3816950577)         | bestgrid1.math.auckland.ac.nzbg1.bestgrid.orggateway.bestgrid.org      |
+|      130.216.189.1       |      [Domain0 of Xen](/wiki/spaces/BeSTGRID/pages/3818228529)         | bestgrid1.math.auckland.ac.nzbg1.bestgrid.orggateway.bestgrid.org      |
 | ------------------------ | --------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 |      130.216.189.2       |                                                                       | bestgrid2.math.auckland.ac.nzbg2.bestgrid.org                          |
 |      130.216.189.3       |      NG2 machine                                                      | bestgrid3.math.auckland.ac.nzbg3.bestgrid.org                          |
 |      130.216.189.4       |      NG Data                                                          | bestgrid4.math.auckland.ac.nzbg4.bestgrid.org                          |
 |      130.216.189.5       |                                                                       | bestgrid5.math.auckland.ac.nzbg5.bestgrid.org                          |
 |      130.216.189.6       |                                                                       |      bestgrid6.math.auckland.ac.nzbg6.bestgrid.org                     |
-|      130.216.189.7       |      [Sakai Server (VM)](/wiki/spaces/BeSTGRID/pages/3816950762)      | bestgrid7.math.auckland.ac.nzbg7.bestgrid.org                          |
+|      130.216.189.7       |      [Sakai Server (VM)](/wiki/spaces/BeSTGRID/pages/3818228714)      | bestgrid7.math.auckland.ac.nzbg7.bestgrid.org                          |
 |      130.216.189.8       |      NG2Test machine                                                  |      bestgrid8.math.auckland.ac.nzbg8.bestgrid.org                     |
 |      130.216.189.30      |      NAS head node of DataGrid (first NIC)                            | bestgrid30.math.auckland.ac.nzbg30.bestgrid.org                        |
 |      130.216.189.31      |      NAS head node of DataGrid (second NIC)                           |      bestgrid31.math.auckland.ac.nzbg31.bestgrid.org                   |

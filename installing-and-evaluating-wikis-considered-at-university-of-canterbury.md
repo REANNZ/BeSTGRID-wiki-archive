@@ -261,7 +261,7 @@ Install notes:
 
 - Set Sun Java as default Java
 	
-- Follow [instructions for setting default java](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_IdP_Installation_at_the_University_of_Canterbury&linkCreation=true&fromPageId=3816950468)
+- Follow [instructions for setting default java](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_IdP_Installation_at_the_University_of_Canterbury&linkCreation=true&fromPageId=3818228420)
 
 ``` 
 
@@ -401,7 +401,7 @@ Let's roll: edit `/usr/local/confluence-2.9-std/confluence/WEB-INF/classes/atlas
 - LDAP test reports errors if groupsearch is pointed to an nonexistent context - let it search `ou=groups,dc=canterbury,dc=ac,dc=nz`
 - Our LDAP does have a single group `rdpusers` in `ou=groups,dc=canterbury,dc=ac,dc=nz`
 
-We now need the [LDAP Dynamic Groups Plugin](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=LDAP%20Dynamic%20Groups%20Plugin&linkCreation=true&fromPageId=3816950468)
+We now need the [LDAP Dynamic Groups Plugin](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=LDAP%20Dynamic%20Groups%20Plugin&linkCreation=true&fromPageId=3818228420)
 
 - See an [Overview of Mapped Groups](http://confluence.atlassian.com/display/CONFEXT/Overview+of+Mapped+Groups) and a [Group Mappings Example](http://confluence.atlassian.com/display/CONFEXT/Group+Mappings+Example)
 

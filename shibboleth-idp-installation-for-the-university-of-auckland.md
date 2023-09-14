@@ -4,7 +4,7 @@
 
 The article covers all details of the installation of Shibboleth IdP for The University of Auckland (UoA). It also describes the process about how to take part in Australian Access Federation (AAF). 
 
-For general Shibboleth IdP installation, please refer to [general Shibboleth IdP installation](/wiki/spaces/BeSTGRID/pages/3816950948) or [OpenIdP installation](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Install_Open_Identity_Provider&linkCreation=true&fromPageId=3816950690)
+For general Shibboleth IdP installation, please refer to [general Shibboleth IdP installation](/wiki/spaces/BeSTGRID/pages/3818228900) or [OpenIdP installation](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Install_Open_Identity_Provider&linkCreation=true&fromPageId=3818228642)
 
 # Installation Environment
 
@@ -75,15 +75,15 @@ worker.default.lbfactor=1
 
 # Configure Shibboleth IdP
 
-**The main configuration of Identity Provider is located in *idp_home**/etc/idp.xml, other important configuration files include attribute source (e.g resolver.ldap.xml), metadata files (e.g. bestgrid-metadata.xml) and attribute release policy files (e.g. arp.site.xml). Please have a look the [General Shibboleth IdP Installation Guide](/wiki/spaces/BeSTGRID/pages/3816950948#Shibboleth-idp-Step_10___Configure_Shibboleth_IdP) for more details. 
+**The main configuration of Identity Provider is located in *idp_home**/etc/idp.xml, other important configuration files include attribute source (e.g resolver.ldap.xml), metadata files (e.g. bestgrid-metadata.xml) and attribute release policy files (e.g. arp.site.xml). Please have a look the [General Shibboleth IdP Installation Guide](/wiki/spaces/BeSTGRID/pages/3818228900#Shibboleth-idp-Step_10___Configure_Shibboleth_IdP) for more details. 
 
 - Please have a look the example configuration files below:
 
-*[idp.xml](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=uoa_idp.xml&linkCreation=true&fromPageId=3816950690)
+*[idp.xml](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=uoa_idp.xml&linkCreation=true&fromPageId=3818228642)
 
-*[resolver.ldap.xml](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=uoa_idp_resolver.ldap.xml&linkCreation=true&fromPageId=3816950690) (NOTE: If you are using secure connection for LDAP, please append the CA into Java cacerts by using keytool)
+*[resolver.ldap.xml](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=uoa_idp_resolver.ldap.xml&linkCreation=true&fromPageId=3818228642) (NOTE: If you are using secure connection for LDAP, please append the CA into Java cacerts by using keytool)
 
-*[arp.site.xml](/wiki/spaces/BeSTGRID/pages/3816950716)
+*[arp.site.xml](/wiki/spaces/BeSTGRID/pages/3818228668)
 
 *[bestgrid-metadata.xml](https://wayf.bestgrid.org/metadata/bestgrid-metadata.xml)
 

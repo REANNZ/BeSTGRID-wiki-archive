@@ -66,7 +66,7 @@ In `apac_config.py`, set:
 
 For each StorageElement, the UniqueID is by convention its hostname.  Change the UniqueID to follow this convention and make sure all references to the SE in the ComputeElements and their VOViews refer to the StorageElement by the correct UniqueID. 
 
->   storageElement = package.StorageElement['ng2hpc.canterbury.ac.nz'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27ng2hpc.canterbury.ac.nz%27&linkCreation=true&fromPageId=3816950514) = StorageElement()
+>   storageElement = package.StorageElement['ng2hpc.canterbury.ac.nz'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27ng2hpc.canterbury.ac.nz%27&linkCreation=true&fromPageId=3818228466) = StorageElement()
 
   computeElement.DefaultSE = 'ng2hpc.canterbury.ac.nz'
 

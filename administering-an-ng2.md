@@ -1,6 +1,6 @@
 # Administering an NG2
 
-This page follows on from the [Setting_up_an_NG2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2&linkCreation=true&fromPageId=3816950679) resource in that it seeks to provide
+This page follows on from the [Setting_up_an_NG2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2&linkCreation=true&fromPageId=3818228631) resource in that it seeks to provide
 
 the information needed to administer your job submission gateway once it has been deployed.
 
@@ -118,6 +118,6 @@ to bring your installation up to a level that the VDT packagers consider current
 
 Whilst a full re-install will always bring your NG2 up to date with the revisions of VDT packages being distributed at any time, it may be possible to do an update using VDT's own updater, preserving all bar a few local customisations of the deployment.
 
-This document details one such experience [Experiences updating an NGGUMS at VUW](/wiki/spaces/BeSTGRID/pages/3816951023) and may provide some useful background
+This document details one such experience [Experiences updating an NGGUMS at VUW](/wiki/spaces/BeSTGRID/pages/3818228975) and may provide some useful background
 
 to such an updating exercise.

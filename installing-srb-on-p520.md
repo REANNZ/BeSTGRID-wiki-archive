@@ -156,7 +156,7 @@ And I did not see much useful information in the slave server log: only a mentio
 >  serverLoop: serverLoop: 1 sockets pending
 >  serverLoop: connect on 8
 >  serverLoop:             handling 8
->  child[295160](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=295160&linkCreation=true&fromPageId=3816950863): execv(/hpc/projects/packages/local.aix/pkg/srb/3.5.0/bin/./srbServer, -d2, -p9, -P10, )
+>  child[295160](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=295160&linkCreation=true&fromPageId=3818228815): execv(/hpc/projects/packages/local.aix/pkg/srb/3.5.0/bin/./srbServer, -d2, -p9, -P10, )
 >  Unable to open MAINTENENCE_CONFIG_FILE file ../data/srb.allow
 >  initHostWithMCat: host from DATABASE: 
 >  initHostWithMCat: host from DATABASE: mda-18.sdsc.edu:NULL:NULL
@@ -164,7 +164,7 @@ And I did not see much useful information in the slave server log: only a mentio
 >  initHostWithMCat: host from DATABASE: hpcgrid1.canterbury.ac.nz:NULL:NULL
 >  initHostWithMCat: host from DATABASE: mda-18.sdsc.edu:NULL:NULL
 >  initHostWithMCat: host from DATABASE: ghidorah.sdsc.edu:mcat:foo
->  findServerExec: found "/hpc/projects/packages/local.aix/pkg/srb/3.5.0/bin/./srbServer" using argv[0](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=0&linkCreation=true&fromPageId=3816950863)
+>  findServerExec: found "/hpc/projects/packages/local.aix/pkg/srb/3.5.0/bin/./srbServer" using argv[0](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=0&linkCreation=true&fromPageId=3818228815)
 
 Watching with wireshark: 
 

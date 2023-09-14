@@ -63,11 +63,11 @@ Account Mapper: manualGroupHPC
 
 Add the following snippet into `/usr/local/mip/config/apac_config.py` to advertise a new VO view on the ComputeElement:
 
->       voview = computeElement.views['viewHPCLocal'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27viewHPCLocal%27&linkCreation=true&fromPageId=3816950683) = VOView()
+>       voview = computeElement.views['viewHPCLocal'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27viewHPCLocal%27&linkCreation=true&fromPageId=3818228635) = VOView()
 >       #voview.RealUser = 'grid-xxx'
 >       voview.DefaultSE = 'ng2hpc.canterbury.ac.nz'
 >       #voview.DataDir = '/hpc/home/grid-xxx'
->       voview.ACL = ['/ARCS/LocalAccounts/CanterburyHPC'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27%2FARCS%2FLocalAccounts%2FCanterburyHPC%27&linkCreation=true&fromPageId=3816950683)
+>       voview.ACL = ['/ARCS/LocalAccounts/CanterburyHPC'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27%2FARCS%2FLocalAccounts%2FCanterburyHPC%27&linkCreation=true&fromPageId=3818228635)
 
 Note that we are not specifying a RealUser, neither a DataDir.
 
@@ -79,10 +79,10 @@ In this case, create `/hpc/gridusers/localaccounts` - and make it writable only 
 
 We advertise the directory as accessible to all members of the marker VO by adding the following snippet into `/usr/local/mip/config/apac_config.py`:
 
->   area = storageElement.areas['area3'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27area3%27&linkCreation=true&fromPageId=3816950683) = StorageArea()
+>   area = storageElement.areas['area3'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27area3%27&linkCreation=true&fromPageId=3818228635) = StorageArea()
 >   area.Path = '/hpc/gridusers/localaccounts'
 >   area.Type = 'volatile'
->   area.ACL = ['/ARCS/LocalAccounts/CanterburyHPC'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27%2FARCS%2FLocalAccounts%2FCanterburyHPC%27&linkCreation=true&fromPageId=3816950683)
+>   area.ACL = ['/ARCS/LocalAccounts/CanterburyHPC'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27%2FARCS%2FLocalAccounts%2FCanterburyHPC%27&linkCreation=true&fromPageId=3818228635)
 
 ## Creating the symbolic links
 

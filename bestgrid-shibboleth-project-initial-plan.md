@@ -131,15 +131,15 @@ WAYF, OpenIDP, WIKI, VRE
 
 ## [Install University of Canterbury IdP](http://support.csi.ac.nz:8080/browse/BG-91)
 
-Similar to [UoA IdP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Project_Initial_Plan&linkCreation=true&fromPageId=3816950480)
+Similar to [UoA IdP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Project_Initial_Plan&linkCreation=true&fromPageId=3818228432)
 
 ## [Install Massey University IdP](http://support.csi.ac.nz:8080/browse/BG-92)
 
-Similar to [UoA IdP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Project_Initial_Plan&linkCreation=true&fromPageId=3816950480)
+Similar to [UoA IdP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Project_Initial_Plan&linkCreation=true&fromPageId=3818228432)
 
 ## Install NIWA IdP
 
-Similar to [UoA IdP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Project_Initial_Plan&linkCreation=true&fromPageId=3816950480)
+Similar to [UoA IdP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Project_Initial_Plan&linkCreation=true&fromPageId=3818228432)
 
 # [Install Where Are You From (WAYF)](http://support.e-learnings.co.nz:8080/browse/BG-93)
 
@@ -161,7 +161,7 @@ Similar to [UoA IdP](https://reannz.atlassian.net/wiki/pages/createpage.action?s
 - Make user account map to eduPersonPrincipalName
 - Backup existing BeSTGRID MediaWiki
 - Upgrade existing MediaWiki to latest Mediawiki (1.9.3 at the moment of writing)
-- Install OpenIdP (described [above](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Project_Initial_Plan&linkCreation=true&fromPageId=3816950480))
+- Install OpenIdP (described [above](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Project_Initial_Plan&linkCreation=true&fromPageId=3818228432))
 - Install Service Provider
 
 Suggested providerId: urn:mace:bestgrid:mediawiki

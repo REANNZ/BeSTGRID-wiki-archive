@@ -6,17 +6,17 @@
 
 - **[Step by step Video Tutorial about EVO (Flash Video)](http://it-multimedia.web.cern.ch/it%2Dmultimedia/collaborative/tutorials/)**
 
-- [EVO Overview](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__EVO&linkCreation=true&fromPageId=3816950739)
-- [Two page flyer about EVO (PDF File)](/wiki/download/attachments/3816950739/EVO-flyer-2007-oct-8.pdf?version=1&modificationDate=1539354060000&cacheVersion=1&api=v2)
-- [See EVO in Action](/wiki/spaces/BeSTGRID/pages/3816950781)
-- [Recommended Equipment for Windows XP users](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Getting_Started_with_EVO_in_New_Zealand&linkCreation=true&fromPageId=3816950739)
-- [Getting Started with EVO in New Zealand](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Getting_Started_with_EVO_in_New_Zealand&linkCreation=true&fromPageId=3816950739)
-- [Configuring EVO for the first time](/wiki/spaces/BeSTGRID/pages/3816950603)
-- [Improving EVO's Video and Audio Quality](/wiki/spaces/BeSTGRID/pages/3816950718)
-- [A complete EVO setup for cross-institutional small-room teaching and seminars](/wiki/spaces/BeSTGRID/pages/3816951014)
-- [How to have a successful multi-party meeting with EVO](/wiki/spaces/BeSTGRID/pages/3816950847)
+- [EVO Overview](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__EVO&linkCreation=true&fromPageId=3818228691)
+- [Two page flyer about EVO (PDF File)](/wiki/download/attachments/3818228691/EVO-flyer-2007-oct-8.pdf?version=1&modificationDate=1539354060000&cacheVersion=1&api=v2)
+- [See EVO in Action](/wiki/spaces/BeSTGRID/pages/3818228733)
+- [Recommended Equipment for Windows XP users](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Getting_Started_with_EVO_in_New_Zealand&linkCreation=true&fromPageId=3818228691)
+- [Getting Started with EVO in New Zealand](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Getting_Started_with_EVO_in_New_Zealand&linkCreation=true&fromPageId=3818228691)
+- [Configuring EVO for the first time](/wiki/spaces/BeSTGRID/pages/3818228555)
+- [Improving EVO's Video and Audio Quality](/wiki/spaces/BeSTGRID/pages/3818228670)
+- [A complete EVO setup for cross-institutional small-room teaching and seminars](/wiki/spaces/BeSTGRID/pages/3818228966)
+- [How to have a successful multi-party meeting with EVO](/wiki/spaces/BeSTGRID/pages/3818228799)
 
-- [Discussion Paper about EVO in NZ](/wiki/spaces/BeSTGRID/pages/3816950945)
+- [Discussion Paper about EVO in NZ](/wiki/spaces/BeSTGRID/pages/3818228897)
 
 ## OS Support
 
@@ -49,7 +49,7 @@ Some of EVO's features and functions are summarized below.
 - **Instant messaging** functions and presence information (i.e. available, busy, ... )
 - **Private or group chat** during a meeting
 - Meetings-by-**invitation, ad-hoc meetings**, booked meetings, and permanent meetings
-- **Playback and recording** functions (of the entire session [video, audio, whiteboard, Instant Message, Chat,..](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=video%2C%20audio%2C%20whiteboard%2C%20Instant%20Message%2C%20Chat%2C..&linkCreation=true&fromPageId=3816950739))
+- **Playback and recording** functions (of the entire session [video, audio, whiteboard, Instant Message, Chat,..](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=video%2C%20audio%2C%20whiteboard%2C%20Instant%20Message%2C%20Chat%2C..&linkCreation=true&fromPageId=3818228691))
 - **Shared files, high resolution sharing** of any screen area, and *whiteboard* functions
 - Support for several standard videoconferencing protocols: **H.323** (Polycom, Tandberg, ...), Session Initiation Protocol ( **SIP** ) for VoIP,and the well-known Real-Time Protocol ( **RTP** ) used by most of the collaborative applications.
 

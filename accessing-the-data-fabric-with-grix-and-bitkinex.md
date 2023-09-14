@@ -4,11 +4,11 @@ A client for accessing the Data Fabric from Windows operating systems
 
 # Introduction
 
-The [BitKinex](http://www.bitkinex.com) client can be used to access the BeSTGRID Data Fabric and can handle large files through http proxies, including Microsoft's Internet Security and Acceleration Server. BitKinex doesn't support shibboleth logins or [Grid Certificate](/wiki/spaces/BeSTGRID/pages/3816950618)s directly, but will handle MyProxy logins.
+The [BitKinex](http://www.bitkinex.com) client can be used to access the BeSTGRID Data Fabric and can handle large files through http proxies, including Microsoft's Internet Security and Acceleration Server. BitKinex doesn't support shibboleth logins or [Grid Certificate](/wiki/spaces/BeSTGRID/pages/3818228570)s directly, but will handle MyProxy logins.
 
 # Prerequisites
 
-In order to set up MyProxy certificates for BitKinex the [Grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3816950629) tool will need to be installed, and used to create a MyProxy certificate.
+In order to set up MyProxy certificates for BitKinex the [Grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3818228581) tool will need to be installed, and used to create a MyProxy certificate.
 
 You will need to gather some information, such as your institutes http proxy or web proxy settings before installation.
 

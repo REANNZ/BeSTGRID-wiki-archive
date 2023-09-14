@@ -91,14 +91,14 @@ There is also a test cluster. It's been build from three virtual machines in Xen
 The Cluster will be hosted within the Tier 1 University of Auckland ITS Data Centre, within the Owen G Glenn Building.
 
 - ITS Data Center
-- [BeSTGRID Auckland Cluster install notes](/wiki/spaces/BeSTGRID/pages/3816950831)
+- [BeSTGRID Auckland Cluster install notes](/wiki/spaces/BeSTGRID/pages/3818228783)
 	
-- [List of MAC Addresses](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=List%20of%20MAC%20Addresses&linkCreation=true&fromPageId=3816950756)
-- [Hardware positions](/wiki/spaces/BeSTGRID/pages/3816951002)
+- [List of MAC Addresses](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=List%20of%20MAC%20Addresses&linkCreation=true&fromPageId=3818228708)
+- [Hardware positions](/wiki/spaces/BeSTGRID/pages/3818228954)
 
 # Testing
 
-In order to confirm the Cluster is operating correctly to meet the Grid Operating Centre (GOC) requirements, testing has been carried out, documented in [Auckland Cluster Testing](/wiki/spaces/BeSTGRID/pages/3816950666)
+In order to confirm the Cluster is operating correctly to meet the Grid Operating Centre (GOC) requirements, testing has been carried out, documented in [Auckland Cluster Testing](/wiki/spaces/BeSTGRID/pages/3818228618)
 
 # Operations
 

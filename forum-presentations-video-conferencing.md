@@ -109,31 +109,31 @@ The 1Gig LAN connection for Larry Smar HD Connection needs to bypass the Univers
 
 **Network ports required:**
 
-- 1-Larry Smar HD Decoder Computer [130.216.155.10](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.10&linkCreation=true&fromPageId=3816950849)
+- 1-Larry Smar HD Decoder Computer [130.216.155.10](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.10&linkCreation=true&fromPageId=3818228801)
 	
 - (Inbound ports required: 5900/TCP (VNC) and 10000-10004/UDP (Qvidium Streaming viewer) & 26220/UDP (vid unicast), 37800/UDP (audio unicast), 59002/UDP (vid multicast), 59004/UDP (audio multicast) (inbound Access Grid streams))
 
-- 2-Presenters Laptop HP tablet [130.216.155.11](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.11&linkCreation=true&fromPageId=3816950849)
+- 2-Presenters Laptop HP tablet [130.216.155.11](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.11&linkCreation=true&fromPageId=3818228801)
 	
 - (Inbound ports required: 5900/TCP (VNC))
 
-- 3-Portable Access GRID node [130.216.155.12](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.12&linkCreation=true&fromPageId=3816950849)
+- 3-Portable Access GRID node [130.216.155.12](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.12&linkCreation=true&fromPageId=3818228801)
 	
 - (Inbound ports required: 26220/UDP (vid unicast), 37800/UDP (audio unicast), 59002/UDP (vid multicast), 59004/UDP (audio multicast) (inbound Access Grid streams))
 
-- 4-Nathans LifeSize Unit [130.216.155.13](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.13&linkCreation=true&fromPageId=3816950849)
+- 4-Nathans LifeSize Unit [130.216.155.13](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.13&linkCreation=true&fromPageId=3818228801)
 	
 - (Inbound ports required: 1720/TCP, 5060/UDP, 60000-64999/TCP&UDP)
 
-- 5-Presenters Laptop [DHCP or 130.216.155.14](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=DHCP%20or%20130.216.155.14&linkCreation=true&fromPageId=3816950849)
+- 5-Presenters Laptop [DHCP or 130.216.155.14](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=DHCP%20or%20130.216.155.14&linkCreation=true&fromPageId=3818228801)
 	
 - Nathan (Inbound ports required: 1720/TCP&UDP, 5000-5020/TCP&UDP, 5090/TCP&UDP)
 
-- 6-AGVCR Access GRID node [130.216.155.15](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.15&linkCreation=true&fromPageId=3816950849)
+- 6-AGVCR Access GRID node [130.216.155.15](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.15&linkCreation=true&fromPageId=3818228801)
 	
 - (Inbound ports required: 5900/TCP (VNC) & 26220/UDP (vid unicast), 37800/UDP (audio unicast), 59002/UDP (vid multicast), 59004/UDP (audio multicast) (inbound Access Grid streams))
 
-- 7-Graeme's laptop (just in case) [130.216.155.16](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.16&linkCreation=true&fromPageId=3816950849)
+- 7-Graeme's laptop (just in case) [130.216.155.16](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.16&linkCreation=true&fromPageId=3818228801)
 	
 - (Inbound ports required: 10000-10004/UDP (Qvidium Streaming viewer) & 26220/UDP (vid unicast), 37800/UDP (audio unicast), 59002/UDP (vid multicast), 59004/UDP (audio multicast) (inbound Access Grid streams))
 

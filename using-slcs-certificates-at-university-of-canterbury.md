@@ -4,7 +4,7 @@ SLCS certificates (SLCS for *Short-lived certificate service*) issued based on a
 
 This page documents the steps necessary to get a SLCS certificate and start using the grid with such a certificate.  The page considers the specifics of the University of Canterbury Shibboleth Identity Provider, but it should reasonably apply to other institutions once they deploy an IdP and configure the SharedToken attribute.
 
-A separate page documents [the task of configuring the IdP for SLCS certificates](/wiki/spaces/BeSTGRID/pages/3816950476) - and this page focuses on the user perspective.
+A separate page documents [the task of configuring the IdP for SLCS certificates](/wiki/spaces/BeSTGRID/pages/3818228428) - and this page focuses on the user perspective.
 
 Overall, the user has to:
 
@@ -16,7 +16,7 @@ Overall, the user has to:
 ## Retrieving your first SLCS certificate
 
 - Make sure you have configured the attribute release as described above.
-- Start [http://bestgrid.org/grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3816950494) and select the Institution login tab
+- Start [http://bestgrid.org/grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3818228446) and select the Institution login tab
 - Pick your institutions IdP and enter your home usercode and password.
 - Click login -  Grix should now create a grid certificate and a proxy for you.
 

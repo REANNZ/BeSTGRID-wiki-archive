@@ -1,8 +1,8 @@
 # Setup NG2 at University of Canterbury
 
-NG2 is a job submission gateway based on Globus Tookit 4.x.  At the University of Canterbury, NG2 submits jobs only to the BeSTGRID prototype cluster, while [Vladimir__Setup NG2HPC](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NG2HPC&linkCreation=true&fromPageId=3816950735) and NG2SGE allow to submit jobs to more powerful resources.  The NG2 was setup as a gateway prototype, and also works as the MIP integrator for the other gateways.
+NG2 is a job submission gateway based on Globus Tookit 4.x.  At the University of Canterbury, NG2 submits jobs only to the BeSTGRID prototype cluster, while [Vladimir__Setup NG2HPC](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NG2HPC&linkCreation=true&fromPageId=3818228687) and NG2SGE allow to submit jobs to more powerful resources.  The NG2 was setup as a gateway prototype, and also works as the MIP integrator for the other gateways.
 
-**NOTE: This page is a historic relict and is not up to date.  If you are looking for instructions on how to setup a job submission gateway for BeSTGRID, please see the ****[Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3816950633)**** page instead.** |
+**NOTE: This page is a historic relict and is not up to date.  If you are looking for instructions on how to setup a job submission gateway for BeSTGRID, please see the ****[Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585)**** page instead.** |
 
 # Preliminary setup
 
@@ -11,7 +11,7 @@ NG2 is a job submission gateway based on Globus Tookit 4.x.  At the University o
 
 ## Install PBS client
 
-- Installed in the same way as described in [grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20Grid&linkCreation=true&fromPageId=3816950735)
+- Installed in the same way as described in [grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20Grid&linkCreation=true&fromPageId=3818228687)
 
 - Should have instead installed `torque-client` from APAC-Repo.
 
@@ -19,7 +19,7 @@ NG2 is a job submission gateway based on Globus Tookit 4.x.  At the University o
 
 - Shared home directories mounted from `grid`.
 	
-- as described in [ngcompute](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NGCompute&linkCreation=true&fromPageId=3816950735))
+- as described in [ngcompute](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NGCompute&linkCreation=true&fromPageId=3818228687))
 
 # APACGrid NG2 Setup
 
@@ -176,11 +176,11 @@ Job-DN: 1b77e5d6-0299-11dc-a003-00163e84b502:8513 /C=AU/O=APACGrid/O=BeSTGRID/OU
 
 ```
 
-**Important**: In addition, you have to make sure your cluster is [reporting the job statistics](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup_NGCompute&linkCreation=true&fromPageId=3816950735) to GOC.
+**Important**: In addition, you have to make sure your cluster is [reporting the job statistics](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup_NGCompute&linkCreation=true&fromPageId=3818228687) to GOC.
 
 ## Configuring PRIMA
 
-**Note**: in March 2008, I have [installed a GUMS server](/wiki/spaces/BeSTGRID/pages/3816950726) and switched the gateways to use PRIMA.  Due to the [whitespace issue](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup_NGGums_at_University_of_Canterbury&linkCreation=true&fromPageId=3816950735), I had to install an updated PRIMA library properly encoding and decoding the whitespace.  I have used the one I compiled when helping to solve the problem, and which was installed on the VDT161 instance on Ng2SGE.
+**Note**: in March 2008, I have [installed a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228678) and switched the gateways to use PRIMA.  Due to the [whitespace issue](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup_NGGums_at_University_of_Canterbury&linkCreation=true&fromPageId=3818228687), I had to install an updated PRIMA library properly encoding and decoding the whitespace.  I have used the one I compiled when helping to solve the problem, and which was installed on the VDT161 instance on Ng2SGE.
 
 After doing that, it was sufficient to turn PRIMA on with:
 
@@ -310,12 +310,12 @@ The configuration is described at [http://www.vpac.org/twiki/bin/view/APACgrid/C
 	
 - edit /usr/local/mip/config/default.pl, and uncomment the lines
 		
-- `Cluster => `["cluster1",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22cluster1%22%2C&linkCreation=true&fromPageId=3816950735), and
-- `ComputingElement => `["compute1",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22compute1%22%2C&linkCreation=true&fromPageId=3816950735)
+- `Cluster => `["cluster1",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22cluster1%22%2C&linkCreation=true&fromPageId=3818228687), and
+- `ComputingElement => `["compute1",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22compute1%22%2C&linkCreation=true&fromPageId=3818228687)
 
 ## Enable the JobManager field
 
-The JobManager field will be particularly important on the LoadLeveler-integrated [NG2HPC](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup%20NG2HPC&linkCreation=true&fromPageId=3816950735).
+The JobManager field will be particularly important on the LoadLeveler-integrated [NG2HPC](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup%20NG2HPC&linkCreation=true&fromPageId=3818228687).
 
 To publish the JobManager field in MDS, it's not enough to set the field in `/usr/local/mip/config/apac_config.py`:
 
@@ -451,7 +451,7 @@ query the service at Canterbury
 
 or see the dump of all sites in the central APAC MDS server
 
->  wsrf-query -s [https://mds.sapac.edu.au:8443/wsrf/services/DefaultIndexService](https://mds.sapac.edu.au:8443/wsrf/services/DefaultIndexService) "//*[local-name()='Site'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=local-name%28%29%3D%27Site%27&linkCreation=true&fromPageId=3816950735)"
+>  wsrf-query -s [https://mds.sapac.edu.au:8443/wsrf/services/DefaultIndexService](https://mds.sapac.edu.au:8443/wsrf/services/DefaultIndexService) "//*[local-name()='Site'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=local-name%28%29%3D%27Site%27&linkCreation=true&fromPageId=3818228687)"
 
 or see just a single site as its contained in APAC MDS server
 
@@ -461,5 +461,5 @@ Note that in order for the wsrf-query command to work, certain jars with Java XM
 
 # Additional Modifications
 
-- [PBS job tagging](/wiki/spaces/BeSTGRID/pages/3816950918) to make distinguished name and email address of the user submitting the job available to PBS.
-- [Fixing startup order](/wiki/spaces/BeSTGRID/pages/3816950583#Vladimir&#39;sgridnotes-Fixingstartuporder) to avoid problems when Globus RFT starts before MySQL.
+- [PBS job tagging](/wiki/spaces/BeSTGRID/pages/3818228870) to make distinguished name and email address of the user submitting the job available to PBS.
+- [Fixing startup order](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingstartuporder) to avoid problems when Globus RFT starts before MySQL.

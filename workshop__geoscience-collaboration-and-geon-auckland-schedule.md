@@ -145,6 +145,6 @@ Lunch
 
 Informal discussions and meetings (with each other, with the GEON team)
 
-[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3816950943)
+[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3818228895)
 
 _*NOTOC*_

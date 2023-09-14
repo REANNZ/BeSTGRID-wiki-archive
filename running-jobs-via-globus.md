@@ -31,7 +31,7 @@ Every time you wish to login and submit jobs, you need to do these steps:
 - ...
 - Collect output.
 
-Various useful tools to interface with grid are described here: [Grid Tools](/wiki/spaces/BeSTGRID/pages/3816950787)
+Various useful tools to interface with grid are described here: [Grid Tools](/wiki/spaces/BeSTGRID/pages/3818228739)
 
 # Examples
 
