@@ -1,6 +1,6 @@
 # Sakai Server Install
 
-[To The Gateway Server Configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=The_GateWay_Configuration&linkCreation=true&fromPageId=3818228714)
+To The Gateway Server Configuration
 
 - BeSTGRID Sakai VRE - Production/Pilot deployment details
 [http://jira.sakaiproject.org/jira/browse/PROD-118](http://jira.sakaiproject.org/jira/browse/PROD-118)
@@ -29,7 +29,7 @@ There were some changes which we've implemented in this sequence:
 - memory=1024
 - cpus="0"       //using cpus="" makes an perl error
 - disk=['phy:VolumeGroup00/SakaiR,sda1,w','phy:VolumeGroup00/SakaiS,sda2,w'
-- vif=[16:3E:01:01:01, bridge=xenbr0'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey='00&title=16%3A3E%3A01%3A01%3A01%2C%20bridge%3Dxenbr0%27)
+- vif=[16:3E:01:01:01, bridge=xenbr0']
 - added lines:
 		
 - netmask="255.255.255.0"

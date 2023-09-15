@@ -4,7 +4,7 @@
 
 ## Current
 
-- [Nick Jones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones), Director,  (Co-Director eResearch, Centre for eResearch, University of Auckland) (Oct 2006 - )
+- [Nick Jones](nickdjonesbestgridorg.md), Director,  (Co-Director eResearch, Centre for eResearch, University of Auckland) (Oct 2006 - )
 - Martin Johnson, Project Lead Massey, Computer Science, Massey (Aug 2006 - )
 - Nevil Brownlee, REANNZ Advisory Group Member, Centre for eResearch, Auckland (Aug 2006 - )
 - Tim Chaffe, Enterprise Architecture Manager, ITSS, Auckland (Aug 2006 - )

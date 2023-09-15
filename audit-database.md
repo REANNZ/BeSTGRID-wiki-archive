@@ -105,7 +105,7 @@ We need some extra tables:
 >    PRIMARY KEY  (`local_job_id`)
 >  );
 
-This is [//ftp.bestgrid.org/pub/torque2mysql.py sample](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=ftp&title=%2F%2Fftp.bestgrid.org%2Fpub%2Ftorque2mysql.py%20sample) python script to convert torque logs into SQL. It can be used as 
+This is ftp.bestgrid.org/pub/torque2mysql.py sample python script to convert torque logs into SQL. It can be used as 
 
 >  cat /opt/torque/server_priv/accounting/**|python torque2mysql.py |mysql -h mysql-bg.ceres.auckland.ac.nz --port=3306 -u grid-mysql -p***** ng2_auditDatabase
 

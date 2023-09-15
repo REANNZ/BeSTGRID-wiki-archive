@@ -10,13 +10,13 @@ The tutorial will briefly cover using R in a non-interactive way through the use
 
 In order to make full use of this tutorial you will require the following:
 
-- A [BeSTGRID Federation Identity](https://www.bestgrid.org/getstarted) or a [Grid Certificate](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grid_Certificate&linkCreation=true&fromPageId=3818228582).
-- Membership of the [BeSTGRID Virtual Organisation (VO)](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Apply_for_VO_Membership&linkCreation=true&fromPageId=3818228582).
+- A [BeSTGRID Federation Identity](https://www.bestgrid.org/getstarted) or a [Grid Certificate](grid-certificate.md).
+- Membership of the [BeSTGRID Virtual Organisation (VO)](apply-for-vo-membership.md).
 - The [Grisu tool to submit jobs](http://grisu.arcs.org.au/downloads/webstart/grisu.jnlp).
 
 # R Scripts
 
-[R](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=R&linkCreation=true&fromPageId=3818228582) is widely used in by the research community, it traditionally runs in an interactive environment on a users desktop in a single-threaded manner.  We will add some packages namely RMPI and SNOW to an example R script, and run it in a non-interactive manner to allow it to run in a grid computing environment.
+R is widely used in by the research community, it traditionally runs in an interactive environment on a users desktop in a single-threaded manner.  We will add some packages namely RMPI and SNOW to an example R script, and run it in a non-interactive manner to allow it to run in a grid computing environment.
 
 If you already have an R script that you run on a cluster or similar then it is likely to be easily translated into the grid computing environment.
 
@@ -282,7 +282,7 @@ When producing parallel R scripts, there are some important considerations, thes
 
 # Package Installation
 
-BeSTGRID sites will have a number of common packages installed, however you may need to install your own specialized packages.  This article on [R packages](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_R_packages_in_Grisu_jobs&linkCreation=true&fromPageId=3818228582) will help.
+BeSTGRID sites will have a number of common packages installed, however you may need to install your own specialized packages.  This article on [R packages](installing-r-packages-in-grisu-jobs.md) will help.
 
 # Other Submission Mechanisms
 

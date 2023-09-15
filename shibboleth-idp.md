@@ -201,7 +201,7 @@ It may occur due to the following errors:
 
 The shibd.log file in SP presented a message similar to below: 
 
-**ERROR shibd.Listener ****[41](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=41&linkCreation=true&fromPageId=3818228900)**** sessionNew: caught exception while creating session: unable to accept assertion because of clock skew**
+**ERROR shibd.Listener ****[41]**** sessionNew: caught exception while creating session: unable to accept assertion because of clock skew**
 
 It is caused by the different system time settings between SP and IdP. 
 
@@ -209,11 +209,11 @@ It is caused by the different system time settings between SP and IdP.
 
 If the following messages presented in the shibd.log of SP, then it should be the conflict between the metadata in either IdP or SP, or both. Make sure those metadata is up-to-date, and they should contain the identities and the details of all parties (e.g. IdP specified the identity and the details of the SP that it need to communicate with). 
 
-ERROR OpenSSL [52](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=52&linkCreation=true&fromPageId=3818228900) sessionNew: path validation failure: unable to get local issuer certificate
+ERROR OpenSSL [52] sessionNew: path validation failure: unable to get local issuer certificate
 
-ERROR Shibboleth.ShibBrowserProfile [52](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=52&linkCreation=true&fromPageId=3818228900) sessionNew: unable to verify signed profile response
+ERROR Shibboleth.ShibBrowserProfile [52] sessionNew: unable to verify signed profile response
 
-ERROR shibd.Listener [52](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=52&linkCreation=true&fromPageId=3818228900) sessionNew: caught exception while creating session: unable to verify signed profile response
+ERROR shibd.Listener [52] sessionNew: caught exception while creating session: unable to verify signed profile response
 
 ## Attribute Release Policy (ARP)
 

@@ -1,6 +1,6 @@
 # Technical Overview for Institutional GRID Gateways
 
-- Physical Gateway Server: [IBM x3500](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=The%20GateWay%20Configuration&linkCreation=true&fromPageId=3818228419)
+- Physical Gateway Server: IBM x3500
 - [Xen Domain 0](http://www.vpac.org/twiki/bin/view/APACgrid/XenInstall) Xen hypervisor - a manager of Virtual machines on Gateway Server (re: APAC)
 - [NG2 Virtual Machine](http://www.vpac.org/twiki/bin/view/APACgrid/VmdetailsNg2) (1st Virtual machine) Gateway for Computational GRID
 	

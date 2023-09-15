@@ -417,7 +417,7 @@ computeElement.qconf = os.environ['SGE_ROOT'] + "/bin/" + os.environ['SGE_ARCH']
 
 ```
 
-Please let [Vladimir Mencl](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir) know about any issues you discover.
+Please let [Vladimir Mencl](vladimirbestgridorg.md) know about any issues you discover.
 
 - Please note that when Globus invokes MIP (as the `daemon` user), MIP must have the right permissions and environment variable settings to access SGE.  To make Globus load the SGE profile script as part of VDT environment (same as above in [Globus integration - Environment variables for qsub](#SettingupanNG2SGEspecificparts-Environmentvariablesforqsub)), copy the profile script into `$VDT_LOCATION/post-setup`:
 

@@ -50,7 +50,7 @@ On the Symphony cluster, torque is packaged as `torque-commands, torque-common,`
 
 # Grid pulse setup
 
-The instructions up at [Setting_up_an_NG2_on_Ubuntu#GridPulse](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885) were followed.
+The instructions up at [Setting_up_an_NG2_on_Ubuntu#GridPulse](setting-up-an-ng2-on-ubuntu.md) were followed.
 
 Here's a tip for Debian Lenny, or Debian 5. I installed `fakeroot` and `alien`, and did the following in my home directory:
 
@@ -64,11 +64,11 @@ $ fakeroot alien APAC-gateway-gridpulse-0.3-4.noarch.rpm
 
 # Ggateway
 
-Proceed as per [Setting_up_an_NG2_on_Ubuntu#Ggateway](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885)
+Proceed as per [Setting_up_an_NG2_on_Ubuntu#Ggateway](setting-up-an-ng2-on-ubuntu.md)
 
 # LRM log replication - PBS Telltail/logmaker
 
-Proceed mostly as per [Setting_up_an_NG2_on_Ubuntu#Configure_LRM_log_replication_from_LRM_server_to_the_NG2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885)
+Proceed mostly as per [Setting_up_an_NG2_on_Ubuntu#Configure_LRM_log_replication_from_LRM_server_to_the_NG2](setting-up-an-ng2-on-ubuntu.md)
 
 `pbs-logmaker` is now a separate package from pbs-telltail.  Download it from [pbs-logmaker-1.0.3-1.noarch.rpm](http://projects.arcs.org.au/dist/production/5/x86_64/noarch/pbs-logmaker-1.0.3-1.noarch.rpm)
 
@@ -142,11 +142,11 @@ apt-get install daemon
 
 ```
 
-and then proceed as per [Setting_up_an_NG2_on_Ubuntu#Configuring_local_scheduler_access_2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885)
+and then proceed as per [Setting_up_an_NG2_on_Ubuntu#Configuring_local_scheduler_access_2](setting-up-an-ng2-on-ubuntu.md)
 
 # VDT Pacman set up
 
-As per [Setting_up_an_NG2_on_Ubuntu#Installing_VDT](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885). Since we are on Debian 5, no major problems here.
+As per [Setting_up_an_NG2_on_Ubuntu#Installing_VDT](setting-up-an-ng2-on-ubuntu.md). Since we are on Debian 5, no major problems here.
 
 Do the following first:
 
@@ -184,7 +184,7 @@ and the `/etc/profile.d` directory created.
 
 ```
 
-Then proceed as per [Setting_up_an_NG2_on_Ubuntu#Installing_VDT](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885).
+Then proceed as per [Setting_up_an_NG2_on_Ubuntu#Installing_VDT](setting-up-an-ng2-on-ubuntu.md).
 
 # Post-install configuration
 
@@ -206,7 +206,7 @@ apt-get install python-lxml libxml2-utils
 
 ```
 
-and proceed according to [Setting_up_an_NG2_on_Ubuntu#Setup MDS/MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2_on_Ubuntu&linkCreation=true&fromPageId=3818228885)
+and proceed according to [Setting_up_an_NG2_on_Ubuntu#Setup MDS/MIP](setting-up-an-ng2-on-ubuntu.md)
 
 # Getting it all going
 

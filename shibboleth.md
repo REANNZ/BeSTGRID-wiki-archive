@@ -30,11 +30,11 @@ Shibboleth is based on the [Security Assertion Markup Language](/wiki/spaces/BeS
 
 # Shibbolizing Drupal
 
-An instruction to how to [Shibbolize Drupal](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize%20Drupal&linkCreation=true&fromPageId=3818228969)
+An instruction to how to [Shibbolize Drupal]
 
 # Shibbolizing MediaWiki
 
-An instruction to how to [Shibbolize MediaWiki](/wiki/spaces/BeSTGRID/pages/3818228873)
+An instruction to how to [Shibbolize MediaWiki](shibbolize-mediawiki.md)
 
 # Shibbolizing Sakai VRE
 

@@ -93,7 +93,7 @@ The Cluster will be hosted within the Tier 1 University of Auckland ITS Data Cen
 - ITS Data Center
 - [BeSTGRID Auckland Cluster install notes](/wiki/spaces/BeSTGRID/pages/3818228783)
 	
-- [List of MAC Addresses](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=List%20of%20MAC%20Addresses&linkCreation=true&fromPageId=3818228708)
+- List of MAC Addresses
 - [Hardware positions](/wiki/spaces/BeSTGRID/pages/3818228954)
 
 # Testing

@@ -109,31 +109,31 @@ The 1Gig LAN connection for Larry Smar HD Connection needs to bypass the Univers
 
 **Network ports required:**
 
-- 1-Larry Smar HD Decoder Computer [130.216.155.10](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.10&linkCreation=true&fromPageId=3818228801)
+- 1-Larry Smar HD Decoder Computer \[130.216.155.10\]
 	
 - (Inbound ports required: 5900/TCP (VNC) and 10000-10004/UDP (Qvidium Streaming viewer) & 26220/UDP (vid unicast), 37800/UDP (audio unicast), 59002/UDP (vid multicast), 59004/UDP (audio multicast) (inbound Access Grid streams))
 
-- 2-Presenters Laptop HP tablet [130.216.155.11](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.11&linkCreation=true&fromPageId=3818228801)
+- 2-Presenters Laptop HP tablet \[130.216.155.11\]
 	
 - (Inbound ports required: 5900/TCP (VNC))
 
-- 3-Portable Access GRID node [130.216.155.12](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.12&linkCreation=true&fromPageId=3818228801)
+- 3-Portable Access GRID node \[130.216.155.12\]
 	
 - (Inbound ports required: 26220/UDP (vid unicast), 37800/UDP (audio unicast), 59002/UDP (vid multicast), 59004/UDP (audio multicast) (inbound Access Grid streams))
 
-- 4-Nathans LifeSize Unit [130.216.155.13](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.13&linkCreation=true&fromPageId=3818228801)
+- 4-Nathans LifeSize Unit \[130.216.155.13\]
 	
 - (Inbound ports required: 1720/TCP, 5060/UDP, 60000-64999/TCP&UDP)
 
-- 5-Presenters Laptop [DHCP or 130.216.155.14](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=DHCP%20or%20130.216.155.14&linkCreation=true&fromPageId=3818228801)
+- 5-Presenters Laptop \[DHCP or 130.216.155.14\]
 	
 - Nathan (Inbound ports required: 1720/TCP&UDP, 5000-5020/TCP&UDP, 5090/TCP&UDP)
 
-- 6-AGVCR Access GRID node [130.216.155.15](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.15&linkCreation=true&fromPageId=3818228801)
+- 6-AGVCR Access GRID node \[130.216.155.15\]
 	
 - (Inbound ports required: 5900/TCP (VNC) & 26220/UDP (vid unicast), 37800/UDP (audio unicast), 59002/UDP (vid multicast), 59004/UDP (audio multicast) (inbound Access Grid streams))
 
-- 7-Graeme's laptop (just in case) [130.216.155.16](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=130.216.155.16&linkCreation=true&fromPageId=3818228801)
+- 7-Graeme's laptop (just in case) \[130.216.155.16\]
 	
 - (Inbound ports required: 10000-10004/UDP (Qvidium Streaming viewer) & 26220/UDP (vid unicast), 37800/UDP (audio unicast), 59002/UDP (vid multicast), 59004/UDP (audio multicast) (inbound Access Grid streams))
 
@@ -219,7 +219,7 @@ Calit2 Phone number:-
 
 **Sam Searle** sam.searle@mcs.vuw.ac.nz
 
-COMPLETE (19-06-07): Access Grid sessions are booked and all AG node operators have been notified. [these bookings will not show in the public Google Calendar until 20-06-07.](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Note&title=these%20bookings%20will%20not%20show%20in%20the%20public%20Google%20Calendar%20until%2020-06-07.)
+COMPLETE (19-06-07): Access Grid sessions are booked and all AG node operators have been notified. *these bookings will not show in the public Google Calendar until 20-06-07.*
 
 Vicki Lindsay, REANNZ has emailed instructions and additional information to Node operators, plus has advertised AccessGrid option.
 
@@ -403,7 +403,7 @@ He is also happy to assist in the preparations for Larry Smarr’s HD-over-IP pr
 
 Email
 
-Laurin Herr [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dpacific-interface.com%3Bsearch%3Fq%3Dlaurin)
+Laurin Herr `laurin@pacific-interface.com`
 
 ## Panel Discussion
 
@@ -568,7 +568,7 @@ Vicki and Julie need to work out some kind of signage to direct people from foot
 
 - Jim Mullins jmullins@u.washington.edu [http://ubik.microbiol.washington.edu/People/Mullins.html](http://ubik.microbiol.washington.edu/People/Mullins.html)
 - Ian Foster itf@mcs.anl.gov
-- Rick Stevens [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dmcs.anl.gov%3Bsearch%3Fq%3Dstevens) Argonne National Laboratory, [http://www-fp.mcs.anl.gov/~Stevens/](http://www-fp.mcs.anl.gov/~Stevens/)
+- Rick Stevens `stevens@mcs.anl.gov` Argonne National Laboratory, [http://www-fp.mcs.anl.gov/~Stevens/](http://www-fp.mcs.anl.gov/~Stevens/)
 - Ron Johnson, Vice Provost, Information Systems University of Washington c/-  luler@u.washington.edu
 - Laurin Herr, Director CineGRID
 - Larry Smarr, Director Calit2 by video conference
@@ -577,14 +577,14 @@ Vicki and Julie need to work out some kind of signage to direct people from foot
 
 ## From Australia 
 
-- George McLaughlin [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dmclaughlin.net%3Bsearch%3Fq%3Dgeorge)
+- George McLaughlin `george@mclaughlin.net`
 - Rhys Francis Rhys.Francis@csiro.au, NCRIS Facilitator for Platforms for Collaboration
 - Nick Tate, Director, ITS and AusCERT, The University of Queensland, n.tate@its.uq.edu.au
-- Paul Arthur, Curtin University of Technology,[unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dhotmail.com%3Bsearch%3Fq%3Dresearchdevelopment)
+- Paul Arthur, Curtin University of Technology,`researchdevelopment@hotmail.com`
 
 ## From New Zealand 
 
-- Allen Rodrigo [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dauckland.ac.nz%3Bsearch%3Fq%3Da.rodrigo)
+- Allen Rodrigo `a.rodrigo@auckland.ac.nz`
 - John Hine, Professor Computer Science, Victoria, hine@mcs.vuw.ac.nz
 - David Thorn, david.thorns@canterbury.ac.nz
 - Donald Clark, CEO REANNZ, donald.clark@reannz.co.nz
@@ -594,5 +594,5 @@ Vicki and Julie need to work out some kind of signage to direct people from foot
 - Quincy Ma, Auckland University,q.ma@auckland.ac.nz
 - Daniel Patrick, Auckland University,d.patrick@auckland.ac.nz
 - Nathan Garinder, HitLab, nathan.gardiner@hitlabnz.org
-- Chris Brown, Otago University, Chris Brown [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dotago.ac.nz%3Bsearch%3Fq%3Dchris.brown)
+- Chris Brown, Otago University, Chris Brown `chris.brown@otago.ac.nz`
 - Russell Butson, Otago University, russell.butson@otago.ac.nz

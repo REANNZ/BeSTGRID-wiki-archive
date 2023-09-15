@@ -51,7 +51,7 @@ First, we setup the ARCS repository and install GridPulse (the ARCS system monit
 ``` 
 cd /etc/yum.repos.d && wget http://projects.arcs.org.au/dist/arcs.repo
 ```
-- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3818228506) repository in `/etc/yum.repos.d/arcs.repo` to: 
+- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs] repository in `/etc/yum.repos.d/arcs.repo` to: 
 
 ``` 
 baseurl=http://projects.arcs.org.au/dist/production/$releasever/i386
@@ -91,7 +91,7 @@ PBS_HOME="/usr/spool/PBS/server_logs"
 >  service pbs-logmaker start
 >  chkconfig pbs-logmaker on
 
-For further instructions, see the [LRM access](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228506) and [Log replication](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228506) sections in [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228506)
+For further instructions, see the [LRM access](setting-up-an-ng2-pbs-specific-parts.md) and [Log replication](setting-up-an-ng2-pbs-specific-parts.md) sections in [Setting up an NG2/PBS specific parts](setting-up-an-ng2-pbs-specific-parts.md)
 
 # Installing Globus
 
@@ -475,7 +475,7 @@ make gram5-pbs-thr
 ```
 - This script creates: `/opt/globus/etc/grid-services/jobmanager-pbs` and `/opt/globus/lib/perl/Globus/GRAM/JobManager/pbs.pm`
 - When creating pbs.pm, the script looks for the following executables in the current environment: `mpiexec mpirun qdel qstat qsub`
-- You will want to replace your pbs.pm with the site-customized one used at your NG2 - but for testing, you may also pass additional parameters to the setup-globus-job-manager-pbs.pl script to customize how pbs.pm gets created: [--non-cluster](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=--non-cluster&linkCreation=true&fromPageId=3818228506)` `[--cpu-per-node=COUNT](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=--cpu-per-node%3DCOUNT&linkCreation=true&fromPageId=3818228506)
+- You will want to replace your pbs.pm with the site-customized one used at your NG2 - but for testing, you may also pass additional parameters to the setup-globus-job-manager-pbs.pl script to customize how pbs.pm gets created: [--non-cluster]` `[--cpu-per-node=COUNT]
 6. **Note that in pbs.pm,*all variables must be initialized before use** - see [#Notable Issues](#SetupGRAM5onCentOS5-NotableIssues) below
 7. Now, the PBS job manager is available as "jobmanager-pbs"
 
@@ -816,27 +816,27 @@ This section goes briefly through the MDS setup.  One major difference is that G
 - Edit source.pl:
 
 
->  pkgs       => ['ng1.canterbury.ac.nz',](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27ng1.canterbury.ac.nz%27%2C&linkCreation=true&fromPageId=3818228506),
->  pkgs       => ['ng1.canterbury.ac.nz',](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27ng1.canterbury.ac.nz%27%2C&linkCreation=true&fromPageId=3818228506),
+>  pkgs       => ['ng1.canterbury.ac.nz',],
+>  pkgs       => ['ng1.canterbury.ac.nz',],
 
 - Create new package config file with element IDs: create /usr/local/mip/config/ng1.canterbury.ac.nz.pl with the following content (use default.pl as a template)
 
 
->   clusterlist => ['ng1.canterbury.ac.nz'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27ng1.canterbury.ac.nz%27&linkCreation=true&fromPageId=3818228506),
+>   clusterlist => ['ng1.canterbury.ac.nz'],
 >   uids =>  {
->     Site => ["canterbury.ac.nz",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22canterbury.ac.nz%22%2C&linkCreation=true&fromPageId=3818228506),
->     SubCluster => ["ng1.canterbury.ac.nz-subcluster-GT5",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22ng1.canterbury.ac.nz-subcluster-GT5%22%2C&linkCreation=true&fromPageId=3818228506),
->     Cluster => ["ng1.canterbury.ac.nz-cluster-GT5",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22ng1.canterbury.ac.nz-cluster-GT5%22%2C&linkCreation=true&fromPageId=3818228506),
->     ComputingElement => ["ng1.canterbury.ac.nz-ce-GT5",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22ng1.canterbury.ac.nz-ce-GT5%22%2C&linkCreation=true&fromPageId=3818228506),
->     StorageElement => ["ng1.canterbury.ac.nz",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22ng1.canterbury.ac.nz%22%2C&linkCreation=true&fromPageId=3818228506),
+>     Site => ["canterbury.ac.nz",],
+>     SubCluster => ["ng1.canterbury.ac.nz-subcluster-GT5",],
+>     Cluster => ["ng1.canterbury.ac.nz-cluster-GT5",],
+>     ComputingElement => ["ng1.canterbury.ac.nz-ce-GT5",],
+>     StorageElement => ["ng1.canterbury.ac.nz",],
 >   }
->   clusterlist => ['ng1.canterbury.ac.nz'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27ng1.canterbury.ac.nz%27&linkCreation=true&fromPageId=3818228506),
+>   clusterlist => ['ng1.canterbury.ac.nz'],
 >   uids =>  {
->     Site => ["canterbury.ac.nz",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22canterbury.ac.nz%22%2C&linkCreation=true&fromPageId=3818228506),
->     SubCluster => ["ng1.canterbury.ac.nz-subcluster-GT5",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22ng1.canterbury.ac.nz-subcluster-GT5%22%2C&linkCreation=true&fromPageId=3818228506),
->     Cluster => ["ng1.canterbury.ac.nz-cluster-GT5",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22ng1.canterbury.ac.nz-cluster-GT5%22%2C&linkCreation=true&fromPageId=3818228506),
->     ComputingElement => ["ng1.canterbury.ac.nz-ce-GT5",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22ng1.canterbury.ac.nz-ce-GT5%22%2C&linkCreation=true&fromPageId=3818228506),
->     StorageElement => ["ng1.canterbury.ac.nz",](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22ng1.canterbury.ac.nz%22%2C&linkCreation=true&fromPageId=3818228506),
+>     Site => ["canterbury.ac.nz",],
+>     SubCluster => ["ng1.canterbury.ac.nz-subcluster-GT5",],
+>     Cluster => ["ng1.canterbury.ac.nz-cluster-GT5",],
+>     ComputingElement => ["ng1.canterbury.ac.nz-ce-GT5",],
+>     StorageElement => ["ng1.canterbury.ac.nz",],
 >   }
 
 

@@ -1,6 +1,6 @@
 # Grid Acronyms
 
-There are many acronyms used in the Grid world, in particular as names of software packages.  Below are the ones used the most frequently in the [VDT](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=VDT&linkCreation=true&fromPageId=3818228536).
+There are many acronyms used in the Grid world, in particular as names of software packages.  Below are the ones used the most frequently in the VDT.
 
 # Grid Related Acronyms
 
@@ -75,7 +75,7 @@ From Globus/VDT webpage:
 
 *"A number of tools function along with Globus to make Grid computing a more robust platform, useful to high-performance computing communities. They include:"*
 
-- WebCom and WebCom-G [5](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=5&linkCreation=true&fromPageId=3818228536)
+- WebCom and WebCom-G \[5\]
 - Gridbus Grid Service Broker
 - Grid Portal Software such as GridPort, OGCE and GridSphere
 - Grid Packaging Toolkit (GPT)

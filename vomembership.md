@@ -2,7 +2,7 @@
 
 To request membership of a VO, you need to run the Grix tool (this is a Java Web Start application)
 
-Instructions for using Grix can be found [here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grid_Tools&linkCreation=true&fromPageId=3818228902)
+Instructions for using Grix can be found [here](grid-tools.md)
 
 Chances are you'll be wanting membership of the `ARCS/BeSTGRID` VO.
 

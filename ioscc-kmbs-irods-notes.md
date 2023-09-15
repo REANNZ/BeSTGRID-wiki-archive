@@ -203,7 +203,7 @@ Setting up this server will require us to install software
 cd /etc/yum.repos.d && wget http://projects.arcs.org.au/dist/arcs.repo
 ```
 
-- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3818228692) repository in `/etc/yum.repos.d/arcs.repo` to: 
+- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the *arcs* repository in `/etc/yum.repos.d/arcs.repo` to: 
 
 ``` 
 baseurl=http://projects.arcs.org.au/dist/production/$releasever/i386

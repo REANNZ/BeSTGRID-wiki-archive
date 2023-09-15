@@ -123,7 +123,7 @@ Part of this extension is a simple PHP page that based on Shibboleth authenticat
 - This page is typically at: /dfpassword/
 - This page needs `rods` admin access to set the user password.
 - Source code for the page is available at [https://subversion.ceres.auckland.ac.nz/BeSTGRID/df/usermgmt/dfpassword/](https://subversion.ceres.auckland.ac.nz/BeSTGRID/df/usermgmt/dfpassword/)
-- Installation instructions will be covered in the [Slave server install manual](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_an_iRODS_slave_server&linkCreation=true&fromPageId=3818228914)
+- Installation instructions will be covered in the [Slave server install manual](installing-an-irods-slave-server.md)
 
 # Changing a user passsword
 
@@ -132,4 +132,4 @@ Part of this extension is also a simple PHP page that allows changing password b
 - This page is typically at: /dfchangepw/
 - This page acts as if the user executed an `ipasswd` command.  The page does not need any privileged access.
 - Source code for the page is available at [https://subversion.ceres.auckland.ac.nz/BeSTGRID/df/usermgmt/dfchangepw/](https://subversion.ceres.auckland.ac.nz/BeSTGRID/df/usermgmt/dfchangepw/)
-- Installation instructions will be covered in the [Slave server install manual](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_an_iRODS_slave_server&linkCreation=true&fromPageId=3818228914)
+- Installation instructions will be covered in the [Slave server install manual](installing-an-irods-slave-server.md)

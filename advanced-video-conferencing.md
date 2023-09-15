@@ -15,7 +15,7 @@ Three Advanced Video Conferencing platforms with be available:
 
 ***[LifeSize](http://www.lifesize.com)**: An easy-to-use, high definition video-conferencing system
 
-***[EVO](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Template__EVO_vignette&linkCreation=true&fromPageId=3818228891)**: A desktop Web based collaboration platform for video, voice, screen sharing, and shared whiteboards
+***[EVO](evo-vignette.md)**: A desktop Web based collaboration platform for video, voice, screen sharing, and shared whiteboards
 
 ***Access-Grid**: A powerful collaboration platform for multiple site events, supporting presentations and interactive environments, including seminars and teaching.
 
@@ -64,7 +64,7 @@ Note: Auckland - Wellington Node only
 
 **Friday March 16:**
 
-Note: Auckland node private room is available from **12noon-2.30pm, 3pm-5pm**. The 3pm-5pm sessions will be in [Room 401, Floor 4,  Building 303, 38 Princes St](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Room%20401%2C%20Floor%204%2C%20%20Building%20303%2C%2038%20Princes%20St&linkCreation=true&fromPageId=3818228891), and will feature the Lifesize unit only on a 24" LCD display.
+Note: Auckland node private room is available from **12noon-2.30pm, 3pm-5pm**. The 3pm-5pm sessions will be in [Room 401, Floor 4,  Building 303, 38 Princes St](room-401-floor-4-building-303-38-princes-st.md), and will feature the Lifesize unit only on a 24" LCD display.
 
 Note: The  Wellington (InternetNZ) demo room will be used for an all day Board meeting
 
@@ -72,7 +72,7 @@ INZ has booked 2 exclusive sessions sessions ( Auckland- Wellington ) on Friday 
 
 - 1:30pm - 2:30 pm INZ ( Welington, Auckland nodes only )
 
-**4:00pm - 5:00 pm INZ (Welington, Auckland nodes. For Auckland, this will be in *****[Room 401, Floor 4,  Building 303, 38 Princes St](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Room%20401%2C%20Floor%204%2C%20%20Building%20303%2C%2038%20Princes%20St&linkCreation=true&fromPageId=3818228891)**, and will feature the Lifesize unit only on a 24" LCD display.) 
+**4:00pm - 5:00 pm INZ (Welington, Auckland nodes. For Auckland, this will be in *****[Room 401, Floor 4,  Building 303, 38 Princes St](room-401-floor-4-building-303-38-princes-st.md)**, and will feature the Lifesize unit only on a 24" LCD display.) 
 
 Note  Friday 12:30 - 13:30 presentation will  be available at  Auckland, Xchurch nodes only 
 

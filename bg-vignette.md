@@ -1,9 +1,9 @@
 # BG vignette
 
 
-- [What is BeSTGRID?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID__About&linkCreation=true&fromPageId=3818228790) - [Media and Presentations](/wiki/spaces/BeSTGRID/pages/3818228512)
+- [What is BeSTGRID?](bestgrid-about.md) - [Media and Presentations](/wiki/spaces/BeSTGRID/pages/3818228512)
 
-BeSTGRID delivers services and tools to support research and research [collaboration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Collaboration&linkCreation=true&fromPageId=3818228790), on shared [data](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Data_Grid&linkCreation=true&fromPageId=3818228790) sets, and in accessing non trivial amounts of [computational](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Computational_Grid&linkCreation=true&fromPageId=3818228790) resources.
+BeSTGRID delivers services and tools to support research and research [collaboration](category-collaboration.md), on shared [data](category-data-grid.md) sets, and in accessing non trivial amounts of [computational](category-computational-grid.md) resources.
 
 **[BeSTGRID is funded from early 2009 to June 2010](/wiki/download/attachments/3818228790/BeSTGRID_Middleware_MoRSTProposal_20081211_FINAL_additional_support_letters.pdf?version=1&modificationDate=1539354419000&cacheVersion=1&api=v2)** from the [Ministry of Research Science & Technology eResearch budget|http
 
@@ -11,6 +11,6 @@ BeSTGRID delivers services and tools to support research and research [collabora
 
 This site contains all of the technical documentation relating to the BeSTGRID project, please see the [main BeSTGRID Website](http://www.bestgrid.org/) for information about the project and getting started.
 
-Review our **[Frequently Asked Questions](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__FAQ&linkCreation=true&fromPageId=3818228790)**, or use our Search, on the left hand side of the site, to find what you're looking for. |
+Review our **[Frequently Asked Questions](category-faq.md)**, or use our Search, on the left hand side of the site, to find what you're looking for. |
 
 See our [Getting started](https://www.bestgrid.org/getstarted) page on our main website to start using BeSTGRID services and tools

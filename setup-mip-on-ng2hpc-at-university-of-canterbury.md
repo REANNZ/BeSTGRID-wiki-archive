@@ -1,6 +1,6 @@
 # Setup MIP on NG2HPC at University of Canterbury
 
-Setting up MIP on Ng2Hpc was a rather complex task done after Ng2Hpc was [Setup NG2HPC set up](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Vladimir&title=Setup%20NG2HPC%20set%20up), and hence deserves a standalone page.
+Setting up MIP on Ng2Hpc was a rather complex task done after Ng2Hpc was [Setup NG2HPC set up](setup-ng2hpc-at-university-of-canterbury.md), and hence deserves a standalone page.
 
 The installation consisted of:
 
@@ -11,7 +11,7 @@ The installation consisted of:
 
 # Installing MIP
 
-Similarly as for [Setup_NG2#Installing_MIP installing MIP on Ng2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Vladimir&title=Setup_NG2):
+Similarly as for [Setup_NG2#Installing_MIP installing MIP on Ng2](setup-ng2-at-university-of-canterbury.md):
 
 >  wget -P /etc/yum.repos.d/ [http://ng0.hpc.jcu.edu.au/apac/gateway/rpms/jcu-apac.repo](http://ng0.hpc.jcu.edu.au/apac/gateway/rpms/jcu-apac.repo)
 >  yum install APAC-mip-module-py APAC-mip-globus
@@ -66,7 +66,7 @@ In `apac_config.py`, set:
 
 For each StorageElement, the UniqueID is by convention its hostname.  Change the UniqueID to follow this convention and make sure all references to the SE in the ComputeElements and their VOViews refer to the StorageElement by the correct UniqueID. 
 
->   storageElement = package.StorageElement['ng2hpc.canterbury.ac.nz'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27ng2hpc.canterbury.ac.nz%27&linkCreation=true&fromPageId=3818228466) = StorageElement()
+>   storageElement = package.StorageElement['ng2hpc.canterbury.ac.nz'] = StorageElement()
 
   computeElement.DefaultSE = 'ng2hpc.canterbury.ac.nz'
 

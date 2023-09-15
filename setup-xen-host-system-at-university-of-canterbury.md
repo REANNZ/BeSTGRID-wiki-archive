@@ -2,7 +2,7 @@
 
 All configuration steps are documented in `ucgridgw:/root/inst/instlog.log`
 
-Xen boot configuration is documented at [Vladimir__Booting Xen on HP DL380 G5](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Booting%20Xen%20on%20HP%20DL380%20G5&linkCreation=true&fromPageId=3818228953).
+Xen boot configuration is documented at [Vladimir__Booting Xen on HP DL380 G5](booting-xen-on-hp-dl380-g5-at-university-of-canterbury.md).
 
 Xendomains configuration changes is described below
 
@@ -157,8 +157,8 @@ Step 2 - VM configuration
 - just specify multiple virtual interfaces in the Xen VM file:
 
 
->  vif = [16:3e:84:B5:10,bridge=xenbr0', 'mac=00:16:3E:C0:A8:10,bridge=xenbr1'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey='mac=00&title=16%3A3e%3A84%3AB5%3A10%2Cbridge%3Dxenbr0%27%2C%20%27mac%3D00%3A16%3A3E%3AC0%3AA8%3A10%2Cbridge%3Dxenbr1%27)
->  vif = [16:3e:84:B5:10,bridge=xenbr0', 'mac=00:16:3E:C0:A8:10,bridge=xenbr1'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey='mac=00&title=16%3A3e%3A84%3AB5%3A10%2Cbridge%3Dxenbr0%27%2C%20%27mac%3D00%3A16%3A3E%3AC0%3AA8%3A10%2Cbridge%3Dxenbr1%27)
+>  vif = [16:3e:84:B5:10,bridge=xenbr0', 'mac=00:16:3E:C0:A8:10,bridge=xenbr1']
+>  vif = [16:3e:84:B5:10,bridge=xenbr0', 'mac=00:16:3E:C0:A8:10,bridge=xenbr1']
 
 - Note however, that by chance, the two interfaces may appear either as eth0 or eth1 - and this may be different on each startup.  However, if each of the interface configuration files (`/etc/sysconfig/network-scripts/ifcfg-eth{0,1`}) specifies a hardware address (`HWADDR`), the networking startup scripts will swap the interfaces if needed as they are brought up.
 - You may use `neat` to create the interface configuration files.

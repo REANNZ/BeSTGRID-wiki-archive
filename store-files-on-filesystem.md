@@ -21,4 +21,4 @@ bodyVolumes@org.sakaiproject.content.api.ContentHostingService=v01,v02,v03
 
 This server runs Sakai 2.4. Current production Sakai server is 2.3. Admin's Guide for Sakai 2.3 hasn't been found yet but probably Sakai 2.3 supports storing files on the filesystem as well. In a document which describes entires of sakai.properties file for Sakai 2.3 there are **bodyVolume** and **bodyPath** parameters. 
 
-[Akha103@bestgrid.org](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Akha103)
+[Akha103@bestgrid.org](andrey-kharuk.md)

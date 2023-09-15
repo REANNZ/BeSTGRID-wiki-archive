@@ -469,7 +469,7 @@ As for the Postgres SQL version selection:
 - The script will fail with creating an empty odbc.ini on the first run but will succeed on on a second try.
 
 
-- Edit `/etc/yum.repos.d/CentOS-Base.repo`, add the following to the [base](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=base&linkCreation=true&fromPageId=3818228552) and [updates](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=updates&linkCreation=true&fromPageId=3818228552) sections:
+- Edit `/etc/yum.repos.d/CentOS-Base.repo`, add the following to the \[base\] and \[updates\] sections:
 
 ``` 
 

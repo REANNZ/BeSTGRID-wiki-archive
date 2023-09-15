@@ -12,7 +12,7 @@ Any additional discussion items would be very welcome - please let me know!
 
 This presentation was recorded by EVO video recorder and to play it please:
 
-- [//ftp.bestgrid.org/pub/twg/Technical_Meeting-2009-02-26-GenePattern.zip download Technical_Meeting-2009-02-26-GenePattern.zip file](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=ftp&title=%2F%2Fftp.bestgrid.org%2Fpub%2Ftwg%2FTechnical_Meeting-2009-02-26-GenePattern.zip%20download%20Technical_Meeting-2009-02-26-GenePattern.zip%20file) and unpack it on your desktop;
+- ftp.bestgrid.org/pub/twg/Technical_Meeting-2009-02-26-GenePattern.zip download Technical_Meeting-2009-02-26-GenePattern.zip file and unpack it on your desktop;
 
 - [start EVO player](http://evo.vrvs.org/evoPlayer/prod/EVOPlayer.jnlp)
 

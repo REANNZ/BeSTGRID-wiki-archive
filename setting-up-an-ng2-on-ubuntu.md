@@ -124,7 +124,7 @@ Get and install the `Ggateway` package:
 >      $remote_shell = '/usr/bin/ssh';
 >  }
 
-- Some further configuration for PBS may be necessary here. See: [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228397)
+- Some further configuration for PBS may be necessary here. See: [Setting up an NG2/PBS specific parts](setting-up-an-ng2-pbs-specific-parts.md)
 - Add the installed `ggateway` packages to a line in the gridpulse checker configuration (`/usr/local/lib/gridpulse/system_packages.pulse`)
 
 ## Configure LRM log replication from LRM server to the NG2
@@ -242,11 +242,11 @@ The steps described here approach the configuration of the MIP script in a sligh
 >  -cd /home/eshook/Projects/MIP/mip
 >  +export PYTHONPATH="/usr/local/mip/modules/apac_py:$PYTHONPATH"
 >  +cd /usr/local/mip
->   if [\! -z "$1"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-z%20%22%241%22&linkCreation=true&fromPageId=3818228397); then
->      if ["$1" h1. "-remote"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20h1.%20%22-remote%22&linkCreation=true&fromPageId=3818228397); then
+>   if [\! -z "$1"]; then
+>      if ["$1" h1. "-remote"]; then
 > - ./mip-remote.pl /home/eshook/Projects/MIP/mip/config
 >  +      ./mip-remote.pl /usr/local/mip/config
->      elif ["$1" "-int" -o "$1" h1. "-integrator"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20%22-int%22%20-o%20%22%241%22%20h1.%20%22-integrator%22&linkCreation=true&fromPageId=3818228397); then
+>      elif ["$1" "-int" -o "$1" h1. "-integrator"]; then
 > - ./integrator.pl /home/eshook/Projects/MIP/mip/config
 >  +      ./integrator.pl /usr/local/mip/config
 >      else
@@ -261,11 +261,11 @@ The steps described here approach the configuration of the MIP script in a sligh
 >  -cd /home/eshook/Projects/MIP/mip
 >  +export PYTHONPATH="/usr/local/mip/modules/apac_py:$PYTHONPATH"
 >  +cd /usr/local/mip
->   if [\! -z "$1"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-z%20%22%241%22&linkCreation=true&fromPageId=3818228397); then
->      if ["$1" h1. "-remote"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20h1.%20%22-remote%22&linkCreation=true&fromPageId=3818228397); then
+>   if [\! -z "$1"]; then
+>      if ["$1" h1. "-remote"]; then
 > - ./mip-remote.pl /home/eshook/Projects/MIP/mip/config
 >  +      ./mip-remote.pl /usr/local/mip/config
->      elif ["$1" "-int" -o "$1" h1. "-integrator"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22%241%22%20%22-int%22%20-o%20%22%241%22%20h1.%20%22-integrator%22&linkCreation=true&fromPageId=3818228397); then
+>      elif ["$1" "-int" -o "$1" h1. "-integrator"]; then
 > - ./integrator.pl /home/eshook/Projects/MIP/mip/config
 >  +      ./integrator.pl /usr/local/mip/config
 >      else

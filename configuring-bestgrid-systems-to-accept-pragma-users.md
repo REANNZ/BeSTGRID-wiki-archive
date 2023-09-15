@@ -6,7 +6,7 @@ This page documents how to configure mappings from the VOMRS project groups to l
 
 This page documents two alternative methods: either using a `edg-mkgridmap` to generate a `grid-mapfile`, or using a callout to a GUMS server.
 
-This page assumes that the [PRAGMA CAs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Configuring_a_VDT_system_to_include_PRAGMA_CAs_when_updating_IGTF_CA_bundle&linkCreation=true&fromPageId=3818228949) are already installed on the grid gateway (and also by the GUMS server if used).
+This page assumes that the [PRAGMA CAs](configuring-a-vdt-system-to-include-pragma-cas-when-updating-igtf-ca-bundle.md) are already installed on the grid gateway (and also by the GUMS server if used).
 
 # Configuring edg-mkgridmap
 
@@ -290,4 +290,4 @@ To pick between different group memberships and two request a specific mapping t
 
 Jobs submitted with a VOMS-proxy will then run under the account corresponding to the VO selected to be the first listed with the `-order` parameter.
 
-Related: Configured [Tomcat on PRAGMA VOMRS server to accept proxies](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Configuring_PRAGMA_VOMRS_server_to_work_with_BeSTGRID&linkCreation=true&fromPageId=3818228949), otherwise voms-proxy-init won't work.
+Related: Configured [Tomcat on PRAGMA VOMRS server to accept proxies](configuring-pragma-vomrs-server-to-work-with-bestgrid.md), otherwise voms-proxy-init won't work.

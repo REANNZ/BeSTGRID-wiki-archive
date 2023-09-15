@@ -7,7 +7,7 @@ This article covers my exploration on system monitoring.
 # [WebInject](http://www.webinject.org)
 
 ![Webinjectlogo.gif](./attachments/Webinjectlogo.gif)
-WebInject is a free tool for automated testing of web applications and web services. It can be used to test individual system components that have HTTP interfaces (JSP, ASP, CGI, PHP, Servlets, HTML Forms, XML/SOAP Web Services, etc), and can be used as a test harness to create a suite of [HTTP level](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=HTTP%20level&linkCreation=true&fromPageId=3818228769) automated functional, acceptance, and regression tests. A test harness, also referred to as a test driver or a test framework, allows you to run many test cases and collect/report your results. WebInject offers real-time results display and may also be used for monitoring system response times.
+WebInject is a free tool for automated testing of web applications and web services. It can be used to test individual system components that have HTTP interfaces (JSP, ASP, CGI, PHP, Servlets, HTML Forms, XML/SOAP Web Services, etc), and can be used as a test harness to create a suite of HTTP level automated functional, acceptance, and regression tests. A test harness, also referred to as a test driver or a test framework, allows you to run many test cases and collect/report your results. WebInject offers real-time results display and may also be used for monitoring system response times.
 
 WebInject uses an XML API (interface) for defining and loading test cases. You can use WebInject without ever seeing its internal implementation.
 

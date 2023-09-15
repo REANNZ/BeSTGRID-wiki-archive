@@ -21,7 +21,7 @@ The installation was based on the [ARCS NgGums installation](http://projects.arc
 
 # System Install
 
-Note: I installed the server by upgrading from a VDT 1.6.1 installation of GUMS.  The old installation is backed up in `/opt/vdt161` and `/etc/grid-security-161`.  The system is a CentOS Xen VM [bootstrapped in a standard way](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping%20a%20virtual%20machine&linkCreation=true&fromPageId=3818228678), and [updated](/wiki/spaces/BeSTGRID/pages/3818228636) to CentOS 4.6.
+Note: I installed the server by upgrading from a VDT 1.6.1 installation of GUMS.  The old installation is backed up in `/opt/vdt161` and `/etc/grid-security-161`.  The system is a CentOS Xen VM [bootstrapped in a standard way](bootstrapping-a-virtual-machine-at-university-of-canterbury.md), and [updated](/wiki/spaces/BeSTGRID/pages/3818228636) to CentOS 4.6.
 
 The basic install proceeds with the instructions at [http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums), and also with the instructions for [upgrading a gateway from VDT 1.6.1 to VDT 1.8.1](http://projects.arcs.org.au/trac/systems/wiki/ReleaseNotes/080125).
 
@@ -353,7 +353,7 @@ Just add the `SSLCARevocationPath` directive below `SSLCACertificatePath`
 
 ## Configure Apache to avoid the 90 CA limit
 
-Because of the [Apache 90 CA limit](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Configuring_a_VDT_system_to_include_PRAGMA_CAs_when_updating_IGTF_CA_bundle&linkCreation=true&fromPageId=3818228678) triggered after adding the PRAGMA CAs, I had to configure NGGUMS to send an empty list of CA names, so that the browser lets user pick from all certificates:
+Because of the [Apache 90 CA limit](configuring-a-vdt-system-to-include-pragma-cas-when-updating-igtf-ca-bundle.md) triggered after adding the PRAGMA CAs, I had to configure NGGUMS to send an empty list of CA names, so that the browser lets user pick from all certificates:
 
 ``` 
 
@@ -388,7 +388,7 @@ chkconfig apache reset
 
 ```
 
-- Make sure MySQL auto starts/stops (see [my notes on fixing shutdown on grid gateways](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s%20grid_notes&linkCreation=true&fromPageId=3818228678)).
+- Make sure MySQL auto starts/stops (see [my notes on fixing shutdown on grid gateways](vladimirs-grid-notes.md)).
 - Make sure Tomcat-55 auto starts/stops - similar modification.
 
 ``` 

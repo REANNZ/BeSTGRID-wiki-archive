@@ -377,11 +377,11 @@ To get a SLCS certificate and delegate it into MyProxy:
 
 - You can now use Webdav to login to the DF with the username and password you entered in the last window.
 
-[Using_the_DataFabric#Windows_XP_with_default_webDAV_client](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using_the_DataFabric&linkCreation=true&fromPageId=3818228517)
+[Using_the_DataFabric#Windows_XP_with_default_webDAV_client](using-the-datafabric.md)
 
-A Better Windows client, which works with files bigger than 2G [WebDAV_using_BitKinex](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=WebDAV_using_BitKinex&linkCreation=true&fromPageId=3818228517)
+A Better Windows client, which works with files bigger than 2G [WebDAV_using_BitKinex](webdav-using-bitkinex.md)
 
-[Using_the_DataFabric#Mac_-_using_Finder](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using_the_DataFabric&linkCreation=true&fromPageId=3818228517)
+[Using_the_DataFabric#Mac_-_using_Finder](using-the-datafabric.md)
 
 This process will not work through a HTTP proxy.
 

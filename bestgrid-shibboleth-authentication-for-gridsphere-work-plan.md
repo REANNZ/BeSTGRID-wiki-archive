@@ -45,7 +45,7 @@ migrate BioPortal Portlet and NDSG R Portlet from GridSphere 2.2.x to 3.0.x or d
 - Setup a virtual machine (VM) for shibbolized GridSphere test installation. bg51.bestgrid.org has been setup for this purpose
 - Install Shibboleth Service Provider.
 - Install Shibbolized GridSphere (ShibGS)
-- Review the installation process with [Vladimir Mencl](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir) and [Nick Jones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones)
+- Review the installation process with [Vladimir Mencl](vladimirbestgridorg.md) and [Nick Jones](nickdjonesbestgridorg.md)
 
 ;Estimated Time
 

@@ -1,9 +1,9 @@
 # Access GRID
 
 ![French-print-1910-accessgrid.jpg](./attachments/French-print-1910-accessgrid.jpg)
-# [Projects](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Projects&linkCreation=true&fromPageId=3818228424)
+# [Projects](category-projects.md)
 
-- [Mathematics](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Mathematics&linkCreation=true&fromPageId=3818228424)
+- [Mathematics](category-mathematics.md)
 
 [Secondary Mathematics Teachers Content Knowledge](/wiki/spaces/BeSTGRID/pages/3818228878)
 
@@ -12,14 +12,14 @@
 - Access GRID Main site
 [http://www.accessgrid.org](http://www.accessgrid.org)
 
-## [BeSTGRID/Bioengineering Access GRID Node](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID%2FBioengineering%20Access%20GRID%20Node&linkCreation=true&fromPageId=3818228424)
+## [BeSTGRID/Bioengineering Access GRID Node](bestgrid-bioengineering-access-grid-node.md)
 
 >  ***Status:** Fully Operational (June 2007)
 >  ***Design** Graeme Glen
 >  ***Operator** Stephen Poon
 >  ***Location** 6th Floor 72 Symonds Street, Auckland
 
-- [Further information](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID%2FBioengineering%20Access%20GRID%20Node&linkCreation=true&fromPageId=3818228424)
+- [Further information](bestgrid-bioengineering-access-grid-node.md)
 
 ## Proposed [School of Biological Sciences AccessGRID Node](/wiki/spaces/BeSTGRID/pages/3818228884)
 
@@ -37,7 +37,7 @@
 
 ## [Access GRID sessions to UK sites](/wiki/spaces/BeSTGRID/pages/3818228423)
 
-## [Advice on using unicast/multicast bridges](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Advice%20on%20using%20unicast%2Fmulticast%20bridges&linkCreation=true&fromPageId=3818228424)
+## [Advice on using unicast/multicast bridges](advice-on-using-unicast-multicast-bridges.md)
 
 ## [Advice and discussion on meeting protocols](/wiki/spaces/BeSTGRID/pages/3818228731)
 

@@ -90,7 +90,7 @@ All contracted technical project members are required to actively participate in
 
 Members of the Technical WG include:
 
-- [Vladimir Mencl](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir) - Chair (Canterbury)
+- [Vladimir Mencl](vladimirbestgridorg.md) - Chair (Canterbury)
 - [Andrey Kharuk](mailto:a.kharuk@auckland.ac.nz) Advanced eResearch Systems Administrator, Request Authority Operator, Sakai, Wiki, University of Auckland
 - [Yuriy Halytskyy](mailto:y.halytskyy@auckland.ac.nz) eResearch Programmer, Identity and Access Management, BeSTGRID Cluster, University of Auckland
 - Kevin Buckley (Victoria)

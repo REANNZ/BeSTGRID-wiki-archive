@@ -371,18 +371,18 @@ Copy irods.config from the old version into the new one
 - Answer the three questions with default "yes" answers:
 
 
->     Have you run one of those? [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
->     Use the existing iRODS configuration without changes [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
->     Start iRODS build [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
->     Have you run one of those? [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
->     Use the existing iRODS configuration without changes [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
->     Start iRODS build [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228984)? yes
+>     Have you run one of those? \[yes\]? yes
+>     Use the existing iRODS configuration without changes \[yes\]? yes
+>     Start iRODS build \[yes\]? yes
+>     Have you run one of those? \[yes\]? yes
+>     Use the existing iRODS configuration without changes \[yes\]? yes
+>     Start iRODS build \[yes\]? yes
 
 This completes the setup and starts iRODS.
 
 ## Reapply local iRODS changes
 
-Reapply all the steps from [iRODS post-configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing_an_iRODS_slave_server&linkCreation=true&fromPageId=3818228984)
+Reapply all the steps from [iRODS post-configuration](installing-an-irods-slave-server.md)
 
 
 >  reRuleSet   bestgrid,core

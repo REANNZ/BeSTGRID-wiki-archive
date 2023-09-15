@@ -4,7 +4,7 @@
 
 The article covers all details of the installation of Shibboleth IdP for The University of Auckland (UoA). It also describes the process about how to take part in Australian Access Federation (AAF). 
 
-For general Shibboleth IdP installation, please refer to [general Shibboleth IdP installation](/wiki/spaces/BeSTGRID/pages/3818228900) or [OpenIdP installation](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Install_Open_Identity_Provider&linkCreation=true&fromPageId=3818228642)
+For general Shibboleth IdP installation, please refer to [general Shibboleth IdP installation](/wiki/spaces/BeSTGRID/pages/3818228900) or [OpenIdP installation](install-open-identity-provider.md)
 
 # Installation Environment
 
@@ -79,9 +79,9 @@ worker.default.lbfactor=1
 
 - Please have a look the example configuration files below:
 
-*[idp.xml](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=uoa_idp.xml&linkCreation=true&fromPageId=3818228642)
+*[idp.xml](uoa-idpxml.md)
 
-*[resolver.ldap.xml](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=uoa_idp_resolver.ldap.xml&linkCreation=true&fromPageId=3818228642) (NOTE: If you are using secure connection for LDAP, please append the CA into Java cacerts by using keytool)
+*[resolver.ldap.xml](uoa-idp-resolverldapxml.md) (NOTE: If you are using secure connection for LDAP, please append the CA into Java cacerts by using keytool)
 
 *[arp.site.xml](/wiki/spaces/BeSTGRID/pages/3818228668)
 

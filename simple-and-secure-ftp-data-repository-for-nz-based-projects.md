@@ -4,7 +4,7 @@
 
 Then our **simple and secure FTP service** might be what you're looking for.
 
-If you wish to exchange files associated with the research, and no file is larger than 20 MB in size, then you might find [BeSTGRID's SAKAI-VRE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Sakai&linkCreation=true&fromPageId=3818228899) is the right solution for you.
+If you wish to exchange files associated with the research, and no file is larger than 20 MB in size, then you might find [BeSTGRID's SAKAI-VRE](category-sakai.md) is the right solution for you.
 
 Otherwise, we can establish a secure space on our data grid for your files that you can access through any number FTP clients (including the windows tool: WS_FTP). We will create a 'group' account which you can share with your research colleagues across the globe to access the same file space.  **This is a simple access mechanism.** By exchanging this group password with your colleagues you will be giving the 'key' to access the files and allow them to upload/edit files in return. (Only those with the 'key' will have access to the files).
 

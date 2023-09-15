@@ -246,7 +246,7 @@ The final SSL configuration including the workaround is as follows:
 
 # Federation Membership & Metadata updates
 
-The IdP has a dual membership in the AAF Level-2 federation and in the [BeSTGRID Federation Metadata](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID%20Federation&linkCreation=true&fromPageId=3818228463).
+The IdP has a dual membership in the AAF Level-2 federation and in the [BeSTGRID Federation Metadata](bestgrid-federation-metadata.md).
 
 ## BeSTGRID Federation
 

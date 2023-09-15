@@ -2,7 +2,7 @@
 
 # Introduction
 
-[Mono](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Mono&linkCreation=true&fromPageId=3818228990) allows the execution of .NET applications on Linux, and for grid computing this allows the development of .NET 4.0 (with Mono 2.8) console applications to be run on a Rocks cluster. This procedure will allow the execution of .NET console applications written in either C# or Visual Basic via Mono on a Rocks Cluster.
+*Mono* allows the execution of .NET applications on Linux, and for grid computing this allows the development of .NET 4.0 (with Mono 2.8) console applications to be run on a Rocks cluster. This procedure will allow the execution of .NET console applications written in either C# or Visual Basic via Mono on a Rocks Cluster.
 
 # Installation
 

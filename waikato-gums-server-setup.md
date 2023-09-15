@@ -42,7 +42,7 @@ Post fix was installed with `apt-get install postfix`.  It is configured as a `S
 
 # Grid pulse setup
 
-The instructions up at [Setting_up_a_GUMS_server_on_Ubuntu#Prerequisite_Packages Prerequisite Packages](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_GUMS_server_on_Ubuntu&linkCreation=true&fromPageId=3818228685) were followed.
+The instructions up at [Setting_up_a_GUMS_server_on_Ubuntu#Prerequisite_Packages Prerequisite Packages](setting-up-a-gums-server-on-ubuntu.md) were followed.
 
 Here's a tip for Debian Lenny, or Debian 5. I installed `fakeroot` and `alien`, and did the following in my home directory:
 

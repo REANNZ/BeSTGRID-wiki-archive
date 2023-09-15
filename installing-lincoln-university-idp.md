@@ -832,7 +832,7 @@ subjectKeyIdentifier=hash
 
 # Install Autograph
 
-Autograph is the tool for users to decide on attribute release.  Autograph was installed following the installation guidelines at [http://www.federation.org.au/twiki/bin/view/Federation/AutographInstall](http://www.federation.org.au/twiki/bin/view/Federation/AutographInstall), [//www.mams.org.au/downloads/Autograph-1.0-Beta-2.5.tgz Autograph version 2.5](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=installing http&title=%2F%2Fwww.mams.org.au%2Fdownloads%2FAutograph-1.0-Beta-2.5.tgz%20Autograph%20version%202.5) and an additional replace for mams-idp-ext.jar (to be officially released soon).
+Autograph is the tool for users to decide on attribute release.  Autograph was installed following the installation guidelines at [http://www.federation.org.au/twiki/bin/view/Federation/AutographInstall](http://www.federation.org.au/twiki/bin/view/Federation/AutographInstall), www.mams.org.au/downloads/Autograph-1.0-Beta-2.5.tgz Autograph version 2.5 and an additional replace for mams-idp-ext.jar (to be officially released soon).
 
 Autograph is storing it's configuration and the user profile data in `/usr/local/shibboleth-autograph`.
 

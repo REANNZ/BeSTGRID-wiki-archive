@@ -10,7 +10,7 @@
 
 Attending: Chris Edsall, David Eyers, Vladimir Mencl, Gene Soudlenkov, Donald Neal, Gene Soudlenkov, Michael Speth, Aaron Hicks, Markus Bisteiner, Kevin Buckley, Cameron Kerr, Andrew Farrell, Nick Jones
 
-- Otago keen to join BeSTGRID Test DataFabric, Vlad to send install manual [done](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=done&linkCreation=true&fromPageId=3818228745)
+- Otago keen to join BeSTGRID Test DataFabric, Vlad to send install manual *done*
 	
 - Otago may have a separate zone for sensitive medical data
 

@@ -103,7 +103,7 @@ crl.startssl.com 70.167.227.245 [http]
 - [Hermes](http://ngportal.canterbury.ac.nz/grid/hermes/hermes.jnlp) is a tool for remote file management, supporting the SRB, GridFTP, and also SFTP and FTP protocols.
 	
 - Simply click the [Hermes JavaWebStart link](http://ngportal.canterbury.ac.nz/grid/hermes/hermes.jnlp), or downloaded Hermes from [http://sourceforge.net/projects/commonsvfsgrid](http://sourceforge.net/projects/commonsvfsgrid).
-- For more information on using Hermes to access the Data Grid, please see the documentation on [Using the Data Grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using%20the%20Data%20Grid&linkCreation=true&fromPageId=3818228739)
+- For more information on using Hermes to access the Data Grid, please see the documentation on *Using the Data Grid*
 - For more information on Hermes and videos showing Hermes in action, please see the [ARCS wiki page on Hermes](http://wiki.arcs.org.au/bin/viewfile/Main/HermesARCS) (the videos are linked at the bottom of the page).  To get a quick taste, have a look at [Dragging and dropping a file from the desktop to a remote site with Hermes](http://wiki.arcs.org.au/bin/viewfile/Main/HermesARCS?filename=2008-11-11_1605.swf).
 
 ## SGGC

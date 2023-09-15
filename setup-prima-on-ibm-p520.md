@@ -1,6 +1,6 @@
 # Setup PRIMA on IBM p520
 
-As a part of deploying the GUMS server, the GridFTP server running on the p520 had to switch from using a `grid-mapfile` to using PRIMA for authorization callouts to the GUMS server.  While a Globus has binaries available for AIX on Power5+, PRIMA has not, and I had to compile PRIMA from source code.  It has been a very painful process.  Below please find the essence of my findings, which should hopefully be sufficient to successfully compile PRIMA on a similar system.  For more information, please contact [me](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir) by email and I may send you the complete notes.
+As a part of deploying the GUMS server, the GridFTP server running on the p520 had to switch from using a `grid-mapfile` to using PRIMA for authorization callouts to the GUMS server.  While a Globus has binaries available for AIX on Power5+, PRIMA has not, and I had to compile PRIMA from source code.  It has been a very painful process.  Below please find the essence of my findings, which should hopefully be sufficient to successfully compile PRIMA on a similar system.  For more information, please contact [me](vladimirbestgridorg.md) by email and I may send you the complete notes.
 
 # General notes
 

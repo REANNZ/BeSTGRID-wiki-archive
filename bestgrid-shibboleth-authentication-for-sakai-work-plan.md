@@ -41,7 +41,7 @@ The current version of BeSTGRID production Sakai is 2.3. We have to upgrade it f
 - Provided BeSTGRID customized Sakai skin to the new installed Sakai
 - Install Shibboleth Service Provider
 - Provided the Shibboleth authentication patch to the new installed Sakai
-- Review the installation process with [Nick Jones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones)
+- Review the installation process with [Nick Jones](nickdjonesbestgridorg.md)
 - Review the new functionalities with current BeSTGRID Sakai user and test it.
 
 ;Estimated Time

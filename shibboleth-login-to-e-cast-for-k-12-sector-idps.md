@@ -185,7 +185,7 @@ $metadata['https://www.etv.org.nz/shibboleth'] = array (
 
 ## Use OID-based attribute names for all attributes
 
-The following instructions apply for configuring a [//www.simplesamlphp.org](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=SimpleSAMLphp http&title=%2F%2Fwww.simplesamlphp.org) IdP service to support an E-Cast Shibboleth SP end-point.
+The following instructions apply for configuring a [SimpleSAMLphp](https://www.simplesamlphp.org) IdP service to support an E-Cast Shibboleth SP end-point.
 
 - The following PHP code is an attribute map that adds the Ministry of Education MLEP extensions to the standard set of the OID attribute names:
 
@@ -296,29 +296,29 @@ $metadata['https://www.etv.org.nz/shibboleth'] = array (
 
 The key attributes relevant for E-Cast are:
 
-(1) $_SERVER["Shib-Identity-Provider"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22Shib-Identity-Provider%22&linkCreation=true&fromPageId=3818228482) = "idp.catalyst.net.nz"
+(1) $_SERVER["Shib-Identity-Provider"] = "idp.catalyst.net.nz"
 
 - this is the identification of the IdP (but not the institution).  Use for access control.  This attribute uses a different syntax from the university IdPs (where it's "https://idp.canterbury.ac.nz/shibboleth") - but passes the same information - which IdP the user came from.
 
-(2) $_SERVER["mlepOrganisation"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22mlepOrganisation%22&linkCreation=true&fromPageId=3818228482) = "e-cast.co.nz"
+(2) $_SERVER["mlepOrganisation"] = "e-cast.co.nz"
 
 - this will be the organization name (actual School) to help you decide whether they do or don't have access to E-Cast.
 
-(3) $_SERVER["mlepRole"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22mlepRole%22&linkCreation=true&fromPageId=3818228482) = "TeachingStaff"
+(3) $_SERVER["mlepRole"] = "TeachingStaff"
 
 - this tells you who's staff and who's students.  The values are: "Student", "TeachingStaff", "NonTeachingStaff", "ParentCaregiver", "Alumni".
 	
 - You would probably want to see either any of the "TeachingStaff" / "NonTeachingStaff" values or "Student" here to give the user access.
 
-(4) $_SERVER["eppn"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22eppn%22&linkCreation=true&fromPageId=3818228482) = "testteacher@e-cast.co.nz"
+(4) $_SERVER["eppn"] = "testteacher@e-cast.co.nz"
 
 - global user name, same as for university IdPs.
 
-(5) $_SERVER["mail"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22mail%22&linkCreation=true&fromPageId=3818228482) = "testteacher@e-cast.co.nz"
+(5) $_SERVER["mail"] = "testteacher@e-cast.co.nz"
 
 - Email address, same as for university IdPs
 
-(6) $_SERVER["mlepFirstName"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22mlepFirstName%22&linkCreation=true&fromPageId=3818228482) = "Test"; $_SERVER["mlepLastName"](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%22mlepLastName%22&linkCreation=true&fromPageId=3818228482) = "Teacher"
+(6) $_SERVER["mlepFirstName"] = "Test"; $_SERVER["mlepLastName"] = "Teacher"
 
 - the user's first and last name.  As other IdPs may not be reliably providing neither displayName, nor, cn, the only way to get their full name may be:
 

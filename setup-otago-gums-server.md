@@ -198,7 +198,7 @@ More damage to fix:
 
 - missing GRAM AUDIT in `container-log4j.properties`
 - `/opt/vdt/globus/libexec/globus-job-manager-script-real.pl` overwritten
-- re-apply [mysqld](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=mysqld&linkCreation=true&fromPageId=3818228928) in `/opt/vdt/mysql/var/my.cnf`
+- re-apply [mysqld] in `/opt/vdt/mysql/var/my.cnf`
 
 
 >    wait_timeout=2764800
@@ -213,6 +213,6 @@ More damage to fix:
 
 # Minor enhancements
 
-- [Configuring correct shutdown](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup_NGGums_at_University_of_Canterbury&linkCreation=true&fromPageId=3818228928)
+- [Configuring correct shutdown](setup-nggums-at-university-of-canterbury.md)
 
 - Configure VDT Apache to use a small CA certificate bundle to work around an Apache / mod_ssl bug - as documented in [ARCS GUMS install guide](https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums#MOD_SSLBug)

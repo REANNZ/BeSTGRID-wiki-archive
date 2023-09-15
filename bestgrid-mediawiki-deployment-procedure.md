@@ -10,7 +10,7 @@ This article describes how to deploy the BeSTGRID Mediawiki from current product
 - Latest Shibbolized Mediawiki installed (1.10.1 is the latest version at the time of writing)
 - New skin patched
 
-Please have a look [here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3818228587) for more details
+Please have a look [here](shibbolize-mediawiki.md) for more details
 
 # Setup automated SSH
 

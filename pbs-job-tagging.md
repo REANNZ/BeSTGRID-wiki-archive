@@ -171,9 +171,9 @@ chmod 666 /opt/vdt/globus/var/pbs-acct/jobdn-subm.log
 - Create `/opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/audit-mysql.conf`, readable only by daemon, containing the following two lines (with password replaced with the actual `audit` MySQL password, stored in `$GLOBUS_LOCATION/etc/gram-service/jndi-config.xml`):
 
 
->  [client](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=client&linkCreation=true&fromPageId=3818228870)
+>  [client]
 >  password=auditpassword
->  [client](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=client&linkCreation=true&fromPageId=3818228870)
+>  [client]
 >  password=auditpassword
 
 - Make the `GetJobDN.sh` script executable as `daemon` via `sudo`: add the following line to `/etc/sudoers` (edit with `visudo`):

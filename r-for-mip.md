@@ -2,9 +2,9 @@
 
 # Introduction
 
-This article will describe how a `xml` file ought to be configured to describe [R](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=R&linkCreation=true&fromPageId=3818228583) with [MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3818228583) so that R is available in a standard form for BeSTGRID users.
+This article will describe how a `xml` file ought to be configured to describe R with MIP so that R is available in a standard form for BeSTGRID users.
 
-This article is intended only to cover the configuration of R in a batch environment (either single threaded, or multi-threaded within a single node). For configuring R for parallel environments (e.g. [OpenMPI](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=OpenMPI&linkCreation=true&fromPageId=3818228583)) see the equivalent article on [Rmpi and snow](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=R_mpi_SNOW%20for%20MIP&linkCreation=true&fromPageId=3818228583).
+This article is intended only to cover the configuration of R in a batch environment (either single threaded, or multi-threaded within a single node). For configuring R for parallel environments (e.g. OpenMPI) see the equivalent article on [Rmpi and snow](r-mpi-snow-for-mip.md).
 
 # Configuration
 

@@ -42,7 +42,7 @@ migrate BioPortal Portlet and NDSG R Portlet from GridSphere 2.2.x to 3.0.x or d
 - Setup a virtual machine (VM) for shibbolized GridSphere test installation. bg51.bestgrid.org has been setup for this purpose
 - Install Shibboleth Service Provider.
 - Install Shibbolized GridSphere (ShibGS)
-- Review the installation process with [Vladimir Mencl](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir) and [Nick Jones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones)
+- Review the installation process with [Vladimir Mencl](vladimirbestgridorg.md) and [Nick Jones](nickdjonesbestgridorg.md)
 
 ;Estimated Time
 
@@ -85,7 +85,7 @@ The current version of BeSTGRID production Sakai is 2.3. We have to upgrade it f
 - Provided BeSTGRID customized Sakai skin to the new installed Sakai
 - Install Shibboleth Service Provider
 - Provided the Shibboleth authentication patch to the new installed Sakai
-- Review the installation process with [Nick Jones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones)
+- Review the installation process with [Nick Jones](nickdjonesbestgridorg.md)
 - Review the new functionalities with current BeSTGRID Sakai user and test it.
 
 ;Estimated Time

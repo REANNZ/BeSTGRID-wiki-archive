@@ -23,7 +23,7 @@ For example we want to process 100 xml files named 1.xml, 2.xml , etc. with **be
 >   }
 >   MPI_Comm_size(MPI_COMM_WORLD, &numtasks);
 >   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
->   execlp("/usr/local/bin/beast","beast",argv[rank+1](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=rank%2B1&linkCreation=true&fromPageId=3818228755),(char*)0);
+>   execlp("/usr/local/bin/beast","beast",argv[rank+1],(char*)0);
 >  }
 
 And then start it as 

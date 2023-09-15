@@ -19,10 +19,10 @@ Every time you wish to login and submit jobs, you need to do these steps:
 - Activate MyProxy credentials - replace "user.name" with your username:
 
 
->  [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dgridclient%2B%7E%3Bsearch%3Fq%3Duser)$ myproxy-logon -l **user.name** -s myproxy.arcs.org.au
+>  $ myproxy-logon -l **user.name** -s myproxy.arcs.org.au
 >  Enter MyProxy pass phrase:
 >  A credential has been received for user user.name in /tmp/x509up_u514.
->  [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dgridclient%2B%7E%3Bsearch%3Fq%3Duser)$ myproxy-logon -l **user.name** -s myproxy.arcs.org.au
+>  $ myproxy-logon -l **user.name** -s myproxy.arcs.org.au
 >  Enter MyProxy pass phrase:
 >  A credential has been received for user user.name in /tmp/x509up_u514.
 

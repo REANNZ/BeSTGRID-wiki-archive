@@ -16,7 +16,7 @@ In order for globus to state-in files needed by jobs, `ng2hpc` needs access to t
 
 ## GPFS
 
-We have obtained the *GPFS Multiplatform CD* with GPFS binaries and drivers for Linux.  RHEL4 is a supported platform, and the driver compiles fine under a Centos 4.4 kernel (2.6.9-42.0.10ELsmp).  The drivers however did not compile under the modified Xen kernel.  It is however possible to setup a Xen [Vladimir__HVM virtual machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__HVM%20virtual%20machine&linkCreation=true&fromPageId=3818228664) running unmodified CentOS kernel and install the drivers there.  
+We have obtained the *GPFS Multiplatform CD* with GPFS binaries and drivers for Linux.  RHEL4 is a supported platform, and the driver compiles fine under a Centos 4.4 kernel (2.6.9-42.0.10ELsmp).  The drivers however did not compile under the modified Xen kernel.  It is however possible to setup a Xen [Vladimir__HVM virtual machine](hvm-virtual-machine.md) running unmodified CentOS kernel and install the drivers there.  
 
 We did not use this option, but the steps are:
 
@@ -149,7 +149,7 @@ export PATH
 
 # Globus
 
-The Globus installation has roughly followed the [NG2 setup](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20NG2&linkCreation=true&fromPageId=3818228664) - and thus, roughly followed the [APAC NG2 setup](http://www.vpac.org/twiki/bin/view/APACgrid/VmdetailsNg2). The key difference has been that as LoadLeveler is used instead of PBS, no PBS-specific packages were installed, and the PBS-specific installation steps from the build script were skipped.
+The Globus installation has roughly followed the [NG2 setup](setup-ng2-at-university-of-canterbury.md) - and thus, roughly followed the [APAC NG2 setup](http://www.vpac.org/twiki/bin/view/APACgrid/VmdetailsNg2). The key difference has been that as LoadLeveler is used instead of PBS, no PBS-specific packages were installed, and the PBS-specific installation steps from the build script were skipped.
 
 The main steps have been:
 
@@ -243,7 +243,7 @@ The main steps have been:
 >   pacman -pretend-platform linux-rhel-4 -get [http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:EDG-Make-Gridmap](http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:EDG-Make-Gridmap)
 >   vdt-control --on edg-mkgridmap # this enables cron job
 
-- Configure grid-mapfile - see the [Vladimir__Setup_NG2#Main_NG2_Setup NG2 setup instructions](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup_NG2&linkCreation=true&fromPageId=3818228664) (creating `/opt/vdt/edg/etc/edg-mkgridmap.conf` and creating grid user accounts)
+- Configure grid-mapfile - see the [Vladimir__Setup_NG2#Main_NG2_Setup NG2 setup instructions](setup-ng2-at-university-of-canterbury.md) (creating `/opt/vdt/edg/etc/edg-mkgridmap.conf` and creating grid user accounts)
 
 - Install UberFTP - to use as a client tool.
 
@@ -251,7 +251,7 @@ The main steps have been:
 >  pacman -pretend-platform linux-rhel-4 -get [http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:UberFTP](http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:UberFTP)
 >  pacman -pretend-platform linux-rhel-4 -get [http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:UberFTP](http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:UberFTP)
 
-**Note**: in March 2008, I have [installed a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228678) and switched the gateways to use PRIMA.  Due to the [whitespace issue](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup_NGGums_at_University_of_Canterbury&linkCreation=true&fromPageId=3818228664), I had to install an updated PRIMA library properly encoding and decoding the whitespace.  I have used the one I compiled when helping to solve the problem, and which was installed on the VDT161 instance on Ng2SGE.
+**Note**: in March 2008, I have [installed a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228678) and switched the gateways to use PRIMA.  Due to the [whitespace issue](setup-nggums-at-university-of-canterbury.md), I had to install an updated PRIMA library properly encoding and decoding the whitespace.  I have used the one I compiled when helping to solve the problem, and which was installed on the VDT161 instance on Ng2SGE.
 
 After doing that, it was sufficient to turn PRIMA on with:
 
@@ -378,7 +378,7 @@ job submission: -Ft Loadleveler
 
 ??? what happens to -Ft PBS jobs (if submitted accidentally?)
 
-job submission: "two strategies" [LLGT40UserGuide](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=LLGT40UserGuide&linkCreation=true&fromPageId=3818228664)
+job submission: "two strategies" [LLGT40UserGuide]
 
 >  (1) submit via GRAM only "llsubmit sample1.jcf".  Obvious (though un-stated) drawback is that the GRAM job will terminiate immediately and the LL job won't be monitorable via Globus
 
@@ -428,7 +428,7 @@ $script_file->print('PATH=/usr/local/bin:/hpc/home/vme28/bin:$PATH'."\n");
 ```
 
   For ordinary jobs, this would happen when the `GLOBUS_USER_DN` and `GLOBUS_USER_EMAIL` are both set.  In this case, we get the environment size over the treshhold with a comment environment variable (`GLOBUS_COMMENT`).
-- Get [BlueGene job submission](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20BlueGene%20job%20submission%20on%20NG2HPC&linkCreation=true&fromPageId=3818228664) working.
+- Get BlueGene job submission working.
 - If (cpu)Count is > $LL_MAX_TASKS_PER_NODE (16) and hostCount is not specified, assume hostCount (ll_node) to be the least number of nodes necessary to accommodate all the tasks:
 
 ``` 
@@ -590,11 +590,11 @@ hpcgrid1-c:/hpc/bluefern      /hpc/bluefern   nfs     fg,retry=20,hard,acregmax=
 
 # Installing MIP
 
-The gateway has MIP installed, and feeds the GLUE information via **MIP remote** to Ng2, where the information gets published into MDS.  Due to its complexity, [installing MIP on Ng2HPC](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup%20MIP%20on%20NG2HPC&linkCreation=true&fromPageId=3818228664) has been documented on a separate page.
+The gateway has MIP installed, and feeds the GLUE information via **MIP remote** to Ng2, where the information gets published into MDS.  Due to its complexity, [installing MIP on Ng2HPC](setup-mip-on-ng2hpc-at-university-of-canterbury.md) has been documented on a separate page.
 
 # Synchronizing local accounts with the HPC
 
-In order for [local accounts mapping](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup_NGGums_at_University_of_Canterbury&linkCreation=true&fromPageId=3818228664) to work, all such (HPC) accounts must also exist locally on Ng2HPC.
+In order for [local accounts mapping](setup-nggums-at-university-of-canterbury.md) to work, all such (HPC) accounts must also exist locally on Ng2HPC.
 
 After considering several alternatives, I have written a script that creates a local password file based on the following rules:
 

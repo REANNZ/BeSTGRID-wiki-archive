@@ -16,15 +16,15 @@ Note to Editors: Any page that has the FAQ Category tag added to it will be auto
 
 # I am a new user 
 
-;[Are there tutorials for using BeSTGRID?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Tutorial&linkCreation=true&fromPageId=3818228811)
+;[Are there tutorials for using BeSTGRID?](category-tutorial.md)
 
 - [How do I get a grid certificate?](/wiki/spaces/BeSTGRID/pages/3818228427)
 
 - [How do I get membership of a VO?](/wiki/spaces/BeSTGRID/pages/3818228902)
 
-- [Do you run application X?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Applications&linkCreation=true&fromPageId=3818228811)
+- [Do you run application X?](bestgrid-applications.md)
 
-- [How can I get application X installed?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Applications&linkCreation=true&fromPageId=3818228811)
+- [How can I get application X installed?](bestgrid-applications.md)
 
 - [What is SLCS?](/wiki/spaces/BeSTGRID/pages/3818228492)
 
@@ -34,25 +34,25 @@ Note to Editors: Any page that has the FAQ Category tag added to it will be auto
 
 ; I want to work some colleagues nationally and internationally, on a research project. Can you help me?
 
-; [What is an LRM/Local Resource Manager?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Local_Resource_Managers_LRM&linkCreation=true&fromPageId=3818228811)
+; [What is an LRM/Local Resource Manager?](local-resource-managers-lrm.md)
 
-; [What is Condor?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Local_Resource_Managers_LRM&linkCreation=true&fromPageId=3818228811)
+; [What is Condor?](local-resource-managers-lrm.md)
 
-; [What is PBS/Torque?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Local_Resource_Managers_LRM&linkCreation=true&fromPageId=3818228811)
+; [What is PBS/Torque?](local-resource-managers-lrm.md)
 
-; [What is SGE?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Local_Resource_Managers_LRM&linkCreation=true&fromPageId=3818228811)
+; [What is SGE?](local-resource-managers-lrm.md)
 
 ; [What ports do I need to ask my IT Service to open so I can use grid tools?](/wiki/spaces/BeSTGRID/pages/3818228465)
 
-; [Is BeSTGRID connected to KAREN?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_and_KAREN&linkCreation=true&fromPageId=3818228811)
+; [Is BeSTGRID connected to KAREN?](bestgrid-and-karen.md)
 
 # I want to link my systems to BeSTGRID 
 
-[What is a grid gateway?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grid_gateway&linkCreation=true&fromPageId=3818228811)
+[What is a grid gateway?](grid-gateway.md)
 
-- [How do I install a gateway?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_grid_gateway&linkCreation=true&fromPageId=3818228811)
+- [How do I install a gateway?](setting-up-a-grid-gateway.md)
 
-; [How do I share an existing computational resource X within BeSTGRID?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Share_a_resource&linkCreation=true&fromPageId=3818228811)
+; [How do I share an existing computational resource X within BeSTGRID?](share-a-resource.md)
 
 ;[Do I need specific operating systems, software or competences to share existing resources through BeSTGRID?](/wiki/spaces/BeSTGRID/pages/3818228935)
 
@@ -62,7 +62,7 @@ Note to Editors: Any page that has the FAQ Category tag added to it will be auto
 
 # I want to know more about BeSTGRID 
 
-; [Why are the existing BeSTGRID resources the way they are?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Evolution_of_BeSTGRID_Resources&linkCreation=true&fromPageId=3818228811)
+; [Why are the existing BeSTGRID resources the way they are?](evolution-of-bestgrid-resources.md)
 
 ; Question not on the list?
 

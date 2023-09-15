@@ -4,11 +4,11 @@
 
 ## Configuration
 
-Standalone BeSTGRID BLAST Server is built on a virtual machine of [the Pleyads Xen Server](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Pleyads_Server&linkCreation=true&fromPageId=3818228594) using CentOS 5.0.
+Standalone BeSTGRID BLAST Server is built on a virtual machine of [the Pleyads Xen Server](pleyads-server.md) using CentOS 5.0.
 
-Software has been downloaded from [NCBI BLAST Web Server](http://www.ncbi.nlm.nih.gov/blast/download.shtml) and installed according manuals: [ReadMe One](http://140.109.34.30/blast/readme.html) and [//ftp.ncbi.nih.gov/blast/documents/blast.html ReadMe Two](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=ftp&title=%2F%2Fftp.ncbi.nih.gov%2Fblast%2Fdocuments%2Fblast.html%20ReadMe%20Two).
+Software has been downloaded from [NCBI BLAST Web Server](http://www.ncbi.nlm.nih.gov/blast/download.shtml) and installed according manuals: [ReadMe One](http://140.109.34.30/blast/readme.html) and ftp.ncbi.nih.gov/blast/documents/blast.html ReadMe Two.
 
-A location of the GenBank Database is [//biomirror.auckland.ac.nz/genbank-uncompressed New Zealand Biomirror](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=ftp&title=%2F%2Fbiomirror.auckland.ac.nz%2Fgenbank-uncompressed%20New%20Zealand%20Biomirror). Daily script uncompresses the GenBank database and places it into that folder. Then the database is formatted by formatdb utility: 
+A location of the GenBank Database is biomirror.auckland.ac.nz/genbank-uncompressed New Zealand Biomirror. Daily script uncompresses the GenBank database and places it into that folder. Then the database is formatted by formatdb utility: 
 
 >  ./formatdb -i rel###.fsa_aa -p T -n fsa_aa_db -o 
 

@@ -331,7 +331,7 @@ yum install globus-scheduler-event-generator
 
 # Customizing LoadLeveler.pm
 
-- Customize your loadleveler.pm - contact the [author of this documentation](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir)
+- Customize your loadleveler.pm - contact the [author of this documentation](vladimirbestgridorg.md)
 
 - Note: if you are using LoadLeveler submit filters that depend on LoadLeveler binaries being in the PATH, you will need to modify `loadleveler.pm` by adding the following (Globus drops PATH when executing the perl job manager (loadleveler.pm) so this may be the simplest way):
 

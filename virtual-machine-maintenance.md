@@ -27,7 +27,7 @@
 
 If the 'xm list' command shows that a machine is powered on, but the 'State' is not set to 'b', you will not be able to access the machine. Either the machine is still booting, or has failed to boot properly, and is stuck in the famous Xen 'limbo' mode. Example:
 
->  [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dgridserver%2B%7E%3Bsearch%3Fq%3Droot)# xm list
+>  root@gridserver ~# xm list
 >  Name                                      ID Mem(MiB) VCPUs State   Time(s)
 >  Domain-0                                   0     2070     2 r-----  54374.1
 >  ng2i386_v2                                94     1515     2 b---   3922.4

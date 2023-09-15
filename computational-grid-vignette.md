@@ -5,7 +5,7 @@
 
 see what **[Software Applications](/wiki/spaces/BeSTGRID/pages/3818228813)** are available on the grid.
 
-Information for **[Bioinformatics](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__bioinformatics&linkCreation=true&fromPageId=3818228674)** researchers.
+Information for **[Bioinformatics](category-bioinformatics.md)** researchers.
 
 - Tools
 

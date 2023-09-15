@@ -1,6 +1,6 @@
 # Administering an NGGUMS
 
-This page follows on from the [Setting_up_a_GUMS_server](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_GUMS_server&linkCreation=true&fromPageId=3818228973) resource in that it seeks to provide
+This page follows on from the [Setting_up_a_GUMS_server](setting-up-a-gums-server.md) resource in that it seeks to provide
 
 the information needed to administer your GUMS server once it has been deployed.
 

@@ -52,7 +52,7 @@ The key software package used is the Virtual Data Toolkit (VDT), [http://vdt.cs.
 - [Setup NG2 at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228687)
 - [Setup NG2HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228664)
 - [Setup MIP on NG2HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228466)
-- [Setup BlueGene job submission on NG2HPC at University of Canterbury](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup%20BlueGene%20job%20submission%20on%20NG2HPC%20at%20University%20of%20Canterbury&linkCreation=true&fromPageId=3818228620)
+- [Setup BlueGene job submission on NG2HPC at University of Canterbury]
 - [Setup GridFTP on IBM p520](/wiki/spaces/BeSTGRID/pages/3818228449)
 - [Setup PRIMA on IBM p520](/wiki/spaces/BeSTGRID/pages/3818228592)
 - [Setup NGGums at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228678)
@@ -85,8 +85,8 @@ The key software package used is the Virtual Data Toolkit (VDT), [http://vdt.cs.
 - [Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3818228955)
 - [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585)
 	
-- [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228620)
-- [Setting up an NG2/SGE specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228620)
+- [Setting up an NG2/PBS specific parts](setting-up-an-ng2-pbs-specific-parts.md)
+- [Setting up an NG2/SGE specific parts](setting-up-an-ng2-sge-specific-parts.md)
 
 - [Deploying Shibbolized AuthTool on a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228565)
 - [Installing a Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3818228742)
@@ -100,8 +100,8 @@ The key software package used is the Virtual Data Toolkit (VDT), [http://vdt.cs.
 
 I have also documented the setup of [Bioinformatics applications](http://cantmc.canterbury.ac.nz/UCSCadm/AppsBioinformatics) and [Modflow 2000](http://cantmc.canterbury.ac.nz/UCSCadm/AppsMf2k) on the [UCSC admin wiki](http://cantmc.canterbury.ac.nz/UCSCadm/).  As these links are accessible only from the University of Canterbury campus network, I have rewritten the [Bioinformatics applications](/wiki/spaces/BeSTGRID/pages/3818228488) page here onto BeSTGRID wiki.
 
-- [Installing Blender on CentOS 4](/wiki/spaces/BeSTGRID/pages/3818228609)
-- [Installing Blender on CentOS 5 x86_64](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Installing%20Blender%20on%20CentOS%205%20x86_64&linkCreation=true&fromPageId=3818228620)
+- [Installing Blender on CentOS 4](installing-blender-on-centos-4.md)
+- [Installing Blender on CentOS 5 x86_64](installing-blender-on-centos-5-x86-64.md)
 - [List of applications available on BeSTGRID](/wiki/spaces/BeSTGRID/pages/3818228413)
 
 ## User documentation
@@ -119,8 +119,8 @@ Additional doc:
 - [List of DataFabric projects](/wiki/spaces/BeSTGRID/pages/3818228617)
 
 
->  **[Using the Data Grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using%20the%20Data%20Grid&linkCreation=true&fromPageId=3818228620)**** (*OBSOLETE**)
->  **[Using the Data Grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using%20the%20Data%20Grid&linkCreation=true&fromPageId=3818228620)**** (*OBSOLETE**)
+>  **[Using the Data Grid](deleted___using-the-data-grid.md)**** (*OBSOLETE**)
+>  **[Using the Data Grid](deleted___using-the-data-grid.md)**** (*OBSOLETE**)
 
 - [Using SLCS certificates at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228446)
 - [Getting started on the Computational Grid](/wiki/spaces/BeSTGRID/pages/3818228740)
@@ -132,8 +132,8 @@ Additional doc:
 I have also started setting up a Grid Gateway at the University of Otago.  The following notes document how the gateway was set up.
 
 - [General notes on Otago gateway](/wiki/spaces/BeSTGRID/pages/3818228462)
-- [Setup Otago gateway host OS___GridGw](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup%20Otago%20gateway%20host%20OS___GridGw&linkCreation=true&fromPageId=3818228620)
-- [Setup Otago Maggie cluster gateway___Ng2Maggie](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setup%20Otago%20Maggie%20cluster%20gateway___Ng2Maggie&linkCreation=true&fromPageId=3818228620)
+- [Setup Otago gateway host OS___GridGw]
+- [Setup Otago Maggie cluster gateway___Ng2Maggie]
 - [Setup Otago GUMS server](/wiki/spaces/BeSTGRID/pages/3818228928)
 
 ## Grid Gateway at Massey University
@@ -163,8 +163,8 @@ Together with Andrey Kharuk, I'm also setting up the grid gateway at AUT (Oct 20
 
 ## Gene Pattern
 
-- [Using Gene Pattern Grid-enabled modules](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using%20Gene%20Pattern%20Grid-enabled%20modules&linkCreation=true&fromPageId=3818228620)
-- [Grid-enabling Gene Pattern modules](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grid-enabling%20Gene%20Pattern%20modules&linkCreation=true&fromPageId=3818228620)
+- [Using Gene Pattern Grid-enabled modules]
+- [Grid-enabling Gene Pattern modules]
 
 # Data Grid
 
@@ -197,8 +197,8 @@ Together with Andrey Kharuk, I'm also setting up the grid gateway at AUT (Oct 20
 
 - [Discussion on UoC LDAP attributes](/wiki/spaces/BeSTGRID/pages/3818228781)
 
-- [Notes for Shibboleth seminar on Oct 14th, 2008](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%2FNotes%20for%20Shibboleth%20seminar%202008-10-14&linkCreation=true&fromPageId=3818228620)
-- [Notes from Shibboleth Rollout workshop slides](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%2FNotes%20from%20Shibboleth%20Rollout%20workshop%20slides&linkCreation=true&fromPageId=3818228620)
+- [Notes for Shibboleth seminar on Oct 14th, 2008](vladimirbestgridorg-notes-for-shibboleth-seminar-2008-10-14.md)
+- [Notes from Shibboleth Rollout workshop slides](vladimirbestgridorg-notes-from-shibboleth-rollout-workshop-slides.md)
 - [Updating Federation Metadata](/wiki/spaces/BeSTGRID/pages/3818228810)
 - [Installing Lincoln University IdP](/wiki/spaces/BeSTGRID/pages/3818228676)
 

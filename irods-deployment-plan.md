@@ -69,22 +69,22 @@ Database=ICAT
 
 
 >     zone: **BeSTGRID**
->     Starting Server Port [20000](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20000&linkCreation=true&fromPageId=3818228549)? 40000
->     Ending Server Port [20199](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20199&linkCreation=true&fromPageId=3818228549)? 40199
->     Resource name [demoResc](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=demoResc&linkCreation=true&fromPageId=3818228549)? **griddata.canterbury.ac.nz**
+>     Starting Server Port [20000]? 40000
+>     Ending Server Port [20199]? 40199
+>     Resource name [demoResc]? **griddata.canterbury.ac.nz**
 >     Directory ? **/hpc/griddata/irods**
 >     New Postgres directory? /usr/local/pkg/irods/Postgres
->     Include GSI [no](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=no&linkCreation=true&fromPageId=3818228549)? yes
->     GLOBUS_LOCATION [/usr/local/pkg/globus/5.0.0](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%2Fusr%2Flocal%2Fpkg%2Fglobus%2F5.0.0&linkCreation=true&fromPageId=3818228549)?
+>     Include GSI [no]? yes
+>     GLOBUS_LOCATION [/usr/local/pkg/globus/5.0.0]?
 >     GSI Install Type to use? vendorcc64dbg
 >     zone: **BeSTGRID**
->     Starting Server Port [20000](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20000&linkCreation=true&fromPageId=3818228549)? 40000
->     Ending Server Port [20199](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=20199&linkCreation=true&fromPageId=3818228549)? 40199
->     Resource name [demoResc](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=demoResc&linkCreation=true&fromPageId=3818228549)? **griddata.canterbury.ac.nz**
+>     Starting Server Port [20000]? 40000
+>     Ending Server Port [20199]? 40199
+>     Resource name [demoResc]? **griddata.canterbury.ac.nz**
 >     Directory ? **/hpc/griddata/irods**
 >     New Postgres directory? /usr/local/pkg/irods/Postgres
->     Include GSI [no](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=no&linkCreation=true&fromPageId=3818228549)? yes
->     GLOBUS_LOCATION [/usr/local/pkg/globus/5.0.0](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%2Fusr%2Flocal%2Fpkg%2Fglobus%2F5.0.0&linkCreation=true&fromPageId=3818228549)?
+>     Include GSI [no]? yes
+>     GLOBUS_LOCATION [/usr/local/pkg/globus/5.0.0]?
 >     GSI Install Type to use? vendorcc64dbg
 
 - Post-install instructions:
@@ -723,15 +723,15 @@ Davis will still talk directly to iRODS at hpcgrid1, but these are the steps I d
 >  groupadd -g 1082 rods
 >  useradd -u 95045 -g 1082 -m -d /home/rods -c "iRODS" rods
 
- ***Note**: it is necessary to have full Globus env setup while running irodssetup (else finishSetup breaks with Cannot scramble password)
+ **Note**: it is necessary to have full Globus env setup while running irodssetup (else finishSetup breaks with Cannot scramble password)
 
 - Run `irodssetup`:
 
 
->      Build an iRODS server [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228549)?
->      Make this Server ICAT-Enabled [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228549)? no
->      Build an iRODS server [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228549)?
->      Make this Server ICAT-Enabled [yes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=yes&linkCreation=true&fromPageId=3818228549)? no
+>      Build an iRODS server [yes]?
+>      Make this Server ICAT-Enabled [yes]? no
+>      Build an iRODS server [yes]?
+>      Make this Server ICAT-Enabled [yes]? no
 
 - Configure certificate (irodscert, environment)
 - Configure irods environment `/etc/profile.d/irods.sh`

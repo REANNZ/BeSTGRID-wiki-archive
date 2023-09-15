@@ -221,8 +221,8 @@ On Nautilus, install /usr/local/sbin/send_grid_usage (as documented at [https://
 - Configure sendmail to send youtgoing mail: put the following into /etc/mail/mailertable
 
 
->  .       smtp:[ulduar.aut.ac.nz](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=ulduar.aut.ac.nz&linkCreation=true&fromPageId=3818228572)
->  .       smtp:[ulduar.aut.ac.nz](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=ulduar.aut.ac.nz&linkCreation=true&fromPageId=3818228572)
+>  .       smtp:[ulduar.aut.ac.nz]
+>  .       smtp:[ulduar.aut.ac.nz]
 
 - And run
 

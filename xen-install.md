@@ -1,6 +1,6 @@
 # Xen Install
 
-[To The Gateway Server Configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=The_GateWay_Configuration&linkCreation=true&fromPageId=3818228529)
+[To The Gateway Server Configuration](gateway-server.md)
 
 During basic Xen install we were following the procedure described in [APACGrid twiki page](http://wiki.arcs.org.au/twiki/bin/view/APACgrid/XenInstall).
 

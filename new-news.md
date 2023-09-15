@@ -9,7 +9,7 @@ BeSTGRID focuses on how to make eResearch work, to create a fully-functional eRe
 
 **For futher information and status on BeSTGRID's activities please see:**
 
-- **[Data theme](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Data%20GRID&linkCreation=true&fromPageId=3818228896)****,**
+- **[Data theme]****,**
 - **[Computational theme](/wiki/spaces/BeSTGRID/pages/3818228944)****,**
 	
 - [[Access GRID |

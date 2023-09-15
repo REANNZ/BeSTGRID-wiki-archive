@@ -2,7 +2,7 @@
 
 Setup `gridgwtest` - a test Xen virtual machine for testing (client) grid software.
 
-- Basic Xen Install - [Vladimir__Bootstrapping a virtual machine](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Bootstrapping%20a%20virtual%20machine&linkCreation=true&fromPageId=3818228974)
+- Basic Xen Install - [Vladimir__Bootstrapping a virtual machine](bootstrapping-a-virtual-machine-at-university-of-canterbury.md)
 
 - Install pacman 3.19, source pacman
 

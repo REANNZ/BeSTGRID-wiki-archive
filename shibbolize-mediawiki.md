@@ -35,7 +35,7 @@ This instruction is for MediaWiki 1.7
 - PHP 5.x
 - MySQL 4.x
 - Apache 2.x
-- Shibboleth Service Provider 1.3, successfully installed and correctly configured (see the [Shibboleth Service Provider Setup](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3818228873) article for more details)
+- Shibboleth Service Provider 1.3, successfully installed and correctly configured (see the [Shibboleth Service Provider Setup](shibboleth-service-provider-setup-rhel4.md) article for more details)
 
 # Lazy Sessions
 
@@ -281,7 +281,7 @@ HTTPS would slow down the server performance because SSL overhead. Therefore it 
 
 ## Modification on mediawiki
 
-Replace the original **$personal_urls****['login'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27login%27&linkCreation=true&fromPageId=3818228873)** value in SSOLinkAdd method with following, (i.e. change the target from https:// to http://:
+Replace the original **$personal_urls****['login']** value in SSOLinkAdd method with following, (i.e. change the target from https:// to http://:
 
 ``` 
 

@@ -6,11 +6,11 @@ um,,uc,,ua,,sc
 
 this repository is integrated with University of Auckland's LDAP server.
 
-For **non University of Auckland users, please apply for guest access** to University services through the [BeSTGRID Project Manager](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=User__nickdjones&linkCreation=true&fromPageId=3818228597).
+For **non University of Auckland users, please apply for guest access** to University services through the [BeSTGRID Project Manager](nickdjonesbestgridorg.md).
 
 **INSTALL TORTOISESVN WINDOWS SUBVERSION CLIENT**
 
-Before proceeding, ensure you've [downloaded and installed TortoiseSVN](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID__TortoiseSVN&linkCreation=true&fromPageId=3818228597)
+Before proceeding, ensure you've [downloaded and installed TortoiseSVN](bestgrid-tortoisesvn.md)
 
 **SVN CHECKOUTS**
 

@@ -21,7 +21,7 @@ Meeting to be held via **[EVO](http://nextgen-caltech.cern.ch/evoGate/)**
 
 ;Attendees:
 - Paul Bonnington
-- [Nick Jones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones) (Chair)
+- [Nick Jones](nickdjonesbestgridorg.md) (Chair)
 - Neil Gemmell
 - Vladimir Mencl
 - Andrey Kharuk

@@ -49,7 +49,7 @@ stolen from rocks mailing list, author Travis Daygale.
 > 1. Change this as necessary:
 >  RocksDistro=/home/install/contrib/4.2.1/x86_64/RPMS/
 
->  if [\! -d $RocksDistro](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-d%20%24RocksDistro&linkCreation=true&fromPageId=3818228919)
+>  if [\! -d $RocksDistro]
 >  then
 >  echo "No directory $RocksDistro, are you sure this is a rocks node?"
 >  echo "No changes made, aborting"

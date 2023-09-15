@@ -2,7 +2,7 @@
 
 # Introduction
 
-This article will describe how a `xml` file ought to be configured to describe [Python](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Python&linkCreation=true&fromPageId=3818228721) with [MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3818228721) so that Python is available in a standard form for BeSTGRID users.
+This article will describe how a `xml` file ought to be configured to describe Python with MIP so that Python is available in a standard form for BeSTGRID users.
 
 This article is intended only to cover the configuration of python for multi-threading on a single node. Parallel python should be possible.
 

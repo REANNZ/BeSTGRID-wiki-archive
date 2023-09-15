@@ -34,7 +34,7 @@
 
 # Legal name required by Service Provider
 
-# [Collusion enabling opaque identifier for GRID](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Collusion%20enabling%20opaque%20identifier%20for%20GRID&linkCreation=true&fromPageId=3818228537)
+# Collusion enabling opaque identifier for GRID
 
 # Non-Commercial Research-Only Data Grid Use Case
 

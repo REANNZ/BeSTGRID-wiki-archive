@@ -276,7 +276,7 @@ Follow instructions at [https://support.globus.org/entries/23857088-Installing-G
 
 
 
-Note: if necessary, the script can be re-run multiple times and always attempts to configure all the bits necessary. However, the script does not deconfigure anything - so for example, if the script is once run with [MyProxy](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MyProxy&linkCreation=true&fromPageId=3818226832)` Server` set to localhost and configures a local myproxy server, subsequent runs with this entry commented out would not remove the myproxy server setup and the server needs to be removed manually.
+Note: if necessary, the script can be re-run multiple times and always attempts to configure all the bits necessary. However, the script does not deconfigure anything - so for example, if the script is once run with MyProxy Server set to localhost and configures a local myproxy server, subsequent runs with this entry commented out would not remove the myproxy server setup and the server needs to be removed manually.
 
 ## Installing Globus GridFTP server from package repositories
 

@@ -28,7 +28,7 @@ The URL for the [BeSTGRID Federation](/wiki/spaces/BeSTGRID/pages/3818228616) is
 
 The URL for the [BeSTGRID Test Federation](/wiki/spaces/BeSTGRID/pages/3818228710) is [https://wayf.test.bestgrid.org/metadata/bestgrid-test-metadata.xml](https://wayf.test.bestgrid.org/metadata/bestgrid-test-metadata.xml), and the server'S SSL certificate is issued by the BeSTGRID CA (root certificate [local copy](http://ngportal.canterbury.ac.nz/fedid/bestgridca.pem)
 
-For more detail, see the discussion at [University of Canterbury IdP metadata updates](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_IdP_Installation_at_the_University_of_Canterbury&linkCreation=true&fromPageId=3818228810).
+For more detail, see the discussion at [University of Canterbury IdP metadata updates](shibboleth-idp-installation-at-the-university-of-canterbury.md).
 
 You may also download a script suitable as a cron job for updating the BeSTGRID federation metadata: [idp-bestgrid-metadata](/wiki/download/attachments/3818228810/Idp-bestgrid-metadata.txt?version=1&modificationDate=1539354386000&cacheVersion=1&api=v2)
 

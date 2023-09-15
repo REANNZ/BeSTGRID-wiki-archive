@@ -62,11 +62,11 @@ Meeting to be held via **[EVO](http://nextgen-caltech.cern.ch/evoGate/)**
 11. Martin to approach Massey re early order of Clusters in 2007
 12. : Martin suggests this is in hand.
 13. Nick to request for a guiding principle from TEC as to whether we can lease Clusters even though they're budgeted in Capital Expenditure. Contact Lyn Clarke at Research Office, find out who our post award coordinator is and communicate through them.
-14. : Research Office are discussing issues with TEC and will come back with a response ASAP. --[nickdjones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones) 09:30, 15 December 2006 (NZDT)
+14. : Research Office are discussing issues with TEC and will come back with a response ASAP. --[nickdjones](nickdjonesbestgridorg.md) 09:30, 15 December 2006 (NZDT)
 15. Nick to place milestones/budget on protected Steering Committee only WIKI page with current progress/status
-16. : Milestones on [Category__Innovation Development Fund](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Innovation%20Development%20Fund&linkCreation=true&fromPageId=3818228504) pages. Will now track status on these pages.
+16. : Milestones on [Category__Innovation Development Fund](category-innovation-and-development-fund.md) pages. Will now track status on these pages.
 17. Nick to initiate EVO Reflector Node install at University of Auckland
-18. : Phil Galvez contacted, Debian VM installed and ready for EVO team to perform install --[nickdjones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones) 09:35, 15 December 2006 (NZDT)
+18. : Phil Galvez contacted, Debian VM installed and ready for EVO team to perform install --[nickdjones](nickdjonesbestgridorg.md) 09:35, 15 December 2006 (NZDT)
 
 ## Progress Reports
 
@@ -100,7 +100,7 @@ Meeting to be held via **[EVO](http://nextgen-caltech.cern.ch/evoGate/)**
 	
 1. Paul demo'd BeSTGRIDs current SAKAI implementation.
 2. Nick added information around the [SAKAI VRE demonstrator](http://rhine.dl.ac.uk:8080/portal) funded by JISC (user id: guest, password: demo).
-4. EVO setup for other sites should follow same process as for Auckland, see [Setting up an EVO Reflector](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20EVO%20Reflector&linkCreation=true&fromPageId=3818228504).
+4. EVO setup for other sites should follow same process as for Auckland, see Setting up an EVO Reflector.
 
 ## BeSTGRID Administration
 

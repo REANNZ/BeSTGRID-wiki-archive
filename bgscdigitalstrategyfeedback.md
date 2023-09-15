@@ -99,7 +99,7 @@ I suggest we submit the same content via all available channels, as each channel
 ## 3.2 Connection Priorities and Challenges
 
 - John: I wonder if we should push for "investor in R+D" to be added to the government's roles in second para of 3.2?
-- Sam: International connections are noted at bottom of p.17 as an infrastructure gap. [But are not translated into any obvious actions in 3.3?](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=But%20are%20not%20translated%20into%20any%20obvious%20actions%20in%203.3%3F&linkCreation=true&fromPageId=3818228408)
+- Sam: International connections are noted at bottom of p.17 as an infrastructure gap. *But are not translated into any obvious actions in 3.3?*
 
 3.2 also has a boxed section on "eResearch in New Zealand" on p.18.
 
@@ -114,7 +114,7 @@ Nick: placement of this section seems a little at odds. This section is around t
 - I think this misses several important things from what is there at the moment: a) that the services are web-based b) that they required advanced networks like KAREN c) real-time aspects and d) we are talking about data as well as information and knowledge (this is different from the rest of the strategy's focus on 'information') and e) collaboration, but these are covered off reasonably well in the following paragraph.
 - description of virtual research environments as "'virtual spaces' created by information technology tools or systems" could be simplified to "shared online workspaces with tools and services that support collaborative research".
 		
-- Nick: VRE as a term is a of limited value. The Science Gateways concept seems to provide an intuitive sense of the scale of these platforms. [Agree that VRE is overly jargony, but I disagree about 'Science Gateways' as a replacement as VREs are one of the few tools that can be used across most, if not all, research disciplines.](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Sam&title=Agree%20that%20VRE%20is%20overly%20jargony%2C%20but%20I%20disagree%20about%20%27Science%20Gateways%27%20as%20a%20replacement%20as%20VREs%20are%20one%20of%20the%20few%20tools%20that%20can%20be%20used%20across%20most%2C%20if%20not%20all%2C%20research%20disciplines.)
+- Nick: VRE as a term is a of limited value. The Science Gateways concept seems to provide an intuitive sense of the scale of these platforms. *Agree that VRE is overly jargony, but I disagree about 'Science Gateways' as a replacement as VREs are one of the few tools that can be used across most, if not all, research disciplines.*
 - the definition of grid computing seems a bit wonky but I can't think of anything better to replace it with at the moment!
 		
 - Nick: agreed, am thinking on this one.
@@ -186,7 +186,7 @@ Sam:
 Sam: 
 
 - This section is all woolly as anything. The Strategy "ackowledges needs", "supports the development and exploitation of eresearch", and notes that "new digital tools and middleware will support access to knowledge and enable economic transformation". But sadly this is not backed up by any actions. I wonder if this is an appropriate place to talk about the Advanced Network Capability Building Roadmap?
-- Actually this whole section doesn't have any actions, and unlike Connection, Confidence and Content, Collaboration doesn't even have a goal! It seems like the strategy is saying that Collaboration is the means by whichthe other three things will happen. And yet, as we know, digital collaboration is a goal and outcome in itself, and actually relies on the other three (or at least Connection and Confidence) to happen in the first place. So I am a bit confused about the role of Collaboration in the strategy overall. [the diagram in 7.1 just makes me even more confused in this regard\!](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Note&title=the%20diagram%20in%207.1%20just%20makes%20me%20even%20more%20confused%20in%20this%20regard%5C%21) This seems to me to be just reinforcing the myth that collaboration will "just happen" and we are all too aware that this is not the case.
+- Actually this whole section doesn't have any actions, and unlike Connection, Confidence and Content, Collaboration doesn't even have a goal! It seems like the strategy is saying that Collaboration is the means by whichthe other three things will happen. And yet, as we know, digital collaboration is a goal and outcome in itself, and actually relies on the other three (or at least Connection and Confidence) to happen in the first place. So I am a bit confused about the role of Collaboration in the strategy overall. *the diagram in 7.1 just makes me even more confused in this regard\!* This seems to me to be just reinforcing the myth that collaboration will "just happen" and we are all too aware that this is not the case.
 - Neil: Perhaps this section offers the opportunity to talk about a further capability build funding, relating it to the Road Map?
 
 ## 6.6 The Overarching Sector Forum

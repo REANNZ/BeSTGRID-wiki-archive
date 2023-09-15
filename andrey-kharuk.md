@@ -51,7 +51,7 @@
 
 [Naming convention for new systems](/wiki/spaces/BeSTGRID/pages/3818228580)
 
-[Technical Overview for Institutional_GRID_Gateways](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Technical%20Overview%20for%20Institutional_GRID_Gateways&linkCreation=true&fromPageId=3818228700)
+[Technical Overview for Institutional_GRID_Gateways](technical-overview-for-institutional-grid-gateways.md)
 
 [Xen 3.0 Open Source Installation](/wiki/spaces/BeSTGRID/pages/3818228529)
 
@@ -67,7 +67,7 @@
 
 [Auckland BeSTGRID Computational Grid Resources](/wiki/spaces/BeSTGRID/pages/3818228944)
 
-[Using Grix Tool](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix%20Tool&linkCreation=true&fromPageId=3818228700)
+Using Grix Tool
 
 # Sakai 
 

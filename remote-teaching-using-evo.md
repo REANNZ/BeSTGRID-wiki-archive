@@ -43,7 +43,7 @@ First example in NZ of **cross-institutional live teaching using DVD quality vid
 ![Evo_ball.png](./attachments/Evo_ball.png)
 - DVD-quality (XGA resolution) video used for David Bryant and regular office whiteboard.
 - There were multiple video feeds from the Auckland office: DVD-video for Whiteboard, full resolution desktop computer display (as video), and two CIF-resolution camera feeds from other points in the office
-- [EVO (Enabling Virtual Organisations)](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Template__EVO_vignette&linkCreation=true&fromPageId=3818228683) software was used for all aspects of the remote teaching
+- [EVO (Enabling Virtual Organisations)](evo-vignette.md) software was used for all aspects of the remote teaching
 - Multiple platforms used: Windows, Macintosh. Multicast network was not required. Session was operated by lecturers Neil Gemmell and David Bryant.
 
 # Photos from the Lecture (Selected Screen Shots)

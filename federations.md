@@ -3,7 +3,7 @@
 - Australian Access Federation
 
 [Australian Access Federation](http://federation.org.au)
-- Meta Access Management System [Australia](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Australia&linkCreation=true&fromPageId=3818228940)
+- Meta Access Management System \[Australia\]
 
 [Meta Access Management System](https://mams.melcoe.mq.edu.au/zope/mams)
 - UK Access Federation

@@ -4,7 +4,7 @@
 
 - Director
 
-**[Nick Jones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones)**, Co-Director eResearch, Centre for eResearch, University of Auckland
+**[Nick Jones](nickdjonesbestgridorg.md)**, Co-Director eResearch, Centre for eResearch, University of Auckland
 - Geoscience Lead
 
 [**Prof. Mark Gahegan**](mailto:m.gahegan@auckland.ac.nz), [Director eResearch](http://www.sges.auckland.ac.nz/the_school/our_people/gahegan_mark/index.shtm), Centre for eResearch, University of Auckland
@@ -16,7 +16,7 @@
 [**Stuart Charters**](mailto:stuart.charters@lincoln.ac.nz), [Lecturer in Software and Information Technology](http://www.lincoln.ac.nz/staff-profile?staffId=Stuart.Charters), Lincoln University 
 - Technical Working Group Chair
 
-[**Vladimir Mencl**](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir) - Blue Fern Group, University of Canterbury
+[**Vladimir Mencl**](vladimirbestgridorg.md) - Blue Fern Group, University of Canterbury
 
 ***Project Governance***
 - [Steering Committee](/wiki/spaces/BeSTGRID/pages/3818228876)

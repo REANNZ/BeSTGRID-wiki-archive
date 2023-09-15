@@ -73,4 +73,4 @@ It would be good for user to think about the following before attending the sess
 
 The session can then be more directed to their needs.
 
-;Please feel free to make any comments on the content of this presentation here, or by sending an email to [Nick Jones](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Nickdjones)
+;Please feel free to make any comments on the content of this presentation here, or by sending an email to [Nick Jones](nickdjonesbestgridorg.md)

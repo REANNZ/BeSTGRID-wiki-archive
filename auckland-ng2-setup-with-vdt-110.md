@@ -213,7 +213,7 @@ Need to get latest version from SVN repository.
 > 1. replace username with your own.
 >  curl --user yhal003 [https://subversion.auckland.ac.nz/svn/UoA.ITSS.EAO/eResearch/scripts/pbs.pm](https://subversion.auckland.ac.nz/svn/UoA.ITSS.EAO/eResearch/scripts/pbs.pm) > /opt/vdt/globus/lib/perl/Globus/GRAM/JobManager/pbs.pm
 
-If you don't have acess to subversion, it can also can be downloaded from [//ftp.bestgrid.org/pub/pbs.pm here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=ftp&title=%2F%2Fftp.bestgrid.org%2Fpub%2Fpbs.pm%20here).
+If you don't have acess to subversion, it can also can be downloaded from ftp.bestgrid.org/pub/pbs.pm.
 
 Also need to run pbs-logmaker to send data to our new gateway
 

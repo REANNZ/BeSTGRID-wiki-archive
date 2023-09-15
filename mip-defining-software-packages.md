@@ -4,7 +4,7 @@
 
 # Introduction
 
-This assumes you have installed and configured MIP as part of installing a job submission gateway (NG2) server as per the instructions given on this [page](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2&linkCreation=true&fromPageId=3818228867).
+This assumes you have installed and configured MIP as part of installing a job submission gateway (NG2) server as per the instructions given on this [page](setting-up-an-ng2.md).
 
 Software definitions in MIP consist of two parts:
 

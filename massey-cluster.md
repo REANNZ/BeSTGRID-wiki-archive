@@ -2,9 +2,9 @@
 
 # Summary
 
-The architecture and specifications of the cluster at Massey Albany for participation in the [BeSTGRID](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID&linkCreation=true&fromPageId=3818228892) Project are detailed here.
+The architecture and specifications of the cluster at Massey Albany for participation in the *BeSTGRID* Project are detailed here.
 
-The cluster at Massey is connected to the Grid via the [KAREN](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=KAREN&linkCreation=true&fromPageId=3818228892) high speed national network.
+The cluster at Massey is connected to the Grid via the KAREN high speed national network.
 
 The Massey cluster hosts a large number of machines facilitating mass storage and mass computation, which are centrally coordinated by a Server Gateway Node (see diagram below), which is directly connected to KAREN.
 

@@ -56,12 +56,12 @@ If the HPC cluster were to use machines with reconfigurable hardware (i.e.
 
 FPGA co-processors). Then we would be particularly interested as these systems offer incredible performance advantages if the FPGA is programmed directly. 
 
-We have developed several frameworks for Application Specific Supercomputing in Hardware at Otago, and see the development of a national HPC infrastructure as an excellent opportunity to provide a focus for New Zealand researchers in this area. Indeed, as recent articles [1](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=1&linkCreation=true&fromPageId=3818228416) have shown, this kind of application specific hardware is likely to become a significant part the HPC landscape, and I would hope that our national HPC facilities are geared toward these exciting future technologies.
+We have developed several frameworks for Application Specific Supercomputing in Hardware at Otago, and see the development of a national HPC infrastructure as an excellent opportunity to provide a focus for New Zealand researchers in this area. Indeed, as recent articles \[1\] have shown, this kind of application specific hardware is likely to become a significant part the HPC landscape, and I would hope that our national HPC facilities are geared toward these exciting future technologies.
 
 # See Also
 
-- [Concept Document](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Concept_Document_for_a_National_HPC_Facility&linkCreation=true&fromPageId=3818228416)
-- [Definitions and Descriptions of HPC Platforms](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Definitions_and_Descriptions_of_High_Performance_Computing_Platforms&linkCreation=true&fromPageId=3818228416)
-- [Science Case](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Science_Case_for_a_National_HPC_Facility&linkCreation=true&fromPageId=3818228416)
-- [HPC in New Zealand](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Current_High_Performance_Computing_Installations_in_New_Zealand&linkCreation=true&fromPageId=3818228416)
-- [National High Performance Computing](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=National_High_Performance_Computing&linkCreation=true&fromPageId=3818228416)
+- [Concept Document](concept-document-for-a-national-hpc-facility.md)
+- [Definitions and Descriptions of HPC Platforms](definitions-and-descriptions-of-high-performance-computing-platforms.md)
+- [Science Case](science-case-for-a-national-hpc-facility.md)
+- [HPC in New Zealand](current-high-performance-computing-installations-in-new-zealand.md)
+- [National High Performance Computing](national-high-performance-computing.md)

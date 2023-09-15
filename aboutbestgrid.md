@@ -8,9 +8,9 @@ BeSTGRID started in 2006 as a [Tertiary Education Commission](http://www.tec.gov
 
 ## Services
 
->  **Capture, storage and sharing of*data** - [Data theme](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Data%20Grid&linkCreation=true&fromPageId=3818228999)
->  ***Computational** processing, analysis and presentation of that data - [Computation theme](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Computational%20Grid&linkCreation=true&fromPageId=3818228999)
->  **Multi-discipline, multi-modal*collaboration** - [Collaboration theme](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Collaboration&linkCreation=true&fromPageId=3818228999)
+>  **Capture, storage and sharing of*data** - [Data theme](category-data-grid.md)
+>  ***Computational** processing, analysis and presentation of that data - [Computation theme](category-computational-grid.md)
+>  **Multi-discipline, multi-modal*collaboration** - [Collaboration theme](category-collaboration.md)
 
 ## Members
 
@@ -42,7 +42,7 @@ Landcare Research
 
 >  ***[Partner projects and applications](/wiki/spaces/BeSTGRID/pages/3818228898)**
 
-- [Category__Projects](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Projects&linkCreation=true&fromPageId=3818228999)
+- [Category__Projects](category-projects.md)
 
 ## 15 min Video Summary
 
@@ -56,9 +56,9 @@ The KAREN network is providing key infrastructure to enable the development of G
 
 BeSTGRID started as a project (Broadband enabled Science and Technology GRID) based collaboration between Auckland, Massey and Canterbury universities tasked with building three core GRIDs that together form a new platform for research collaboration in New Zealand:
 
->  ***[Collaboration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Collaboration&linkCreation=true&fromPageId=3818228999)** tools for enhancing collaboration amongst participants in multiple locations with video-conferencing, shared whiteboards and presentations, visualization tools and project-based online communities,
->  ***[Data](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Data_Grid&linkCreation=true&fromPageId=3818228999)** tools and services which allow large amounts of data to be stored and made available in other locations, and
->  ***[Computational GRID](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Computational_Grid&linkCreation=true&fromPageId=3818228999)** which allows for the sharing of high-performance computational resources, initially between Auckland, Massey and Canterbury.
+>  ***[Collaboration](category-collaboration.md)** tools for enhancing collaboration amongst participants in multiple locations with video-conferencing, shared whiteboards and presentations, visualization tools and project-based online communities,
+>  ***[Data](category-data-grid.md)** tools and services which allow large amounts of data to be stored and made available in other locations, and
+>  ***[Computational GRID](category-computational-grid.md)** which allows for the sharing of high-performance computational resources, initially between Auckland, Massey and Canterbury.
 
 “A great deal of scientific research is now computational involving large amounts of data”, says Associate Professor Paul Bonnington, Inaugural Director of BeSTGRID and now Director of eResearch, Monash University in Melbourne. 
 

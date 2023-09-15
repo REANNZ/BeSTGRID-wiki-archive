@@ -8,4 +8,4 @@ You can see the MDS entries for BeSTGRID resources on the ARCS WebMDS System
 
 [http://webmds.arcs.org.au/webmds/](http://webmds.arcs.org.au/webmds/)
 
-[MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3818228972) is used to define the properties of a cluster and the services it provides for submission to MDS.
+*MIP* is used to define the properties of a cluster and the services it provides for submission to MDS.

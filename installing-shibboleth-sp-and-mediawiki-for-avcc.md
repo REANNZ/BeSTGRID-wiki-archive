@@ -66,7 +66,7 @@ This system is based on Debian, and thus packages are installed with `apt-get in
 
 - Compile xml-security: no changes (needs libssl-dev)
 - Compile opensaml: no changes (needs libcurl-dev)
-- Compile shibboleth-sp: apache is 2.2 [needs apache2-dev](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=needs%20apache2-dev&linkCreation=true&fromPageId=3818228916)
+- Compile shibboleth-sp: apache is 2.2 (needs apache2-dev)
 
 
 >    ./configure --prefix=$SHIB_SP_HOME --with-log4cpp=$SHIB_SP_HOME --enable-apache-22 --with-apxs2=/usr/bin/apxs2 --disable-mysql
@@ -114,7 +114,7 @@ server clock1.canterbury.ac.nz
 ``` 
 /usr/local/shibboleth-sp/libexec/mod_shib_22.so
 ```
-- Create `/etc/apache2/mods-available/mod_shib.conf`: should include directives as instructed, and also should make the [logo and stylesheet available for inclusion](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s%20general%20Shiboleth%20notes&linkCreation=true&fromPageId=3818228916) in error pages.  Thus, the contents of the file should be:
+- Create `/etc/apache2/mods-available/mod_shib.conf`: should include directives as instructed, and also should make the [logo and stylesheet available for inclusion](vladimirs-general-shibboleth-notes.md) in error pages.  Thus, the contents of the file should be:
 
 ``` 
 
@@ -246,7 +246,7 @@ After an `invoke-rc.d apache2 restart`, the location [https://uc-avcc.canterbury
 
 ## Enforcing Canonical Hostname
 
-As the machine had been known under two distinct hostnames, it has become necessary to enforce the use of it's canonical hostname - otherwise, logins via the non-canonical hostname fail, as described in this section on [canonical hostnames](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s_general_Shiboleth_notes&linkCreation=true&fromPageId=3818228916) in my grid notes.
+As the machine had been known under two distinct hostnames, it has become necessary to enforce the use of it's canonical hostname - otherwise, logins via the non-canonical hostname fail, as described in this section on [canonical hostnames](vladimirs-general-shibboleth-notes.md) in my grid notes.
 
 To enforce the use of canonical hostnames, it is not sufficient to use the Apache directive
 
@@ -365,7 +365,7 @@ and `LocalSettings.php` says:
 
 - modified ShibAuthPlugin.php: SSOAddLink: change target URL to plain http
 - disable discussions: comment out 'talk' tab definition in `includes/SkinTemplate.php` 661-669
-- [disable caching](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibbolize_MediaWiki&linkCreation=true&fromPageId=3818228916): modify `LocalSettings.php`:
+- [disable caching](shibbolize-mediawiki.md): modify `LocalSettings.php`:
 
 
 >  $wgMainCacheType = CACHE_NONE; 
@@ -393,7 +393,7 @@ and `LocalSettings.php` says:
 
 ```
 
-Note that if other URLs would be protected as well (with more restrictive access control), they must be specified after this Location element (see the [discussion here](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir%27s%20general%20Shiboleth%20notes&linkCreation=true&fromPageId=3818228916)).
+Note that if other URLs would be protected as well (with more restrictive access control), they must be specified after this Location element (see the [discussion here](vladimirs-general-shibboleth-notes.md)).
 
 - to accept `eduPersonTargetedID` (should we ever need it), I have removed `Scoped="true"` from `/usr/local/shibboleth-sp/etc/shibboleth/AAP.xml`.
 
@@ -530,8 +530,8 @@ The redirects affected are the automatic login when editing a page (in ShibAuthP
 
 This value is initialized from the `Shib-Identity-Provider` http header, as shown in the following fragment of code documenting the modifications made to `LocalSettings.php`
 
->    $shib_UN = $_SERVER['REMOTE_USER'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27REMOTE_USER%27&linkCreation=true&fromPageId=3818228916);
->  + $shib_IdP = $_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%27HTTP_SHIB_IDENTITY_PROVIDER%27&linkCreation=true&fromPageId=3818228916);
+>    $shib_UN = $_SERVER\['REMOTE_USER'\];
+>  + $shib_IdP = $_SERVER\['HTTP_SHIB_IDENTITY_PROVIDER'\];
 >  + if (($shib_UN null) && ($shib_IdP != null)) $shib_LoginHint = 'No PrincipalName attribute received.  Please obtain the attribute and try logging in again.';
 
 ## Overview of changes

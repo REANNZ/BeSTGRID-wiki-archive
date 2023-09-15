@@ -192,7 +192,7 @@ using `yum`, and from a VDT mirror, using `pacman`.
 ``` 
 cd /etc/yum.repos.d && wget http://projects.arcs.org.au/dist/arcs.repo
 ```
-- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3818228695) repository in `/etc/yum.repos.d/arcs.repo` to: 
+- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the *arcs* repository in `/etc/yum.repos.d/arcs.repo` to: 
 
 ``` 
 baseurl=http://projects.arcs.org.au/dist/production/$releasever/i386
@@ -628,7 +628,7 @@ The Modular Information Provider (MIP) is the software implementation populating
 
 This section documents setting up both MIP and the local MDS.  These instructions follow [https://projects.arcs.org.au/trac/systems/wiki/InfoSystems/InstallConfigSteps](https://projects.arcs.org.au/trac/systems/wiki/InfoSystems/InstallConfigSteps)
 
-Note: the current MIP implementation only works with PBS-based clusters.  Please email the [author of this page](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir) if you need to get MIP going with other LRMs.  This has been done for LoadLeveler (extending MIP to provide cluster load information for LoadLeveler) and is working-in-progress for SGE.
+Note: the current MIP implementation only works with PBS-based clusters.  Please email the [author of this page](vladimirbestgridorg.md) if you need to get MIP going with other LRMs.  This has been done for LoadLeveler (extending MIP to provide cluster load information for LoadLeveler) and is working-in-progress for SGE.
 
 ## Install MIP
 
@@ -1007,7 +1007,7 @@ can't use `-passive` and `-active`
 
 I have started to gather this info together, away from the clutter of the install instructions here
 
-[Administering_an_NG2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Administering_an_NG2&linkCreation=true&fromPageId=3818228695)
+[Administering_an_NG2](administering-an-ng2.md)
 
 # My SGE Notes 
 

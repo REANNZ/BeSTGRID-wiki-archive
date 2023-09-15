@@ -117,14 +117,14 @@ rm $TMPFILE
 
 >  cd /etc/grid-security/pragma-certificates/old
 >  for FILE in **.** ; do
->     if [\! -f /etc/grid-security/pragma-certificates/$FILE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-f%20%2Fetc%2Fgrid-security%2Fpragma-certificates%2F%24FILE&linkCreation=true&fromPageId=3818228518) ; then
+>     if \[\! -f /etc/grid-security/pragma-certificates/$FILE\] ; then
 >       echo "Deleting /etc/grid-security/certificates/$FILE"
 >       rm -f /etc/grid-security/certificates/$FILE
 >     fi
 >  done
 >  cd /etc/grid-security/pragma-certificates/old
 >  for FILE in **.** ; do
->     if [\! -f /etc/grid-security/pragma-certificates/$FILE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=%5C%21%20-f%20%2Fetc%2Fgrid-security%2Fpragma-certificates%2F%24FILE&linkCreation=true&fromPageId=3818228518) ; then
+>     if \[\! -f /etc/grid-security/pragma-certificates/$FILE\] ; then
 >       echo "Deleting /etc/grid-security/certificates/$FILE"
 >       rm -f /etc/grid-security/certificates/$FILE
 >     fi

@@ -8,7 +8,7 @@ Submitting job from local Grid client to a gateway with copying output files in 
 
 globusrun-ws: Job failed: Staging error for RSL element fileStageOut
 
-Connection creation error [Connection refused](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Caused by&title=Connection%20refused)
+Connection creation error [Connection refused]
 
 **RSL job description:**
 
@@ -72,4 +72,4 @@ Globus uses gsiftp from a gateway (**ng2**) under allocated grid user (grid-best
 - [Request and install](http://wiki.arcs.org.au/bin/view/Main/HostCertificates) a host certificate for the local machine and install [CA Bundle](http://wiki.arcs.org.au/bin/view/Main/InstallCABundle) (at least, later will investigate more). I don't really need it for this VM which is a local client. But later and for other users it might be needed.
 - Create a script to run a job and add globus-url-copy command to copy files from the gateway to local machine. Files should be deleted on the gateway in the script or in other way. fileStageOut/delete doesn't useful in this case.
 
-[Akha103@bestgrid.org](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Akha103)
+[Akha103@bestgrid.org](andrey-kharuk.md)

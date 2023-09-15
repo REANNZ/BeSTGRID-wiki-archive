@@ -22,13 +22,13 @@ What is grid and grid computing? According to [IBM](http://www-128.ibm.com/devel
 
 ## A graphical representation of the BeSTGRID [Conceptual Design.](/wiki/download/attachments/3818228944/BeSTGRID-Conceptual-Designv03.pdf?version=1&modificationDate=1539354288000&cacheVersion=1&api=v2)
 
-## [BeSTGRID GateWay Server Configuration](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=The_GateWay_Configuration&linkCreation=true&fromPageId=3818228944) 
+## BeSTGRID GateWay Server Configuration 
 
 ## [BeSTGRID Auckland IP Addresses Pool](/wiki/spaces/BeSTGRID/pages/3818228780) 
 
 **Status:** *the GateWay Server has been mounted in Computer Center of ITS, UoA*
 
->  ***[IBM System x3500](http://www-03.ibm.com/systems/x/tower/x3500/index.html)**** with upgraded configuration:** [(detail description)](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=The_GateWay_Configuration&linkCreation=true&fromPageId=3818228944)
+>  ***[IBM System x3500](http://www-03.ibm.com/systems/x/tower/x3500/index.html)**** with upgraded configuration:** (detail description)
 
 - 
 - 2x 3.0GHz/1333MHz Dual core Intel processors
@@ -53,18 +53,18 @@ What is grid and grid computing? According to [IBM](http://www-128.ibm.com/devel
 
 ## [First BeSTGRID Test Grid](/wiki/spaces/BeSTGRID/pages/3818228493)
 
-# [Technical Notes for setting up the Institutional Gateway Servers (APAC Style)](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir)
+# [Technical Notes for setting up the Institutional Gateway Servers (APAC Style)](vladimirbestgridorg.md)
 
 ## Tips and suggestions
 
-- [For GridSphere in Tomcat environment](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=GridSphere_Tomcat&linkCreation=true&fromPageId=3818228944)
+- [For GridSphere in Tomcat environment](gridsphere-tomcat.md)
 
 # APAC Certificate Authority
 
 - The APAC Grid Certificate Authority will be issuing X509 Globus style certificates until there is a more formal authority established to serve the Australian and NZ research community. Its proposed that there be a person (the Registration Authority Operator (RAO)) nominated at each relevant institute who is responsible for checking certificate applicants identity. These RAO identities will, in turn be established by a state RAO who will have personal knowledge of them and these State RAOs will be personally known to the APAC Grid Project Leader. This arrangement is not expected to be a long term one.
 
 - [APAC-GRID CA Policy Statement](http://www.vpac.org/twiki/bin/view/APACgrid/CaPolicy_1_3)
-- VPAC has authorised [Andrey Kharuk](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Akha103) as a [Registration Authority Operator](http://www.vpac.org/twiki/bin/view/APACgrid/RaoDescriptor). He can send requests certs for people which he can recognize and the request is compliant with the APAC-GRID CA Policy Statement.
+- VPAC has authorised [Andrey Kharuk](andrey-kharuk.md) as a [Registration Authority Operator](http://www.vpac.org/twiki/bin/view/APACgrid/RaoDescriptor). He can send requests certs for people which he can recognize and the request is compliant with the APAC-GRID CA Policy Statement.
 
 - The RAO has three primary responsibilities:
 
@@ -72,14 +72,14 @@ What is grid and grid computing? According to [IBM](http://www-128.ibm.com/devel
 2. Sign, electronically, and thus authorize, the Certificate Application.
 3. Keep appropriate records of the above transaction.
 
-- [Andrey Kharuk](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Akha103) can also collect requests for certs from people, and process them in bulk by inviting a CA adminstrator from VPAC to create certificates.
+- [Andrey Kharuk](andrey-kharuk.md) can also collect requests for certs from people, and process them in bulk by inviting a CA adminstrator from VPAC to create certificates.
 - *Who recognises APAC certificates?* See [GRIDPMA](http://www.gridpma.org) where you can find all GRID organisation which recognize APAC certificates (see 'Asia and Pacific').
 
 ## [Federated Identity Initiatives in NZ](/wiki/spaces/BeSTGRID/pages/3818228589)
 
 # Contact
 
-[Andrey Kharuk, Research IT Consultant, University of Auckland](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Akha103)
+[Andrey Kharuk, Research IT Consultant, University of Auckland](andrey-kharuk.md)
 
 # Our partners
 

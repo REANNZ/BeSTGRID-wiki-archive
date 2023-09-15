@@ -12,7 +12,7 @@ But services that run from time to time as cron jobs (MDS, Gridmap etc.) may als
 
 # Java Error
 
->  WARN  utils.JavaUtils [1218](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=main,isAttachmentSupported&title=1218) Unable to find required classes
+>  WARN  utils.JavaUtils \[1218\] Unable to find required classes
 >  (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
 
 - Apparently this one is another one of these acceptable errors:
@@ -33,13 +33,13 @@ These errors all indicate that the gridmap is not set up correctly. This section
 - Run /opt/vdt/edg/sbin/edg-mkgridmap to regenerate the grid map
 - If /opt/vdt/edg/sbin/edg-mkgridmap does not exist, then maybe you ran Pacman from the wrong directory - try to install the EDG-Make-Gridmap package again, but cd to /opt/vdt before running the pacman command.
 - Check /opt/vdt/edg/log/edg-mkgridmap.log for errors
-- If the actual grid map /etc/grid-security/grid-mapfile is empty then check the steps under [Vladimir__Setup_NG2#APACGrid_NG2_Setup](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Vladimir__Setup_NG2&linkCreation=true&fromPageId=3818228849) and try to generate the map again. In particular make sure that you have the correct VOMS servers in /opt/vdt/edg/etc/edg-mkgridmap.conf.
+- If the actual grid map /etc/grid-security/grid-mapfile is empty then check the steps under [Vladimir__Setup_NG2#APACGrid_NG2_Setup](setting-up-an-ng2.md) and try to generate the map again. In particular make sure that you have the correct VOMS servers in /opt/vdt/edg/etc/edg-mkgridmap.conf.
 
 # MDS Errors
 
 ## Incorrect grid-map Entry
 
->  WARN  authorization.GridMapAuthorization [158](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=ServiceThread-16,isPermitted&title=158) Gridmap authorization failed: peer 
+>  WARN  authorization.GridMapAuthorization \[158\] Gridmap authorization failed: peer 
 >  "/C=AU/O=APACGrid/O=BeSTGRID/OU=BeSTGRID-MU/CN=ng2.massey.ac.nz" not in gridmap file.
 
 - This error refers to the entry for your site in /etc/grid-security/mds-grid-mapfile. Check the entry for your site in the mapfile matches the expected site one from the error message. Therefore, my entry should read:
@@ -50,10 +50,10 @@ These errors all indicate that the gridmap is not set up correctly. This section
 
 ## ServiceAuthorizationChain Error
 
->  WARN  authorization.ServiceAuthorizationChain [292](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=ServiceThread-16,authorize&title=292)
+>  WARN  authorization.ServiceAuthorizationChain \[292\]
 >  "/C=AU/O=APACGrid/O=BeSTGRID/OU=BeSTGRID-MU/CN=ng2.massey.ac.nz" is not authorized to use operation:
 >  {http://mds.globus.org/index/2004/07/12\}add on this service
->  2007-09-04 14:44:01,484 WARN  client.ServiceGroupRegistrationClient [472](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Timer-5,status&title=472) Warning: Could not register
+>  2007-09-04 14:44:01,484 WARN  client.ServiceGroupRegistrationClient \[472\] Warning: Could not register
 >  [https://ng2.massey.ac.nz:8443/wsrf/services/ReliableFileTransferFactoryService](https://ng2.massey.ac.nz:8443/wsrf/services/ReliableFileTransferFactoryService) to servicegroup at
 >  [https://ng2.massey.ac.nz:8443/wsrf/services/DefaultIndexService](https://ng2.massey.ac.nz:8443/wsrf/services/DefaultIndexService) – check the URL and that the remote service is up. 
 >  Remote exception was org.globus.wsrf.impl.security.authorization.exceptions.AuthorizationException:
@@ -64,7 +64,7 @@ These errors all indicate that the gridmap is not set up correctly. This section
 
 ## DelegationUtil Error
 
->  ERROR delegation.DelegationUtil [253](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=RunQueueThread_0,getDelegationResource&title=253) Error getting delegation resource
+>  ERROR delegation.DelegationUtil \[253\] Error getting delegation resource
 >  org.globus.wsrf.NoSuchResourceException
 
 (plus Java stack trace)
@@ -88,7 +88,7 @@ These errors all indicate that the gridmap is not set up correctly. This section
 
 ## ComputeElement transformation Error
 
->  WARN  transforms.GLUESchedulerElementTransform [377](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Timer-6,transformElement&title=377) Unhandled exception during GLUE 
+>  WARN  transforms.GLUESchedulerElementTransform \[377\] Unhandled exception during GLUE 
 >  ComputeElement transformation
 >  java.lang.Exception: Batch provider generated no useful information.
 
@@ -98,7 +98,7 @@ These errors all indicate that the gridmap is not set up correctly. This section
 
 ## Failed to Retrieve msgElements Error
 
->  ERROR transforms.GLUESchedulerElementTransform [218](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Timer-5,transformElement&title=218) Failed to retrieve the Any msgElements
+>  ERROR transforms.GLUESchedulerElementTransform \[218\] Failed to retrieve the Any msgElements
 
 - I have no idea what causes this error - I gave up and set up my machine from scratch. The error is produced by a top-level exception catch, so it could be any one of many lower-level exceptions. It doesn't actually print the exception that is caught.
 
@@ -106,7 +106,7 @@ These errors all indicate that the gridmap is not set up correctly. This section
 
 # MIP Errors
 
->  WARN  factory.ManagedJobFactoryResource [209](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Thread-8,run&title=209) Recovery exception
+>  WARN  factory.ManagedJobFactoryResource \[209\] Recovery exception
 >  org.globus.wsrf.ResourceException: ; nested exception is:
 
 (+Java stack trace)

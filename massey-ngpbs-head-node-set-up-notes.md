@@ -69,10 +69,10 @@
 - Assuming queue manager already okay, but added submit permissions for ng2
 
 
->  [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dit040257%2B%7E%3Bsearch%3Fq%3Droot)# qmgr
+>  # qmgr
 >  Max open servers: 4
 >  Qmgr: set server submit_hosts+=ng2.massey.ac.nz
->  [unnamed link](https://reannz.atlassian.net/wiki/404?key%3Dit040257%2B%7E%3Bsearch%3Fq%3Droot)# qmgr
+>  # qmgr
 >  Max open servers: 4
 >  Qmgr: set server submit_hosts+=ng2.massey.ac.nz
 

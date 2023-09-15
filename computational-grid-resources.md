@@ -1,6 +1,6 @@
 # Computational Grid Resources
 
-These resources are available on the BeSTGRID [Category__Computational Grid](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Computational%20Grid&linkCreation=true&fromPageId=3818228727) for submitting jobs.
+These resources are available on the BeSTGRID [Category__Computational Grid](category-computational-grid.md) for submitting jobs.
 
 |  OS                                                                   |  Notes                                                          |                 |             |              |          |                                                                                                 |
 | --------------------------------------------------------------------- | --------------------------------------------------------------- | --------------- | ----------- | ------------ | -------- | ----------------------------------------------------------------------------------------------- |

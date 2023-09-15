@@ -2,7 +2,7 @@
 
 ## Reports
 
-- Trip [Reports](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Report&linkCreation=true&fromPageId=3818228512)
+- Trip [Reports](category-report.md)
 
 ## Presentations
 

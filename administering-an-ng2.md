@@ -1,6 +1,6 @@
 # Administering an NG2
 
-This page follows on from the [Setting_up_an_NG2](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_an_NG2&linkCreation=true&fromPageId=3818228631) resource in that it seeks to provide
+This page follows on from the [Setting_up_an_NG2](setting-up-an-ng2.md) resource in that it seeks to provide
 
 the information needed to administer your job submission gateway once it has been deployed.
 

@@ -236,7 +236,7 @@ Keystore: changeit
 
 - Endorsed XML libs
 
-Remove `/var/lib/tomcat5/common/endorsed/*` ([xml-commons-apis](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=xml-commons-apis&linkCreation=true&fromPageId=3818228950).jar [jaxp_parser_impl](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=jaxp_parser_impl&linkCreation=true&fromPageId=3818228950).jar), symbolic links to `/usr/share/java/` and install all jars from `/root/inst/shibboleth-identityprovider-2.1.2/endorsed/` into `/var/lib/tomcat5/common/endorsed`
+Remove `/var/lib/tomcat5/common/endorsed/*` (\[xml-commons-apis\].jar \[jaxp_parser_impl\].jar), symbolic links to `/usr/share/java/` and install all jars from `/root/inst/shibboleth-identityprovider-2.1.2/endorsed/` into `/var/lib/tomcat5/common/endorsed`
 
 ## Deploy Shibboleth IdP WAR
 

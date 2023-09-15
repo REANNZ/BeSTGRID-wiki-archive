@@ -6,4 +6,4 @@ BeSTGRID gateways run the Globus Toolkit and are typically called ng2.site.name
 
 Detailed information on how gateways fit into the grid infrastructure and how to set them up can be found on the pages below
 
-[Setting up a grid gateway](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting_up_a_grid_gateway&linkCreation=true&fromPageId=3818228440)
+[Setting up a grid gateway](setting-up-a-grid-gateway.md)

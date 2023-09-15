@@ -16,7 +16,7 @@ Overall, the user has to:
 ## Retrieving your first SLCS certificate
 
 - Make sure you have configured the attribute release as described above.
-- Start [http://bestgrid.org/grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3818228446) and select the Institution login tab
+- Start [http://bestgrid.org/grix](http://bestgrid.org/grix) and select the Institution login tab
 - Pick your institutions IdP and enter your home usercode and password.
 - Click login -  Grix should now create a grid certificate and a proxy for you.
 

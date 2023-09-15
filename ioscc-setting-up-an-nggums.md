@@ -186,7 +186,7 @@ using `yum`, and from a VDT mirror, using `pacman`.
 ``` 
 cd /etc/yum.repos.d && wget http://projects.arcs.org.au/dist/arcs.repo
 ```
-- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the [arcs](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=arcs&linkCreation=true&fromPageId=3818228421) repository in `/etc/yum.repos.d/arcs.repo` to: 
+- Note: on a 64-bit system, change the repository file to use ARCS i386 repository itself (the ARCS 64-bit repository is not populated).  I.e., change the `baseurl` for the *arcs* repository in `/etc/yum.repos.d/arcs.repo` to: 
 
 ``` 
 baseurl=http://projects.arcs.org.au/dist/production/$releasever/i386
@@ -320,7 +320,7 @@ and ensure that VDT includes those files in any subsequent updates:
 
 In order to prevent Apache from throwing warnings like:
 
->  [23:47 2010](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=Fri Apr 09 12&title=23%3A47%202010) [warn](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=warn&linkCreation=true&fromPageId=3818228421) RSA server certificate CommonName (CN) `my.server.name' does NOT match server name!?
+>  [23:47 2010] [warn] RSA server certificate CommonName (CN) `my.server.name' does NOT match server name!?
 
 Server Name has to be set appropriately in `/opt/vdt/apache/conf/extra/httpd-ssl.conf` and `/opt/vdt/apache/conf/httpd.conf`, locate the `ServerName` entry in the file and change it to match the CN used in the certificate request.
 
@@ -439,7 +439,7 @@ Here, configure the GUMS server to at least:
 - Pull membership information for some VO groups on the server
 - Map the groups to a local account.
 
-**NOTE**: This section assumes you are setting up your GUMS server for a single administrative domain - i.e., only one set of user accounts, valid for all systems authenticating against this server.  It is also possible to setup your GUMS server to handle multiple administrative domains - you may contact the [author of these pages](https://reannz.atlassian.net/wiki/404?key%3Dbestgrid.org%3Bsearch%3Fq%3DUser__Vladimir) for more information on that.
+**NOTE**: This section assumes you are setting up your GUMS server for a single administrative domain - i.e., only one set of user accounts, valid for all systems authenticating against this server.  It is also possible to setup your GUMS server to handle multiple administrative domains - you may contact the [author of these pages](vladimirbestgridorg.md) for more information on that.
 
 On BeSTGRID, you would be typically mapping `/ARCS/BeSTGRID` to `grid-bestgrid` and `/ARCS/NGAdmin` to `grid-admin`.
 

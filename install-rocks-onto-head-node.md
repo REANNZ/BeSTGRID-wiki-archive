@@ -64,7 +64,7 @@ Public IP Address is **130.216.189.80**
 
 The installation had been finished without any issues.
 
-Network interfaces had been swapped according the [this note](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Rocks_5.0_Installation&linkCreation=true&fromPageId=3818228980).
+Network interfaces had been swapped according the [this note](rocks-50-installation.md).
 
 # Convention for IP addresses and node names of the Cluster
 

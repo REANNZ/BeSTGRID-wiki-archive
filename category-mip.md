@@ -2,7 +2,7 @@
 
 # Introduction
 
-The Modular Information Provider ([MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3818228789)) is the software implementation populating the local [MDS](/wiki/spaces/BeSTGRID/pages/3818228972) on a sites job submission gateway (a.k.a. NG2 or NG1) and this information gets then pushed to the central MDS index held at the [ARCS MDS directory](http://www.sapac.edu.au/webmds/).
+The Modular Information Provider (MIP) is the software implementation populating the local [MDS](/wiki/spaces/BeSTGRID/pages/3818228972) on a sites job submission gateway (a.k.a. NG2 or NG1) and this information gets then pushed to the central MDS index held at the [ARCS MDS directory](http://www.sapac.edu.au/webmds/).
 
 These pages cover advanced configuration of MIP and specific information about how to configure applications for MIP.
 
@@ -12,7 +12,7 @@ The initial configuration of MIP given in the article on [setting up a job submi
 
 As more services are added, a more manageable approach may be to define each service or application in a separate `xml` file, and add these files as source in the job submission gateway's MIP configuration file (`/usr/local/mip/config/default_ng2.``yoursite``-sub1_SIP.ini` as described [here](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-CreateConfigfile)). Most of the articles in this category should be giving you the xml necessary to describe each application in a standard way for use by BeSTGRID members.
 
-Here is an example of the [source](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=source&linkCreation=true&fromPageId=3818228789) elements of a SIP.ini file using multiple sources:
+Here is an example of the \[source\] elements of a SIP.ini file using multiple sources:
 
 ``` 
 
@@ -34,7 +34,7 @@ format: APACGLUE1.2
 
 ```
 
-The `xml` file describes the application according the [ARCS](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=ARCS&linkCreation=true&fromPageId=3818228789) extension of the [GLUE](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=GLUE&linkCreation=true&fromPageId=3818228789) schema. A description of the relevant elements can be found [here](https://projects.arcs.org.au/trac/systems/wiki/InfoSystems/GridAustraliaGlueFieldsPolicy).
+The `xml` file describes the application according the ARCS extension of the GLUE schema. A description of the relevant elements can be found [here](https://projects.arcs.org.au/trac/systems/wiki/InfoSystems/GridAustraliaGlueFieldsPolicy).
 
 # Verifying and formatting xml files
 

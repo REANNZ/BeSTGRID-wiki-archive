@@ -2,7 +2,7 @@
 
 # Introduction
 
-This article will describe how a `xml` file ought to be configured to describe [MrBayes](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MrBayes&linkCreation=true&fromPageId=3818228857) with [MIP](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=MIP&linkCreation=true&fromPageId=3818228857) so that MrBayes is available in a standard form for BeSTGRID users.
+This article will describe how a `xml` file ought to be configured to describe [MrBayes with MIP](mrbayes-for-mip.md) so that MrBayes is available in a standard form for BeSTGRID users.
 
 This article covers configuration of MrBayes for both serial and parallel environments.
 

@@ -4,7 +4,7 @@
 
 This article describes my (Eric's) steps to install Shibboleth Authentication supported Sakai.
 
-Work Plan: [BeSTGRID Shibboleth Authentication for Sakai Work Plan](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=BeSTGRID_Shibboleth_Authentication_for_Sakai_Work_Plan&linkCreation=true&fromPageId=3818228639)
+Work Plan: [BeSTGRID Shibboleth Authentication for Sakai Work Plan](bestgrid-shibboleth-authentication-for-sakai-work-plan.md)
 
 # Prerequisites
 
@@ -56,7 +56,7 @@ yum install mod_ssl --enablerepo=centosplus
 
 # Setup Shibboleth SP
 
-- Please have a look the [Install Shibboleth SP 1.3](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Service_Provider_Setup_-_RHEL4&linkCreation=true&fromPageId=3818228639) guide for detailed installation and configuration.
+- Please have a look the [Install Shibboleth SP 1.3](shibboleth-service-provider-setup-rhel4.md) guide for detailed installation and configuration.
 
 - NOTE
 
@@ -70,7 +70,7 @@ yum install curl --enablerepo=centosplus
 
 - The followings are the example configuration for vre.test.bestgrid.org
 
-- [shibboleth.xml](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Shibboleth_Sakai_vre.test.bestgrid.org_shibboleth.xml&linkCreation=true&fromPageId=3818228639)
+- [shibboleth.xml](shibboleth-sakai-vretestbestgridorg-shibbolethxml.md)
 
 - Edit /etc/httpd/conf.d/shib.conf
 

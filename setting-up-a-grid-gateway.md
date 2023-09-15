@@ -18,8 +18,8 @@ The following documentation is relevant for this task:
 - [Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3818228955)
 - [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585) (Alternatively, see [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228397) - courtesy Guy Kloss)
 	
-- [Setting up an NG2/PBS specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FPBS%20specific%20parts&linkCreation=true&fromPageId=3818228546)
-- [Setting up an NG2/SGE specific parts](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Setting%20up%20an%20NG2%2FSGE%20specific%20parts&linkCreation=true&fromPageId=3818228546)
+- [Setting up an NG2/PBS specific parts](setting-up-an-ng2-pbs-specific-parts.md)
+- [Setting up an NG2/SGE specific parts](setting-up-an-ng2-sge-specific-parts.md)
 
 - [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) (PBS centric)
 	

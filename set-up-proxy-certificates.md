@@ -4,16 +4,16 @@
 
 # Introduction
 
-Some applications, such as the [alternative webDAV clients for the data fabric](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Using_the_DataFabric&linkCreation=true&fromPageId=3818228868), do not use the same security and authorisation model as BeSTGRID. In these case short lifespan certificates (SLCs) can be issued from the ARCS MyProxy service.
+Some applications, such as the [alternative webDAV clients for the data fabric](using-the-datafabric.md), do not use the same security and authorisation model as BeSTGRID. In these case short lifespan certificates (SLCs) can be issued from the ARCS MyProxy service.
 
-These certificates are issued against either a [Grid Certificate](/wiki/spaces/BeSTGRID/pages/3818228570) or via an institutional Identity Provider (IdP) service registered with the [Tuakiri](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Tuakiri&linkCreation=true&fromPageId=3818228868) New Zealand Access Federation.
+These certificates are issued against either a [Grid Certificate](grid-certificate.md) or via an institutional Identity Provider (IdP) service registered with the [Tuakiri](category-tuakiri.md) New Zealand Access Federation.
 
 # Prerequisites
 
-- [Grix](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Grix&linkCreation=true&fromPageId=3818228868) will need to be installed
+- Grix will need to be installed
 - Authorisation to access BeSTGRID services by either of:
 	
-- Being issued a [Grid Certificate](/wiki/spaces/BeSTGRID/pages/3818228570)
-- An institutional IdP registered with [Tuakiri](https://reannz.atlassian.net/wiki/pages/createpage.action?spaceKey=BeSTGRID&title=Category__Tuakiri&linkCreation=true&fromPageId=3818228868)
+- Being issued a [Grid Certificate](grid-certificate.md)
+- An institutional IdP registered with [Tuakiri](category-tuakiri.md)
 
-**NOTE:** Only [Grid Certificate](/wiki/spaces/BeSTGRID/pages/3818228570)s can be used to create SLCs with MyProxy from behind a HTTP Proxy.
+**NOTE:** Only [Grid Certificate](grid-certificate.md)s can be used to create SLCs with MyProxy from behind a HTTP Proxy.
