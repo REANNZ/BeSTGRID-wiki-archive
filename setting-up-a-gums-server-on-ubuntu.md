@@ -39,8 +39,8 @@ Get and install the APAC GridPulse system monitor:
 - Convert it with the `alien` tool to a Debian package (do not use the `--scripts` option), copy the Debian package to the host and install it.
 
 
->  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3818228431/Gridpulse.sh?version=1&modificationDate=1539354115000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
->  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](/wiki/download/attachments/3818228431/Gridpulse.sh?version=1&modificationDate=1539354115000&cacheVersion=1&api=v2) (Note: renamed for upload on the wiki.)
+>  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](attachments/Gridpulse.sh) (Note: renamed for upload on the wiki.)
+>  ***Hack the script **`/usr/local/bin/gridpulse`** to fit Ubuntu!**  This one should work for a start: [gridpulse](attachments/Gridpulse.sh) (Note: renamed for upload on the wiki.)
 
 - Create a file `/usr/local/lib/gridpulse/system_packages.pulse` and add the following line to it:
 

@@ -6,7 +6,7 @@
 
 **R on the grid**
 
-- Mik's presentation: [Mik_black-R_on_the_Grid.pdf](/wiki/download/attachments/3818228960/Mik_black-R_on_the_Grid.pdf?version=1&modificationDate=1539354313000&cacheVersion=1&api=v2)
+- Mik's presentation: [Mik_black-R_on_the_Grid.pdf](attachments/Mik_black-R_on_the_Grid.pdf)
 - Links:
 	
 - [Schmidberger et al. (2009)](http://www.jstatsoft.org/v31/i01/paper)

@@ -1,0 +1,44 @@
+--- llgrid-gt5-orig/loadleveler.pm	2008-03-05 12:18:05.000000000 +1300
++++ llgrid-gt5.2/loadleveler.pm	2012-09-27 16:59:39.741283970 +1200
+@@ -27,6 +27,17 @@
+        $llq      = '/opt/ibmll/LoadL/full/bin/llq';
+    }
+ 
++   # IMPORTANT: add $llpath/bin to PATH so that submit filters can find llclass in PATH
++   # If PATH is not defined at all yet, populate it with something meaningful first.
++   if (!defined($ENV{"PATH"})) {
++       $ENV{"PATH"} = "/bin:/sbin:/usr/bin:/usr/sbin";
++       if (defined ($ENV{"GLOBUS_LOCATION"})) {
++           my $GLOBUS_LOCATION = $ENV{"GLOBUS_LOCATION"};
++           $ENV{"PATH"} = $ENV{"PATH"}.":$GLOBUS_LOCATION/bin:$GLOBUS_LOCATION/sbin";
++       };
++   };
++   $ENV{"PATH"} = $ENV{"PATH"}.":$llpath"; 
++
+    $ll_poe   = '/bin/poe';
+ }
+ 
+@@ -35,9 +46,11 @@
+    my $proto = shift;
+    my $class = ref($proto) || $proto;
+    my $self = $class->SUPER::new(@_);
+-   $self->{loadleveler_logfile} = $Globus::Core::Paths::tmpdir
+-      . "/gram_loadleveler_log." . $self->{JobDescription}->uniq_id();
+-   bless $self, $class;
++   my $log_uniq_id =  $self->{JobDescription}->uniq_id();
++   if ( ! $log_uniq_id ) { $log_uniq_id = "" . time() . ".$$"; };
++   $self->{loadleveler_logfile} = ( not_null($Globus::Core::Paths::tmpdir) ? 
++         $Globus::Core::Paths::tmpdir : "/tmp" )
++      . "/gram_loadleveler_log." . $log_uniq_id; #$self->{JobDescription}->uniq_id();   bless $self, $class;
+    return $self;
+ }
+ 
+@@ -417,7 +430,7 @@
+    $script_file->print("#   GLOBUS_NOTIFY_USER=YES; \\\n");
+ 
+    # check log file location
+-   my $log_conf_file = $ENV{'GLOBUS_LOCATION'}."/etc/globus-loadleveler.conf";
++   my $log_conf_file = "/etc/globus/globus-loadleveler.conf";
+    my $script_response = new IO::File($log_conf_file);
+ 
+    if($script_response) {

@@ -139,7 +139,7 @@ And I had to do a few modifications to the `edg-fetch-crl` script:
 - change getopt invocation to conform to AIX getopt syntax (no long options)
 - change mktemp location to /usr/local/bin/mktemp
 
-The following patch (download as [edg-fetch-crl-aix-nolongopt-mktemp.diff](/wiki/download/attachments/3818228449/Edg-fetch-crl-aix-nolongopt-mktemp.diff.txt?version=1&modificationDate=1539354084000&cacheVersion=1&api=v2)) documents all the changes made to the `edg-fetch-crl` script:
+The following patch (download as [edg-fetch-crl-aix-nolongopt-mktemp.diff](attachments/Edg-fetch-crl-aix-nolongopt-mktemp.diff.txt)) documents all the changes made to the `edg-fetch-crl` script:
 
 ``` 
 

@@ -10,7 +10,7 @@ A collection of reports on various BeSTGRID related members activities.
 [Report from GridAsia2007 - Neil Gemmell](/wiki/spaces/BeSTGRID/pages/3818228774)
 - 13 May 2007
 
-[Educause Australasia 2007 - Paul Bonnington](/wiki/download/attachments/3818228474/Educause-2007-report.doc?version=1&modificationDate=1539354051000&cacheVersion=1&api=v2)
+[Educause Australasia 2007 - Paul Bonnington](attachments/Educause-2007-report.doc)
 - 26 April 2007
 
 [BeSTGRID and APACGrid cooperation - Vladimir Mencl](/wiki/spaces/BeSTGRID/pages/3818228856)

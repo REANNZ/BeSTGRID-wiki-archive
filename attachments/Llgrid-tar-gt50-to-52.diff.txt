@@ -1,0 +1,85 @@
+diff -r -u llgrid-gt5-orig/deploy.sh llgrid-gt5/deploy.sh
+--- llgrid-gt5-orig/deploy.sh	2012-09-27 16:07:36.596325001 +1200
++++ llgrid-gt5/deploy.sh	2012-03-20 13:34:36.927643474 +1300
+@@ -57,9 +57,11 @@
+ ##############################################
+ echo "Installing Loadleveler scheduler files...
+ "
+-FILE_01=$GLOBUS_LOCATION/lib/perl/Globus/GRAM/JobManager/loadleveler.pm
+-FILE_03=$GLOBUS_LOCATION/etc/grid-services/jobmanager-loadleveler
+-FILE_04=$GLOBUS_LOCATION/etc/globus-loadleveler.conf
++FILE_01=$GLOBUS_LOCATION/share/perl5/vendor_perl/Globus/GRAM/JobManager/loadleveler.pm
++FILE_03=/etc/grid-services/available/jobmanager-loadleveler
++FILE_03_LN_TGT=available/jobmanager-loadleveler
++FILE_03_LN_NAME=/etc/grid-services/jobmanager-loadleveler
++FILE_04=/etc/globus/globus-loadleveler.conf
+ if [[ "${VER_5_0_1_OK}" == "False" ]]; then
+     if [[ "${VER_4_2_1_OK}" == "True" ]]; then
+     	gram_dir=$GLOBUS_LOCATION/etc/globus_wsrf_gram
+@@ -114,8 +116,9 @@
+ #####################
+ # inst FILE_03
+ if [[ ${undo} -eq 0 ]]; then
+-    echo "stderr_log,local_cred - $GLOBUS_LOCATION/libexec/globus-job-manager globus-job-manager -conf $GLOBUS_LOCATION/etc/globus-job-manager.conf -type loadleveler -rdn jobmanager-loadleveler -machine-type unknown -publish-jobs" > $FILE_03
++    echo "stderr_log,local_cred - $GLOBUS_LOCATION/sbin/globus-job-manager globus-job-manager -conf /etc/globus/globus-gram-job-manager.conf -type loadleveler -rdn jobmanager-loadleveler -machine-type unknown -publish-jobs" > $FILE_03
+     chown $user $FILE_03
++    ln -snf $FILE_03_LN_TGT $FILE_03_LN_NAME
+ 
+ #######################
+ # undo FILE_03
+diff -r -u llgrid-gt5-orig/seg-src/configure llgrid-gt5/seg-src/configure
+--- llgrid-gt5-orig/seg-src/configure	2012-09-27 16:07:36.603554033 +1200
++++ llgrid-gt5/seg-src/configure	2012-03-13 14:24:10.509797457 +1300
+@@ -1305,7 +1305,7 @@
+ 	        echo "Warning: $withval ignored" >&2
+         else
+ 		GLOBUS_FLAVOR_NAME=$withval
+-                if test ! -f "$GLOBUS_LOCATION/etc/globus_core/flavor_$GLOBUS_FLAVOR_NAME.gpt"; then
++                if test ! -f "$GLOBUS_LOCATION/share/globus/flavors/flavor_$GLOBUS_FLAVOR_NAME.gpt"; then
+ 	                echo "ERROR: Flavor $GLOBUS_FLAVOR_NAME has not been installed" >&2
+ 	                exit 1
+                 fi
+@@ -1395,9 +1395,9 @@
+ 	. ./gpt_build_temp.sh
+ 	rm ./gpt_build_temp.sh
+ 	GPT_CFLAGS="$GPT_CONFIG_CFLAGS"
+-	GPT_INCLUDES="-I$GLOBUS_LOCATION/include/$GLOBUS_FLAVOR_NAME $GPT_CONFIG_INCLUDES"
++	GPT_INCLUDES="-I$GLOBUS_LOCATION/include/globus -I$GLOBUS_LOCATION/lib64/globus/include $GPT_CONFIG_INCLUDES"
+ 	GPT_LIBS="$GPT_CONFIG_PKG_LIBS $GPT_CONFIG_LIBS"
+-	GPT_LDFLAGS="$GPT_CONFIG_STATIC_LINKLINE -L$GLOBUS_LOCATION/lib $GPT_LDFLAGS"
++	GPT_LDFLAGS="$GPT_CONFIG_STATIC_LINKLINE -L$GLOBUS_LOCATION/lib64 $GPT_LDFLAGS"
+ 	GPT_PGM_LINKS="$GPT_CONFIG_PGM_LINKS $GPT_CONFIG_LIBS"
+ 	GPT_LIB_LINKS="$GPT_CONFIG_LIB_LINKS $GPT_CONFIG_LIBS"
+ 
+@@ -1439,7 +1439,7 @@
+ # get the environment scripts
+ 
+ if test "x$GLOBUS_FLAVOR_NAME" != "xnoflavor" ; then
+-	. $GLOBUS_LOCATION/libexec/globus-build-env-$GLOBUS_FLAVOR_NAME.sh
++	. $GLOBUS_LOCATION/share/globus/globus-build-env-$GLOBUS_FLAVOR_NAME.sh
+ fi
+ 
+ prefix='$(GLOBUS_LOCATION)'
+@@ -1495,7 +1495,7 @@
+ 
+ 
+ 
+-	LIBTOOL='$(SHELL) $(GLOBUS_LOCATION)/sbin/libtool-$(GLOBUS_FLAVOR_NAME)'
++	LIBTOOL='$(SHELL) libtool --tag=CC'
+ 
+ 
+ 
+diff -r -u llgrid-gt5-orig/seg-src/seg_loadleveler_module.c llgrid-gt5/seg-src/seg_loadleveler_module.c
+--- llgrid-gt5-orig/seg-src/seg_loadleveler_module.c	2008-03-05 12:18:06.000000000 +1300
++++ llgrid-gt5/seg-src/seg_loadleveler_module.c	2012-09-27 21:58:06.317568376 +1200
+@@ -433,8 +433,8 @@
+     {
+         SEG_LOADLEVELER_DEBUG(SEG_LOADLEVELER_DEBUG_TRACE, ("allocating path\n"));
+ 
+-        globus_common_get_attribute_from_config_file(NULL,
+-                "etc/globus-loadleveler.conf", "log_path", &state->path);
++        globus_common_get_attribute_from_config_file("/etc/globus",
++                "globus-loadleveler.conf", "log_path", &state->path);
+ 
+         if (state->path == NULL)
+         {

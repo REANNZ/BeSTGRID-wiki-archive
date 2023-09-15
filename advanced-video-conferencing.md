@@ -148,5 +148,5 @@ Contact: Nathan Gardiner Ph: 021 163-2956
 
 University of Auckland, Science Centre, Room G46, Ground Floor (Enter Via Science Centre Reception), Building 301; 23 Symonds Street, Auckland, Contact: A/Prof Paul Bonnington, Ph: (09) 373 7599 ext 86623, Mobile: (021) 623 206, p.bonnington@auckland.ac.nz
 
-- [Full Map of City Campus of University of Auckland (pdf)](/wiki/download/attachments/3818228891/City.pdf?version=1&modificationDate=1539354289000&cacheVersion=1&api=v2)
+- [Full Map of City Campus of University of Auckland (pdf)](attachments/City.pdf)
 

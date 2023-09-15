@@ -588,27 +588,27 @@ kernel.sem='250        32000   32      256'
 >  ***For iRODS 3.1**, apply the following patches:
 
 - 
-- [iRODS_3.1_Patch_2](https://www.irods.org/index.php/iRODS_3.1_Patch_2), locally available as [irods-3.1-patch-2-Naur.diff](/wiki/download/attachments/3818228552/Irods-3.1-patch-2-Naur.diff.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2)
-- [Irods-3.1-fileOpr-race.patch](/wiki/download/attachments/3818228552/Irods-3.1-fileOpr-race.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), Rob Burrows' fix to a race condition (iRODS 3.1 version)
-- [Irods-3.1-igsi-intsize-n-format-typecast.patch.txt](/wiki/download/attachments/3818228552/Irods-3.1-igsi-intsize-n-format-typecast.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing mismatched int sizes in igsi.c
-- [Irods-3.1-sec-no-anon-exec.patch.txt](/wiki/download/attachments/3818228552/Irods-3.1-sec-no-anon-exec.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2) to ℹ make server deny access on failed server-server authentication and (ii) deny script execution to ANONYMOUS user (as user rods)
+- [iRODS_3.1_Patch_2](https://www.irods.org/index.php/iRODS_3.1_Patch_2), locally available as [irods-3.1-patch-2-Naur.diff](attachments/Irods-3.1-patch-2-Naur.diff.txt)
+- [Irods-3.1-fileOpr-race.patch](attachments/Irods-3.1-fileOpr-race.patch.txt), Rob Burrows' fix to a race condition (iRODS 3.1 version)
+- [Irods-3.1-igsi-intsize-n-format-typecast.patch.txt](attachments/Irods-3.1-igsi-intsize-n-format-typecast.patch.txt), fixing mismatched int sizes in igsi.c
+- [Irods-3.1-sec-no-anon-exec.patch.txt](attachments/Irods-3.1-sec-no-anon-exec.patch.txt) to ℹ make server deny access on failed server-server authentication and (ii) deny script execution to ANONYMOUS user (as user rods)
 
 >  ***For iRODS 3.2**, apply the following patches:
 
 - 
 - [iRODS_3.2_Patch_3](https://www.irods.org/index.php/iRODS_3.2_Patch_3) - needed for GSI builds
-- [Irods-3.2-fileOpr-race.patch](/wiki/download/attachments/3818228552/Irods-3.2-fileOpr-race.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), Rob Burrows' fix to a race condition (iRODS 3.2 version)
-- [Irods-3.2-igsi-format-typecast.patch.txt](/wiki/download/attachments/3818228552/Irods-3.2-igsi-format-typecast.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing mismatched int sizes in igsi.c
+- [Irods-3.2-fileOpr-race.patch](attachments/Irods-3.2-fileOpr-race.patch.txt), Rob Burrows' fix to a race condition (iRODS 3.2 version)
+- [Irods-3.2-igsi-format-typecast.patch.txt](attachments/Irods-3.2-igsi-format-typecast.patch.txt), fixing mismatched int sizes in igsi.c
 
 >  ***For iRODS 3.3.1**, apply the following patches:
 
 - 
-- [Irods-3.3.1-fileOpr-race.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-fileOpr-race.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), Rob Burrows' fix to a race condition (iRODS 3.3.1 version)
-- [Irods-3.3.1-igsi-format-typecast.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-igsi-format-typecast.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing mismatched int sizes in string formatting in igsi.c
-- [Irods-3.3.1-reInit-delay.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-reInit-delay.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing irods initialization (needed for correct ACL settings)
-- [Irods-3.3.1-rule-exec-patches.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-rule-exec-patches.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), fixing rule execution engine not to drop recurring rules - see https://groups.google.com/forum/#\!topic/irod-chat/fiR9swpScIo (original patches are [and [https://github.com/irods/irods-legacy/commit/033469ce88d1589c19c415aca85ca3632b44262a](https://github.com/irods/irods-legacy/commit/58078900d8da68ac12594874db34a58ed9d84267)])
-- [Irods-3.3.1-patch1.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-patch1.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), iRODS 3.3.1 patch as per [https://wiki.irods.org/index.php/iRODS_3.3.1.Patch_1](https://wiki.irods.org/index.php/iRODS_3.3.1.Patch_1) and https://groups.google.com/forum/#\!topic/irod-chat/cJy1pyyqxQk
-- [Irods-3.3.1-gsi-proxy-auth-fed.patch](/wiki/download/attachments/3818228552/Irods-3.3.1-gsi-proxy-auth-fed.patch.txt?version=1&modificationDate=1539354156000&cacheVersion=1&api=v2), to correctly search for client user in GSI proxy authentication.
+- [Irods-3.3.1-fileOpr-race.patch](attachments/Irods-3.3.1-fileOpr-race.patch.txt), Rob Burrows' fix to a race condition (iRODS 3.3.1 version)
+- [Irods-3.3.1-igsi-format-typecast.patch](attachments/Irods-3.3.1-igsi-format-typecast.patch.txt), fixing mismatched int sizes in string formatting in igsi.c
+- [Irods-3.3.1-reInit-delay.patch](attachments/Irods-3.3.1-reInit-delay.patch.txt), fixing irods initialization (needed for correct ACL settings)
+- [Irods-3.3.1-rule-exec-patches.patch](attachments/Irods-3.3.1-rule-exec-patches.patch.txt), fixing rule execution engine not to drop recurring rules - see https://groups.google.com/forum/#\!topic/irod-chat/fiR9swpScIo (original patches are [and [https://github.com/irods/irods-legacy/commit/033469ce88d1589c19c415aca85ca3632b44262a](https://github.com/irods/irods-legacy/commit/58078900d8da68ac12594874db34a58ed9d84267)])
+- [Irods-3.3.1-patch1.patch](attachments/Irods-3.3.1-patch1.patch.txt), iRODS 3.3.1 patch as per [https://wiki.irods.org/index.php/iRODS_3.3.1.Patch_1](https://wiki.irods.org/index.php/iRODS_3.3.1.Patch_1) and https://groups.google.com/forum/#\!topic/irod-chat/cJy1pyyqxQk
+- [Irods-3.3.1-gsi-proxy-auth-fed.patch](attachments/Irods-3.3.1-gsi-proxy-auth-fed.patch.txt), to correctly search for client user in GSI proxy authentication.
 
 - Prepare answers to the questions asked by the iRODS installer. Namely:
 - ***Make this Server ICAT-Enabled**.  Answering "yes" makes this server the master server.  Answer yes if either installing (or re-installing) the master server, or if installing a server to be ready to step-in for the master.  (In that case, change the configuration manually to point to the actual master afterwards).

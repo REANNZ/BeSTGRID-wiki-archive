@@ -98,7 +98,7 @@ When I compile the tool chain with `gcc34` and `g+``34`, `xml-security` compiles
 	
 - Download the startup script from here:
 		
-- [RHEL-init-d-shibboleth.txt](/wiki/download/attachments/3818228574/RHEL-init-d-shibboleth.txt?version=1&modificationDate=1539354195000&cacheVersion=1&api=v2) (download)
+- [RHEL-init-d-shibboleth.txt](attachments/RHEL-init-d-shibboleth.txt) (download)
 - !RHEL-init-d-shibboleth.txt!
  (file information)
 - Enable automatic startup with 

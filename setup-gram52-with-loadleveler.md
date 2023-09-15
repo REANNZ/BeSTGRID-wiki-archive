@@ -150,7 +150,7 @@ The changes primarily change file locations due to the shift from $GLOBUS_LOCATI
 
 The following changes assume deploy.sh will be invoked with GLOBUS_LOCATION=/usr
 
-In deploy.sh, make the following changes - as per patch file:  [llgrid-tar-gt50-to-52.diff](/wiki/download/attachments/3818228694/Llgrid-tar-gt50-to-52.diff.txt?version=1&modificationDate=1539354226000&cacheVersion=1&api=v2)
+In deploy.sh, make the following changes - as per patch file:  [llgrid-tar-gt50-to-52.diff](attachments/Llgrid-tar-gt50-to-52.diff.txt)
 
 
 In `seg-src/configure` (the configure script for the SEG module), make the following changes (covered in the patch file linked above):
@@ -194,7 +194,7 @@ GlobusExtensionDefineModule(globus_seg_loadleveler) =
 globus_common_get_attribute_from_config_file("/etc/globus", "globus-loadleveler.conf", "log_path", &state->path);
 ```
 
-In `loadleveler.pm`, make at least the following changes - as per the patch snippet below - or download the patch file [loadleveler-pm-50-to-52.diff](/wiki/download/attachments/3818228694/Loadleveler-pm-50-to-52.diff.txt?version=1&modificationDate=1539354226000&cacheVersion=1&api=v2)
+In `loadleveler.pm`, make at least the following changes - as per the patch snippet below - or download the patch file [loadleveler-pm-50-to-52.diff](attachments/Loadleveler-pm-50-to-52.diff.txt)
 
 - Correct the path to the globus-loadleveler configuration file: 
 

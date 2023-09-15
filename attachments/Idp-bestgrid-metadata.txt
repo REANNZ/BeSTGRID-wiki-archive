@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Update BeSTGRID federation metadata on an IdP
+#
+# Although a plain wget would work, and would check the server's SSL
+# certificate, but it would not detect any corruption of the metadata.
+# We instead download the metadata to a temporary file, and then move
+# it to the proper location with the metadatatool.  Unfortunately, we cannot
+# get it straightforward with the metadatatool - even if we import APACGrid CA
+# root certificate (issuer of WAYF's certificate) into java cacerts keystore,
+# java complains about the keySign bit not being set in the CA certificate.
+#
+# Hence, we achieve this by first retrieving the metadata with wget from an
+# HTTPS URL, checking the certificate authenticity with APACGrid CA used as a
+# trusted root, and then installing the metadata with metadatatool, which
+# checks the metadata with an XML parser.
+
+[ -x /etc/profile.d/java.sh ] && . /etc/profile.d/java.sh
+[ -x /etc/profile.d/shib.sh ] && . /etc/profile.d/shib.sh
+
+if [ -z "$SHIB_HOME" ] ; then
+  export SHIB_HOME="/usr/local/shibboleth-idp"
+fi
+
+if [ -z "$JAVA_HOME" ] ; then
+  export JAVA_HOME=/usr/java/java
+  PATH=$PATH:$JAVA_HOME/bin
+fi
+
+export METADATA_URL=https://wayf.bestgrid.org/metadata/bestgrid-metadata.xml
+export IDP_HOME=${SHIB_HOME}
+export OUTPUT_FILE=${IDP_HOME}/etc/bestgrid-metadata.xml
+export DOWNLOAD_FILE=${IDP_HOME}/etc/bestgrid-metadata-download.xml
+export HTTPS_CERT_CA=/etc/certs/metadata/IPS-IPSCABUNDLE.crt
+
+wget --quiet --ca-certificate="$HTTPS_CERT_CA" "$METADATA_URL" -O "$DOWNLOAD_FILE"
+$SHIB_HOME/bin/metadatatool -i file://"$DOWNLOAD_FILE" -N -o "$OUTPUT_FILE" 2>&1 | grep -v '^verification disabled, and file is unsigned'
+

@@ -217,4 +217,4 @@ The following changes have been made:
 
 # Download
 
-Please download the final version: [ShibAuthPlugin-AVCC-MW122.php](/wiki/download/attachments/3818228786/ShibAuthPlugin-AVCC-MW122-php.txt?version=1&modificationDate=1539354336000&cacheVersion=1&api=v2)
+Please download the final version: [ShibAuthPlugin-AVCC-MW122.php](attachments/ShibAuthPlugin-AVCC-MW122-php.txt)

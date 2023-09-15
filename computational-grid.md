@@ -20,7 +20,7 @@ What is grid and grid computing? According to [IBM](http://www-128.ibm.com/devel
 
 # BeSTGRID Conceptual Design
 
-## A graphical representation of the BeSTGRID [Conceptual Design.](/wiki/download/attachments/3818228944/BeSTGRID-Conceptual-Designv03.pdf?version=1&modificationDate=1539354288000&cacheVersion=1&api=v2)
+## A graphical representation of the BeSTGRID [Conceptual Design.](attachments/BeSTGRID-Conceptual-Designv03.pdf)
 
 ## BeSTGRID GateWay Server Configuration 
 

@@ -97,7 +97,7 @@ Because `slcs1.arcs.org.au` is only registered at Level 1, I had to manually add
 
 - For new version Autograph, also embed the Service Provider Description (SPD) inside the metadata
 
-You may download the attached file [extra-metadata.xml](/wiki/download/attachments/3818228428/Extra-metadata.xml.txt?version=1&modificationDate=1539354128000&cacheVersion=1&api=v2).
+You may download the attached file [extra-metadata.xml](attachments/Extra-metadata.xml.txt).
 
 # Registration with SLCS server administrator
 

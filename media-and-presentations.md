@@ -10,7 +10,7 @@
 
 - 15 February 2010
 
-Nick Jones presented [100215-SKARD.pdf](/wiki/download/attachments/3818228512/100215-SKARD.pdf?version=1&modificationDate=1539354167000&cacheVersion=1&api=v2) at the [Australia & New Zealand Workshop on SKA Data and Signal Processing](http://www.ska.ac.nz/events/australia-new-zealand-workshop-on-ska-data-and-signal-processing)
+Nick Jones presented [100215-SKARD.pdf](attachments/100215-SKARD.pdf) at the [Australia & New Zealand Workshop on SKA Data and Signal Processing](http://www.ska.ac.nz/events/australia-new-zealand-workshop-on-ska-data-and-signal-processing)
 
 ### 2007
 
@@ -22,19 +22,19 @@ Nick Jones presented [100215-SKARD.pdf](/wiki/download/attachments/3818228512/10
 
 - 1 November 2006
 
-BeSTGRID Presentation to Bioinformatics community [061101-Bioinformatics.ppt](/wiki/download/attachments/3818228512/061101-Bioinformatics.ppt?api=v2)
+BeSTGRID Presentation to Bioinformatics community [061101-Bioinformatics.ppt](attachments/060803-BeSTGRID-eresearch.ppt)
 - 18 April 2006
 
-BeSTGRID Presentation to Engineering UoA [Apr_06_BeSTGRID_slides.ppt](/wiki/download/attachments/3818228512/Apr_06_BeSTGRID_slides.ppt?version=1&modificationDate=1539354165000&cacheVersion=1&api=v2)
+BeSTGRID Presentation to Engineering UoA [Apr_06_BeSTGRID_slides.ppt](attachments/Apr_06_BeSTGRID_slides.ppt)
 - 3 August 2006
 
-BeSTGRID (Redacted) Presentation to Senior Management UoA [060803-BeSTGRID-eresearch.ppt](/wiki/download/attachments/3818228512/060803-BeSTGRID-eresearch.ppt?version=1&modificationDate=1539354165000&cacheVersion=1&api=v2)
+BeSTGRID (Redacted) Presentation to Senior Management UoA [060803-BeSTGRID-eresearch.ppt](attachments/060803-BeSTGRID-eresearch.ppt)
 
-;A walk through a Grid Security Incident [A_walk_through_a_Grid_Security_Incident-v2.ppt](/wiki/download/attachments/3818228512/A_walk_through_a_Grid_Security_Incident-v2.ppt?version=1&modificationDate=1539354165000&cacheVersion=1&api=v2) (Oxford eResearch Centre)
+;A walk through a Grid Security Incident [A_walk_through_a_Grid_Security_Incident-v2.ppt](attachments/A_walk_through_a_Grid_Security_Incident-v2.ppt) (Oxford eResearch Centre)
 
-;Firewall Ideas [FirewallIdeas.pdf](/wiki/download/attachments/3818228512/FirewallIdeas.pdf?version=1&modificationDate=1539354165000&cacheVersion=1&api=v2) Triumf (Canada's National Laboratory for Particle and Nuclear Physics)
+;Firewall Ideas [FirewallIdeas.pdf](attachments/FirewallIdeas.pdf) Triumf (Canada's National Laboratory for Particle and Nuclear Physics)
 
 ## News Articles
 
-- University of Auckland News article March 2006 [Uni-news-pg4.pdf](/wiki/download/attachments/3818228512/Uni-news-pg4.pdf?version=1&modificationDate=1539354164000&cacheVersion=1&api=v2)
-- UMich/UoA Collaboration [UMich_UoA_Project.doc](/wiki/download/attachments/3818228512/UMich_UoA_Project.doc?version=1&modificationDate=1539354164000&cacheVersion=1&api=v2)
+- University of Auckland News article March 2006 [Uni-news-pg4.pdf](attachments/Uni-news-pg4.pdf)
+- UMich/UoA Collaboration [UMich_UoA_Project.doc](attachments/UMich_UoA_Project.doc)

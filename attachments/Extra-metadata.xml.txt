@@ -1,0 +1,184 @@
+<EntitiesDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="urn:mace:federation.org.au:testfed:level-1" validUntil="2010-01-01T00:00:00Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+
+    <Extensions>
+        <!-- This extension contains the list of CAs used by MAMS TestFederation Level 1 entities.  -->
+        <shibmeta:KeyAuthority xmlns:shibmeta="urn:mace:shibboleth:metadata:1.0" VerifyDepth="3">
+      <!-- Current Testbed Federation Level 1 CA (used by slcstest.arcs.org.au) -->
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEATCCA2qgAwIBAgIJAPlMXabkiQ1hMA0GCSqGSIb3DQEBBAUAMIGyMQswCQYD
+VQQGEwJBVTEMMAoGA1UECBMDTlNXMQ8wDQYDVQQHEwZTeWRuZXkxHTAbBgNVBAoT
+FE1hY3F1YXJpZSBVbml2ZXJzaXR5MQ0wCwYDVQQLEwRNQU1TMSswKQYDVQQDEyJN
+QU1TIFRlc3RiZWQgRmVkZXJhdGlvbiBMZXZlbCAxIENBMSkwJwYJKoZIhvcNAQkB
+FhpzeXNhZG1pbkBmZWRlcmF0aW9uLm9yZy5hdTAeFw0wNjA1MjMwNTEyNDlaFw0x
+NjA1MjAwNTEyNDlaMIGyMQswCQYDVQQGEwJBVTEMMAoGA1UECBMDTlNXMQ8wDQYD
+VQQHEwZTeWRuZXkxHTAbBgNVBAoTFE1hY3F1YXJpZSBVbml2ZXJzaXR5MQ0wCwYD
+VQQLEwRNQU1TMSswKQYDVQQDEyJNQU1TIFRlc3RiZWQgRmVkZXJhdGlvbiBMZXZl
+bCAxIENBMSkwJwYJKoZIhvcNAQkBFhpzeXNhZG1pbkBmZWRlcmF0aW9uLm9yZy5h
+dTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3o8ShVwejUwYPs5nefpkcPw5
+9VnIBzQAwrLMOx9TokkURQLVjXJsk8YhSObOKfQSQ3cY13xFXvkyvIwOS7CPxHRw
+Cry7MiJ8Cn9QJqDwwHv6Jj7UxeDeL0kzEdaDaF+0doqWXCllxGLQ+2CveJVL5NqF
+qvGgSF29V1rXQhLmK6kCAwEAAaOCARswggEXMB0GA1UdDgQWBBQN0H7tGog9uoz1
+aadjNdUJ0aqdATCB5wYDVR0jBIHfMIHcgBQN0H7tGog9uoz1aadjNdUJ0aqdAaGB
+uKSBtTCBsjELMAkGA1UEBhMCQVUxDDAKBgNVBAgTA05TVzEPMA0GA1UEBxMGU3lk
+bmV5MR0wGwYDVQQKExRNYWNxdWFyaWUgVW5pdmVyc2l0eTENMAsGA1UECxMETUFN
+UzErMCkGA1UEAxMiTUFNUyBUZXN0YmVkIEZlZGVyYXRpb24gTGV2ZWwgMSBDQTEp
+MCcGCSqGSIb3DQEJARYac3lzYWRtaW5AZmVkZXJhdGlvbi5vcmcuYXWCCQD5TF2m
+5IkNYTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4GBAF67YbAvDtSXtzLR
+e9O3+udXXDaVXod+djL8wcWxurJ33PZOHuOSr2AACCV/GFm7+u0Z/2EWCaRHKz2R
+pbHeJ1HTTdCnXk9j02/QeHCs5ARzXecaEFGXXf1KCXntTm/mYal1NH7W5jdTECBt
+LguQvT5cn8Hd7INAzwPRKPzUtWMy
+                    </ds:X509Certificate>
+                 </ds:X509Data>
+            </ds:KeyInfo>
+
+            <!-- Pilot AusCERT Root CA v0.2 NEW -->
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIMSzCCCzOgAwIBAgIBDjANBgkqhkiG9w0BAQUFADBVMQswCQYDVQQGEwJBVTEQ
+MA4GA1UEChMHQXVzQ0VSVDE0MDIGA1UEAxMrUGlsb3QgQXVzQ0VSVCBDZXJ0aWZp
+Y2F0aW9uIExldmVsIDMgQ0EgdjAuMjAeFw0wODA0MjAyMzEzMjJaFw0xMDA0MjAy
+MzEzMjJaMGwxCzAJBgNVBAYTAkFVMQ8wDQYDVQQKEwZDQVVESVQxHjAcBgNVBAsT
+FVNoaWJib2xldGggRmVkZXJhdGlvbjEsMCoGA1UEAxMjUGlsb3QgQ2VydGlmaWNh
+dGlvbiBMZXZlbCAzIENBIHYwLjIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK
+AoICAQCiA5XOdJWy1VX+rxCYk2UH1PqCl8mAdh93jFx3lHkpxHV5vniZyJQVzxBG
+smt7lyueFuUl/5vVcj7uuxOJhtDRq8RATrHyntNzxO1N9JVaTY+JIVl+SAbpo6oG
+vDWxANMe2VpBF8JvKBAit5QJF8tJ+PRkWO321zNSfnZew3MTk9sv3xjJy4xPdda4
+As/Y2ezeZhxk+qjRiqLrPyZCw6K93d+53g+yoHsQCf9beYRAFEgwLMk9GKsRq5cd
+ITlCw/3ndrQ/C6CWUHIOsxQXgpZRca4VavNP8sHEKDg+cA/53W7ucgmWA2rOFDVR
+d9AViDhpx4wSfYheh0QzJyGnLeioorTiCbvk0Oyf9cBhWbJxy4eNhxWCyCjhtqrV
+AP3EzjiFz3hgfRz8p3SyeCp/eIhx1EtUYqU7veSoPL6ttJm68FFfwROtXLKV9+ns
+5X6updoTcx0JmVxqhnjyADjRQS1PebO5dH5jX6Eu1ZC391zsJTZSrTDx5oG0ByuX
+1PgQWiZMaebUEIE+N9zki0kj3EfRqqCPt3NpaHjnxsfGk4XfsSBp3PNp6N+Sf0VD
+SyFajXJB5DJPUCzcoE5nYECDqu7TUfjFP9ET8PZq9gl9G4e6WDjqTG+Unu7xu+Ne
+8d5XTWq41UQ49FxtVelOAn2bcbG92UdbpE9pAo0TSYUsgKMFBQIDAQABo4IIDTCC
+CAkwEgYDVR0TAQH/BAgwBgEB/wIBADALBgNVHQ8EBAMCAQYwgc0GCWCGSAGG+EIB
+DQSBvxaBvEluc3RpdHV0aW9uIENBIENlcnRpZmljYXRlIGlzc3VlZCBieSB0aGUg
+QXVzQ0VSVCBDZXJ0aWZpY2F0aW9uIExldmVsIDMgQ0EgZm9yIHRoZSBDQVVESVQg
+UEtJIFBpbG90IFByb2plY3QuIExpbWl0ZWQgTGlhYmlsaXR5LiBTZWUgaHR0cDov
+L3BraS50ZXN0LmF1c2NlcnQub3JnLmF1L2xldmVsMy1jYS9wdWIvcG9saWN5Lmh0
+bWwuMEcGCWCGSAGG+EIBCAQ6FjhodHRwOi8vcGtpLnRlc3QuYXVzY2VydC5vcmcu
+YXUvbGV2ZWwzLWNhL3B1Yi9wb2xpY3kuaHRtbDA8BglghkgBhvhCAQIELxYtaHR0
+cDovL3BraS50ZXN0LmF1c2NlcnQub3JnLmF1L2xldmVsMy1jYS9wdWIvMB0GA1Ud
+DgQWBBSQKrq/vbk9HXvObMRR1Hma4QXWDDBsBgNVHSMEZTBjgBRSpT3gP7PK++mc
+kVHSRPuuoj5UP6FIpEYwRDELMAkGA1UEBhMCQVUxEDAOBgNVBAoTB0F1c0NFUlQx
+IzAhBgNVBAMTGlBpbG90IEF1c0NFUlQgUm9vdCBDQSB2MC4yggEGMCsGA1UdEQQk
+MCKBIHBpbG90LXNoaWJsdmwzLWNhQGF1c2NlcnQub3JnLmF1MCkGA1UdEgQiMCCB
+HnBpbG90LWxldmVsMy1jYUBhdXNjZXJ0Lm9yZy5hdTAmBglghkgBhvhCAQQEGRYX
+Y2dpLWJpbi9jaGVja2NhLXJldi5wbD8wJAYJYIZIAYb4QgEDBBcWFWNnaS1iaW4v
+Y2hlY2stcmV2LnBsPzCCAb8GA1UdHwSCAbYwggGyMEGgP6A9hjtodHRwOi8vcGtp
+MS50ZXN0LmF1c2NlcnQub3JnLmF1L2xldmVsMy1jYS9wdWIvY3JsL2NlcnRzLmNy
+bDBBoD+gPYY7aHR0cDovL3BraTIudGVzdC5hdXNjZXJ0Lm9yZy5hdS9sZXZlbDMt
+Y2EvcHViL2NybC9jZXJ0cy5jcmwwgZOggZCggY2GgYpsZGFwOi8vcGtpMS50ZXN0
+LmF1c2NlcnQub3JnLmF1L0NOPVBpbG90JTIwQXVzQ0VSVCUyMENlcnRpZmljYXRp
+b24lMjBMZXZlbCUyMDMlMjBDQSUyMHYwLjIsbz1BdXNDRVJULGM9QVU/Y2VydGlm
+aWNhdGVSZXZvY2F0aW9uTGlzdDtiaW5hcnkwgZOggZCggY2GgYpsZGFwOi8vcGtp
+Mi50ZXN0LmF1c2NlcnQub3JnLmF1L0NOPVBpbG90JTIwQXVzQ0VSVCUyMENlcnRp
+ZmljYXRpb24lMjBMZXZlbCUyMDMlMjBDQSUyMHYwLjIsbz1BdXNDRVJULGM9QVU/
+Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdDtiaW5hcnkwggJYBggrBgEFBQcBAQSC
+AkowggJGMEwGCCsGAQUFBzAChkBodHRwOi8vcGtpMS50ZXN0LmF1c2NlcnQub3Jn
+LmF1L2xldmVsMy1jYS9wdWIvY2VydHMvY2EtY2VydHMucDdiMEwGCCsGAQUFBzAC
+hkBodHRwOi8vcGtpMi50ZXN0LmF1c2NlcnQub3JnLmF1L2xldmVsMy1jYS9wdWIv
+Y2VydHMvY2EtY2VydHMucDdiMIGSBggrBgEFBQcwAoaBhWxkYXA6Ly9wa2kxLnRl
+c3QuYXVzY2VydC5vcmcuYXUvQ049UGlsb3QlMjBBdXNDRVJUJTIwQ2VydGlmaWNh
+dGlvbiUyMExldmVsJTIwMyUyMENBJTIwdjAuMixvPUF1c0NFUlQsYz1BVT9jcm9z
+c0NlcnRpZmljYXRlUGFpcjtiaW5hcnkwgZIGCCsGAQUFBzAChoGFbGRhcDovL3Br
+aTIudGVzdC5hdXNjZXJ0Lm9yZy5hdS9DTj1QaWxvdCUyMEF1c0NFUlQlMjBDZXJ0
+aWZpY2F0aW9uJTIwTGV2ZWwlMjAzJTIwQ0ElMjB2MC4yLG89QXVzQ0VSVCxjPUFV
+P2Nyb3NzQ2VydGlmaWNhdGVQYWlyO2JpbmFyeTA+BggrBgEFBQcwAYYyaHR0cDov
+L3BraTEudGVzdC5hdXNjZXJ0Lm9yZy5hdS9sZXZlbDMtY2EvcHViL29jc3AwPgYI
+KwYBBQUHMAGGMmh0dHA6Ly9wa2kyLnRlc3QuYXVzY2VydC5vcmcuYXUvbGV2ZWwz
+LWNhL3B1Yi9vY3NwMIIBOwYDVR0gBIIBMjCCAS4wggEqBg8rBgEEAYGmbAoBAQMB
+AQAwggEVMEQGCCsGAQUFBwIBFjhodHRwOi8vcGtpLnRlc3QuYXVzY2VydC5vcmcu
+YXUvbGV2ZWwzLWNhL3B1Yi9wb2xpY3kuaHRtbDCBzAYIKwYBBQUHAgIwgb8agbxJ
+bnN0aXR1dGlvbiBDQSBDZXJ0aWZpY2F0ZSBpc3N1ZWQgYnkgdGhlIEF1c0NFUlQg
+Q2VydGlmaWNhdGlvbiBMZXZlbCAzIENBIGZvciB0aGUgQ0FVRElUIFBLSSBQaWxv
+dCBQcm9qZWN0LiBMaW1pdGVkIExpYWJpbGl0eS4gU2VlIGh0dHA6Ly9wa2kudGVz
+dC5hdXNjZXJ0Lm9yZy5hdS9sZXZlbDMtY2EvcHViL3BvbGljeS5odG1sLjANBgkq
+hkiG9w0BAQUFAAOCAQEAtLGDx9Y1wFobIOa/9R/P6lLDcrQSn4LJ1nSfdnWUgKpr
+iR9RcAarucHz4EmjhZD0+1F57wcCInmqdHtYwuP6FXskaHcwsZX1S0vxQLU+5nkP
+QElIcmUGoQaNoq9+vp44iDrHVWVzHyH19yKKLbHHeqJ64s3cpFD4k+0u2aI8nQPZ
+IDxMccvfzFfIntO1fZc/JHDvI/eIP7XcDIRanxv1FBos2D96RB1O9yw7bdGxeZTb
+T24myDxgGdD8zvyod4pqhBXPWYhwWISMBB1zkLdtd8+nVshLMH6uLNhHeMH/u6LS
+W47bq1hxLoMEXX3C5cnwC06/65fX9U+6AXmEcPLuLQ==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+
+        </shibmeta:KeyAuthority>
+    </Extensions>
+
+
+	<EntityDescriptor entityID="urn:mace:federation.org.au:testfed:vpac.org:slcstest.arcs.org.au">
+		<SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol">
+			<KeyDescriptor use="signing">
+				<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:KeyName>slcstest.arcs.org.au</ds:KeyName> </ds:KeyInfo>
+			</KeyDescriptor>
+			<NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat>
+			<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://slcstest.arcs.org.au/Shibboleth.sso/SAML/Artifact" index="1"></AssertionConsumerService>
+			<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://slcstest.arcs.org.au/Shibboleth.sso/SAML/POST" index="2"></AssertionConsumerService>
+			<AttributeConsumingService xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" index="0" isDefault="true">
+			  <ServiceName xml:lang="en">SLCS-test Short-Lived Certificate Service</ServiceName>
+			  <ServiceDescription xml:lang="en">Get a SLCS certificate based on the provided attributes.</ServiceDescription>
+			  <md:RequestedAttribute FriendlyName="Common name"
+			      Name="urn:mace:dir:attribute-def:cn" isRequired="true"/>
+			  <md:RequestedAttribute FriendlyName="Email address"
+			      Name="urn:mace:dir:attribute-def:mail" isRequired="true"/>
+			  <md:RequestedAttribute FriendlyName="Organisation"
+			      Name="urn:mace:dir:attribute-def:o" isRequired="true"/>
+			  <md:RequestedAttribute FriendlyName="Country"
+			      Name="urn:mace:terena.org:schacCountryOfResidence" isRequired="true"/>
+			  <md:RequestedAttribute FriendlyName="Shared token"
+			      Name="urn:mace:federation.org.au:attribute:auEduPersonSharedToken" isRequired="true"/>
+			</AttributeConsumingService> 
+		</SPSSODescriptor>
+		<Organization>
+			<OrganizationName xml:lang="en">Victorian Partnership for Advanced Computing - SLCS test server</OrganizationName>
+			<OrganizationDisplayName xml:lang="en">VPAC SLCS test server</OrganizationDisplayName>
+			<OrganizationURL xml:lang="en">http://www.vpac.org</OrganizationURL>
+		</Organization>
+		<ContactPerson contactType="technical">
+			<GivenName>Sam Morrison</GivenName>
+			<SurName>Sam Morrison</SurName>
+			<EmailAddress>sam@vpac.org</EmailAddress>
+		</ContactPerson>
+	</EntityDescriptor>
+
+	<EntityDescriptor entityID="urn:mace:federation.org.au:testfed:slcs1.arcs.org.au">
+		<SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol">
+			<KeyDescriptor use="signing">
+				<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:KeyName>slcs1.arcs.org.au</ds:KeyName> </ds:KeyInfo>
+			</KeyDescriptor>
+			<NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat>
+			<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://slcs1.arcs.org.au/Shibboleth.sso/SAML/Artifact" index="1"></AssertionConsumerService>
+			<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://slcs1.arcs.org.au/Shibboleth.sso/SAML/POST" index="2"></AssertionConsumerService>
+			<AttributeConsumingService xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" index="0" isDefault="true">
+			  <ServiceName xml:lang="en">SLCS1 Short-Lived Certificate Service</ServiceName>
+			  <ServiceDescription xml:lang="en">Get a SLCS certificate based on the provided attributes.</ServiceDescription>
+			  <md:RequestedAttribute FriendlyName="Common name"
+			      Name="urn:mace:dir:attribute-def:cn" isRequired="true"/>
+			  <md:RequestedAttribute FriendlyName="Email address"
+			      Name="urn:mace:dir:attribute-def:mail" isRequired="true"/>
+			  <md:RequestedAttribute FriendlyName="Organisation"
+			      Name="urn:mace:dir:attribute-def:o" isRequired="true"/>
+			  <md:RequestedAttribute FriendlyName="Country"
+			      Name="urn:mace:terena.org:schacCountryOfResidence" isRequired="true"/>
+			  <md:RequestedAttribute FriendlyName="Shared token"
+			      Name="urn:mace:federation.org.au:attribute:auEduPersonSharedToken" isRequired="true"/>
+			</AttributeConsumingService> 
+		</SPSSODescriptor>
+		<Organization>
+			<OrganizationName xml:lang="en">Victorian Partnership for Advanced Computing - SLCS1</OrganizationName>
+			<OrganizationDisplayName xml:lang="en">VPAC SLCS 1 server</OrganizationDisplayName>
+			<OrganizationURL xml:lang="en">http://www.vpac.org</OrganizationURL>
+		</Organization>
+		<ContactPerson contactType="technical">
+			<GivenName>Sam Morrison</GivenName>
+			<SurName>Sam Morrison</SurName>
+			<EmailAddress>sam@vpac.org</EmailAddress>
+		</ContactPerson>
+	</EntityDescriptor>
+
+</EntitiesDescriptor>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceProvider xmlns="urn:mace:shibboleth:services:1.0"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+    xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mace:shibboleth:services:1.0 ServiceDescriptor.xsd">
+    <ServiceProviderIdentifier>urn:mace:federation.org.au:testfed:uc-avcc.canterbury.ac.nz</ServiceProviderIdentifier>
+    <ServiceProviderName>AVCC at University of Canterbury</ServiceProviderName>
+    <ServiceProviderLocation>http://uc-avcc.canterbury.ac.nz/</ServiceProviderLocation>
+    <ServiceProviderDescription>Advanced Video Conferencing and Collaboration NZ at University of Canterbury</ServiceProviderDescription>
+    <Service identifier="urn:mace:federation.org.au:testfed:uc-avcc.canterbury.ac.nz:wiki">
+        <ServiceName>AVCC at University of Canterbury</ServiceName>
+        <ServiceDescription>Advanced Video Conferencing and Collaboration NZ at University of Canterbury</ServiceDescription>
+        <ServiceLocation>http://uc-avcc.canterbury.ac.nz/</ServiceLocation>
+        <ServiceLevel identifier="urn:mace:federation.org.au:testfed:uc-avcc.canterbury.ac.nz:wiki:BasicService">
+            <ServiceLevelName>Basic Service Level</ServiceLevelName>
+            <ServiceLevelDescription>The basic service allows users to login with their identity, edit pages, and access restricted pages where they have been granted access.</ServiceLevelDescription>
+            <md:RequestedAttribute FriendlyName="Principal Name"
+                Name="urn:mace:dir:attribute-def:eduPersonPrincipalName" isRequired="true"/>
+        </ServiceLevel>
+        <ServiceLevel identifier="urn:mace:federation.org.au:testfed:uc-avcc.canterbury.ac.nz:wiki:FullService">
+            <ServiceLevelName>Full Service Level</ServiceLevelName>
+            <ServiceLevelDescription>The full service grants users full access, allowing them to login with their identity, edit pages, and access restricted pages where they have been granted access, and also to have their profile customized with their full name and email address.</ServiceLevelDescription>
+            <md:RequestedAttribute FriendlyName="Principal Name"
+                Name="urn:mace:dir:attribute-def:eduPersonPrincipalName" isRequired="true"/>
+            <md:RequestedAttribute FriendlyName="Surname"
+                Name="urn:mace:dir:attribute-def:sn" isRequired="false"/>
+            <md:RequestedAttribute FriendlyName="Given name"
+                Name="urn:mace:dir:attribute-def:givenName" isRequired="false"/>
+            <md:RequestedAttribute FriendlyName="Email address"
+                Name="urn:mace:dir:attribute-def:mail" isRequired="true"/>
+        </ServiceLevel>
+    </Service>
+</ServiceProvider>

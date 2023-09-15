@@ -1,0 +1,79 @@
+#! /bin/sh
+#
+# /etc/init.d/shibboleth for Debian
+#
+# chkconfig: 2345 60 25
+# description: Shibboleth ServiceProvider 1.3 daemon
+#
+# Shibboleth should start before httpd and tomcat, and shut down after them, 
+# A value of 60 for startup and 25 for shutdown is thus all fine. 
+#
+# start/stop script for Shibboleth ServiceProvider 1.3 daemon 
+#
+# Created: 20050602 - Valery Tschopp - SWITCH
+#
+# HOWTO INSTALL: 
+#  root:/etc/init.d# update-rc.d shibboleth defaults 95 15
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin
+
+#
+# Shibboleth 1.3
+#
+SHIB_HOME=/usr/local/shibboleth-sp
+SHIB_ETC=/usr/local/shibboleth-sp/etc/shibboleth
+
+SHIB_CONFIG=$SHIB_ETC/shibboleth.xml
+
+LD_LIBRARY_PATH=$SHIB_HOME/lib
+
+DAEMON=$SHIB_HOME/sbin/shibd
+NAME=shibd
+DESC="Shibboleth 1.3 Daemon"
+
+test -x $DAEMON || exit 0
+
+. /etc/rc.d/init.d/functions
+
+case "$1" in
+  start)
+	echo -n "Starting $DESC: $NAME"
+	#start-stop-daemon --start --quiet --pidfile /var/run/$NAME.pid \
+	#	--background --make-pidfile \
+	#	--exec $DAEMON -- -fc $SHIB_CONFIG
+	daemon $DAEMON -p /var/run/$NAME.pid -fc $SHIB_CONFIG &
+	echo "."
+	;;
+  stop)
+	echo -n "Stopping $DESC: $NAME"
+	#start-stop-daemon --stop --quiet --pidfile /var/run/$NAME.pid \
+	#	--exec $DAEMON
+        killproc -p /var/run/$NAME.pid $NAME
+	echo "."
+	;;
+  restart)
+	# Restart
+	$0 stop
+	sleep 10
+	$0 start
+	;;
+  configtest)
+	echo "Check config for $DESC: $NAME"
+	#start-stop-daemon --start \
+	#	--exec $DAEMON -- -tc $SHIB_CONFIG
+	$DAEMON -tc $SHIB_CONFIG
+	echo "Done."
+	;;
+  status)
+	status -p /var/run/$NAME.pid $NAME
+	;;
+  *)
+	N=/etc/init.d/$NAME
+	# echo "Usage: $N {start|stop|restart|reload|force-reload}" >&2
+	echo "Usage: $N {start|stop|restart|configtest}" >&2
+	exit 1
+	;;
+esac
+
+exit 0
+

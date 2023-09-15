@@ -30,7 +30,7 @@ The URL for the [BeSTGRID Test Federation](/wiki/spaces/BeSTGRID/pages/381822871
 
 For more detail, see the discussion at [University of Canterbury IdP metadata updates](shibboleth-idp-installation-at-the-university-of-canterbury.md).
 
-You may also download a script suitable as a cron job for updating the BeSTGRID federation metadata: [idp-bestgrid-metadata](/wiki/download/attachments/3818228810/Idp-bestgrid-metadata.txt?version=1&modificationDate=1539354386000&cacheVersion=1&api=v2)
+You may also download a script suitable as a cron job for updating the BeSTGRID federation metadata: [idp-bestgrid-metadata](attachments/Idp-bestgrid-metadata.txt)
 
 # Updating metadata for on an IdP
 

@@ -94,7 +94,7 @@ nameserver 139.80.64.1
 - configure VDT to use IGTF CA bundle
 - switch to invoking fetch-crl-2.6.6
 
-(See attached patch file [Build_nggums_diff-vdt181-vdt1101.patch.txt](/wiki/download/attachments/3818228928/Build_nggums_diff-vdt181-vdt1101.patch.txt?version=1&modificationDate=1539354388000&cacheVersion=1&api=v2) and the original [build_nggums_vdt181.sh](http://www.vpac.org/~sam/build_nggums_vdt181.sh))
+(See attached patch file [Build_nggums_diff-vdt181-vdt1101.patch.txt](attachments/Build_nggums_diff-vdt181-vdt1101.patch.txt) and the original [build_nggums_vdt181.sh](http://www.vpac.org/~sam/build_nggums_vdt181.sh))
 
 - Create `/etc/grid-security` and install host certificate there.
 

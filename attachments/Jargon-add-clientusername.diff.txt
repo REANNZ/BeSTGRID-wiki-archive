@@ -1,0 +1,257 @@
+Index: iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSConstants.java
+===================================================================
+--- iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSConstants.java	(revision 5059)
++++ iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSConstants.java	(working copy)
+@@ -17,8 +17,8 @@
+ 	 */
+ 	public static final long  MAX_SZ_FOR_SINGLE_BUF  =   (32*1024*1024);
+ 	
+-	public static final int CONNECTION_TIMEOUT_VALUE = -1;
+-	public static final int CONNECTION_TIMEOUT_NO_TIMEOUT = -1;
++	public static int CONNECTION_TIMEOUT_VALUE = -1;
++	public static int CONNECTION_TIMEOUT_NO_TIMEOUT = -1;
+ 
+ 	public static final int SYS_CLI_TO_SVR_COLL_STAT_REPLY = 99999997;
+ 	public static final int SYS_CLI_TO_SVR_COLL_STAT_SIZE = 10;
+Index: iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSFile.java
+===================================================================
+--- iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSFile.java	(revision 5059)
++++ iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSFile.java	(working copy)
+@@ -749,6 +749,10 @@
+ 							currentAccount.getHomeDirectory(),
+ 							currentAccount.getZone(),
+ 							currentAccount.getDefaultStorageResource());
++					if (currentAccount.getClientRodsZone() != null) 
++					        reroutedAccount.setClientRodsZone(currentAccount.getClientRodsZone());
++					if (currentAccount.getClientUserName() != null) 
++					        reroutedAccount.setClientUserName(currentAccount.getClientUserName());
+ 					IRODSFileSystem reroutedIRODSFileSystem = new IRODSFileSystem(
+ 							reroutedAccount);
+ 					IRODSFile reroutedFile = new IRODSFile(
+@@ -1620,7 +1624,7 @@
+ 						MetaDataCondition.EQUAL, fileName),
+ 				MetaDataSet.newCondition(
+ 						IRODSMetaDataSet.FILE_PERMISSION_USER_NAME,
+-						MetaDataCondition.EQUAL, iRODSFileSystem.getUserName()),
++						MetaDataCondition.EQUAL, ((IRODSAccount)iRODSFileSystem.getAccount()).getEffectiveClientUserName()),
+ 				// if zone available
+ 				(zone != null && !zone.equals("")) ? MetaDataSet.newCondition(
+ 						IRODSMetaDataSet.FILE_PERMISSION_USER_ZONE,
+@@ -1651,7 +1655,7 @@
+ 				MetaDataSet.newCondition(GeneralMetaData.DIRECTORY_NAME,
+ 						MetaDataCondition.EQUAL, getAbsolutePath()),
+ 				MetaDataSet.newCondition(IRODSMetaDataSet.DIRECTORY_USER_NAME,
+-						MetaDataCondition.EQUAL, iRODSFileSystem.getUserName()),
++						MetaDataCondition.EQUAL,  ((IRODSAccount)iRODSFileSystem.getAccount()).getEffectiveClientUserName()),
+ 				// if zone available
+ 				(zone != null && !zone.equals("")) ? MetaDataSet.newCondition(
+ 						IRODSMetaDataSet.DIRECTORY_USER_ZONE,
+@@ -2607,11 +2611,11 @@
+ 
+ 		try {
+ 			if (isDirectory()) {
+-				uri = new URI("irods", iRODSFileSystem.getUserName(),
++				uri = new URI("irods", ((IRODSAccount)iRODSFileSystem.getAccount()).getEffectiveClientUserName(),
+ 						iRODSFileSystem.getHost(), iRODSFileSystem.getPort(),
+ 						getAbsolutePath() + "/", "", "");
+ 			} else {
+-				uri = new URI("irods", iRODSFileSystem.getUserName(),
++				uri = new URI("irods", ((IRODSAccount)iRODSFileSystem.getAccount()).getEffectiveClientUserName(),
+ 						iRODSFileSystem.getHost(), iRODSFileSystem.getPort(),
+ 						getAbsolutePath(), "", "");
+ 			}
+@@ -2661,14 +2665,19 @@
+ 		URI uri = null;
+ 
+ 		try {
++			String usernamePassword = iRODSFileSystem.getUserName() + ":" + iRODSFileSystem.getPassword();;
++			String clientUserName = ((IRODSAccount)iRODSFileSystem.getAccount()).getClientUserName();
++			if (clientUserName != null) {
++				// if we are using a clientUserName, use this notation
++				usernamePassword = clientUserName + ":" + usernamePassword;
++			};
++
+ 			if (isDirectory()) {
+-				uri = new URI("irods", iRODSFileSystem.getUserName() + ":"
+-						+ iRODSFileSystem.getPassword(),
++				uri = new URI("irods", usernamePassword,
+ 						iRODSFileSystem.getHost(), iRODSFileSystem.getPort(),
+ 						getAbsolutePath() + "/", "", "");
+ 			} else {
+-				uri = new URI("irods", iRODSFileSystem.getUserName() + ":"
+-						+ iRODSFileSystem.getPassword(),
++				uri = new URI("irods", usernamePassword,
+ 						iRODSFileSystem.getHost(), iRODSFileSystem.getPort(),
+ 						getAbsolutePath(), "", "");
+ 			}
+@@ -2685,7 +2694,7 @@
+ 	 * not be included in the URI.
+ 	 */
+ 	public String toString() {
+-		return new String("irods://" + iRODSFileSystem.getUserName() + "@"
++		return new String("irods://" +  ((IRODSAccount)iRODSFileSystem.getAccount()).getEffectiveClientUserName() + "@"
+ 				+ iRODSFileSystem.getHost() + ":" + iRODSFileSystem.getPort()
+ 				+ getAbsolutePath());
+ 	}
+Index: iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSFileSystem.java
+===================================================================
+--- iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSFileSystem.java	(revision 5059)
++++ iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSFileSystem.java	(working copy)
+@@ -199,12 +199,12 @@
+ 				}
+ 				irodsAccount.setUserName(rl[0].getStringValue(0));
+ 				irodsAccount.setZone(rl[0].getStringValue(1));
+-				irodsAccount.setHomeDirectory("/" + irodsAccount.getZone()
+-						+ "/home/" + irodsAccount.getUserName());
++				irodsAccount.setHomeDirectory("/" + irodsAccount.getEffectiveClientRodsZone()
++						+ "/home/" + irodsAccount.getEffectiveClientUserName());
+ 				commands.getIrodsAccount().setUserName(rl[0].getStringValue(0));
+ 				commands.getIrodsAccount().setZone(rl[0].getStringValue(1));
+-				commands.getIrodsAccount().setHomeDirectory("/" + irodsAccount.getZone()
+-						+ "/home/" + irodsAccount.getUserName());
++				commands.getIrodsAccount().setHomeDirectory("/" + irodsAccount.getEffectiveClientRodsZone()
++						+ "/home/" + irodsAccount.getEffectiveClientUserName());
+ 			}
+ 		}
+ 		
+@@ -604,7 +604,7 @@
+ 	public String toString() {
+ 		StringBuilder builder = new StringBuilder();
+ 		builder.append("irods://");
+-		builder.append(getUserName());
++		builder.append(((IRODSAccount)getAccount()).getEffectiveClientUserName());
+ 		builder.append('@');
+ 		builder.append(getHost());
+ 		builder.append(':');
+Index: iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSAccount.java
+===================================================================
+--- iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSAccount.java	(revision 5059)
++++ iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSAccount.java	(working copy)
+@@ -139,8 +139,18 @@
+ 	 * The iRODS zone.
+ 	 */
+ 	protected String zone;
++	
++	/**
++	 * Client user name (for accessing iRODS as a different account from the account used to connect)
++	 */
++	protected String clientUserName;
+ 
+ 	/**
++	 * Client zone name (for accessing iRODS as a different account from the account used to connect)
++	 */
++	protected String clientRodsZone;
++	
++	/**
+ 	 * The iRODS version.
+ 	 */
+ 	protected static String version = IRODS_VERSION_2_5;
+@@ -382,11 +392,29 @@
+ 		authenticationScheme = scheme;
+ 	}
+ 
++	/**
++	 * Set the iRODS zone
++	 */
++	
+ 	public void setZone(String zone) {
+ 		this.zone = zone;
+ 	}
++	
++	/**
++	 * Set the client user name (for connections under a different account)
++	 */
++	public void setClientUserName(String clientUserName) {
++		this.clientUserName = clientUserName;
++	}
+ 
+ 	/**
++	 * Set the client zone name (for connections under a different account)
++	 */
++	public void setClientRodsZone(String clientRodsZone) {
++		this.clientRodsZone = clientRodsZone;
++	}
++
++	/**
+ 	 * Set the version of the iRODS server this client should use when
+ 	 * connecting.
+ 	 */
+@@ -439,7 +467,7 @@
+ 	}
+ 
+ 	public boolean getObf() {
+-		if (obfuscate == 1 || (defaultObfuscate && !(obfuscate == 0)))
++		if (obfuscate == 1 || (defaultObfuscate && !(obfuscate == -1)))
+ 			return true;
+ 
+ 		return false;
+@@ -513,6 +541,35 @@
+ 		return zone;
+ 	}
+ 
++	/**
++	 * @return the client user name (for connections under a different account)
++	 */
++	public String getClientUserName() {
++		return clientUserName;
++	}
++	
++	/**
++	 * @return the client user name to be used (default to regular user name if not set)
++	 */
++	public String getEffectiveClientUserName() {
++		return clientUserName != null ? clientUserName : getUserName();
++	}
++
++	/**
++	 * @return the client user zone (for connections under a different account)
++	 */
++	public String getClientRodsZone() {
++		return clientRodsZone;
++	}
++
++	/**
++	 * @return the client zone name to be used (default to regular zone name if not set)
++	 */
++	public String getEffectiveClientRodsZone() {
++		return clientRodsZone != null ? clientRodsZone : getZone();
++	}
++
++	
+ 	// for GSI
+ 	/**
+ 	 * Gets the locations of the GSI Certificate Authority (CA). By default, the
+@@ -735,7 +792,7 @@
+ 		if (!env.exists()) {
+ 			env = FileFactory.newFile(userInfo, "irodsA");
+ 		}
+-		if (obfuscate == 1 || (defaultObfuscate && !(obfuscate == 0))) {
++		if (obfuscate == 1 || (defaultObfuscate && !(obfuscate == -1))) {
+ 			/* 
+ \u002a\u002f\u0073\u0065\u0074\u0050\u0061\u0073\u0073\u0077\u006f\u0072\u0064\u0028\u0065\u006e\u0076
+ 					\u002e\u0074\u006f\u0055\u0052\u0049\u0028\u0029
+Index: iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSCommands.java
+===================================================================
+--- iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSCommands.java	(revision 5059)
++++ iRODS/jargon/src/api/edu/sdsc/grid/io/irods/IRODSCommands.java	(working copy)
+@@ -157,7 +157,8 @@
+ 			log.info("Connecting to server, " + getIrodsAccount().getHost()
+ 					+ ":" + getIrodsAccount().getPort() + " running version: "
+ 					+ IRODSAccount.version + " as username: "
+-					+ getIrodsAccount().getUserName() + "\ntime: " + date);
++					+ getIrodsAccount().getUserName() + " / " 
++					+ getIrodsAccount().getEffectiveClientUserName() + "\ntime: " + date);
+ 		}
+ 
+ 		// Send the user info
+@@ -279,8 +280,8 @@
+ 				new Tag(connectCnt, "0"),
+ 				new Tag(proxyUser, irodsAccount.getUserName()),
+ 				new Tag(proxyRcatZone, irodsAccount.getZone()),
+-				new Tag(clientUser, irodsAccount.getUserName()),
+-				new Tag(clientRcatZone, irodsAccount.getZone()),
++				new Tag(clientUser, irodsAccount.getEffectiveClientUserName()),
++				new Tag(clientRcatZone, irodsAccount.getEffectiveClientRodsZone()),
+ 				new Tag(relVersion, IRODSAccount.getVersion()),
+ 				new Tag(apiVersion, IRODSAccount.getAPIVersion()),
+ 				new Tag(option, IRODSAccount.getOption()), });

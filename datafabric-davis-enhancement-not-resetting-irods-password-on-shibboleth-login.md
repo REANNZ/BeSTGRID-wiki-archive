@@ -76,9 +76,9 @@ shib-use-admin-login=false
 
 The code has been committed to a feature-branch in the googlecode webDavis repository: [http://webdavis.googlecode.com/svn/davis/branches/0.9.6.dev-shib-no-pwd-reset](http://webdavis.googlecode.com/svn/davis/branches/0.9.6.dev-shib-no-pwd-reset)
 
-The code is also available as patch: [davis-clientusername-login.diff](/wiki/download/attachments/3818228914/Davis-clientusername-login.diff.txt?version=1&modificationDate=1539354381000&cacheVersion=1&api=v2)
+The code is also available as patch: [davis-clientusername-login.diff](attachments/Davis-clientusername-login.diff.txt)
 
-This patch depends on modifications to Jargon - these are pending to be committed to Jargon-classic svn an and are available as patch [jargon-add-clientusername.diff](/wiki/download/attachments/3818228914/Jargon-add-clientusername.diff.txt?version=1&modificationDate=1539354381000&cacheVersion=1&api=v2)
+This patch depends on modifications to Jargon - these are pending to be committed to Jargon-classic svn an and are available as patch [jargon-add-clientusername.diff](attachments/Jargon-add-clientusername.diff.txt)
 
 ### Building jargon with this patch
 

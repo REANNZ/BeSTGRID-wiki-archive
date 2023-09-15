@@ -1,0 +1,106 @@
+--- pbs.pm.maggie-sav-2008-01-10	2007-12-19 10:19:28.000000000 +1300
++++ pbs.pm.maggie	2008-02-22 16:40:00.000000000 +1300
+@@ -6,6 +6,10 @@
+ use Globus::GRAM::JobManager;
+ use Globus::Core::Paths;
+ 
++use IO::File;
++use Digest::SHA1 qw(sha1 sha1_hex sha1_base64);
++use MIME::Base64;
++
+ use Config;
+ 
+ # NOTE: This package name must match the name of the .pm file!!
+@@ -40,6 +44,10 @@
+     my $pbs_job_script;
+     my $pbs_job_script_name;
+     my $pbs_qsub_err_name ;
++
++    # Vladimir Mencl
++    my $globus_user_dn = "";
++
+     my $errfile = '';
+     my $job_id;
+     my $rsh_env = '';
+@@ -135,6 +143,35 @@
+ 	$self->log('   using queue default');
+     }
+ 
++    # Vladimir Mencl
++    #  ($description->_environment is an array of pointers. Each points to an array of 2 elements.
++    #  Store environment variables information in %job_environment hash.
++   foreach $tuple ($description->environment()) {
++      $env_key = $tuple->[0];
++      $env_value = $tuple->[1];
++      $job_environment{$env_key} = $env_value;
++   }
++
++    if ($job_environment{GLOBUS_GRAM_JOB_HANDLE}) {
++        $self->log("Determining user distinguished name from early audit database.");
++        $globus_job_epr = $job_environment{GLOBUS_GRAM_JOB_HANDLE};
++        # Encode job ResourceID the sameway as EPRUtil.java does for the Audit
++        # database.  We need to convert
++        # 'https://ng2maggie.otago.ac.nz:8443/wsrf/services/ManagedExecutableJobService?2828a540-e0bf-11dc-8ba8-ffac443c90f7'
++        # to
++        # 'https://ng2maggie.otago.ac.nz:8443/wsrf/services/ManagedExecutableJobService?3ozaQzjbyYKPXJAKWMMfn3iqGho='
++        # - which is used as the key (job_grid_id) in
++        # auditDatabase.gram_audit_table
++        $globus_job_epr =~ s/\?([-0-9a-f]*)/'?' . main::encode_base64(main::sha1($1),"")/e;
++        # We now invoke a script that invokes MySQL and retrieves subject_name
++        # for this job based on its job_grid_id.  The script is called via
++        # sudo, because it needs to read a configuration file with mysql
++        # password, which is hidden from grid users.
++        $globus_user_dn = `sudo -u daemon \$GLOBUS_LOCATION/lib/perl/Globus/GRAM/JobManager/GetJobDN.sh '$globus_job_epr'  2> /dev/null`;
++        chomp($globus_user_dn);
++        $self->log("Early audit database: EPRAsString=$globus_job_epr, UserDN=$globus_user_dn");
++    }
++
+     $self->log('Building job script');
+ 
+     $pbs_job_script_name = $self->job_dir() . '/scheduler_pbs_job_script';
+@@ -237,6 +274,25 @@
+                        ['GLOBUS_USER_HOME',$ENV{'HOME'}],
+                        ['GLOBUS_USER_NAME',$ENV{'LOGNAME'}],
+                        ['GLOBUS_SCRATCH_DIR',$ENV{'HOME'}."/.globus/scratch"]);
++    # Vladimir Mencl: merge "tagging" environment variables we (hopefully) extracted from the delegated job credential
++    if ($globus_user_dn) {
++       push @environment,(['GLOBUS_USER_DN', $globus_user_dn]);
++    };
++
++    # Vladimir Mencl: list env vars listed in TAGS as PBS job vars
++    @tagging_env_vars = qw(GLOBUS_USER_EMAIL GLOBUS_USER_DN);
++    my %tagging_env_vars_hash;
++    my $tag_string = "";
++    foreach (@tagging_env_vars) { $tagging_env_vars_hash{$_}=$_ };
++    foreach my $tuple ( @environment ) {
++       if (exists($tagging_env_vars_hash{$tuple->[0]})) {
++           if ($tag_string) { $tag_string .= ","; };
++           $tag_string .= "$tuple->[0]='$tuple->[1]'"; 
++       };
++    };
++    if ($tag_string) { 
++        print JOB "#PBS -v $tag_string\n";
++    };
+ 
+     foreach my $tuple (@environment)
+     {
+@@ -408,6 +464,19 @@
+     if($? == 0)
+     {
+         $self->log("job submission successful, setting state to PENDING");
++
++        ### Vladimir Mencl: log Job-DN if we know it
++        $job_msg = "$job_id;$globus_user_dn";
++        system("logger -t Job-DN-Submit '$job_msg'");
++        $job_dn_file = new IO::File("/opt/vdt/globus/var/pbs-acct/jobdn-subm.log",">>");
++        if ($job_dn_file) {
++            my ($timestr);
++            $timestr = `date`;
++            chomp $timestr;
++            $job_dn_file->print("$timestr;$job_msg\n");
++            $job_dn_file->close();
++        };
++
+ 	return {JOB_ID => $job_id,
+ 	        JOB_STATE => Globus::GRAM::JobState::PENDING };
+     }

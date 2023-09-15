@@ -1,0 +1,34 @@
+--- fetch-crl-2.6.6/edg-fetch-crl	2007-09-17 00:51:32.000000000 +1200
++++ edg-fetch-crl	2008-02-26 11:41:49.959724103 +1300
+@@ -67,7 +67,7 @@
+ date=/bin/date
+ sed=/bin/sed
+ grep=/bin/grep
+-mktemp=/bin/mktemp
++mktemp=/usr/local/bin/mktemp
+ stat=/usr/bin/stat
+ 
+ #
+@@ -209,6 +209,10 @@
+    echo "   $FETCH_CRL_SYSCONFIG (resettable via the FETCH_CRL_SYSCONFIG environment"
+    echo "   variable, see manual for details)."
+    echo
++   echo "WARNING: this version of fetch-crl DOES NOT understand LONG options."
++   echo "(due to limitations of the AIX getopt utility)."
++   echo "Use only short options!"
++   echo
+ }
+ 
+ #
+@@ -413,7 +417,10 @@
+ #
+ # Parse the command line
+ #
+-getoptResult=`${getopt} -o hl:o:qa:nf -a -l help,loc:,out:,quiet,agingtolerance,no-check-certificate,syslog-facility,check-server-certificate -n ${programName} -- "$@"`
++### AIX getopt does not support long options
++### Usage: getopt Flag-string Command-string
++getoptResult=`${getopt} hl:o:qa:nf "$@"`
++### getoptResult=`${getopt} -o hl:o:qa:nf -a -l help,loc:,out:,quiet,agingtolerance,no-check-certificate,syslog-facility,check-server-certificate -n ${programName} -- "$@"`
+ if [ $? != 0 ] ; then
+    ShowUsage
+    exit 1

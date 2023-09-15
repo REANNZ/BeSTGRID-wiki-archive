@@ -5,7 +5,7 @@
 
 BeSTGRID delivers services and tools to support research and research [collaboration](category-collaboration.md), on shared [data](category-data-grid.md) sets, and in accessing non trivial amounts of [computational](category-computational-grid.md) resources.
 
-**[BeSTGRID is funded from early 2009 to June 2010](/wiki/download/attachments/3818228790/BeSTGRID_Middleware_MoRSTProposal_20081211_FINAL_additional_support_letters.pdf?version=1&modificationDate=1539354419000&cacheVersion=1&api=v2)** from the [Ministry of Research Science & Technology eResearch budget|http
+**[BeSTGRID is funded from early 2009 to June 2010](attachments/BeSTGRID_Middleware_MoRSTProposal_20081211_FINAL_additional_support_letters.pdf)** from the [Ministry of Research Science & Technology eResearch budget|http
 
 //www.morst.govt.nz/current-work/science-infrastructure/eresearch/], to further evolve eResearch infrastructure in New Zealand, including specialised applications and services for both Geo and Bio sciences, and lower levels of middleware. The project will publish several reports defining plans for implementation of these applications, services, and middleware, along with a final report to outline the current and possible future eResearch infrastructure strategies.
 

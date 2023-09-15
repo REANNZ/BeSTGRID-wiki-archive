@@ -42,7 +42,7 @@ sc,,geon
 6. Confirm accommodation
 - Contact Amanda Sterling x 89451 for assistance or reservations
 - [http://www.auckland.ac.nz/accommodation/](http://www.auckland.ac.nz/accommodation/)
-[Academic_Visitors_Brochure.pdf](/wiki/download/attachments/3816950943/Academic_Visitors_Brochure.pdf?version=1&modificationDate=1539354370000&cacheVersion=1&api=v2)
+[Academic_Visitors_Brochure.pdf](attachments/Academic_Visitors_Brochure.pdf)
 7. Notify PR partners of registration process
 8. Confirm invitees and attendee list
 - Refinements on these lists below. No formal announcements made yet.

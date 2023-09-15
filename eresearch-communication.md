@@ -91,7 +91,7 @@ Daniel Patrick, Social Sciences Data Service
 - Teaching
 [http://www.karen.net.nz/EVO-trial/](http://www.karen.net.nz/EVO-trial/)
 
-Paper on Lecture Recording in Mathematics [Lecture-rec.doc](/wiki/download/attachments/3818228399/Lecture-rec.doc?version=1&modificationDate=1539354127000&cacheVersion=1&api=v2)
+Paper on Lecture Recording in Mathematics [Lecture-rec.doc](attachments/Lecture-rec.doc)
 
 ## Other Material
 

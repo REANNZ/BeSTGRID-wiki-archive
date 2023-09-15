@@ -50,7 +50,7 @@ Further tips, tricks, etc. to ease the process of certificate management can be 
 
 # Certificate Creation Script
 
-Alternatively you can use the attached [Generate_request.sh](/wiki/download/attachments/3818228502/Generate_request.sh?version=1&modificationDate=1539354174000&cacheVersion=1&api=v2) script to generate request. Edit `EMAIL` and `INSTITUTION` values and run it as
+Alternatively you can use the attached [Generate_request.sh](attachments/Generate_request.sh) script to generate request. Edit `EMAIL` and `INSTITUTION` values and run it as
 
 ``` 
 

@@ -7,7 +7,7 @@
 - **[Step by step Video Tutorial about EVO (Flash Video)](http://it-multimedia.web.cern.ch/it%2Dmultimedia/collaborative/tutorials/)**
 
 - [EVO Overview](category-evo.md)
-- [Two page flyer about EVO (PDF File)](/wiki/download/attachments/3818228691/EVO-flyer-2007-oct-8.pdf?version=1&modificationDate=1539354060000&cacheVersion=1&api=v2)
+- [Two page flyer about EVO (PDF File)](attachments/EVO-flyer-2007-oct-8.pdf)
 - [See EVO in Action](/wiki/spaces/BeSTGRID/pages/3818228733)
 - [Recommended Equipment for Windows XP users](getting-started-with-evo-in-new-zealand.md)
 - [Getting Started with EVO in New Zealand](getting-started-with-evo-in-new-zealand.md)

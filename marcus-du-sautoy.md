@@ -46,7 +46,7 @@ in a new way, mathematicians have discovered what they believe is the
 
 secret to the way Nature chose the primes.
 
-- [Printed flyer](/wiki/download/attachments/3818228590/Dusautoy.pdf?version=1&modificationDate=1539354372000&cacheVersion=1&api=v2)
+- [Printed flyer](attachments/Dusautoy.pdf)
 
 # Locations and Technical Information
 

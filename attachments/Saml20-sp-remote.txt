@@ -1,0 +1,74 @@
+// E-Cast test service
+$metadata['https://www.etv.org.nz/shibboleth'] = array (
+  'AttributeNameFormat' => 'urn:oasis:names:tc:SAML:2.0:attrname-format:uri',
+  'authproc' => array(
+                      99 => array('class' => 'core:AttributeMap', 'mlepname2oid'),
+                     ),
+  'entityid' => 'https://www.etv.org.nz/shibboleth',
+  'metadata-set' => 'saml20-sp-remote',
+  'AssertionConsumerService' =>
+  array (
+    0 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SAML2/POST',
+      'index' => 1,
+    ),
+    1 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SAML2/POST-SimpleSign',
+      'index' => 2,
+    ),
+    2 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SAML2/Artifact',
+      'index' => 3,
+    ),
+    3 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:PAOS',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SAML2/ECP',
+      'index' => 4,
+    ),
+    4 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:1.0:profiles:browser-post',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SAML/POST',
+      'index' => 5,
+    ),
+    5 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:1.0:profiles:artifact-01',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SAML/Artifact',
+      'index' => 6,
+    ),
+  ),
+  'SingleLogoutService' =>
+  array (
+    0 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:SOAP',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SLO/SOAP',
+    ),
+    1 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SLO/Redirect',
+    ),
+    2 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SLO/POST',
+    ),
+    3 =>
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact',
+      'Location' => 'https://www.etv.org.nz/Shibboleth.sso/SLO/Artifact',
+    ),
+  ),
+  'certData' => 'MIIDFDCCAfygAwIBAgIJAM76dpbNwg9FMA0GCSqGSIb3DQEBBQUAMBkxFzAVBgNVBAMTDnd3dy5ldHYub3JnLm56MB4XDTEwMDgxMTAyMTEwOFoXDTIwMDgwODAyMTEwOFowGTEXMBUGA1UEAxMOd3d3LmV0di5vcmcubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQ8u/qk5gZ6HNjsA5DxLDAxHS6zdP+oJSI5xnhFKvysjEOSOtWGpnoHHWTap4raAPq7vs9UEuwe0BDCAsrKMmAFfGZTRHQ1pb16l1xzp4K10WdFivCBNCrZ9kffeGTFZDTbBxs5xyaZimyHtXLJ1YmEy/wVF6emlzg+XZ1Q/+BUb1V2G16Zb7nDOaoqVzzlR5EOWtH4WCi7SPnGJJ231vRlXkgkdEqkjlag5SLipbpJsJHXcpRyTFnOjnl1AFJPaLZok24++sxBgu8XVoojjmQVkcDS85GuCdjONMUI4g9pBHTSFpgvjQUadbcT6vY1e1IwlVg7Z79DEMciRVGczJrAgMBAAGjXzBdMDwGA1UdEQQ1MDOCDnd3dy5ldHYub3JnLm56hiFodHRwczovL3d3dy5ldHYub3JnLm56L3NoaWJib2xldGgwHQYDVR0OBBYEFBgN8V4PEiBy3aoQMjKLPgXCzn0eMA0GCSqGSIb3DQEBBQUAA4IBAQBt8spyzxcNHrFakRn+KSopIeQaX04e36NjfLSySngpKGSbxvu5t/ntNE/NcO4dAsfDrR2CVNaJqH9HaH5kLML1qHeAS4SsVSzLRhYBQWl3x8Twq9As5LFbYAd0XSSKLT8DK71VKycD2254D85JMBKGYFIAQeIn9Whb/Mq5n2FHbkVh3u1bFlHBnY6IvA7iBu/2CCHR6h6fF1NMWtkvhYAVXU9yPsSeQ5ZDeLt51Nl5f+cDm97uRfaVbeBXHzmLW9ZTgJ+jXY3EY02dmfS9CvOX0KXo1Wex2Wgk1lsC+rzRaydUGFoq28od7dyDm5xSrL1j4H6qIxxnSQgf/SYzNr1I',
+);
+
+

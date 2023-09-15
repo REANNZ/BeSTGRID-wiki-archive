@@ -1,0 +1,20 @@
+diff -wur mrbayes-3.1.2.orig/sump.c mrbayes-3.1.2/sump.c
+--- mrbayes-3.1.2.orig/sump.c	2005-12-24 05:26:29.000000000 +1300
++++ mrbayes-3.1.2/sump.c	2007-08-02 10:40:30.000000000 +1200
+@@ -943,6 +943,16 @@
+ 		i = 0;
+ 		if (FindValidCommand (sumpToken, &i) == ERROR)
+ 			MrBayesPrint ("%s   Could not find sump\n", spacer);
++	
++#	if defined (MPI_ENABLED)
++		ierror = MPI_Barrier (MPI_COMM_WORLD);
++		if (ierror != MPI_SUCCESS)
++			{
++			MrBayesPrint ("%s   Problem at chain barrier\n", spacer);
++			/* We are already returning an error anyway */
++			}
++#	endif
++
+ 		return (ERROR);	
+ 	
+ }

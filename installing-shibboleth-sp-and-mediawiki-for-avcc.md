@@ -419,7 +419,7 @@ Notes:
 <AttributeRule Name="urn:mace:dir:attribute-def:mail" Header="Shib-InetOrgPerson-mail" Alias="mail">
 ```
 
-Based on the above list of attributes, the [AVCC SPDescription file](http://www.federation.org.au/FedManager/viewServiceDescriptionFile.do?id=308) ([local download](/wiki/download/attachments/3818228916/Urn_mace_federation_org_au_testfed_uc-avcc_canterbury_ac_nz.xml.txt?version=1&modificationDate=1539354412000&cacheVersion=1&api=v2)) defines *Basic* and *Full* service level for use with ShARPE and Autograph.
+Based on the above list of attributes, the [AVCC SPDescription file](http://www.federation.org.au/FedManager/viewServiceDescriptionFile.do?id=308) ([local download](attachments/Urn_mace_federation_org_au_testfed_uc-avcc_canterbury_ac_nz.xml.txt)) defines *Basic* and *Full* service level for use with ShARPE and Autograph.
 
 # Plan for moving to production
 

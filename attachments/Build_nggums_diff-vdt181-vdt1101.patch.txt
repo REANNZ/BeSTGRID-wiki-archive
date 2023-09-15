@@ -1,0 +1,69 @@
+--- build_nggums_vdt181.sh	2008-09-03 13:41:49.000000000 +1200
++++ build_nggums_vdt1101.sh	2009-02-23 14:44:39.000000000 +1300
+@@ -36,20 +36,25 @@
+ #
+ # Pacman, VDT
+ mkdir -p /opt/vdt; cd /opt/vdt
+-if [ ! -d pacman-3.20 ]; then
++PACMAN=pacman-3.26
++if [ ! -d $PACMAN ]; then
+   echo "==> Installing Pacman!"
+-  wget http://physics.bu.edu/pacman/sample_cache/tarballs/pacman-3.20.tar.gz &&
+-  tar xzf pacman-3.20.tar.gz && echo "==> Done!" || echo "==> Failed!"
++  wget http://physics.bu.edu/pacman/sample_cache/tarballs/$PACMAN.tar.gz &&
++  tar xzf $PACMAN.tar.gz && echo "==> Done!" || echo "==> Failed!"
+ fi
+-cd pacman-3.20 && source setup.sh && cd ..
++cd $PACMAN && source setup.sh && cd ..
+ 
+ #
+ # VDT Components
++PLATFORM="-pretend-platform linux-rhel-4"
++VDTVER=1.10.1
++VDTMIRROR=http://vdt.cs.wisc.edu/vdt_1101_cache/
++PACMAN_CMD="pacman $PLATFORM $ProxyString -get"
+ for Component in GUMS Fetch-CRL CA-Certificates-Updater ; do
+-  echo "==> Checking/Installing: $Component"
+-  pacman -pretend-platform linux-rhel-5 $ProxyString \
+-    -get http://vdt.cs.wisc.edu/vdt_181_cache:$Component || echo "==> Failed!"
++  PACMAN_CMD="$PACMAN_CMD $VDTMIRROR:$Component"
+ done
++echo "==> Running: $PACMAN_CMD"
++$PACMAN_CMD || echo "==> Failed!"
+ 
+ #
+ # Save original gums.config file, create system-wide aliases
+@@ -60,11 +65,29 @@
+ echo "alias vdt 'source /opt/vdt/setup.csh'" >/etc/profile.d/vdt.csh
+ . /etc/profile
+ . /opt/vdt/setup.sh
++
++echo "==> Installing IGTF CA Certificates"
++# Use VDT-provided IGTF CA certificates bundle
++CA_CONFIG_FILE=/opt/vdt/vdt/etc/vdt-update-certs.conf
++if ! grep '^cacerts_url *=' $CA_CONFIG_FILE > /dev/null ; then 
++  sed --in-place=.ORI -e '/vdt-igtf-ca-certs-version/ a \
++cacerts_url = http://vdt.cs.wisc.edu/software/certificates/vdt-igtf-ca-certs-version
++' $CA_CONFIG_FILE
++# not needed: . vdt-questions.sh
++/opt/vdt/vdt/sbin/vdt-setup-ca-certificates || echo "==> Failed!"
++else
++  echo "Not needed!"
++fi
++
++# now we can proceed with business as usual - Apache and FetchCRL will now run fine
++
++
++
+ vdt-control --on && echo "==> Created: system-wide aliases"
+ 
+ #
+ # Wrapup
+-echo "==> Running: /opt/vdt/fetch-crl/share/doc/fetch-crl-2.6.2/fetch-crl.cron"
++echo "==> Running: /opt/vdt/fetch-crl/share/doc/fetch-crl-2.6.6/fetch-crl.cron"
+ cd /tmp &&
+-  nohup /opt/vdt/fetch-crl/share/doc/fetch-crl-2.6.2/fetch-crl.cron >/dev/null &
+-exit 0
+\ No newline at end of file
++  nohup /opt/vdt/fetch-crl/share/doc/fetch-crl-2.6.6/fetch-crl.cron >/dev/null &
++exit 0

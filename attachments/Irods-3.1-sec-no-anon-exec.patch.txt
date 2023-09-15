@@ -1,0 +1,63 @@
+diff -u -r iRODS-3.1-vanilla/lib/core/include/rodsErrorTable.h iRODS-3.1/lib/core/include/rodsErrorTable.h
+--- iRODS-3.1-vanilla/lib/core/include/rodsErrorTable.h 2012-03-13 12:23:40.000000000 +1300
++++ iRODS-3.1/lib/core/include/rodsErrorTable.h 2013-11-25 15:43:29.000000000 +1300
+@@ -205,7 +205,7 @@
+ #define BULK_OPR_MISMATCH_FOR_RESTART  -357000
+ #define OBJ_PATH_DOES_NOT_EXIST                -358000
+ #define SYMLINKED_BUNFILE_NOT_ALLOWED  -359000
++#define USER_NOT_ALLOWED_TO_EXEC_CMD -370000 
+
+ /* 500,000 to 800,000 - file driver error */
+ #define FILE_INDEX_LOOKUP_ERR          -500000
+diff -u -r iRODS-3.1-vanilla/lib/core/src/rodsLog.c iRODS-3.1/lib/core/src/rodsLog.c
+--- iRODS-3.1-vanilla/lib/core/src/rodsLog.c    2012-03-13 12:23:40.000000000 +1300
++++ iRODS-3.1/lib/core/src/rodsLog.c    2013-11-25 15:44:37.000000000 +1300
+@@ -208,6 +208,7 @@
+     BULK_OPR_MISMATCH_FOR_RESTART,
+     OBJ_PATH_DOES_NOT_EXIST,
+     SYMLINKED_BUNFILE_NOT_ALLOWED,
++    USER_NOT_ALLOWED_TO_EXEC_CMD,
+     FILE_INDEX_LOOKUP_ERR,
+     UNIX_FILE_OPEN_ERR,
+     UNIX_FILE_CREATE_ERR,
+@@ -1135,7 +1136,7 @@
+     "SYS_HANDLER_DONE_NO_ERROR",
+     "SYS_NO_HANDLER_REPLY_MSG",
+ };
+-int irodsErrorCount= 551;
++int irodsErrorCount= 552;
+ /* END generated code */ 
+
+ static int verbosityLevel=LOG_ERROR;
+diff -u -r iRODS-3.1-vanilla/server/api/src/rsAuthResponse.c iRODS-3.1/server/api/src/rsAuthResponse.c
+--- iRODS-3.1-vanilla/server/api/src/rsAuthResponse.c   2011-02-26 09:45:17.000000000 +1300
++++ iRODS-3.1/server/api/src/rsAuthResponse.c   2013-11-19 09:34:35.000000000 +1300
+@@ -12,7 +12,7 @@
+ /* Set requireServerAuth to 1 to fail authentications from
+    un-authenticated Servers (for example, if the LocalZoneSID
+    is not set) */
+-#define requireServerAuth 0 
++#define requireServerAuth 1 
+
+ int
+ rsAuthResponse (rsComm_t *rsComm, authResponseInp_t *authResponseInp)
+diff -u -r iRODS-3.1-vanilla/server/api/src/rsExecCmd.c iRODS-3.1/server/api/src/rsExecCmd.c
+--- iRODS-3.1-vanilla/server/api/src/rsExecCmd.c        2012-03-20 10:54:31.000000000 +1300
++++ iRODS-3.1/server/api/src/rsExecCmd.c        2013-11-25 15:46:01.000000000 +1300
+@@ -72,6 +72,16 @@
+	return (BAD_EXEC_CMD_PATH);
+     }
+
++    /* Also check for anonymous. As an additional safety precaution,
++    by default, do not allow the anonymous user (if defined) to
++    execute commands via rcExecCmd. If your site needs to allow
++    this for some particular feature, you can remove the
++    following check.
++    */
++    if (strncmp(ANONYMOUS_USER, rsComm->clientUser.userName,NAME_LEN) == 0) {
++      return(USER_NOT_ALLOWED_TO_EXEC_CMD);
++    }
++
+     memset (&addr, 0, sizeof (addr));
+     if (*execCmdInp->hintPath != '\0') {
+	dataObjInp_t dataObjInp;

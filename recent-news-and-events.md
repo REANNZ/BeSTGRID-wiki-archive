@@ -182,7 +182,7 @@ eResearch Australasia 2007 at The University of Queensland in Brisbane, Australi
 [BeSTGRID Steering Committee](category-steering-committee.md) meeting (**[SC Q3 TEC Report review](/wiki/spaces/BeSTGRID/pages/3818228956)**), to be held via [EVO](http://evo.vrvs.org)
 - 9 - 11 May 2007
 
-GOVIS conference [Innovation in ICT](http://www.govis.org.nz/conference.htm) ([Paul Bonnington](paulbonningtonbestgridorg.md) presenting about BeSTGRID. Copy of the Powerpoint Presentation [Part 1](/wiki/download/attachments/3818228852/Bonnington-govis-part1.pdf?version=1&modificationDate=1539354282000&cacheVersion=1&api=v2),  [Part 2](/wiki/download/attachments/3818228852/Bonnington-govis-part2.pdf?version=1&modificationDate=1539354281000&cacheVersion=1&api=v2) and [Part 3](/wiki/download/attachments/3818228852/Bonnington-govis-part3.pdf?version=1&modificationDate=1539354281000&cacheVersion=1&api=v2).)
+GOVIS conference [Innovation in ICT](http://www.govis.org.nz/conference.htm) ([Paul Bonnington](paulbonningtonbestgridorg.md) presenting about BeSTGRID. Copy of the Powerpoint Presentation [Part 1](attachments/Bonnington-govis-part1.pdf),  [Part 2](attachments/Bonnington-govis-part2.pdf) and [Part 3](attachments/Bonnington-govis-part3.pdf).)
 - 29 April - May 2, 2007
 
 [EDUCAUSE Australasia 2007](http://www.caudit.edu.au/educauseaustralasia07/index.htm) ([Paul Bonnington](paulbonningtonbestgridorg.md) and Tim Chaffe from BeSTGRID attending)
@@ -200,7 +200,7 @@ Maurice Wilkins Centre and in conjunction with BeSTGRID presents a NZ-AccessGRID
 [Public Lecture by ](/wiki/spaces/BeSTGRID/pages/3818228590)[**Professor Marcus du Sautoy**](/wiki/spaces/BeSTGRID/pages/3818228590)[ ](/wiki/spaces/BeSTGRID/pages/3818228590)[*The Music of the Primes*](/wiki/spaces/BeSTGRID/pages/3818228590) Presented by The New Zealand Institute of Mathematics at its Applications and BeSTGRID. [Details on how to participate in the public lecture LIVE from your University](marcus-du-sautoy.md).
 - Thursday 15 March, Friday 16 March, and Tuesday 20 March
 
-The University of Auckland and the BeSTGRID Project, in association with Communication Partners, InternetNZ, and the HIT Lab NZ will host [a demonstration of “Advanced Video Conferencing” platforms](/wiki/spaces/BeSTGRID/pages/3818228891) ([Information Brochure](/wiki/download/attachments/3818228852/Lifesize.doc?version=1&modificationDate=1539354281000&cacheVersion=1&api=v2))
+The University of Auckland and the BeSTGRID Project, in association with Communication Partners, InternetNZ, and the HIT Lab NZ will host [a demonstration of “Advanced Video Conferencing” platforms](/wiki/spaces/BeSTGRID/pages/3818228891) ([Information Brochure](attachments/Lifesize.doc))
 - [30 January, First 2007 BeSTGRID Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228946)
 
 to be held via [EVO](http://evo.vrvs.org)
@@ -214,7 +214,7 @@ Final 2006 [BeSTGRID Steering Committee](category-steering-committee.md) meeting
 [BeSTGRID Steering Committee](category-steering-committee.md) meeting ([SC December 2006](/wiki/spaces/BeSTGRID/pages/3818228766)), to be held via [EVO](http://evo.vrvs.org)
 - 30 November 2006
 
-Auckland: IEEE New Zealand Workshop High Performance and Grid Computing [Computing_workshop.pdf](/wiki/download/attachments/3818228852/Computing_workshop.pdf?version=1&modificationDate=1539354282000&cacheVersion=1&api=v2)
+Auckland: IEEE New Zealand Workshop High Performance and Grid Computing [Computing_workshop.pdf](attachments/Computing_workshop.pdf)
 - 23 November 2006
 
 [BeSTGRID Steering Committee](category-steering-committee.md) meeting ([SC November 2006](/wiki/spaces/BeSTGRID/pages/3818228530)), first to be held via [EVO](http://evo.vrvs.org)
@@ -297,10 +297,10 @@ Following the good work of Vladmir Mencl and the University of Canterbury BeSTGR
 BeSTGRID demonstrates for the first time in NZ live remote teaching on KAREN: a graduate class at the University of Canterbury is taught by a University of Auckland-based lecturer from the comfort of his own office. See the article on [Remote Teaching using EVO](/wiki/spaces/BeSTGRID/pages/3818228683).
 - 9 - 11 May 2007
 
-GOVIS conference [Innovation in ICT](http://www.govis.org.nz/conference.htm) ([Paul Bonnington](paulbonningtonbestgridorg.md) presented about BeSTGRID. Copy of the Powerpoint Presentation [Part 1](/wiki/download/attachments/3818228852/Bonnington-govis-part1.pdf?version=1&modificationDate=1539354282000&cacheVersion=1&api=v2),  [Part 2](/wiki/download/attachments/3818228852/Bonnington-govis-part2.pdf?version=1&modificationDate=1539354281000&cacheVersion=1&api=v2) and [Part 3](/wiki/download/attachments/3818228852/Bonnington-govis-part3.pdf?version=1&modificationDate=1539354281000&cacheVersion=1&api=v2).)
+GOVIS conference [Innovation in ICT](http://www.govis.org.nz/conference.htm) ([Paul Bonnington](paulbonningtonbestgridorg.md) presented about BeSTGRID. Copy of the Powerpoint Presentation [Part 1](attachments/Bonnington-govis-part1.pdf),  [Part 2](attachments/Bonnington-govis-part2.pdf) and [Part 3](attachments/Bonnington-govis-part3.pdf).)
 - 22 March 2007
 
-Press Release [Pacific Rim Researchers to Collaborate on Distributed Bioinformatics Analysis of Avian Flu Using Global Computational Data Grid](/wiki/download/attachments/3818228852/Tatrc.doc?version=1&modificationDate=1539354282000&cacheVersion=1&api=v2)
+Press Release [Pacific Rim Researchers to Collaborate on Distributed Bioinformatics Analysis of Avian Flu Using Global Computational Data Grid](attachments/Tatrc.doc)
 - 20 - 22 March 2007
 
 Bangkok, Thailand [PRAGMA 12](http://www.pragma-grid.net/pragma12.htm) (Neil Gemmell presented about BeSTGRID. [Final Report](/wiki/spaces/BeSTGRID/pages/3818228764))
@@ -341,4 +341,4 @@ Vladimir Mencl joins BeSTGRID as a programmer at [Canterbury University](http://
 [Australian Government has allocated $15 million under the Systemic Infrastructure Initiative](http://www.dest.gov.au/Ministers/Media/Bishop/2006/07/B001310706.asp)
 - March 2006
 
-About BeSTGRID: University of Auckland News article March 2006 [Uni-news-pg4.pdf](/wiki/download/attachments/3818228852/Uni-news-pg4.pdf?version=1&modificationDate=1539354282000&cacheVersion=1&api=v2)
+About BeSTGRID: University of Auckland News article March 2006 [Uni-news-pg4.pdf](attachments/Uni-news-pg4.pdf)

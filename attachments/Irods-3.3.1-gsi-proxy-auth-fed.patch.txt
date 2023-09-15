@@ -1,0 +1,17 @@
+--- iRODS-3.3.1-vanilla/server/api/src/rsGsiAuthRequest.c	2013-04-05 10:21:42.000000000 +1300
++++ iRODS-3.3.1/server/api/src/rsGsiAuthRequest.c	2015-03-20 16:17:23.000000000 +1300
+@@ -222,10 +222,14 @@
+ 	memset (&genQueryInp, 0, sizeof (genQueryInp_t));
+ 	snprintf (condition1, MAX_NAME_LEN, "='%s'", 
+ 		rsComm->clientUser.userName);
+ 	addInxVal (&genQueryInp.sqlCondInp, COL_USER_NAME, condition1);
+ 
++	snprintf (condition2, MAX_NAME_LEN, "='%s'", 
++		rsComm->clientUser.rodsZone);
++	addInxVal (&genQueryInp.sqlCondInp, COL_USER_ZONE, condition2);
++
+ 	addInxIval (&genQueryInp.selectInp, COL_USER_ID, 1);
+ 	addInxIval (&genQueryInp.selectInp, COL_USER_TYPE, 1);
+ 	addInxIval (&genQueryInp.selectInp, COL_USER_ZONE, 1);
+ 
+ 	genQueryInp.maxRows = 2;

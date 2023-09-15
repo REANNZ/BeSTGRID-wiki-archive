@@ -1,0 +1,112 @@
+--- pbs.pm.ngcompute-sav-2008-01-10	2007-11-14 12:11:56.000000000 +1300
++++ pbs.pm.ngcompute	2008-02-22 15:41:50.000000000 +1300
+@@ -6,6 +6,9 @@
+ use Globus::GRAM::JobManager;
+ use Globus::Core::Paths;
+ 
++use Globus::GRAM::JobManager::getcertdn;
++use IO::File;
++
+ use Config;
+ 
+ # NOTE: This package name must match the name of the .pm file!!
+@@ -40,6 +43,12 @@
+     my $pbs_job_script;
+     my $pbs_job_script_name;
+     my $pbs_qsub_err_name ;
++
++    # Vladimir Mencl
++    my $pbs_email_address;
++    my $globus_user_dn = "";
++    my $globus_user_email = "";
++
+     my $errfile = '';
+     my $job_id;
+     my $rsh_env = '';
+@@ -136,6 +145,25 @@
+ 	$self->log('   using queue default');
+     }
+ 
++    # Vladimir Mencl
++    #  ($description->_environment is an array of pointers. Each points to an array of 2 elements.
++    #  Store environment variables information in %job_environment hash.
++   foreach $tuple ($description->environment()) {
++      $env_key = $tuple->[0];
++      $env_value = $tuple->[1];
++      $job_environment{$env_key} = $env_value;
++   }
++
++    $self->log("Determining user distinguished name and email address from delegated job certificate");
++    $pbs_email_address = $description->email_address();
++    if ($job_environment{X509_USER_CERT}) {
++       ($globus_user_dn, $globus_user_email) = Globus::GRAM::JobManager::getcertdn::getCertDNEmail($job_environment{X509_USER_CERT});
++    }
++
++    if ($globus_user_email && ! $pbs_email_address) {
++       $pbs_email_address = $globus_user_email;
++    };
++
+     $self->log('Building job script');
+ 
+     $pbs_job_script_name = $self->job_dir() . '/scheduler_pbs_job_script';
+@@ -150,9 +178,9 @@
+ EOF
+     chomp($submit_host = `/bin/hostname -s`);	# APAC-specific job-name, email 
+     print JOB '#PBS -N Grid_', $submit_host, "_", $description->jobname(), "\n";
+-    if($description->email_address() ne '')
++    if($pbs_email_address ne '')
+     {
+-        print JOB '#PBS -M ', $description->email_address(), "\n";
++        print JOB '#PBS -M ', $pbs_email_address, "\n";
+     }
+     if($description->emailonabort() eq 'yes')
+     {
+@@ -244,6 +272,28 @@
+                        ['GLOBUS_USER_HOME',$ENV{'HOME'}],
+                        ['GLOBUS_USER_NAME',$ENV{'LOGNAME'}],
+                        ['GLOBUS_SCRATCH_DIR',$ENV{'HOME'}."/.globus/scratch"]);
++    # Vladimir Mencl: merge "tagging" environment variables we (hopefully) extracted from the delegated job credential
++    if ($globus_user_email) {
++       push @environment,(['GLOBUS_USER_EMAIL', $globus_user_email]);
++    };
++    if ($globus_user_dn) {
++       push @environment,(['GLOBUS_USER_DN', $globus_user_dn]);
++    };
++
++    # Vladimir Mencl: list env vars listed in TAGS as PBS job vars
++    @tagging_env_vars = qw(GLOBUS_USER_EMAIL GLOBUS_USER_DN);
++    my %tagging_env_vars_hash;
++    my $tag_string = "";
++    foreach (@tagging_env_vars) { $tagging_env_vars_hash{$_}=$_ };
++    foreach my $tuple ( @environment ) {
++       if (exists($tagging_env_vars_hash{$tuple->[0]})) {
++           if ($tag_string) { $tag_string .= ","; };
++           $tag_string .= "$tuple->[0]='$tuple->[1]'"; 
++       };
++    };
++    if ($tag_string) { 
++        print JOB "#PBS -v $tag_string\n";
++    };
+ 
+     foreach my $tuple (@environment)
+     {
+@@ -413,6 +463,19 @@
+     if($? == 0)
+     {
+         $self->log("job submission successful, setting state to PENDING");
++
++        ### Vladimir Mencl: log Job-DN if we know it
++        $job_msg = "$job_id;$globus_user_email;$globus_user_dn";
++        system("logger -t Job-DN-Submit '$job_msg'");
++        $job_dn_file = new IO::File("/opt/vdt/globus/var/pbs-acct/jobdn-subm.log",">>");
++        if ($job_dn_file) {
++            my ($timestr);
++            $timestr = `date`;
++            chomp $timestr;
++            $job_dn_file->print("$timestr;$job_msg\n");
++            $job_dn_file->close();
++        };
++
+ 	return {JOB_ID => $job_id,
+ 	        JOB_STATE => Globus::GRAM::JobState::PENDING };
+     }

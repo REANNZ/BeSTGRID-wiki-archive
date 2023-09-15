@@ -104,7 +104,7 @@ These changes have to be implemented for each of the K-12 IdPs:
 ## Load the metadata of the E-Cast server
 
 - The Metadata distribution point is: [https://www.etv.org.nz/Shibboleth.sso/Metadata](https://www.etv.org.nz/Shibboleth.sso/Metadata)
-- The PHP code to configure this metadata into SimpleSAMLphp is (also attached as [saml20-sp-remote.php](/wiki/download/attachments/3818228482/Saml20-sp-remote.txt?version=1&modificationDate=1539354136000&cacheVersion=1&api=v2))
+- The PHP code to configure this metadata into SimpleSAMLphp is (also attached as [saml20-sp-remote.php](attachments/Saml20-sp-remote.txt))
 
 ``` 
 

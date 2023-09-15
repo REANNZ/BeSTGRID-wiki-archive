@@ -1,0 +1,55 @@
+#!/usr/bin/perl -w
+
+# usage:
+#
+# use Globus::GRAM::JobManager::getcertdn;
+#
+# 
+# ($user_dn, $user_email) = Globus::GRAM::JobManager::getcertdn::getCertDNEmail($x509cert_file});
+#    or
+# ($job_environment{GLOBUS_USER_DN}, $job_environment{GLOBUS_USER_EMAIL}) = Globus::GRAM::JobManager::getcertdn::getCertDNEmail($job_environment{X509_USER_CERT});
+#
+# Developed by Vladimir Mencl <vladimir.mencl@canterbury.ac.nz> for the University of Canterbury.
+#
+# Released under the GNU General Public License (GPL) version 2.
+
+
+use IPC::Open2;
+use IO::Handle;
+
+package Globus::GRAM::JobManager::getcertdn;
+
+sub getCertDNEmail
+{
+  my $certfile = shift;
+  my ($certDN, $certEmail);
+  my $certData;
+  my $savSlash;
+  my ($f_to_openssl, $f_from_openssl);
+
+  open(CERTFILE,$certfile) or return undef;
+  $savSlash=$/;
+  $/=undef;
+  $certData=<CERTFILE>;
+  $/=$savSlash;
+  close(CERTFILE);
+
+  while ( $certData =~ s/(-----BEGIN CERTIFICATE-----[^ ]*-----END CERTIFICATE-----)//m )
+  {
+    IPC::Open2::open2($f_from_openssl, $f_to_openssl, "openssl x509 -subject -email") or return undef;
+    $f_to_openssl->autoflush();
+    print $f_to_openssl "$1\n";
+    while (<$f_from_openssl>) {
+      chomp;
+      if ( /^subject= (.*)$/ ) { $certDN=$1; }
+      elsif ( /^([^@]+@[^@]+)$/ ) { $certEmail=$1; };
+    };
+    close ($f_to_openssl);
+    close ($f_from_openssl);
+  };
+  return ($certDN, $certEmail);
+};
+
+1;
+
+

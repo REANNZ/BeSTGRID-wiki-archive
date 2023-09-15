@@ -1,0 +1,18 @@
+--- /root/inst/pbs-acct/auditquery-gridaus-logfile	2008-02-19 16:14:47.000000000 +1300
++++ auditquery	2008-02-25 11:15:23.000000000 +1300
+@@ -18,7 +18,7 @@
+ mysql <<EOF 2>/dev/null | sed -n '2,$p' |
+ use auditDatabase;
+ select concat_ws(' ',local_job_id, subject_name)
+-from gram_audit_table;
++from gram_audit_table where local_job_id is not NULL;
+ EOF
+ while read Line; do
+   echo     "`date` Job-DN: $Line" >> /opt/vdt/globus/var/pbs-acct/jobdn.log
+@@ -33,5 +33,5 @@
+ # Perform deletions
+ ( cat $File
+   echo "delete from  gram_audit_table"
+-  echo "where local_job_id is NULL;" ) | mysql >/dev/null 2>&1
++  echo "where local_job_id is NULL and finished_flag = 'true';" ) | mysql >/dev/null 2>&1
+ exit 0

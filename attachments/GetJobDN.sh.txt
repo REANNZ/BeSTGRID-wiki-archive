@@ -1,0 +1,18 @@
+#!/bin/bash
+# 
+# We are in a potentially SUID script - be very careful about what we trust
+#
+
+VDT_LOCATION=/opt/vdt
+GLOBUS_LOCATION=$VDT_LOCATION/globus
+MYSQL=$VDT_LOCATION/mysql/bin/mysql
+JOB_MANAGER_DIR=$GLOBUS_LOCATION/lib/perl/Globus/GRAM/JobManager
+MYSQL_CONF=$JOB_MANAGER_DIR/audit-mysql.conf
+LD_LIBRARY_PATH="$VDT_LOCATION/mysql/lib/mysql:$GLOBUS_LOCATION/lib:$LD_LIBRARY_PATH" # necessary when SUID
+export LD_LIBRARY_PATH
+
+SAFE_EPR=$( echo $1 | tr -d "'"'\`${}()*!%^&' )
+$MYSQL --defaults-file=$MYSQL_CONF --user audit --skip-column-names auditDatabase<<EOF
+select subject_name from gram_audit_table where job_grid_id='$SAFE_EPR';
+EOF
+

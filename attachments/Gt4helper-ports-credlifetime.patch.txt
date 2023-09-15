@@ -1,0 +1,51 @@
+Index: src/au/edu/jcu/hpc/xjse/GT4Helper/GT4Job.java
+===================================================================
+--- src/au/edu/jcu/hpc/xjse/GT4Helper/GT4Job.java	(revision 33)
++++ src/au/edu/jcu/hpc/xjse/GT4Helper/GT4Job.java	(working copy)
+@@ -303,8 +303,8 @@
+ 				factoryType = ManagedJobFactoryConstants.FACTORY_TYPE.LSF;
+ 			else if(factoryType.toLowerCase().trim().equals(ManagedJobFactoryConstants.FACTORY_TYPE.CONDOR.toLowerCase().trim()))
+ 				factoryType = ManagedJobFactoryConstants.FACTORY_TYPE.CONDOR;
+-			else 
+-				throw new GT4Exception("Factory type \"" + factoryType +  "\" not recognized.");
++			//else 
++			//	throw new GT4Exception("Factory type \"" + factoryType +  "\" not recognized.");
+ 
+ 			factoryEndpoint = ManagedJobFactoryClientHelper.getFactoryEndpoint(factoryUrl, factoryType);
+ 			factoryPort = ManagedJobFactoryClientHelper.getPort(factoryEndpoint);
+@@ -431,9 +431,33 @@
+ 		int port = factoryEndpoint.getAddress().getPort();
+ 		String factoryUrl = protocol + "://" + host + ":" + port + DelegationConstants.SERVICE_BASE_PATH + DelegationConstants.FACTORY_PATH;
+ 
+-        GlobusCredential cred = ((GlobusGSSCredentialImpl) clientSecDesc.getGSSCredential()).getGlobusCredential();
++		GlobusCredential cred = ((GlobusGSSCredentialImpl) clientSecDesc.getGSSCredential()).getGlobusCredential();
++		int duration = DEFAULT_DURATION_HOURS * 60 * 60;
++                long jobDuration = 0;
+ 
+-		return DelegationUtil.delegate(factoryUrl, cred, certToSign, DEFAULT_DURATION_HOURS * 60 * 60, true, clientSecDesc);
++		/*
++		 * If MaxWallTime (or MaxCPUTime) is not set, the GT4JobSpec
++		 * accessor method will throw a NullPointerException.  Thus, a
++		 * call to the method must be enclosed in a try-catch block;
++		 * jobDuration will stay 0 if an exception is thrown.
++                 */
++                try {
++                  jobDuration = spec.getMaxWallTime();
++                } catch (NullPointerException e) { /* empty: stay zero  */ };
++		if (jobDuration != 0) 
++		    duration += jobDuration * 60;
++		/*
++		 * JobSpec duration time is in minutes, hence multiplying by 60
++		 * to get seconds.
++		 *
++		 * The credentials should have a longer duration than job
++		 * MaxWallTime to account for scheduler overhead and possibly
++		 * for some time the job spends waiting in the queue.  Using
++		 * DEFAULT_DURATION_HOURS as the overhead is just convenient,
++		 * and it's as good ad-hoc value as any other would be.
++		 */
++
++		return DelegationUtil.delegate(factoryUrl, cred, certToSign, duration, true, clientSecDesc);
+ 	}
+ 
+ 	/**

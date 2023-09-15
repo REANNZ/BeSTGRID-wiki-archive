@@ -1,0 +1,58 @@
+diff -u -r iRODS-3.3.1.orig/server/core/src/fileOpr.c iRODS-3.3.1/server/core/src/fileOpr.c
+--- iRODS-3.3.1.orig/server/core/src/fileOpr.c	2013-05-22 09:38:47.000000000 +1200
++++ iRODS-3.3.1/server/core/src/fileOpr.c	2014-10-20 13:57:27.857157955 +1300
+@@ -120,6 +120,9 @@
+ 
+ /* mk the directory resursively */ 
+ 
++#define ROBS_QUICKFIX //in server/core/src/fileOpr.c
++
++
+ int
+ mkFileDirR (int fileType, rsComm_t *rsComm, char *startDir, 
+ char *destDir, int mode)
+@@ -153,9 +156,13 @@
+             if (statbuf.st_mode & S_IFDIR) {
+                 break;
+             } else {
++#ifdef ROBS_QUICKFIX /*Altered error message to differentiate it from one below and to record full destDir path*/
++                rodsLog (LOG_NOTICE, "mkFileDirR(%s).fileStat: A local non-directory %s already exists \n", destDir, tmpPath);
++#else
+ 		 rodsLog (LOG_NOTICE,
+                  "mkFileDirR: A local non-directory %s already exists \n",
+                   tmpPath);
++#endif
+                 return (status);
+             }
+         }
+@@ -195,10 +202,30 @@
+         status = fileMkdir ((fileDriverType_t)fileType, rsComm, tmpPath, mode, NULL);
+ #endif
+         if (status < 0 && (getErrno (status) != EEXIST)) {
++#ifdef ROBS_QUICKFIX /* ######### Warning: This could be a different status code  in another OS or underlying file store */
++            if(status == -520017 )
++            {
++            int fstatus;
++              fstatus = fileStat ( (fileDriverType_t)fileType, rsComm, tmpPath, &statbuf);
++              if (fstatus >= 0 && (statbuf.st_mode & S_IFDIR) == 0) //Exists and is an ordinary file
++              {
++                 rodsLog (LOG_NOTICE, "mkFileDirR(%s).fileMkdir: A local non-directory %s already exists \n", destDir, tmpPath);
++                return (status); //Note status, not fstatus. i.e. the original error.
++              }
++              /* else should there be an ACL check here to see if we can write to this new directory ? */
++            }
++            else
++            {
++#endif /* ########## */
++
+ 	    rodsLog (LOG_NOTICE,
+              "mkFileDirR: mkdir failed for %s, status =%d",
+               tmpPath, status);
+             return status;
++#ifdef ROBS_QUICKFIX /* ######### Need to close else {} */
++            }
++#endif /* ########## End of patch */
++
+         }
+ #if 0	/* a fix from AndyS */
+         while (tmpLen && tmpPath[tmpLen] != '\0')

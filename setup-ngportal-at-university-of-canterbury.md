@@ -629,7 +629,7 @@ log4j.appender.LOGFILE.layout.ConversionPattern=%r:%p:(%F:%M:%L)%n< %m >%n%n
 ```
 
 
-- commit the [GT4Helper changes](/wiki/download/attachments/3818228958/Gt4helper-ports-credlifetime.patch.txt?version=1&modificationDate=1539354348000&cacheVersion=1&api=v2) (
+- commit the [GT4Helper changes](attachments/Gt4helper-ports-credlifetime.patch.txt) (
 !Gt4helper-ports-credlifetime.patch.txt!
 ) to David Laing (GT4Helper)
 	

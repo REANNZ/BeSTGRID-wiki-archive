@@ -305,7 +305,7 @@ IDP_HOME=$SHIB_HOME $SHIB_HOME/bin/metadatatool -i file:////usr/local/shibboleth
 
 Download the update script from here:
 
-- [idp-bestgrid-metadata](/wiki/download/attachments/3818228463/Idp-bestgrid-metadata.txt?version=1&modificationDate=1539354143000&cacheVersion=1&api=v2) (download)
+- [idp-bestgrid-metadata](attachments/Idp-bestgrid-metadata.txt) (download)
 - !Idp-bestgrid-metadata.txt!
  (file information)
 
