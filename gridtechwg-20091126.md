@@ -1,6 +1,6 @@
 # GridTechWG-20091126
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting November 26, 2009.
+[Grid Technical Working Group](grid-technical-working-group.md): meeting November 26, 2009.
 
 ## Program
 

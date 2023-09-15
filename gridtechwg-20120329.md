@@ -1,6 +1,6 @@
 # GridTechWG-20120329
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting March 29th, 2012.
+[Grid Technical Working Group](grid-technical-working-group.md): meeting March 29th, 2012.
 
 ## Program
 

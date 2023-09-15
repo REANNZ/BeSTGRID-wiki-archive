@@ -4,7 +4,7 @@ This page provides the LoadLeveler specific details for setting up a GRAM5.2 gri
 
 **Note: This page is a GRAM 5.2 rehash of ****[Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228499)** |
 
-Start by first installing a plain GRAM5.2, following the instructions on the [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) page (skipping all PBS-specific steps), then proceed from here.
+Start by first installing a plain GRAM5.2, following the instructions on the [Setup GRAM5 on CentOS 5](setup-gram5-on-centos-5.md) page (skipping all PBS-specific steps), then proceed from here.
 
 This procedure for setting up a LoadLeveler grid gateway is based on the `llgrid.tar` module that comes with LoadLeveler, and adapts it for GT5.2 with a patch coming from the EU IGE project and additinal locally developed extensions.  Hence, you will need the LoadLeveler distribution available to proceed.
 
@@ -101,7 +101,7 @@ Post-install:
 
 # Installing GRAM5.2
 
-Install a generic GRAM5.2 gateway.  Note: as of 5.2, the Globus Toolkit is distributed in an RPM distribution.  Most of the steps for setting up the gateway are covered in [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) - but as opposed to the compile-from-source instructions there (relevant for GRAM5.0), install from RPMs.
+Install a generic GRAM5.2 gateway.  Note: as of 5.2, the Globus Toolkit is distributed in an RPM distribution.  Most of the steps for setting up the gateway are covered in [Setup GRAM5 on CentOS 5](setup-gram5-on-centos-5.md) - but as opposed to the compile-from-source instructions there (relevant for GRAM5.0), install from RPMs.
 
 # Installing Globus LoadLeveler module
 

@@ -115,4 +115,4 @@ Nick Jones, BeSTGRID, [n.jones@auckland.ac.nz](mailto:n.jones@auckland.ac.nz)
 
 [Mark Gahegan](http://www.sges.auckland.ac.nz/the_school/our_people/gahegan_mark/), SGGES, GEON, [m.gahegan@auckland.ac.nz](mailto:m.gahegan@auckland.ac.nz)
 
-[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3818228895)
+[Workshop Administrivia](workshop__geoscience-november-2007-administration.md)

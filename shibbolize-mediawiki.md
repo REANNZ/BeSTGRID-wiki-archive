@@ -302,8 +302,8 @@ Edit Shibboleth SP configuration (usually is /etc/shibboleth/shibboleth.xml) and
 # References
 
 - [Shibboleth Home - Internet 2](http://shibboleth.internet2.edu/)
-- [Shibboleth](/wiki/spaces/BeSTGRID/pages/3818228969)
-- [Shibboleth Service Provider Setup - RHEL4](/wiki/spaces/BeSTGRID/pages/3818228563)
+- [Shibboleth](shibboleth.md)
+- [Shibboleth Service Provider Setup - RHEL4](shibboleth-service-provider-setup-rhel4.md)
 - [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki)
 - [Shibboleth Deployment Background](https://spaces.internet2.edu/display/SHIB/DeploymentBackground)
 - [Shibboleth Authentication -Meta](http://meta.wikimedia.org/wiki/Shibboleth_Authentication)

@@ -4,7 +4,7 @@ The Globus project has recently released Globus Toolkit 5.0.0, introducing GRAM 
 
 This page documents a test setup of a GT5 grid gateway.  While the other documentation for ARCS Grid / BeSTGRID assumes an install based on VDT, this page bypasses VDT (not supporting GT5 yet) and installs all packages directly from their source.
 
-This page is targeted at PBS/Torque clusters - as a proof of concept.  For other Local Resource Managers (LRMs) like SGE or LoadLeveler, please refer to the LRM-specific supplementary documentation, to be linked from the [Setting up a grid gateway](/wiki/spaces/BeSTGRID/pages/3818228546) page.  If not available there, you may also find useful LRM-specific pages written for GT4, linked from the [NG2 setup page](/wiki/spaces/BeSTGRID/pages/3818228585).
+This page is targeted at PBS/Torque clusters - as a proof of concept.  For other Local Resource Managers (LRMs) like SGE or LoadLeveler, please refer to the LRM-specific supplementary documentation, to be linked from the [Setting up a grid gateway](/wiki/spaces/BeSTGRID/pages/3818228546) page.  If not available there, you may also find useful LRM-specific pages written for GT4, linked from the [NG2 setup page](setting-up-an-ng2.md).
 
 The LRM-specific pages available for GRAM5 so far are:
 
@@ -13,7 +13,7 @@ The LRM-specific pages available for GRAM5 so far are:
 
 # Preliminaries
 
-The *OS requirements*, *Network requirements* and requirements for *Cluster integration* host *Certificate* are the same as when [installing an NG2](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-preliminaries).
+The *OS requirements*, *Network requirements* and requirements for *Cluster integration* host *Certificate* are the same as when [installing an NG2](setting-up-an-ng2.md#SettingupanNG2-preliminaries).
 
 - The conventional name for a GT5 based gateway is NG1 (as it replaces a GT2 based gateway).
 

@@ -8,7 +8,7 @@ The local job scheduler is commonly referred to as a *local resource manager* (L
 
 as it may do more than merely schedule jobs. This document will use that latter terminology.
 
-The NG2 runs the Globus Tookit 4, installed from the [Virtual Data Toolkit](http://vdt.cs.wisc.edu/) (VDT) distribution, version 2.0.0 at the time of writing.  The NG2 is configured to make authorization decisions through callouts to a GUMS server (instead of a plain text grid-mapfile), so [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918) is an essential pre-requisite to setting up an NG2.
+The NG2 runs the Globus Tookit 4, installed from the [Virtual Data Toolkit](http://vdt.cs.wisc.edu/) (VDT) distribution, version 2.0.0 at the time of writing.  The NG2 is configured to make authorization decisions through callouts to a GUMS server (instead of a plain text grid-mapfile), so [Setting up a GUMS server](setting-up-a-gums-server.md) is an essential pre-requisite to setting up an NG2.
 
 As an NG2 maps user requests to local "unix" accounts and uploads files to their home directories, it can only handle one cluster - or a set of clusters within a single administrative domain, i.e., one set of accounts and home directories.  **Important:** If you are connecting multiple clusters with distinct account sets / different home directories, you will need a separate NG2 for each cluster.
 
@@ -818,7 +818,7 @@ To address these issues, apply the following patches to the master copies of the
 >  vdt-control --off
 >  vdt-control --on
 
-- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails).
+- For more information, see my description of the [problem](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-RFTstagingfails).
 
 # Making local cluster accounts ready for the grid
 

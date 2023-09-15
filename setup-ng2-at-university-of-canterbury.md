@@ -2,7 +2,7 @@
 
 NG2 is a job submission gateway based on Globus Tookit 4.x.  At the University of Canterbury, NG2 submits jobs only to the BeSTGRID prototype cluster, while [Vladimir__Setup NG2HPC](setup-ng2hpc-at-university-of-canterbury.md) and NG2SGE allow to submit jobs to more powerful resources.  The NG2 was setup as a gateway prototype, and also works as the MIP integrator for the other gateways.
 
-**NOTE: This page is a historic relict and is not up to date.  If you are looking for instructions on how to setup a job submission gateway for BeSTGRID, please see the ****[Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585)**** page instead.** |
+**NOTE: This page is a historic relict and is not up to date.  If you are looking for instructions on how to setup a job submission gateway for BeSTGRID, please see the ****[Setting up an NG2](setting-up-an-ng2.md)**** page instead.** |
 
 # Preliminary setup
 
@@ -180,7 +180,7 @@ Job-DN: 1b77e5d6-0299-11dc-a003-00163e84b502:8513 /C=AU/O=APACGrid/O=BeSTGRID/OU
 
 ## Configuring PRIMA
 
-**Note**: in March 2008, I have [installed a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228678) and switched the gateways to use PRIMA.  Due to the [whitespace issue](setup-nggums-at-university-of-canterbury.md), I had to install an updated PRIMA library properly encoding and decoding the whitespace.  I have used the one I compiled when helping to solve the problem, and which was installed on the VDT161 instance on Ng2SGE.
+**Note**: in March 2008, I have [installed a GUMS server](setup-nggums-at-university-of-canterbury.md) and switched the gateways to use PRIMA.  Due to the [whitespace issue](setup-nggums-at-university-of-canterbury.md), I had to install an updated PRIMA library properly encoding and decoding the whitespace.  I have used the one I compiled when helping to solve the problem, and which was installed on the VDT161 instance on Ng2SGE.
 
 After doing that, it was sufficient to turn PRIMA on with:
 
@@ -462,4 +462,4 @@ Note that in order for the wsrf-query command to work, certain jars with Java XM
 # Additional Modifications
 
 - [PBS job tagging](/wiki/spaces/BeSTGRID/pages/3818228870) to make distinguished name and email address of the user submitting the job available to PBS.
-- [Fixing startup order](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingstartuporder) to avoid problems when Globus RFT starts before MySQL.
+- [Fixing startup order](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-Fixingstartuporder) to avoid problems when Globus RFT starts before MySQL.

@@ -128,7 +128,7 @@ When installing both PRIMA and PRIMA-GT4, the `configure_prima_gt4` script will 
 
 The main advantage of a GUMS server is that it allows a user to choose each time which project group membership should be used in the mapping - or whether to map to a local account instead, if the user has one.
 
-Other pages already document detailed instructions on how to [setup a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228678), and how to [configure local account mappings](/wiki/spaces/BeSTGRID/pages/3818228894).
+Other pages already document detailed instructions on how to [setup a GUMS server](setup-nggums-at-university-of-canterbury.md), and how to [configure local account mappings](/wiki/spaces/BeSTGRID/pages/3818228894).
 
 Assuming a GUMS server is already setup, and the Globus on the grid gateway is configured to ask the GUMS server with user authorization requests via the PRIMA call-outs, the following will configure the GUMS server to accept the PRAGMA user mappings:
 

@@ -1,6 +1,6 @@
 # IRODS deployment plan
 
-**'NOTE: THIS DOCUMENT IS NOW OBSOLETE**' as all useful contents has been merged into the [Installing an iRODS slave server](/wiki/spaces/BeSTGRID/pages/3818228552) document.
+**'NOTE: THIS DOCUMENT IS NOW OBSOLETE**' as all useful contents has been merged into the [Installing an iRODS slave server](installing-an-irods-slave-server.md) document.
 
 The ARCS are successfully operating the ARCS DataFabric, based on iRODS as a distributed storage system and Davis as the web and webDAV interface.
 
@@ -426,7 +426,7 @@ ichmod inherit /BeSTGRID/projects/open
 
 - Based on [https://projects.arcs.org.au/trac/davis/wiki/HowTo/Install](https://projects.arcs.org.au/trac/davis/wiki/HowTo/Install)
 
-- Shibboleth: install ngdata.canterbury.ac.nz as a [Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3818228742), using the name df.bestgrid.org in URLs and entityID.
+- Shibboleth: install ngdata.canterbury.ac.nz as a [Shibboleth 2.x SP](installing-a-shibboleth-2x-sp.md), using the name df.bestgrid.org in URLs and entityID.
 
 - Configure Apache:
 	

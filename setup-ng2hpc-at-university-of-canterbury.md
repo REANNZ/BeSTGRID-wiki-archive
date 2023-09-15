@@ -251,7 +251,7 @@ The main steps have been:
 >  pacman -pretend-platform linux-rhel-4 -get [http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:UberFTP](http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:UberFTP)
 >  pacman -pretend-platform linux-rhel-4 -get [http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:UberFTP](http://www.grid.apac.edu.au/repository/mirror/vdt-1.6.1.mirror:UberFTP)
 
-**Note**: in March 2008, I have [installed a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228678) and switched the gateways to use PRIMA.  Due to the [whitespace issue](setup-nggums-at-university-of-canterbury.md), I had to install an updated PRIMA library properly encoding and decoding the whitespace.  I have used the one I compiled when helping to solve the problem, and which was installed on the VDT161 instance on Ng2SGE.
+**Note**: in March 2008, I have [installed a GUMS server](setup-nggums-at-university-of-canterbury.md) and switched the gateways to use PRIMA.  Due to the [whitespace issue](setup-nggums-at-university-of-canterbury.md), I had to install an updated PRIMA library properly encoding and decoding the whitespace.  I have used the one I compiled when helping to solve the problem, and which was installed on the VDT161 instance on Ng2SGE.
 
 After doing that, it was sufficient to turn PRIMA on with:
 

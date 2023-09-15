@@ -49,7 +49,7 @@ For users who do have a grid certificate, it may be the easiest to use their gri
 
 To delegate a certificate into MyProxy:
 
-- Start [Grix](/wiki/spaces/BeSTGRID/pages/3818228739#GridTools-Grix): [Grix Java WebStart](http://ngportal.canterbury.ac.nz/grid/grix-jdk5-bestgrid.jnlp)
+- Start [Grix](grid-tools.md#GridTools-Grix): [Grix Java WebStart](http://ngportal.canterbury.ac.nz/grid/grix-jdk5-bestgrid.jnlp)
 
 
 >  **Select*Authentication** tab
@@ -351,7 +351,7 @@ Unfortunately, this has to be repeated at least every 10 days - the lifetime of 
 
 To get a SLCS certificate and delegate it into MyProxy:
 
-- Start [Grix](/wiki/spaces/BeSTGRID/pages/3818228739#GridTools-Grix): [Grix Java WebStart](http://www.bestgrid.org/grix)
+- Start [Grix](grid-tools.md#GridTools-Grix): [Grix Java WebStart](http://www.bestgrid.org/grix)
 
 
 >  **Select*Authentication** tab

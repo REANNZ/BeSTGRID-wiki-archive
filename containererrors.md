@@ -119,4 +119,4 @@ If you get repeatedly the following message even for globusrun-ws jobs with no s
 
 >     globusrun-ws: Job failed: Staging error for RSL element fileCleanUp.
 
-Your RFT initialization might have failed and you need to restart the container.  The failure occurred because MySQL wasn't yet running when RFT was initialized - see [this discussion](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails) for more information.
+Your RFT initialization might have failed and you need to restart the container.  The failure occurred because MySQL wasn't yet running when RFT was initialized - see [this discussion](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-RFTstagingfails) for more information.

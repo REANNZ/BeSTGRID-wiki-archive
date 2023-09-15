@@ -1,6 +1,6 @@
 # LDAP-based GUMS mapping to individual accounts
 
-An alternative to [Pool Accounts](/wiki/spaces/BeSTGRID/pages/3818228667) and [Shibboleth Auth  Tool](/wiki/spaces/BeSTGRID/pages/3818228565) to map users to individual accounts on grid gateways.  
+An alternative to [Pool Accounts](/wiki/spaces/BeSTGRID/pages/3818228667) and [Shibboleth Auth  Tool](deploying-shibbolized-authtool-on-a-gums-server.md) to map users to individual accounts on grid gateways.  
 
 # Comparison with Pool Accounts
 

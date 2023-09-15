@@ -24,7 +24,7 @@ Register by going to [http://bestgrid.org/join](http://bestgrid.org/join)
 
 # Start Grisu
 
-- Install Grisu as part of the NeSI tools as documented on the [Grid Tools page Grisu section](/wiki/spaces/BeSTGRID/pages/3818228739#GridTools-Grisu)
+- Install Grisu as part of the NeSI tools as documented on the [Grid Tools page Grisu section](grid-tools.md#GridTools-Grisu)
 - Start Grisu from the installed icon
 - Login with either your Tuakiri login or your grid certificate
 - Submit your first computational job...

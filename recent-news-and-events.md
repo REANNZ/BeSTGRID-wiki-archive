@@ -67,7 +67,7 @@
 Anthony Beitz from the Monash eResearch Centre will be [presenting to BeSTGRID members](/wiki/spaces/BeSTGRID/pages/3818228600) on his work at Monash, and with data repositories and the AAF.
 - 30 October 2008
 
-**[October 2008 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228686)** being held via EVO.
+**[October 2008 Steering Committee meeting](bgsc200810.md)** being held via EVO.
 - 2 October 2008
 
 [2nd trans Tasman Driving eResearch meeting](http://wiki.karen.net.nz/index.php/Trans_Tasman_eResearch_BOF_September_2008) held at [eResearch Australasia](http://www.eresearch.edu.au/jones2008)
@@ -76,7 +76,7 @@ Anthony Beitz from the Monash eResearch Centre will be [presenting to BeSTGRID m
 **[September 2008 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228588)** being held via EVO.
 - 28 August 2008
 
-**[August 2008 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228970)** being held via EVO.
+**[August 2008 Steering Committee meeting](bgsc200808.md)** being held via EVO.
 - 5 August 2008
 
 [1st trans Tasman Driving eResearch meeting](http://wiki.karen.net.nz/index.php/Trans_Tasman_eResearch_BOF) held at [APAN 26](http://www.apan.net/meetings/newzealand2008/index.html)
@@ -87,22 +87,22 @@ Anthony Beitz from the Monash eResearch Centre will be [presenting to BeSTGRID m
 The Asia Pacific Advanced Network Consortium meeting is Asia Pacific’s foremost event for showcasing advanced broadband networking applications and technologies for research and education.
 - 24 July 2008
 
-**[July 2008 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228610)** being held via EVO.
+**[July 2008 Steering Committee meeting](bgsc200807.md)** being held via EVO.
 - 26 June 2008
 
-**[June 2008 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228842)** being held via EVO.
+**[June 2008 Steering Committee meeting](bgsc200806.md)** being held via EVO.
 - 29 May 2008
 
-**[May 2008 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228864)** being held via EVO.
+**[May 2008 Steering Committee meeting](bgsc200805.md)** being held via EVO.
 - 24 April 2008
 
-**[April 2008 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228933)** being held via EVO.
+**[April 2008 Steering Committee meeting](bgsc200804.md)** being held via EVO.
 - 20 March 2008
 
 **[March 2008 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228560)** being held via EVO.
 - 28 February 2008
 
-**[February 2008 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228863)** being held via EVO.
+**[February 2008 Steering Committee meeting](bgsc200802.md)** being held via EVO.
 - 22 February 2008
 
 **[Mike Culver from Amazon visited New Zealand](http://evangelists.wetpaint.com/page/Mike+Culver+NZ+Australia+Feb+2008)** industry and research institutions to discuss [Amazon Web Services](http://aws.amazon.com). [Mike's NZ trip report](http://aws.typepad.com/aws/2008/02/new-zealand-tri.html) details some of the issues he made note of.
@@ -119,7 +119,7 @@ The Asia Pacific Advanced Network Consortium meeting is Asia Pacific’s foremos
 **[Final 2007 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228562)** being held via EVO.
 - 6 December 2007
 
-**[December 2007 Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228888)** being held via EVO.
+**[December 2007 Steering Committee meeting](bgsc200712.md)** being held via EVO.
 - 3 - 4 December 2007
 
 **[ATNAC](http://atnac2007.massey.ac.nz/)** Conference in Christchurch. BeSTGRID Steering Committee members Nevil Brownlee, John Hine, and Nick Jones participate in a [Hot Seat Session](http://atnac2007.massey.ac.nz/HotSeatSession.htm).
@@ -176,7 +176,7 @@ BeSTGRID and Ministry of Education New Zealand will demonstrate Federated Identi
 eResearch Australasia 2007 at The University of Queensland in Brisbane, Australia, with workshops following on 29 June. **[eResearch Australasia 2007](http://www.eresearch.edu.au)** (Project Manager Nick Jones Presenting about BeSTGRID)
 - 31 May, 2007
 
-[BeSTGRID Steering Committee](category-steering-committee.md) meeting (**[SC May 2007](/wiki/spaces/BeSTGRID/pages/3818228484)**), to be held via [EVO](http://evo.vrvs.org)
+[BeSTGRID Steering Committee](category-steering-committee.md) meeting (**[SC May 2007](bgsc200705.md)**), to be held via [EVO](http://evo.vrvs.org)
 - 17 May, 2007
 
 [BeSTGRID Steering Committee](category-steering-committee.md) meeting (**[SC Q3 TEC Report review](/wiki/spaces/BeSTGRID/pages/3818228956)**), to be held via [EVO](http://evo.vrvs.org)
@@ -191,7 +191,7 @@ GOVIS conference [Innovation in ICT](http://www.govis.org.nz/conference.htm) ([P
 [HitLab NZ](http://www.hitlabnz.org/) are running the [Advanced Network Video Conferencing NZ Workshop](http://www.hitlabnz.org/route.php?r=event-view&event_id=36) (Paul Bonnington and Nick Jones Presenting about EVO)
 - April, 2007
 
-[BeSTGRID Steering Committee](category-steering-committee.md) meeting ([SC April 2007](/wiki/spaces/BeSTGRID/pages/3818228978)), to be held via [EVO](http://evo.vrvs.org)
+[BeSTGRID Steering Committee](category-steering-committee.md) meeting ([SC April 2007](bgsc200704.md)), to be held via [EVO](http://evo.vrvs.org)
 - Monday 19 March
 
 Maurice Wilkins Centre and in conjunction with BeSTGRID presents a NZ-AccessGRID event: [The Proteomics Symposium 2007](/wiki/spaces/BeSTGRID/pages/3818228922) 
@@ -201,7 +201,7 @@ Maurice Wilkins Centre and in conjunction with BeSTGRID presents a NZ-AccessGRID
 - Thursday 15 March, Friday 16 March, and Tuesday 20 March
 
 The University of Auckland and the BeSTGRID Project, in association with Communication Partners, InternetNZ, and the HIT Lab NZ will host [a demonstration of “Advanced Video Conferencing” platforms](/wiki/spaces/BeSTGRID/pages/3818228891) ([Information Brochure](attachments/Lifesize.doc))
-- [30 January, First 2007 BeSTGRID Steering Committee meeting](/wiki/spaces/BeSTGRID/pages/3818228946)
+- [30 January, First 2007 BeSTGRID Steering Committee meeting](bgsc200701.md)
 
 to be held via [EVO](http://evo.vrvs.org)
 

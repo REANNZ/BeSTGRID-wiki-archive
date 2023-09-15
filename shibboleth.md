@@ -18,7 +18,7 @@ Shibboleth is based on the [Security Assertion Markup Language](/wiki/spaces/BeS
 
 # Install Shibboleth Service Provider 1.3 on RedHat Advanced Server 4
 
-[Shibboleth Service Provider Setup - RHEL4](/wiki/spaces/BeSTGRID/pages/3818228563)
+[Shibboleth Service Provider Setup - RHEL4](shibboleth-service-provider-setup-rhel4.md)
 
 # Install Shibboleth Service Provider 1.3 on Microsoft Windows XP with Internet Information Service (IIS)
 

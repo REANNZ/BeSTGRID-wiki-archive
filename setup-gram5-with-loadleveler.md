@@ -2,7 +2,7 @@
 
 This page provides the LoadLeveler specific details for setting up a GRAM5 grid gateway.
 
-Start by first installing a plain GRAM5, following the instructions on the [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) page (skipping all PBS-specific steps), then proceed from here.
+Start by first installing a plain GRAM5, following the instructions on the [Setup GRAM5 on CentOS 5](setup-gram5-on-centos-5.md) page (skipping all PBS-specific steps), then proceed from here.
 
 This procedure for setting up a LoadLeveler grid gateway is based on the `llgrid.tar` module that comes with LoadLeveler, and adapts it for GT5 with a patch coming from the EU IGE project.  Hence, you will need the LoadLeveler distribution available to proceed.
 
@@ -30,7 +30,7 @@ ng2hpc-c:    type = machine   central_manager = false  schedd_host = false submi
 
 # Installing GRAM5
 
-Install GRAM5 as per [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) page, skipping all PBS-specific steps.
+Install GRAM5 as per [Setup GRAM5 on CentOS 5](setup-gram5-on-centos-5.md) page, skipping all PBS-specific steps.
 
 # Patching and Compiling llgrid module
 

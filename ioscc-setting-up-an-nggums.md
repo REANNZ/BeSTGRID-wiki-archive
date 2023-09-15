@@ -45,7 +45,7 @@ The GUMS configuration mechanism is fairly flexible, and with multiple **HostGro
 
 The installation is based on the [ARCS NgGums installation guide](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums), and adds some VDT 2.0 specific instructions (and refines the installation steps).
 
-When users have personal accounts on the cluster and it's desired to let them access the personal accounts via the grid, then this installation should be followed by installing the AuthTool and the [Shibbolized AuthTool](/wiki/spaces/BeSTGRID/pages/3818228565).
+When users have personal accounts on the cluster and it's desired to let them access the personal accounts via the grid, then this installation should be followed by installing the AuthTool and the [Shibbolized AuthTool](deploying-shibbolized-authtool-on-a-gums-server.md).
 
 # Prerequsites
 
@@ -630,7 +630,7 @@ To address these issues, apply the following patches to the master copies of the
 >  vdt-control --off
 >  vdt-control --on
 
-- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails).
+- For more information, see my description of the [problem](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-RFTstagingfails).
 
 # Next: Install Auth Tool
 
@@ -894,7 +894,7 @@ grant ALL PRIVILEGES ON GUMS_1_3.* TO 'gums'@'localhost' IDENTIFIED BY 'SECRET';
 
 don't forget to wipe the `/root/.mysql_history` again, as there's a password in it.
 
-- Next, [install the Shibbolized Auth Tool](/wiki/spaces/BeSTGRID/pages/3818228565)
+- Next, [install the Shibbolized Auth Tool](deploying-shibbolized-authtool-on-a-gums-server.md)
 	
 - This allows users using a SLCS certificate to authenticate with their Shibboleth login and link their SLCS DN with a local account.
 

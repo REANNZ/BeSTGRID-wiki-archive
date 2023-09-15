@@ -31,7 +31,7 @@ The key software package used is the Virtual Data Toolkit (VDT), [http://vdt.cs.
 ## Notes on setting up VDT packages
 
 - [Grid Acronyms](/wiki/spaces/BeSTGRID/pages/3818228536)
-- [Vladimir's grid notes](/wiki/spaces/BeSTGRID/pages/3818228535)
+- [Vladimir's grid notes](vladimirs-grid-notes.md)
 - [Vladimir's list of grid software repositories](/wiki/spaces/BeSTGRID/pages/3818228406)
 - [MyProxy Test Install](/wiki/spaces/BeSTGRID/pages/3818228840)
 
@@ -55,7 +55,7 @@ The key software package used is the Virtual Data Toolkit (VDT), [http://vdt.cs.
 - [Setup BlueGene job submission on NG2HPC at University of Canterbury]
 - [Setup GridFTP on IBM p520](/wiki/spaces/BeSTGRID/pages/3818228449)
 - [Setup PRIMA on IBM p520](/wiki/spaces/BeSTGRID/pages/3818228592)
-- [Setup NGGums at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228678)
+- [Setup NGGums at University of Canterbury](setup-nggums-at-university-of-canterbury.md)
 - [Setup AuthTool for HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228894)
 - [Setup NGPortal at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228958)
 - [Setup MyProxy at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228445)
@@ -68,7 +68,7 @@ The key software package used is the Virtual Data Toolkit (VDT), [http://vdt.cs.
 - [Setup Anonymous FTP on NGData at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228851)
 
 - [Setup Globus 4.2 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228981)
-- [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506)
+- [Setup GRAM5 on CentOS 5](setup-gram5-on-centos-5.md)
 	
 - [Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228499)
 - [Setup GRAM5.2 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228694)
@@ -80,16 +80,16 @@ The key software package used is the Virtual Data Toolkit (VDT), [http://vdt.cs.
 
 - [Setting up a grid gateway](/wiki/spaces/BeSTGRID/pages/3818228546)
 
-- [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918)
+- [Setting up a GUMS server](setting-up-a-gums-server.md)
 	
-- [Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3818228955)
-- [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585)
+- [Configuring a GUMS server with pooled accounts](configuring-a-gums-server-with-pooled-accounts.md)
+- [Setting up an NG2](setting-up-an-ng2.md)
 	
 - [Setting up an NG2/PBS specific parts](setting-up-an-ng2-pbs-specific-parts.md)
 - [Setting up an NG2/SGE specific parts](setting-up-an-ng2-sge-specific-parts.md)
 
-- [Deploying Shibbolized AuthTool on a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228565)
-- [Installing a Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3818228742)
+- [Deploying Shibbolized AuthTool on a GUMS server](deploying-shibbolized-authtool-on-a-gums-server.md)
+- [Installing a Shibboleth 2.x SP](installing-a-shibboleth-2x-sp.md)
 
 ## System administration
 
@@ -107,7 +107,7 @@ I have also documented the setup of [Bioinformatics applications](http://cantmc.
 ## User documentation
 
 - I have written a very simple introduction on [Getting started with the portal](/wiki/spaces/BeSTGRID/pages/3818228738).
-- And compiled a list of [Grid Tools](/wiki/spaces/BeSTGRID/pages/3818228739) I would recommend.
+- And compiled a list of [Grid Tools](grid-tools.md) I would recommend.
 - List of [Computational Grid Resources](/wiki/spaces/BeSTGRID/pages/3818228727) available on BeSTGRID
 
 Additional doc:
@@ -115,7 +115,7 @@ Additional doc:
 - [Using the DataFabric](/wiki/spaces/BeSTGRID/pages/3818228517)
 - [Administering the DataFabric](/wiki/spaces/BeSTGRID/pages/3818228984)
 - [DataFabric Improvements](/wiki/spaces/BeSTGRID/pages/3818228481)
-- [Installing an iRODS slave server](/wiki/spaces/BeSTGRID/pages/3818228552)
+- [Installing an iRODS slave server](installing-an-irods-slave-server.md)
 - [List of DataFabric projects](/wiki/spaces/BeSTGRID/pages/3818228617)
 
 
@@ -159,7 +159,7 @@ Together with Andrey Kharuk, I'm also setting up the grid gateway at AUT (Oct 20
 
 ## GridTechWG
 
-- [Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403)
+- [Grid Technical Working Group](grid-technical-working-group.md)
 
 ## Gene Pattern
 
@@ -199,7 +199,7 @@ Together with Andrey Kharuk, I'm also setting up the grid gateway at AUT (Oct 20
 
 - [Notes for Shibboleth seminar on Oct 14th, 2008](vladimirbestgridorg-notes-for-shibboleth-seminar-2008-10-14.md)
 - [Notes from Shibboleth Rollout workshop slides](vladimirbestgridorg-notes-from-shibboleth-rollout-workshop-slides.md)
-- [Updating Federation Metadata](/wiki/spaces/BeSTGRID/pages/3818228810)
+- [Updating Federation Metadata](updating-federation-metadata.md)
 - [Installing Lincoln University IdP](/wiki/spaces/BeSTGRID/pages/3818228676)
 
 - [Installing and Configuring May 2009 version of Autograph and ShARPE](/wiki/spaces/BeSTGRID/pages/3818228436)
@@ -212,9 +212,9 @@ Together with Andrey Kharuk, I'm also setting up the grid gateway at AUT (Oct 20
 
 - [Installing Shibboleth 2.1 IdP at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228906)
 - [Installing uApprove on a Shibboleth 2.1 IdP at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228675)
-- [Installing a Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3818228742)
+- [Installing a Shibboleth 2.x SP](installing-a-shibboleth-2x-sp.md)
 - [Migrating Shibboleth 1.3 SP to 2.x in BeSTGRID Federation](/wiki/spaces/BeSTGRID/pages/3818228693)
-- [Deploying Shibbolized AuthTool on a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228565)
+- [Deploying Shibbolized AuthTool on a GUMS server](deploying-shibbolized-authtool-on-a-gums-server.md)
 - [Installing Lincoln University Shibboleth 2.x IdP](/wiki/spaces/BeSTGRID/pages/3818228950)
 
 - [Configuring a Shibboleth 2.0 IdP with a login screen](/wiki/spaces/BeSTGRID/pages/3818228643)

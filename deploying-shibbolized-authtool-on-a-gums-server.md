@@ -8,7 +8,7 @@ This page specifically documents the setup of the Shibbolized Auth Tool on top o
 
 # Basic assumptions
 
-GUMS server running CentOS 5, with GUMS software installed from VDT, following [http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums) - or setup following the BeSTGRID instructions for [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918)
+GUMS server running CentOS 5, with GUMS software installed from VDT, following [http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums) - or setup following the BeSTGRID instructions for [Setting up a GUMS server](setting-up-a-gums-server.md)
 
 GUMS server already configured with the basic Auth Tool. For this, use the [ARCS AuthTool](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallAuthTool) documentation as the primary source, and the [Canterbury Auth Tool install notes](/wiki/spaces/BeSTGRID/pages/3818228894) as additional source of information.
 
@@ -16,7 +16,7 @@ GUMS server already configured with the basic Auth Tool. For this, use the [ARCS
 
 The first step is to setup the GUMS server as a Shibboleth Service Provider - and register the host in AAF.
 
-This part is based on general instructions for [Installing a Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3818228742), but differs in that the Shibboleth module is to be loaded by VDT Apache and not system Apache.
+This part is based on general instructions for [Installing a Shibboleth 2.x SP](installing-a-shibboleth-2x-sp.md), but differs in that the Shibboleth module is to be loaded by VDT Apache and not system Apache.
 
 - Install latest Shibboleth SP via YUM
 

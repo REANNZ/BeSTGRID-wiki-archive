@@ -19,11 +19,11 @@ The GUMS configuration mechanism is fairly flexible, and with multiple `HostGrou
 
 The installation is based on the [ARCS NgGums installation guide](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums), and adds some VDT 2.0 specific instructions (and refines the installation steps).
 
-When users have personal accounts on the cluster and it's desired to let them access the personal accounts via the grid, then this installation should be followed by installing the AuthTool and the [Shibbolized AuthTool](/wiki/spaces/BeSTGRID/pages/3818228565).
+When users have personal accounts on the cluster and it's desired to let them access the personal accounts via the grid, then this installation should be followed by installing the AuthTool and the [Shibbolized AuthTool](deploying-shibbolized-authtool-on-a-gums-server.md).
 
 As a "parallel companion" to this page, setup instructions are given for GUMS on an Ubuntu server base system: [Setting up a GUMS server on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228431)
 
-**NOTE:** The original method described on this page results in all BeSTGRID users using a common username and home directory, which is a security risk. It is recommended that all production sites switch to using [pooled and individual accounts](/wiki/spaces/BeSTGRID/pages/3818228955).
+**NOTE:** The original method described on this page results in all BeSTGRID users using a common username and home directory, which is a security risk. It is recommended that all production sites switch to using [pooled and individual accounts](configuring-a-gums-server-with-pooled-accounts.md).
 
 # Preliminaries
 
@@ -353,7 +353,7 @@ GUMS ACCESS: Read Self
 
 ```
 
-**NOTE: If installing a new GUMS server, instead of creating a "group" account mapper mapping all users to the same account, it is adviced to use a pooled account mapper instead.  Please see the documentation on ****[Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3818228955)**** for more instructions on doing that.** |
+**NOTE: If installing a new GUMS server, instead of creating a "group" account mapper mapping all users to the same account, it is adviced to use a pooled account mapper instead.  Please see the documentation on ****[Configuring a GUMS server with pooled accounts](configuring-a-gums-server-with-pooled-accounts.md)**** for more instructions on doing that.** |
 
 - Add an Account Mapper for each local grid (shared) account that would be mapped to a VO Group.  Typically, this would include `grid-admin` for /ARCS/NGAdmin and on BeSTGRID also `grid-bestgrid` for /ARCS/BeSTGRID
 	
@@ -497,7 +497,7 @@ To address these issues, apply the following patches to the master copies of the
 >  vdt-control --off
 >  vdt-control --on
 
-- For more information, see my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails).
+- For more information, see my description of the [problem](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-RFTstagingfails).
 
 # Next: Install Auth Tool
 
@@ -566,7 +566,7 @@ Now, proceed to installing the Auth Tool:
 - This allows the users to authenticate with an APACGrid certificate loaded in their browser and link their DN with a local account.
 - Note: when installing the `gumsmanualmap.py` script, use the VDT 2.0 specific version.
 
-- Next, [install the Shibbolized Auth Tool](/wiki/spaces/BeSTGRID/pages/3818228565)
+- Next, [install the Shibbolized Auth Tool](deploying-shibbolized-authtool-on-a-gums-server.md)
 	
 - This allows users using a SLCS certificate to authenticate with their Shibboleth login and link their SLCS DN with a local account.
 

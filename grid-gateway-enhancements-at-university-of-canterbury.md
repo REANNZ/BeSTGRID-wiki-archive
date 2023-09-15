@@ -16,7 +16,7 @@ The updater installs a cron job that runs the updater (`/opt/vdt/vdt/sbin/vdt-up
 
 # Fixing startup and shutdown of gateway services
 
-See my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails), a fix to [startup order](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingstartuporder), and a fix for [correct shutdown](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingshutdown)
+See my description of the [problem](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-RFTstagingfails), a fix to [startup order](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-Fixingstartuporder), and a fix for [correct shutdown](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-Fixingshutdown)
 
 # PBS job tagging
 

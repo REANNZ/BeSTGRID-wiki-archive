@@ -8,7 +8,7 @@ This host is a Virtual Machine, using the x86_64 64 bit system architecture.  Th
 
 It was installed following these documents:
 
-- [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585)
+- [Setting up an NG2](setting-up-an-ng2.md)
 - [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228397)
 
 Notes on the various stages and differences follow below.
@@ -188,13 +188,13 @@ Then proceed as per [Setting_up_an_NG2_on_Ubuntu#Installing_VDT](setting-up-an-n
 
 # Post-install configuration
 
-Follow all steps according to [Setting up an NG2#Post-install configuration](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-Post-installconfiguration). Only thing to do before `vdt-control --on` is to:
+Follow all steps according to [Setting up an NG2#Post-install configuration](setting-up-an-ng2.md#SettingupanNG2-Post-installconfiguration). Only thing to do before `vdt-control --on` is to:
 
 - Edit `/opt/vdt/post-install/globus-ws` has to be edited to remove `tomcat-55` and `condor` from its `#Required-Start:` line.
 
 # Setup job reporting
 
-Follow all steps according to [Setting up an NG2#Setup job reporting](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-Setupjobreporting).
+Follow all steps according to [Setting up an NG2#Setup job reporting](setting-up-an-ng2.md#SettingupanNG2-Setupjobreporting).
 
 # Setup MDS/MIP
 
@@ -312,7 +312,7 @@ Copy over pbs.pm from Canterbury.  Primarily: add "-np" to mpiexec to fix a prob
 
 touch /etc/grid-security/mds-grid-mapfile
 
-- Create /usr/local/bin/mds-primer.sh (as documented in [Setting up an NG2#Activating MDS in Globus](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-ActivatingMDSinGlobus)
+- Create /usr/local/bin/mds-primer.sh (as documented in [Setting up an NG2#Activating MDS in Globus](setting-up-an-ng2.md#SettingupanNG2-ActivatingMDSinGlobus)
 
 - Comment out a check for queue_type ="Execution in computingelement.py: (batch is not an execution queue)
 

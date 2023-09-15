@@ -1,6 +1,6 @@
 # GridTechWG-20081127
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting November 27, 2008.
+[Grid Technical Working Group](grid-technical-working-group.md): meeting November 27, 2008.
 
 At this meeting, Vladimir gave a demonstration of SRB - in the week before this meeting, Vladimir had just deployed an SRB server for a BeSTGRID SRB zone (located at the University of Canterbury).
 

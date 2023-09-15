@@ -8,9 +8,9 @@ These pages cover advanced configuration of MIP and specific information about h
 
 # Configuration
 
-The initial configuration of MIP given in the article on [setting up a job submission gateway](/wiki/spaces/BeSTGRID/pages/3818228585) is sufficient for submitting services to MDS, but as more services are added to the cluster, and appending their definitions to `/usr/local/mip/modules/apac_py/SubCluster/softwareInfoData/localSoftware.xml` can become unwieldy.
+The initial configuration of MIP given in the article on [setting up a job submission gateway](setting-up-an-ng2.md) is sufficient for submitting services to MDS, but as more services are added to the cluster, and appending their definitions to `/usr/local/mip/modules/apac_py/SubCluster/softwareInfoData/localSoftware.xml` can become unwieldy.
 
-As more services are added, a more manageable approach may be to define each service or application in a separate `xml` file, and add these files as source in the job submission gateway's MIP configuration file (`/usr/local/mip/config/default_ng2.``yoursite``-sub1_SIP.ini` as described [here](/wiki/spaces/BeSTGRID/pages/3818228585#SettingupanNG2-CreateConfigfile)). Most of the articles in this category should be giving you the xml necessary to describe each application in a standard way for use by BeSTGRID members.
+As more services are added, a more manageable approach may be to define each service or application in a separate `xml` file, and add these files as source in the job submission gateway's MIP configuration file (`/usr/local/mip/config/default_ng2.``yoursite``-sub1_SIP.ini` as described [here](setting-up-an-ng2.md#SettingupanNG2-CreateConfigfile)). Most of the articles in this category should be giving you the xml necessary to describe each application in a standard way for use by BeSTGRID members.
 
 Here is an example of the \[source\] elements of a SIP.ini file using multiple sources:
 

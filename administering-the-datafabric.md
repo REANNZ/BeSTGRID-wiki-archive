@@ -726,7 +726,7 @@ To upgrade Davis (do these steps preferrably as user `davis`):
 >  cp ~/inst/df-ui/images/* webapps/images/
 >  cp ~/inst/df-ui/images/* webapps/images/
 
-- Reapply any changes to `/opt/davis/davis/webapps/root/WEB-INF/ui.html` if applicable.  Check the for the current list in the [instructions on customizing a new Davis install](/wiki/spaces/BeSTGRID/pages/3818228552#InstallinganiRODSslaveserver-CustomizeDavis).
+- Reapply any changes to `/opt/davis/davis/webapps/root/WEB-INF/ui.html` if applicable.  Check the for the current list in the [instructions on customizing a new Davis install](installing-an-irods-slave-server.md#InstallinganiRODSslaveserver-CustomizeDavis).
 - **Example (*non-authoritative list**)
 
 ``` 

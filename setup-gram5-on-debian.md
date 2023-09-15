@@ -15,7 +15,7 @@ Problems:
 - SEG LRM-specific parts are missing
 - globus environment scripts, such as globus-user-env.sh are missing
 
-Related CentOS install is documented at [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506).
+Related CentOS install is documented at [Setup GRAM5 on CentOS 5](setup-gram5-on-centos-5.md).
 
 # Prerequisites
 

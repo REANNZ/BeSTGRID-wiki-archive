@@ -12,16 +12,16 @@ Typically, a grid gateway would consist of several virtual machines:
 
 The following documentation is relevant for this task:
 
-- [Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918) (Alternatively, see [Setting up a GUMS server on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228431) - courtesy Guy Kloss)
+- [Setting up a GUMS server](setting-up-a-gums-server.md) (Alternatively, see [Setting up a GUMS server on Ubuntu](setting-up-a-gums-server-on-ubuntu.md) - courtesy Guy Kloss)
 	
-- [Deploying Shibbolized AuthTool on a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228565)
-- [Configuring a GUMS server with pooled accounts](/wiki/spaces/BeSTGRID/pages/3818228955)
-- [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585) (Alternatively, see [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228397) - courtesy Guy Kloss)
+- [Deploying Shibbolized AuthTool on a GUMS server](deploying-shibbolized-authtool-on-a-gums-server.md)
+- [Configuring a GUMS server with pooled accounts](configuring-a-gums-server-with-pooled-accounts.md)
+- [Setting up an NG2](setting-up-an-ng2.md) (Alternatively, see [Setting up an NG2 on Ubuntu](setting-up-an-ng2-on-ubuntu.md) - courtesy Guy Kloss)
 	
 - [Setting up an NG2/PBS specific parts](setting-up-an-ng2-pbs-specific-parts.md)
 - [Setting up an NG2/SGE specific parts](setting-up-an-ng2-sge-specific-parts.md)
 
-- [Setup GRAM5 on CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228506) (PBS centric)
+- [Setup GRAM5 on CentOS 5](setup-gram5-on-centos-5.md) (PBS centric)
 	
 - [Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228499) (LoadLeveler specific details)
 

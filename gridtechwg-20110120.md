@@ -1,6 +1,6 @@
 # GridTechWG-20110120
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting January 20th, 2011.
+[Grid Technical Working Group](grid-technical-working-group.md): meeting January 20th, 2011.
 
 ## Program
 

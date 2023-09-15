@@ -1,6 +1,6 @@
 # Setting up an NG2 SGE specific parts
 
-This page contains the Sun Grid Engine (SGE) specific supplementary material for the instructions on [setting up a job submission gateway](/wiki/spaces/BeSTGRID/pages/3818228585).
+This page contains the Sun Grid Engine (SGE) specific supplementary material for the instructions on [setting up a job submission gateway](setting-up-an-ng2.md).
 
 Scripts used within this page should have their most recent copy in the [ARCS Gitorious server sge-scripts project](http://code.arcs.org.au/gitorious/grid-usage/sge-scripts)
 

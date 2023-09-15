@@ -2,7 +2,7 @@
 
 sc,,geon
 
-[Workshop Administrivia](/wiki/spaces/BeSTGRID/pages/3818228895)
+[Workshop Administrivia](workshop__geoscience-november-2007-administration.md)
 
 - 7 November 2007
 

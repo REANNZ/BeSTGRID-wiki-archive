@@ -137,7 +137,7 @@ Go to [https://gums.otago.ac.nz:8443/gums/](https://gums.otago.ac.nz:8443/gums/)
 
 # Create GUMS Configuration
 
-Same as when [setting up Canterbury GUMS server](/wiki/spaces/BeSTGRID/pages/3818228678):
+Same as when [setting up Canterbury GUMS server](setup-nggums-at-university-of-canterbury.md):
 
 - Create ARCS and APACGrid VOMRS servers
 
@@ -209,7 +209,7 @@ More damage to fix:
 
 - Accepted difference: RFT and GRAM won't use client certificates and will not register to MDS.
 
-- It looked like MDS would not start - but that was related to the PBS server being down for maintenance.  See [my experience report on that](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-MDSbroken).
+- It looked like MDS would not start - but that was related to the PBS server being down for maintenance.  See [my experience report on that](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-MDSbroken).
 
 # Minor enhancements
 

@@ -9,7 +9,7 @@ Information for **[Bioinformatics](category-bioinformatics.md)** researchers.
 
 - Tools
 
-use our featured [Grid Tools](/wiki/spaces/BeSTGRID/pages/3818228739) to use the grid services.
+use our featured [Grid Tools](grid-tools.md) to use the grid services.
 - Resources
 
 see what **[Computational Resources](/wiki/spaces/BeSTGRID/pages/3818228727)** are available on the grid.

@@ -23,7 +23,7 @@
 
 ### Technical Working Group
 
-The BeSTGRID **[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403)** coordinates the technical programme of work within BeSTGRID.
+The BeSTGRID **[Grid Technical Working Group](grid-technical-working-group.md)** coordinates the technical programme of work within BeSTGRID.
 
 ## Communication
 

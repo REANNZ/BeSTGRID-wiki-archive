@@ -4,7 +4,7 @@
 
 This page contains the SSO Descriptors of some of the BeSTGRID Federation entities.  The primary source of the federation metadata is at the WAYF server at [https://wayf.bestgrid.org/metadata/bestgrid-metadata.xml](https://wayf.bestgrid.org/metadata/bestgrid-metadata.xml)  Use the data on this page for demonstration purposes only, and refer to the URL above for authoritative source.  The WAYF server has a certificate issued by the APACGrid CA ([download root certificate](https://ca.apac.edu.au/cgi-bin/pub/pki?cmd=getStaticPage;name=download_cacert)).
 
-For information on how to update the metadata, please see the page [Updating Federation Metadata](/wiki/spaces/BeSTGRID/pages/3818228810).
+For information on how to update the metadata, please see the page [Updating Federation Metadata](updating-federation-metadata.md).
 
 When editing the metadata, please keep in mind the following:
 

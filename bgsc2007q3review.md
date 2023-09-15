@@ -37,10 +37,10 @@ Meeting to be held via **[EVO](http://nextgen-caltech.cern.ch/evoGate/)**
 - Sam Searle
 - Previous Meeting
 
-[Thursday, 19th April 2007](/wiki/spaces/BeSTGRID/pages/3818228978)
+[Thursday, 19th April 2007](bgsc200704.md)
 - Next Meeting
 
-[May 2007](/wiki/spaces/BeSTGRID/pages/3818228484)
+[May 2007](bgsc200705.md)
 
 ***Agenda***
 - Q3 Report review and discussion
@@ -58,11 +58,11 @@ Meeting to be held via **[EVO](http://nextgen-caltech.cern.ch/evoGate/)**
 ***Q4 Report introduction***
 - Discussed Q4 outline report as outlining all milestones yet to be achieved, along with several performance indicators to be measured to demonstrate project success.
 - Reinforced importance of Q4 in demonstrating project success, and agreed that Q4 will require a larger commitment to SC management and coordination to ensure all milestones and performance indicators are achieved
-- Requested that every SC member take the time to review the Q4 outline report over the coming weeks, ready for discussion at the next SC meeting, scheduled for [31st May 2007](/wiki/spaces/BeSTGRID/pages/3818228484)
+- Requested that every SC member take the time to review the Q4 outline report over the coming weeks, ready for discussion at the next SC meeting, scheduled for [31st May 2007](bgsc200705.md)
 
 ***Formalise Q4 SC Meeting Schedule***
 - Discussed need to formalise the SC meetings to ensure broader participation during this crucial quarter
-- Proposed and agreed to fortnightly SC meetings, starting [31st May 12__30](/wiki/spaces/BeSTGRID/pages/3818228484)
+- Proposed and agreed to fortnightly SC meetings, starting [31st May 12__30](bgsc200705.md)
 
 ***Massey budget variance***
 
@@ -77,11 +77,11 @@ Chris Messom took this opportunity to advise the SC of an institutional budget v
 		
 - Ability to mirror BestGRID databases, reduce disaster recovery time (recovering from tape)
 
-SC approved these variances as fitting with the interests of the BeSTGRID project, and within the discretion of the SC to allow. Paul reminded the SC that its important to discuss variances in institutional budgets at the SC level, so that the SC can approve or escalate budget variances as appropriate. Institutional budget summaries for Q3 will be reviewed at the next SC meeting [31st May 12__30](/wiki/spaces/BeSTGRID/pages/3818228484)
+SC approved these variances as fitting with the interests of the BeSTGRID project, and within the discretion of the SC to allow. Paul reminded the SC that its important to discuss variances in institutional budgets at the SC level, so that the SC can approve or escalate budget variances as appropriate. Institutional budget summaries for Q3 will be reviewed at the next SC meeting [31st May 12__30](bgsc200705.md)
 
 **ACTION ITEMS**
 
 1. TEC 3rd Quarterly report due Monday 21st May 2007. Nick to finalise once comment received from SC members
 2. Setup Q4 SC Meeting Schedule - Nick
 3. Paul to distribute a revised version of his EduCause 2007 report to UA
-4. Member institutions to finalise Q3 institutional budgets for SC review at the next meeting to be held on [31st May 12__30](/wiki/spaces/BeSTGRID/pages/3818228484)
+4. Member institutions to finalise Q3 institutional budgets for SC review at the next meeting to be held on [31st May 12__30](bgsc200705.md)

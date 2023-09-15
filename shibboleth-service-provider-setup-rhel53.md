@@ -14,7 +14,7 @@ This guide is written by Jun Huh, and the guide begins at a point where the mach
 References:
 
 - [Native SP Installation](https://spaces.internet2.edu/display/SHIB2/NativeSPLinuxInstall)
-- [Shibboleth Service Provider Setup - RHEL4](/wiki/spaces/BeSTGRID/pages/3818228563) for references on firewall configuration and SSL setup on RHEL4.
+- [Shibboleth Service Provider Setup - RHEL4](shibboleth-service-provider-setup-rhel4.md) for references on firewall configuration and SSL setup on RHEL4.
 
 # Installation of Shibboleth Service Provider 2
 

@@ -2,11 +2,11 @@
 
 # Introduction
 
-The [initial set up of GUMS](/wiki/spaces/BeSTGRID/pages/3818228918) is not ideal, as all BeSTGRID users end up using the same `grid-bestgrid` account. It is recommended that GUMS is reconfigured to provide pool users, that is a collection of anonymous user accounts that are dynamically mapped to individual Grid users. This will provide some persistence of their user space, and keep the users isolated from each other.
+The [initial set up of GUMS](setting-up-a-gums-server.md) is not ideal, as all BeSTGRID users end up using the same `grid-bestgrid` account. It is recommended that GUMS is reconfigured to provide pool users, that is a collection of anonymous user accounts that are dynamically mapped to individual Grid users. This will provide some persistence of their user space, and keep the users isolated from each other.
 
 # Prerequisites
 
-An operating GUMS server set up as a BeSTGRID gateway server is set up [according to these instructions](/wiki/spaces/BeSTGRID/pages/3818228918)
+An operating GUMS server set up as a BeSTGRID gateway server is set up [according to these instructions](setting-up-a-gums-server.md)
 
 # Setting up the pool accounts
 
@@ -143,4 +143,4 @@ ldapdelete -x -h localhost -D "cn=manager,dc=your,dc=cluster,dc=com" -W -f  dnde
 
 # Configuring GUMS
 
-GUMS and the job submission gateway should now be configured according to this article [here](/wiki/spaces/BeSTGRID/pages/3818228955).
+GUMS and the job submission gateway should now be configured according to this article [here](configuring-a-gums-server-with-pooled-accounts.md).

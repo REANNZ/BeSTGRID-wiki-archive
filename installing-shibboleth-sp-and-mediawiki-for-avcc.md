@@ -174,7 +174,7 @@ Register the service with the AAF federation:
 
  **Edit **`/usr/local/shibboleth-sp/etc/shibboleth/shibboleth.xml`** to configure membership in the BeSTGRID Federation (second*MetadataProvider** provider for `"/usr/local/shibboleth-sp/etc/shibboleth/bestgrid-metadata.xml"`) and change the `SessionInitiator` `wayfURL` attribute to `"https://wayf.bestgrid.org/shibboleth-wayf/WAYF"`.
 
-- For both federations, setup automatic metadata updating as documented in this page on [Updating Federation Metadata](/wiki/spaces/BeSTGRID/pages/3818228810).
+- For both federations, setup automatic metadata updating as documented in this page on [Updating Federation Metadata](updating-federation-metadata.md).
 
 Note that initially, the BeSTGRID WAYF server may display an empty selection, possibly due to metadata on the server not being updated.  This issue should disappear after the metadata is updated.
 

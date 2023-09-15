@@ -2,7 +2,7 @@
 
 This page documents installing a Shibboleth SP from RPMS, instead of compiling from source code.  This is a much easier and faster way.
 
-**This update is OUTDATED. Please see ****[Installing a Shibboleth 2.x SP](/wiki/spaces/BeSTGRID/pages/3818228742)** |
+**This update is OUTDATED. Please see ****[Installing a Shibboleth 2.x SP](installing-a-shibboleth-2x-sp.md)** |
 
 This page documents just the Shibboleth SP software installation - which is only one part of deploying a SP.  Please see the [MAMS SP installation guide](http://www.federation.org.au/twiki/bin/view/Federation/ManualInstallSP) for the remaining steps, including [registering your host in the federation](http://www.federation.org.au/FedManager/jsp/index.jsp).
 
@@ -90,7 +90,7 @@ handlerSSL="true"
 ``` 
 wget http://www.federation.org.au/level-2/level-2-metadata.xml -O /etc/shibboleth/level-2-metadata.xml
 ```
-- Setup [metadata updates](/wiki/spaces/BeSTGRID/pages/3818228810#UpdatingFederationMetadata-UpdatingmetadataonaSP)
+- Setup [metadata updates](updating-federation-metadata.md#UpdatingFederationMetadata-UpdatingmetadataonaSP)
 
 ## Configure AAP
 

@@ -1,6 +1,6 @@
 # GridTechWG-20111027
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting October 27th, 2011.
+[Grid Technical Working Group](grid-technical-working-group.md): meeting October 27th, 2011.
 
 ## Program
 

@@ -162,7 +162,7 @@ touch /etc/grid-security/mds-grid-mapfile
 2. To shutdown in reverse order
 3. To create a lock in /var/lock/subsys when started - so that a system shutdown knows to close down these services gracefully.
 
-See my description of the [problem](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-RFTstagingfails), a fix to [startup order](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingstartuporder), and a fix for [correct shutdown](/wiki/spaces/BeSTGRID/pages/3818228535#Vladimir&#39;sgridnotes-Fixingshutdown)
+See my description of the [problem](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-RFTstagingfails), a fix to [startup order](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-Fixingstartuporder), and a fix for [correct shutdown](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-Fixingshutdown)
 
 # Install SLCS certificates
 

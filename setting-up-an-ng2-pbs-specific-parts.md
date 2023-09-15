@@ -1,6 +1,6 @@
 # Setting up an NG2 PBS specific parts
 
-This page contains the PBS(/Torque)-specific supplementary material for the instructions on [Setting up an NG2](/wiki/spaces/BeSTGRID/pages/3818228585)
+This page contains the PBS(/Torque)-specific supplementary material for the instructions on [Setting up an NG2](setting-up-an-ng2.md)
 
 # LRM access
 

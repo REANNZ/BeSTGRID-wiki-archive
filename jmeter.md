@@ -1,6 +1,6 @@
 # JMeter
 
-[Shibboleth](/wiki/spaces/BeSTGRID/pages/3818228969)
+[Shibboleth](shibboleth.md)
 
 # **JMeter** 
 

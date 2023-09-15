@@ -1,6 +1,6 @@
 # Setup NGGums at University of Canterbury
 
-**NOTE: This page is a historic relict and is not up to date.  If you are looking for instructions on how to setup a GUMS server for BeSTGRID, please see the ****[Setting up a GUMS server](/wiki/spaces/BeSTGRID/pages/3818228918)**** page instead.** |
+**NOTE: This page is a historic relict and is not up to date.  If you are looking for instructions on how to setup a GUMS server for BeSTGRID, please see the ****[Setting up a GUMS server](setting-up-a-gums-server.md)**** page instead.** |
 
 A GUMS server serves as authorization server for other virtual machines in the Globus Toolkit based grid infrastructure, namely job submission gateways (ng2, ng2hpc) and GridFTP servers (ngportal, hpcgrid1).  The GUMS server receives inquiries from grid services each time an authorization decision or local account mapping has to be made, and decides based on the:
 

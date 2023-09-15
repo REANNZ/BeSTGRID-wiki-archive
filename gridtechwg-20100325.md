@@ -1,6 +1,6 @@
 # GridTechWG-20100325
 
-[Grid Technical Working Group](/wiki/spaces/BeSTGRID/pages/3818228403): meeting March 25, 2010.
+[Grid Technical Working Group](grid-technical-working-group.md): meeting March 25, 2010.
 
 ## Program
 

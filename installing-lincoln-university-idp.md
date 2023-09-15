@@ -319,7 +319,7 @@ Main IdP configuration is in `/usr/local/shibboleth-idp/etc/idp.xml`
 
 ## Configure Period Metadata Updates
 
-Follow BeSTGRID documentation on [Updating Federation Metadata](/wiki/spaces/BeSTGRID/pages/3818228810) and the original MAMS documentation for [Updating metadata](http://www.federation.org.au/twiki/bin/view/Federation/UpdateMetadata)
+Follow BeSTGRID documentation on [Updating Federation Metadata](updating-federation-metadata.md) and the original MAMS documentation for [Updating metadata](http://www.federation.org.au/twiki/bin/view/Federation/UpdateMetadata)
 
 Install the following three scripts (based on these two pages) into `/etc/cron.hourly`: `idp-aafL1-metadata idp-aafL2-metadata idp-bestgrid-metadata`
 
