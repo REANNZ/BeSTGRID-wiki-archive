@@ -3,7 +3,7 @@
 
 - Applications
 
-see what **[Software Applications](/wiki/spaces/BeSTGRID/pages/3818228813)** are available on the grid.
+see what **[Software Applications](software-list-on-bestgrid-resources.md)** are available on the grid.
 
 Information for **[Bioinformatics](category-bioinformatics.md)** researchers.
 
@@ -12,6 +12,6 @@ Information for **[Bioinformatics](category-bioinformatics.md)** researchers.
 use our featured [Grid Tools](grid-tools.md) to use the grid services.
 - Resources
 
-see what **[Computational Resources](/wiki/spaces/BeSTGRID/pages/3818228727)** are available on the grid.
+see what **[Computational Resources](computational-grid-resources.md)** are available on the grid.
 
 _*NOTOC*_ 

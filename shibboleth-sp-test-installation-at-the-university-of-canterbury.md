@@ -148,7 +148,7 @@ $SP_HOME/sbin/siterefresh --url $METADATA_URL --cert /etc/certs/www.federation.o
 
 ```
 
-Note that the `siterefresh` tool does not support the https protocol, so unlike for the [IdP](/wiki/spaces/BeSTGRID/pages/3818228985#ShibbolethIdPTestInstallationattheUniversityofCanterbury-Metadataupdates), we have to get the metadata via plain http (reasonably safe if we verify the signature afterwards - up to DOS intended network outage).
+Note that the `siterefresh` tool does not support the https protocol, so unlike for the [IdP](shibboleth-idp-test-installation-at-the-university-of-canterbury.md#ShibbolethIdPTestInstallationattheUniversityofCanterbury-Metadataupdates), we have to get the metadata via plain http (reasonably safe if we verify the signature afterwards - up to DOS intended network outage).
 
 # Running and Testing
 

@@ -1,6 +1,6 @@
 # A complete EVO setup for cross-institutional small-room teaching and seminars
 
-For an example of this technology being used, see the page on [Remote Teaching using EVO](/wiki/spaces/BeSTGRID/pages/3818228683)
+For an example of this technology being used, see the page on [Remote Teaching using EVO](remote-teaching-using-evo.md)
 
 ![Bryant-lecture-2.jpg](./attachments/Bryant-lecture-2.jpg)
 # Scope of this setup
@@ -60,7 +60,7 @@ Basically, you will have had good success with Logitech Cameras and Clearone Aud
 
 - Audio, audio, audio! Make sure Audio is clear for all involved.
 - Position the audience close to the ClearOne Chat 150 audio device as possible. If the room has more than 10 people involved, then position those who do not want to ask questions away from the Chat 150. Volume will also be an issue with larger groups. Read [this section using echo cancellation devices with EVO](known-issues-with-evo.md)
-- Make sure participants understand how they can control their 'Audio Transmit Gain'.  Please see [Configuring EVO for the first time](/wiki/spaces/BeSTGRID/pages/3818228555).
+- Make sure participants understand how they can control their 'Audio Transmit Gain'.  Please see [Configuring EVO for the first time](configuring-evo-for-the-first-time.md).
 - In order for the Echo Cancellation to operate correctly, the Chat 150 Device should be selected as the "Audio Transmit Device" (in EVO: AV Controls) and "Audio Receive Device"
 - Make sure you can see the chat window (lower right of Koala) during the session – important messages are exchanged this way.
 - If you lose video streams, during the meeting, try "Restart Video" in the Video Tab, under the AV controls Tab (in the Koala Window).

@@ -4,7 +4,7 @@ Rocks 5.0 (V) for i386 and x86_64 architectures has been released on 30th April.
 
 # Partition table
 
-We recreated partitions for the iteration 2. Previous layout has been described [here](/wiki/spaces/BeSTGRID/pages/3818228624).
+We recreated partitions for the iteration 2. Previous layout has been described [here](rocks-50-installation.md).
 
 Rocks 5.0 ISO file has been connected via IPMI/BMC tool to the Headnode. The Headnode had been rebooted with option:
 

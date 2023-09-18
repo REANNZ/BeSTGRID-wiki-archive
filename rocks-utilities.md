@@ -30,7 +30,7 @@ Examples:
 
 > 1. print network configuration of every node
 >  cluster-fork ifconfig
-> 2. print "hello" on all nodes compute-1-x (query runs against [Rocks Database](/wiki/spaces/BeSTGRID/pages/3818228718))
+> 2. print "hello" on all nodes compute-1-x (query runs against [Rocks Database](rocks-database.md))
 >  cluster-fork -query="select name from nodes where name like 'compute-1%'" echo hello
 > 3. run job in background
 >  cluster-fork --bg echo hello
@@ -182,4 +182,4 @@ see [http://www.centos.org/docs/4/html/rhel-sag-en-4/s1-kickstart2-startinginsta
 
 # Rocks Database
 
-[Rocks Database](/wiki/spaces/BeSTGRID/pages/3818228718)
+[Rocks Database](rocks-database.md)

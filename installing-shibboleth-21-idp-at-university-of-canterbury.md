@@ -8,7 +8,7 @@ This page documents the installation of the Shibboleth 2.1 IdP at the University
 
 The installation was done as a minimal install to get Shibboleth going - and worked well and is now being used in production.
 
-The installation was followed by [installing uApprove](/wiki/spaces/BeSTGRID/pages/3818228675).
+The installation was followed by [installing uApprove](installing-uapprove-on-a-shibboleth-21-idp-at-university-of-canterbury.md).
 
 # Preliminary considerations
 
@@ -826,7 +826,7 @@ The change done to `/usr/local/shibboleth-idp/conf/service.xml` is thus:
 - Change registration URLs explicitly configured at selected SPs (Confluence wiki test+production, E-Cast)
 - Until these changes propagate, use `ProxyPass` to pass the old shib13 URLs to Shib21
 
-- Proceed with [installing uApprove](/wiki/spaces/BeSTGRID/pages/3818228675)
+- Proceed with [installing uApprove](installing-uapprove-on-a-shibboleth-21-idp-at-university-of-canterbury.md)
 
 # Registering the IdP in the AAF Pilot Resource Registry
 

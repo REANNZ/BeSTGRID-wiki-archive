@@ -17,7 +17,7 @@ The followings are my installation environment, you could adjust this settings f
 # Create and install SSL certificate
 
 - Create a SSL certificate
-- Copy [createCertReq.sh](/wiki/spaces/BeSTGRID/pages/3818228684) and save it into a sub directory, e.g. scripts/createCertReq.sh
+- Copy [createCertReq.sh](ssl-createcertreqsh.md) and save it into a sub directory, e.g. scripts/createCertReq.sh
 
 - Given execution right to this script
 
@@ -123,8 +123,8 @@ Following the installation guide below to install Sakai
 //confluence.sakaiproject.org/confluence/display/DOC/Install+Guide+-Build%282.4%29]
 
 NOTE: apply the following patches before run Maven to build and deploy Sakai
-- sessionend-fix.patch :  [BeSTGRID local copy](/wiki/spaces/BeSTGRID/pages/3818228551)  | [Original copy from Stockholm University](http://people.su.se/~kllin/patches/sakai/sessionend-fix.patch)
-- su-shibb.patch: [BeSTGRID local copy](/wiki/spaces/BeSTGRID/pages/3818228591) | [Original copy from Stockholm University](http://people.su.se/~kllin/patches/sakai/su-shibb.patch)
+- sessionend-fix.patch :  [BeSTGRID local copy](shib-sakai-sessionend-fixpatch.md)  | [Original copy from Stockholm University](http://people.su.se/~kllin/patches/sakai/sessionend-fix.patch)
+- su-shibb.patch: [BeSTGRID local copy](shib-sakai-su-shibbpatch.md) | [Original copy from Stockholm University](http://people.su.se/~kllin/patches/sakai/su-shibb.patch)
 
 ``` 
 

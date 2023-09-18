@@ -2,21 +2,21 @@
 
 sc,,geon
 
-[WorkShop__Geoscience collaboration and GEON Auckland](/wiki/spaces/BeSTGRID/pages/3816950810)
+[WorkShop__Geoscience collaboration and GEON Auckland](workshop__geoscience-collaboration-and-geon-auckland.md)
 
-# [Registrations](/wiki/spaces/BeSTGRID/pages/3816951010)
+# [Registrations](workshop__geoscience-november-2007-registrations.md)
 
-# [Schedule](/wiki/spaces/BeSTGRID/pages/3816950650) (draft)
+# [Schedule](workshop__geoscience-collaboration-and-geon-auckland-schedule.md) (draft)
 
 # Communication Plan
 
 - 24 October 2007
-[Initial teleconference](/wiki/spaces/BeSTGRID/pages/3816950806) to agree workshop format: Nick Jones to arrange with Margaret Rizzi, UoA, +643737599 Extn 87621
+[Initial teleconference](meeting__geon-auckland-teleconference-1.md) to agree workshop format: Nick Jones to arrange with Margaret Rizzi, UoA, +643737599 Extn 87621
 - 7 November 2007
-[Second teleconference](/wiki/spaces/BeSTGRID/pages/3816950463) with international audience:
+[Second teleconference](meeting__geon-auckland-teleconference-2.md) with international audience:
 - Your Host Pin Code: 499743, Guest Pin Code: 350335
 - 20 November 2007
-[Third teleconference](/wiki/spaces/BeSTGRID/pages/3816950763) with international audience:
+[Third teleconference](meeting__geon-auckland-teleconference-3.md) with international audience:
 - Your Host Pin Code: ______, Guest Pin Code: ______
 - Nick to email confirmation to all attendees
 

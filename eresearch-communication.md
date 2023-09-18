@@ -97,7 +97,7 @@ Paper on Lecture Recording in Mathematics [Lecture-rec.doc](attachments/Lecture-
 
 - KAREN Forum
 
-[KAREN 2007 Workshop Videos](/wiki/spaces/BeSTGRID/pages/3818228489)
+[KAREN 2007 Workshop Videos](karen-2007-workshop-videos.md)
 
 - Europe
 

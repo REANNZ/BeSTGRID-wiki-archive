@@ -28,7 +28,7 @@ The use of Virtualisation allows multiple, fully-independent systems to operate,
 
 In theory, at least, virtualised systems are state-portable to other machines, and easy to backup and restore.
 
-The [Virtual Machines](/wiki/spaces/BeSTGRID/pages/3818228782) page contains full details of the various Virtual Machines on the server, including their various tasks, resource allocation plans, and detailed set-up guides.
+The [Virtual Machines](virtual-machines.md) page contains full details of the various Virtual Machines on the server, including their various tasks, resource allocation plans, and detailed set-up guides.
 
 # Link to KAREN High Speed Network
 

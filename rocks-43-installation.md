@@ -24,6 +24,6 @@ There was an attempt to add igb driver to Rocks distribution on naked CentOS 4.
 
 Next steps performed to compile Rocks Distribution with **igb** network driver.
 
-[Unsuccessful attempts to recompile Rocks](/wiki/spaces/BeSTGRID/pages/3818228412)
+[Unsuccessful attempts to recompile Rocks](unsuccessful-attempts-to-recompile-rocks.md)
 
 But Rocks gurus in Rocks Mailing list advised to recompile Rocks only on Rocks Frontend with the same version and architecture. However this procedure is going to be long and complex and to reduce time a decision to install Rocks5.0 Beta has been admitted.

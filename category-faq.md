@@ -2,7 +2,7 @@
 
 # Frequently Asked Questions
 
-These are questions people have or may ask about BeSTGRID, we will begin to add links to pages with answers as they become available. If you can't find your answer here, your question may be in our [Unanswered FAQ](/wiki/spaces/BeSTGRID/pages/3818228543), or you may need to add it to that page.
+These are questions people have or may ask about BeSTGRID, we will begin to add links to pages with answers as they become available. If you can't find your answer here, your question may be in our [Unanswered FAQ](ufaq.md), or you may need to add it to that page.
 
 Note to Editors: Any page that has the FAQ Category tag added to it will be automatically added to the index at the bottom of this page. |
 
@@ -18,15 +18,15 @@ Note to Editors: Any page that has the FAQ Category tag added to it will be auto
 
 ;[Are there tutorials for using BeSTGRID?](category-tutorial.md)
 
-- [How do I get a grid certificate?](/wiki/spaces/BeSTGRID/pages/3818228427)
+- [How do I get a grid certificate?](grid-certificate.md)
 
-- [How do I get membership of a VO?](/wiki/spaces/BeSTGRID/pages/3818228902)
+- [How do I get membership of a VO?](vomembership.md)
 
 - [Do you run application X?](bestgrid-applications.md)
 
 - [How can I get application X installed?](bestgrid-applications.md)
 
-- [What is SLCS?](/wiki/spaces/BeSTGRID/pages/3818228492)
+- [What is SLCS?](slcs.md)
 
 - Can I store my data on the grid?
 
@@ -42,7 +42,7 @@ Note to Editors: Any page that has the FAQ Category tag added to it will be auto
 
 ; [What is SGE?](local-resource-managers-lrm.md)
 
-; [What ports do I need to ask my IT Service to open so I can use grid tools?](/wiki/spaces/BeSTGRID/pages/3818228465)
+; [What ports do I need to ask my IT Service to open so I can use grid tools?](ports.md)
 
 ; [Is BeSTGRID connected to KAREN?](bestgrid-and-karen.md)
 
@@ -54,11 +54,11 @@ Note to Editors: Any page that has the FAQ Category tag added to it will be auto
 
 ; [How do I share an existing computational resource X within BeSTGRID?](share-a-resource.md)
 
-;[Do I need specific operating systems, software or competences to share existing resources through BeSTGRID?](/wiki/spaces/BeSTGRID/pages/3818228935)
+;[Do I need specific operating systems, software or competences to share existing resources through BeSTGRID?](middleware.md)
 
-;[What middleware do BeSTGRID resources run on](/wiki/spaces/BeSTGRID/pages/3818228935)
+;[What middleware do BeSTGRID resources run on](middleware.md)
 
-;[How can I share an existing Rocks cluster within BeSTGRID?](/wiki/spaces/BeSTGRID/pages/3818228935)
+;[How can I share an existing Rocks cluster within BeSTGRID?](middleware.md)
 
 # I want to know more about BeSTGRID 
 
@@ -66,7 +66,7 @@ Note to Editors: Any page that has the FAQ Category tag added to it will be auto
 
 ; Question not on the list?
 
-Please visit our [Unanswered FAQ](/wiki/spaces/BeSTGRID/pages/3818228543).
+Please visit our [Unanswered FAQ](ufaq.md).
 
 = Additional FAQ Articles = 
 

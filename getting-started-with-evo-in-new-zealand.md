@@ -8,7 +8,7 @@ For a step by step video guide to running EVO please follow this flash based tut
 
 1. Read the initial sections of the [User Documentation](http://evo.vrvs.org/evoGate/help.jsp?EvO_Manual)
 2. Then, to access EVO, use the [EVO Client 'Koala' (Register first, then Click Start)](http://evo.caltech.edu/). *(The first time you login you will notice it downloads a number of plug-ins and it may take a while, this is a once only thing.)*
-3. Then read (after logging in) [Configuring EVO for the first time](/wiki/spaces/BeSTGRID/pages/3818228555)
+3. Then read (after logging in) [Configuring EVO for the first time](configuring-evo-for-the-first-time.md)
 4. Finally read the short [Vievo guide in Appendix A](http://evo.vrvs.org/evoGate/help.jsp?EvO_Manual)
 5. You might like to also consult [EVO Frequently Asked Questions](http://evo.caltech.edu/evoGate/FAQ/)
 
@@ -36,7 +36,7 @@ For detailed notes on Mac-specific EVO issues, see [EVO Mac Support](http://evo.
 
 ### Linux
 
-For detailed notes on Linux-specific EVO issues, see [EVO Under Linux](/wiki/spaces/BeSTGRID/pages/3818228771).
+For detailed notes on Linux-specific EVO issues, see [EVO Under Linux](evo-under-linux.md).
 
 ## Equipment to use EVO
 
@@ -64,4 +64,4 @@ For detailed notes on Linux-specific EVO issues, see [EVO Under Linux](/wiki/spa
 ![Chat50.jpg](./attachments/Chat50.jpg)- EVO doesn't work with a number of proxy servers that are used in the University of Auckland. This may be true elsewhere in NZ. It is best if the machine is not behind an "internet proxy" and that the firewall allows normal outbound traffic.
 - It would help if the Java Runtime Environment is updated to to a recent version, available from [Java.com](http://java.sun.com/j2se/1.5.0/download.html), for example Java Runtime Environment (JRE) 5.0 Update 11...things run slightly better
 
-# [Known Issues with EVO](/wiki/spaces/BeSTGRID/pages/3818228443)
+# [Known Issues with EVO](known-issues-with-evo.md)

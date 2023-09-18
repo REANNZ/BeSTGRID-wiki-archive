@@ -118,6 +118,6 @@ to bring your installation up to a level that the VDT packagers consider current
 
 Whilst a full re-install will always bring your NG2 up to date with the revisions of VDT packages being distributed at any time, it may be possible to do an update using VDT's own updater, preserving all bar a few local customisations of the deployment.
 
-This document details one such experience [Experiences updating an NGGUMS at VUW](/wiki/spaces/BeSTGRID/pages/3818228975) and may provide some useful background
+This document details one such experience [Experiences updating an NGGUMS at VUW](experiences-updating-an-nggums-at-vuw.md) and may provide some useful background
 
 to such an updating exercise.

@@ -212,7 +212,7 @@ lib/libglobus_seg_loadleveler_<flavour>.*
 
 # Customizing LoadLeveler.pm
 
-- Customize your loadleveler.pm - as per [Canterbury ng2hpc LoadLeveler Tweaks](/wiki/spaces/BeSTGRID/pages/3818228664#SetupNG2HPCatUniversityofCanterbury-Tweakingloadleveler.pm) or contact the [author of this documentation](vladimirbestgridorg.md)
+- Customize your loadleveler.pm - as per [Canterbury ng2hpc LoadLeveler Tweaks](setup-ng2hpc-at-university-of-canterbury.md#SetupNG2HPCatUniversityofCanterbury-Tweakingloadleveler.pm) or contact the [author of this documentation](vladimirbestgridorg.md)
 
 - Note: if you are using LoadLeveler submit filters that depend on LoadLeveler binaries being in the PATH, you will need to modify `loadleveler.pm` by adding the following (Globus drops PATH when executing the perl job manager (loadleveler.pm) so this may be the simplest way):
 

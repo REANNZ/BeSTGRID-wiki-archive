@@ -6,7 +6,7 @@ um,,uc,,ua,,sc
 
 # Meetings
 
-- [Digital Strategy Feedback](/wiki/spaces/BeSTGRID/pages/3818228648)
+- [Digital Strategy Feedback](bgscdigitalstrategyfeedbackreview.md)
 
 # Framing comments
 

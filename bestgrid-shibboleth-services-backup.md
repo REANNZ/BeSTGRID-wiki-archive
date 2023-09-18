@@ -2,7 +2,7 @@
 
 # Introduction
 
-This article describes all backup procedures for BeSTGRID Shibboleth services. Please have a look [here](/wiki/spaces/BeSTGRID/pages/3818228934) for more details. At the time of writing, the services that requires to backup are mediawiki, wayf and idp. 
+This article describes all backup procedures for BeSTGRID Shibboleth services. Please have a look [here](backup.md) for more details. At the time of writing, the services that requires to backup are mediawiki, wayf and idp. 
 
 # Common backup procedures
 

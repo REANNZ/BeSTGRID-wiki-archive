@@ -8,7 +8,7 @@ Scripts used within this page should have their most recent copy in the [ARCS Gi
 
 - The job submission gateway and the SGE cluster should have a common user space (i.e. users have the same credentials, attributes, and home directories).
 	
-- [Sharing Rocks users with LDAP](/wiki/spaces/BeSTGRID/pages/3818228593)
+- [Sharing Rocks users with LDAP](sharing-rocks-users-with-ldap.md)
 
 - SGE must be configured to log enough information into the "reporting" and "accounting" files.
 - **The default for SGE is*not** to do reporting.

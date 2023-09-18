@@ -6,10 +6,10 @@ There are Computation Grid Gateway servers at each institution, providing the ac
 
 - Auckland
 	
-- gateway.auckland.ac.nz - [General notes on Auckland gateway](/wiki/spaces/BeSTGRID/pages/3818228564)
+- gateway.auckland.ac.nz - [General notes on Auckland gateway](general-notes-on-auckland-gateway.md)
 - pleyads.auckland.ac.nz
 - Canterbury
 - Massey
 - Otago
 	
-- [General notes on Otago gateway](/wiki/spaces/BeSTGRID/pages/3818228462)
+- [General notes on Otago gateway](general-notes-on-otago-gateway.md)

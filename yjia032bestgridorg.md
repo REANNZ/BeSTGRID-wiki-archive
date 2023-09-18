@@ -89,9 +89,9 @@ wiki.test.bestgrid.org
 - Member of AAF Level 1 member
 - Implemented Shibboleth plugin
 
-**Implemented *accesscontrol** plugin, this plugin has been modified to do Shibboleth role/group auto upgrade. Please have a look  [BeSTGRID Shibbolized Wiki Group Control](/wiki/spaces/BeSTGRID/pages/3818228907) guide for more details
+**Implemented *accesscontrol** plugin, this plugin has been modified to do Shibboleth role/group auto upgrade. Please have a look  [BeSTGRID Shibbolized Wiki Group Control](bestgrid-shibbolized-wiki-group-control.md) guide for more details
 
-**Implemented *Google Calendar** extension. Please have a look [Google Calendar Extension](/wiki/spaces/BeSTGRID/pages/3818228638) for more details
+**Implemented *Google Calendar** extension. Please have a look [Google Calendar Extension](google-calendar-extension.md) for more details
 
 - BeSTGRID Production BeSTGRID Wiki
 - Location
@@ -110,7 +110,7 @@ www.bestgrid.org
 
 # Shibbolized BeSTGRID GridSphere
 
-A detailed document has been written at [BeSTGRID Shibbolized GridSphere Installation](/wiki/spaces/BeSTGRID/pages/3818228632). 
+A detailed document has been written at [BeSTGRID Shibbolized GridSphere Installation](bestgrid-shibbolized-gridsphere-installation.md). 
 
 - BeSTGRID Test Shibbolized GridSphere
 - Location
@@ -122,7 +122,7 @@ gridsphere.test.bestgrid.org
 
 # Shibbolized BeSTGRID Sakai
 
-A detailed document has been written at [BeSTGRID Shibbolized Sakai Installation](/wiki/spaces/BeSTGRID/pages/3818228639).
+A detailed document has been written at [BeSTGRID Shibbolized Sakai Installation](bestgrid-shibbolized-sakai-installation.md).
 
 - BeSTGRID Test Shibbolized Sakai
 - Location
@@ -134,7 +134,7 @@ vre.test.bestgrid.org
 - Member of BeSTGRID Test federation
 - Member of AAF Level 1 member
 
-[BeSTGRID Shibbolized Sakai Migration](/wiki/spaces/BeSTGRID/pages/3818228843)
+[BeSTGRID Shibbolized Sakai Migration](bestgrid-shibbolized-sakai-migration.md)
 
 # Shibboleth WAYF
 
@@ -156,7 +156,7 @@ At the time of writing, Internet 2 group only released a beta version for testin
 
 A Shibboleth 2.0 Beta IdP has been installed in kilrogg.auckland.ac.nz for development and testing purpose.
 
-[Shibboleth 2.0 IdP Beta Installation](/wiki/spaces/BeSTGRID/pages/3818228772) will document my installation process.
+[Shibboleth 2.0 IdP Beta Installation](shibboleth-20-idp-beta-installation.md) will document my installation process.
 
 # Documentation
 

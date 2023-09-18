@@ -165,7 +165,7 @@ Before setting up the project, get the following information from the project le
 - Ask the project leader and all project members to login to the DataFabric at least once - so that their account gets created.
 - Optionally: get an estimate of the total space used for the project.
 
-Record the project in [List of DataFabric projects](/wiki/spaces/BeSTGRID/pages/3818228617)
+Record the project in [List of DataFabric projects](list-of-datafabric-projects.md)
 
 The following commands should be run as an iRODS administrator (typically the `rods` user):
 

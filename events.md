@@ -2,7 +2,7 @@
 
 ### Upcoming Events
 
-[Recent News and Events](/wiki/spaces/BeSTGRID/pages/3818228852)
+[Recent News and Events](recent-news-and-events.md)
 
 ### News
 

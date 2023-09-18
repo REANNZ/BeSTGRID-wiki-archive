@@ -20,7 +20,7 @@
 	
 - a gate for data storage
 - Hosts only GSIftp server
-- NGPortal (Gridsphere portal – currently one [setup at Canterbury](/wiki/spaces/BeSTGRID/pages/3818228958))
+- NGPortal (Gridsphere portal – currently one [setup at Canterbury](setup-ngportal-at-university-of-canterbury.md))
 - At APAC
 	
 - Myproxy server

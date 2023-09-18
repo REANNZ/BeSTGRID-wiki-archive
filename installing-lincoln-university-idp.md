@@ -2,7 +2,7 @@
 
 This page documents the installation of the Shibboleth Identity Provider (IdP) for the Lincoln University.  The installation has been done based on existing documentation (mostly provided by the [MAMS project](http://www.mams.org.au/)).  This documentation is created to pull all of this information together - and document how this particular system has been setup, to allow for reinstallation if necessary.
 
-**OBSOLETE**: The Lincoln IdP has been upgraded to Shibboleth 2.x.  This page is now obsolete, see the [Installing Lincoln University Shibboleth 2.x IdP](/wiki/spaces/BeSTGRID/pages/3818228950) page instead.
+**OBSOLETE**: The Lincoln IdP has been upgraded to Shibboleth 2.x.  This page is now obsolete, see the [Installing Lincoln University Shibboleth 2.x IdP](installing-lincoln-university-shibboleth-2x-idp.md) page instead.
 
 # Overview
 

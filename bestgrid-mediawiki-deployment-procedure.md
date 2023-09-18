@@ -67,8 +67,8 @@ ssh wiki@www.bestgrid.org
 cp -r /var/www/html wiki
 ```
 - Edit AdminSettings.php to reflect local settings.
-- Copy [addScopeToMediaWikiUsers.php](/wiki/spaces/BeSTGRID/pages/3818228838) to the working directory and  modified username, password and database to reflect correct local settings.
-- Copy [upgradeScript.sh](/wiki/spaces/BeSTGRID/pages/3818228757) to the working directory and then grant execution privilege to owner
+- Copy [addScopeToMediaWikiUsers.php](addscopetomediawikiusersphp.md) to the working directory and  modified username, password and database to reflect correct local settings.
+- Copy [upgradeScript.sh](upgradescriptsh.md) to the working directory and then grant execution privilege to owner
 
 ``` 
 chmod u+w upgradeScript.sh 

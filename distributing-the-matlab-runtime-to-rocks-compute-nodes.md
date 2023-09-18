@@ -2,7 +2,7 @@
 
 # Introduction
 
-MATLAB's compiled runtime environment allows compiled MATLAB scripts be executed on a Rocks cluster without the purchase of additional MATLAB licenses. The MATLAB runtime installer can be installed on Rocks using a modified version of [Distributing binary installers to Rocks compute nodes](/wiki/spaces/BeSTGRID/pages/3818228438).
+MATLAB's compiled runtime environment allows compiled MATLAB scripts be executed on a Rocks cluster without the purchase of additional MATLAB licenses. The MATLAB runtime installer can be installed on Rocks using a modified version of [Distributing binary installers to Rocks compute nodes](distributing-binary-installers-to-rocks-compute-nodes.md).
 
 # Procedure
 

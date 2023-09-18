@@ -38,4 +38,4 @@ Errors start to occur if the number of processes is larger than approximately tw
 
 For mpi jobs the limit is larger and currently uncertain.
 
-More details: [Limits on Number of Processes with Torque](/wiki/spaces/BeSTGRID/pages/3818228807)
+More details: [Limits on Number of Processes with Torque](limits-on-number-of-processes-with-torque.md)

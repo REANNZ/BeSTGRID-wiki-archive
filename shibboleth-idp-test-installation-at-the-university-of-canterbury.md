@@ -2,7 +2,7 @@
 
 This installation was done following the [MAMS IdP installation instructions](http://www.federation.org.au/twiki/bin/view/Federation/ManualInstallIdP).  The installation was done on a CentOS 5 machine; main differences were in locations of various Tomcat files and directories, and manual installation of LDAP.
 
-This installation is followed up by the [ShARPE installation](/wiki/spaces/BeSTGRID/pages/3818228793).
+This installation is followed up by the [ShARPE installation](shibboleth-sharpe-test-installation-at-the-university-of-canterbury.md).
 
 # Installing Identity Provider
 

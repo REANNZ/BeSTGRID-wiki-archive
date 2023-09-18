@@ -5,7 +5,7 @@ The NGData virtual machine will host the SRB server: this machine will also run 
 # Preparation and system installation
 
 - The system will need sufficient disk space for the metadata, hence creating it with 20G disk space and a 2G swap.
-- The system has to run CentOS-5 (required by ARCS SRB packages), hence [install it as CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228741)
+- The system has to run CentOS-5 (required by ARCS SRB packages), hence [install it as CentOS 5](installing-a-centos-5-xen-vm-on-a-centos-4-xen-host-system.md)
 - The system will need an X509 host certificate.
 
 # Integration with HPC internal network

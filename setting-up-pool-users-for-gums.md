@@ -72,7 +72,7 @@ sudo rocks sync users
 
 ## Migrating users to LDAP
 
-- Log into the head node of the Rocks Cluster, which should already be configured to [share Rocks users with LDAP](/wiki/spaces/BeSTGRID/pages/3818228593).
+- Log into the head node of the Rocks Cluster, which should already be configured to [share Rocks users with LDAP](sharing-rocks-users-with-ldap.md).
 - Export user and group data from `etc/passwd` and `/etc/group` respectivly:
 
 ``` 

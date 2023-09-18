@@ -6,7 +6,7 @@ This article describes the steps of Sakai migration from current [BeSTGRID Sakai
 
 # Sakai Upgrade from 2.3 to 2.4
 
-- [Install Shibbolized Sakai 2.4](/wiki/spaces/BeSTGRID/pages/3818228639)
+- [Install Shibbolized Sakai 2.4](bestgrid-shibbolized-sakai-installation.md)
 - Copy database dump from production server to test server
 - Import database dump into test server database
 - Download the [MySQL conversion script](https://source.sakaiproject.org/svn/reference/tags/sakai_2-4-0/docs/conversion/sakai_2_3_1-2_4_0_mysql_conversion.sql) and then implement it.
@@ -324,4 +324,4 @@ This article describes the steps of Sakai migration from current [BeSTGRID Sakai
 - Click on "Select" button
 - Enter your username and password
 - You should be redirected back to Sakai.
-- Test it and report any bug to [system administrators](/wiki/spaces/BeSTGRID/pages/3818228926)
+- Test it and report any bug to [system administrators](contacts.md)

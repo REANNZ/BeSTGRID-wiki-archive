@@ -20,11 +20,11 @@ First example in NZ of **cross-institutional live teaching using DVD quality vid
 
 ## Location & Facilities were easy to access
 
-- Taught from the comfort of David Bryant's University of Auckland office using [BeSTGRID portable equipment](/wiki/spaces/BeSTGRID/pages/3818228487)
+- Taught from the comfort of David Bryant's University of Auckland office using [BeSTGRID portable equipment](bestgrid-portable-access-grid-node.md)
 
 
->  *A*regular teaching room* was used at Canterbury, again using the [BeSTGRID/HitLab portable equipment](/wiki/spaces/BeSTGRID/pages/3818228487)
->  *A*regular teaching room* was used at Canterbury, again using the [BeSTGRID/HitLab portable equipment](/wiki/spaces/BeSTGRID/pages/3818228487)
+>  *A*regular teaching room* was used at Canterbury, again using the [BeSTGRID/HitLab portable equipment](bestgrid-portable-access-grid-node.md)
+>  *A*regular teaching room* was used at Canterbury, again using the [BeSTGRID/HitLab portable equipment](bestgrid-portable-access-grid-node.md)
 
 ## An engaging experience for all
 

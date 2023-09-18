@@ -2,7 +2,7 @@
 
 # Test Gateway Setup 
 
-[APAC Test Suite For Auckland Gateway](/wiki/spaces/BeSTGRID/pages/3818228561)
+[APAC Test Suite For Auckland Gateway](apac-test-suite-for-auckland-gateway.md)
 
 [APAC repository](http://projects.gridaus.org.au/trac/systems/wiki/YumRepository) contains rpms for torque client
 
@@ -138,7 +138,7 @@ firewall and editing default server name in config files.
 >  yum install torque-client.i386
 
 
-[GLobus PBS Integration](/wiki/spaces/BeSTGRID/pages/3818228682)
+[GLobus PBS Integration](globus-pbs-integration.md)
 
 ## Torque troubleshooting
 

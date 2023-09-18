@@ -4,12 +4,12 @@ The Globus project has recently released Globus Toolkit 5.0.0, introducing GRAM 
 
 This page documents a test setup of a GT5 grid gateway.  While the other documentation for ARCS Grid / BeSTGRID assumes an install based on VDT, this page bypasses VDT (not supporting GT5 yet) and installs all packages directly from their source.
 
-This page is targeted at PBS/Torque clusters - as a proof of concept.  For other Local Resource Managers (LRMs) like SGE or LoadLeveler, please refer to the LRM-specific supplementary documentation, to be linked from the [Setting up a grid gateway](/wiki/spaces/BeSTGRID/pages/3818228546) page.  If not available there, you may also find useful LRM-specific pages written for GT4, linked from the [NG2 setup page](setting-up-an-ng2.md).
+This page is targeted at PBS/Torque clusters - as a proof of concept.  For other Local Resource Managers (LRMs) like SGE or LoadLeveler, please refer to the LRM-specific supplementary documentation, to be linked from the [Setting up a grid gateway](setting-up-a-grid-gateway.md) page.  If not available there, you may also find useful LRM-specific pages written for GT4, linked from the [NG2 setup page](setting-up-an-ng2.md).
 
 The LRM-specific pages available for GRAM5 so far are:
 
-- [Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228499) (LoadLeveler specific details)
-- [Setup GRAM5.2 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228694) (LoadLeveler specific details)
+- [Setup GRAM5 with LoadLeveler](setup-gram5-with-loadleveler.md) (LoadLeveler specific details)
+- [Setup GRAM5.2 with LoadLeveler](setup-gram52-with-loadleveler.md) (LoadLeveler specific details)
 
 # Preliminaries
 
@@ -149,7 +149,7 @@ export PBS_HOME=/usr/spool/PBS
 
 ## Get PRIMA source code and dependencies
 
-Get PRIMA source code (as also documented at [Setup PRIMA on IBM p520#Getting PRIMA](/wiki/spaces/BeSTGRID/pages/3818228592#SetupPRIMAonIBMp520-GettingPRIMA))
+Get PRIMA source code (as also documented at [Setup PRIMA on IBM p520#Getting PRIMA](setup-prima-on-ibm-p520.md#SetupPRIMAonIBMp520-GettingPRIMA))
 
 - Download `prepare_nmi.sh` from [http://computing.fnal.gov/docs/products/voprivilege/prima/nmi_build.html](http://computing.fnal.gov/docs/products/voprivilege/prima/nmi_build.html)
 - Edit the script and comment out the line `rm -fr "$outdir/cvs_nmi` (cleanup at the end of the file)

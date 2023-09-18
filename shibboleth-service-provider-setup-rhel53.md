@@ -50,7 +50,7 @@ rpm -ivh log4shib-1.0.3-1.1.i386.rpm \
 
 - Configure the Service Provider by editing the shibboleth2.xml (located at /etc/shibboleth/)
 
-- Download the example [Shibboleth2.xml](/wiki/spaces/BeSTGRID/pages/3818228455).
+- Download the example [Shibboleth2.xml](shibboleth2xml.md).
 
 ## Federation Metadata
 
@@ -74,4 +74,4 @@ root# /etc/init.d/shibd start
 
 # Appendix
 
-- [Shibboleth2.xml](/wiki/spaces/BeSTGRID/pages/3818228455)
+- [Shibboleth2.xml](shibboleth2xml.md)

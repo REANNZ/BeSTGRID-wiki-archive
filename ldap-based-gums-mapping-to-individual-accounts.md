@@ -1,6 +1,6 @@
 # LDAP-based GUMS mapping to individual accounts
 
-An alternative to [Pool Accounts](/wiki/spaces/BeSTGRID/pages/3818228667) and [Shibboleth Auth  Tool](deploying-shibbolized-authtool-on-a-gums-server.md) to map users to individual accounts on grid gateways.  
+An alternative to [Pool Accounts](setting-up-pool-users-for-gums.md) and [Shibboleth Auth  Tool](deploying-shibbolized-authtool-on-a-gums-server.md) to map users to individual accounts on grid gateways.  
 
 # Comparison with Pool Accounts
 
@@ -95,7 +95,7 @@ group=6000
 
 Strictly speaking, there is no requirement to use LDAP for accounts on the cluster as we can generate passwd entries from resulting ldif.  
 
-On Rocks clusters with LDAP authentication (have a look at [Sharing Rocks users with LDAP](/wiki/spaces/BeSTGRID/pages/3818228593)) the following shell script can be installed as cron job to create accounts  :
+On Rocks clusters with LDAP authentication (have a look at [Sharing Rocks users with LDAP](sharing-rocks-users-with-ldap.md)) the following shell script can be installed as cron job to create accounts  :
 
 ``` 
 

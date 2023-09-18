@@ -42,7 +42,7 @@ Disk Space: 4~5 GigaBytes
 
 ***Plan***
 
-1. Install OpenIdP - [Installation procedure](/wiki/spaces/BeSTGRID/pages/3818228882)
+1. Install OpenIdP - [Installation procedure](how-to-install-openidp.md)
 2. Confirm External Access (Submit the following firewall rules change to ITS)
 	
 - Allows inbound and outbound access for HTTP and HTTPS
@@ -107,7 +107,7 @@ Disk Space: 4~5 GigaBytes
 - Download AAF Level 2 metadata
 - Install Shibboleth Service Provider
 
-;[Deployment procedure](/wiki/spaces/BeSTGRID/pages/3818228587)
+;[Deployment procedure](bestgrid-mediawiki-deployment-procedure.md)
 
 - Create a staging server.
 - Create a database deployment script to process the following actions:

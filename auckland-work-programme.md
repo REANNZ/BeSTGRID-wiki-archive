@@ -11,14 +11,14 @@ The following services are maintained by the BeSTGRID Auckland team.
 2. [Sakai VRE](http://sakai.bestgrid.org)
 3. [BeSTGRID Wiki](http://www.bestgrid.org)
 4. [BLAST web services](http://blast.bestgrid.org/)
-5. [GridSphere R Portal Initial Work Plan](/wiki/spaces/BeSTGRID/pages/3818228705)
+5. [GridSphere R Portal Initial Work Plan](gridsphere-r-portal-initial-work-plan.md)
 6. Auckland Idp
 7. [BeSTGRID WAYF](http://wayf.bestgrid.org)
 8. [BeSTGRID Open Idp](http://idp.bestgrid.org)
 
 **PRODUCTION INFRASTRUCTURE**
-9. [BeSTGRID Auckland Cluster](/wiki/spaces/BeSTGRID/pages/3818228708)
-10. [Data Storage at the University of Auckland](/wiki/spaces/BeSTGRID/pages/3818228796)
+9. [BeSTGRID Auckland Cluster](bestgrid-auckland-cluster.md)
+10. [Data Storage at the University of Auckland](data-storage-at-the-university-of-auckland.md)
 
 # Test Infrastructure
 
@@ -34,7 +34,7 @@ The following services are maintained by the BeSTGRID Auckland team.
 
 Support Bioinformatics reseachers
 
-[BeSTGRID Auckland Cluster install notes](/wiki/spaces/BeSTGRID/pages/3818228783)
+[BeSTGRID Auckland Cluster install notes](bestgrid-auckland-cluster-install-notes.md)
 
 ***Storage Resource Broker Implementation***
 - Aim
@@ -44,9 +44,9 @@ Share data through SRB between Auckland and Canterbury
 
 ## OpenIDP, WAYF
 
->  [BeSTGRID Shibboleth Project Initial Plan](/wiki/spaces/BeSTGRID/pages/3818228432)
->  [BeSTGRID Shibboleth Authentication for GridSphere Work Plan](/wiki/spaces/BeSTGRID/pages/3818228785)
->  [BeSTGRID Shibboleth Authentication for Sakai Work Plan](/wiki/spaces/BeSTGRID/pages/3818228578)
+>  [BeSTGRID Shibboleth Project Initial Plan](bestgrid-shibboleth-project-initial-plan.md)
+>  [BeSTGRID Shibboleth Authentication for GridSphere Work Plan](bestgrid-shibboleth-authentication-for-gridsphere-work-plan.md)
+>  [BeSTGRID Shibboleth Authentication for Sakai Work Plan](bestgrid-shibboleth-authentication-for-sakai-work-plan.md)
 
 ### Listing / Naming of Federations / Institutions
 

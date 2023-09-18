@@ -12,11 +12,11 @@ Grid computing offers a model for solving massive computational problems by maki
 
 What is grid and grid computing? According to [IBM](http://www-128.ibm.com/developerworks/grid/library/gr-grid1/): "A grid is a collection of distributed computing resources available over a local or wide area network that appear to an end user or application as one large virtual computing system. The vision is to create virtual dynamic organizations through secure, coordinated resource-sharing among individuals, institutions, and resources. Grid computing is an approach to distributed computing that spans not only locations but also organizations, machine architectures and software boundaries to provide unlimited power, collaboration and information access to everyone connected to a grid."
 
-# [Getting Started with BeSTGRIDs Computational GRID](/wiki/spaces/BeSTGRID/pages/3818228457)
+# [Getting Started with BeSTGRIDs Computational GRID](getting-started-with-bestgrids-computational-grid.md)
 
 # BeSTGRID Project Deliverables - Computational Grid
 
-[Computational Grid Project Deliverables](/wiki/spaces/BeSTGRID/pages/3818228961)
+[Computational Grid Project Deliverables](computational-grid-project-deliverables.md)
 
 # BeSTGRID Conceptual Design
 
@@ -24,7 +24,7 @@ What is grid and grid computing? According to [IBM](http://www-128.ibm.com/devel
 
 ## BeSTGRID GateWay Server Configuration 
 
-## [BeSTGRID Auckland IP Addresses Pool](/wiki/spaces/BeSTGRID/pages/3818228780) 
+## [BeSTGRID Auckland IP Addresses Pool](auckland-ip-pool.md) 
 
 **Status:** *the GateWay Server has been mounted in Computer Center of ITS, UoA*
 
@@ -51,7 +51,7 @@ What is grid and grid computing? According to [IBM](http://www-128.ibm.com/devel
 - [Web Portal based on GridSphere](http://www.gridsphere.org/gridsphere/gridsphere?cid=2)
 - [Sakai Server](http://www.sakaiproject.org/)
 
-## [First BeSTGRID Test Grid](/wiki/spaces/BeSTGRID/pages/3818228493)
+## [First BeSTGRID Test Grid](first-bestgrid-test-grid.md)
 
 # [Technical Notes for setting up the Institutional Gateway Servers (APAC Style)](vladimirbestgridorg.md)
 
@@ -75,7 +75,7 @@ What is grid and grid computing? According to [IBM](http://www-128.ibm.com/devel
 - [Andrey Kharuk](andrey-kharuk.md) can also collect requests for certs from people, and process them in bulk by inviting a CA adminstrator from VPAC to create certificates.
 - *Who recognises APAC certificates?* See [GRIDPMA](http://www.gridpma.org) where you can find all GRID organisation which recognize APAC certificates (see 'Asia and Pacific').
 
-## [Federated Identity Initiatives in NZ](/wiki/spaces/BeSTGRID/pages/3818228589)
+## [Federated Identity Initiatives in NZ](federated-identity-initiatives-in-nz.md)
 
 # Contact
 

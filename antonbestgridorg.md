@@ -33,7 +33,7 @@ Massey University at Albany.
 
 # Links
 
-- [Virtual Machine Maintenance](/wiki/spaces/BeSTGRID/pages/3818228653)
-- [Anton___Development Notes](/wiki/spaces/BeSTGRID/pages/3818228688)
-- [Massey Cluster](/wiki/spaces/BeSTGRID/pages/3818228892) details
+- [Virtual Machine Maintenance](virtual-machine-maintenance.md)
+- [Anton___Development Notes](anton___development-notes.md)
+- [Massey Cluster](massey-cluster.md) details
 - My [Big Science](http://antongrid.blogspot.com/) grid computing blog.

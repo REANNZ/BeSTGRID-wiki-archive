@@ -149,7 +149,7 @@ The tools available are [NetDrive](http://www.netdrive.net/), [WebDrive](http://
 
 ### Using BitKinex
 
-BitKinex is the recommended alternative client, a complete procedure for getting started with the Data Fabric using the BitKinex client is described in the [Accessing the Data Fabric with Grix and BitKinex](/wiki/spaces/BeSTGRID/pages/3818228581) and [WebDAV using BitKinex](/wiki/spaces/BeSTGRID/pages/3818228414) pages.
+BitKinex is the recommended alternative client, a complete procedure for getting started with the Data Fabric using the BitKinex client is described in the [Accessing the Data Fabric with Grix and BitKinex](accessing-the-data-fabric-with-grix-and-bitkinex.md) and [WebDAV using BitKinex](/wiki/spaces/BeSTGRID/pages/3818228414) pages.
 
 **NOTE:** Some of the alternative clients do not work with files or directories with special characters. Use only letters, numbers, spaces, dashes, underscores, and periods in file and directory names.
 

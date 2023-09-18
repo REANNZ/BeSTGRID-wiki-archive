@@ -9,7 +9,7 @@ VDT CA updater can be simply installed and activated with:
 >  pacman -pretend-platform linux-rhel-4 -get [http://projects.arcs.org.au/mirror/vdt/vdt_181_cache:CA-Certificates-Updater](http://projects.arcs.org.au/mirror/vdt/vdt_181_cache:CA-Certificates-Updater)
 >  vdt-control --on vdt-update-certs
 
-- more details on this are at the [automatic install update notes](/wiki/spaces/BeSTGRID/pages/3818228905#GridgatewayenhancementsatUniversityofCanterbury-AutomaticCertificateUpdates)
+- more details on this are at the [automatic install update notes](grid-gateway-enhancements-at-university-of-canterbury.md#GridgatewayenhancementsatUniversityofCanterbury-AutomaticCertificateUpdates)
 
 # Configuring VDT updater to include PRAGMA CA bundle
 

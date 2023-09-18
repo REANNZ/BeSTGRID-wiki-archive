@@ -7,74 +7,74 @@
 
 # Notes 
 
-[Change port for Globus-ws](/wiki/spaces/BeSTGRID/pages/3818228957)
+[Change port for Globus-ws](change-port-for-globus-ws.md)
 
-[Tweak NG2Test](/wiki/spaces/BeSTGRID/pages/3818228497)
+[Tweak NG2Test](tweak-ng2test.md)
 
-[GridSphere portal in Tomcat environment](/wiki/spaces/BeSTGRID/pages/3818228855)
+[GridSphere portal in Tomcat environment](gridsphere-tomcat.md)
 
-[Staging error for RSL element fileStageOut](/wiki/spaces/BeSTGRID/pages/3818228522)
+[Staging error for RSL element fileStageOut](staging-error.md)
 
-[Osprey Capture Card Configuration](/wiki/spaces/BeSTGRID/pages/3818228826)
+[Osprey Capture Card Configuration](osprey-capture-card-configuration.md)
 
-[Test of Syntax HighLight](/wiki/spaces/BeSTGRID/pages/3818228788)
+[Test of Syntax HighLight](test-of-syntax-highlight.md)
 
 # The Cluster 
 
-[Install Rocks onto Head Node](/wiki/spaces/BeSTGRID/pages/3818228980)
+[Install Rocks onto Head Node](install-rocks-onto-head-node.md)
 
-[Compute Nodes Setting](/wiki/spaces/BeSTGRID/pages/3818228479)
+[Compute Nodes Setting](compute-nodes-setting.md)
 
-[Unsuccessful attempts to recompile Rocks](/wiki/spaces/BeSTGRID/pages/3818228412)
+[Unsuccessful attempts to recompile Rocks](unsuccessful-attempts-to-recompile-rocks.md)
 
-[Rocks 5.0 Installation](/wiki/spaces/BeSTGRID/pages/3818228624)
+[Rocks 5.0 Installation](rocks-50-installation.md)
 
-[Rocks 4.3 Installation](/wiki/spaces/BeSTGRID/pages/3818228666)
+[Rocks 4.3 Installation](rocks-43-installation.md)
 
-[Configuring BMC on the HeadNode](/wiki/spaces/BeSTGRID/pages/3818228833)
+[Configuring BMC on the HeadNode](configuring-bmc-on-the-headnode.md)
 
-[BeSTGRID Auckland Cluster](/wiki/spaces/BeSTGRID/pages/3818228708)
+[BeSTGRID Auckland Cluster](bestgrid-auckland-cluster.md)
 
-[Cluster Hardware Configuration](/wiki/spaces/BeSTGRID/pages/3818228701)
+[Cluster Hardware Configuration](cluster-hardware-configuration.md)
 
 # Systems 
 
-[Upgrading NG2](/wiki/spaces/BeSTGRID/pages/3818228661)
+[Upgrading NG2](upgrading-ng2.md)
 
-[Analysis of Wiki Crash and Recovering](/wiki/spaces/BeSTGRID/pages/3818228613)
+[Analysis of Wiki Crash and Recovering](analysis-of-wiki-crash-and-recovering.md)
 
-[Wiki and Sakai Backup](/wiki/spaces/BeSTGRID/pages/3818228934)
+[Wiki and Sakai Backup](backup.md)
 
-[NZSSDS Backup](/wiki/spaces/BeSTGRID/pages/3818228494)
+[NZSSDS Backup](backup-procedure.md)
 
-[Auckland BeSTGRID IP Pool](/wiki/spaces/BeSTGRID/pages/3818228780)
+[Auckland BeSTGRID IP Pool](auckland-ip-pool.md)
 
-[Naming convention for new systems](/wiki/spaces/BeSTGRID/pages/3818228580)
+[Naming convention for new systems](naming-convention-for-new-systems.md)
 
 [Technical Overview for Institutional_GRID_Gateways](technical-overview-for-institutional-grid-gateways.md)
 
-[Xen 3.0 Open Source Installation](/wiki/spaces/BeSTGRID/pages/3818228529)
+[Xen 3.0 Open Source Installation](xen-install.md)
 
 = Data Grid = 
 
-[Data Storage at the University of Auckland](/wiki/spaces/BeSTGRID/pages/3818228796)
+[Data Storage at the University of Auckland](data-storage-at-the-university-of-auckland.md)
 
-[BeSTGRID BLAST Server](/wiki/spaces/BeSTGRID/pages/3818228594)
+[BeSTGRID BLAST Server](bestgrid-blast-server.md)
 
 # Computational Grid 
 
-[First BeSTGRID Test Grid](/wiki/spaces/BeSTGRID/pages/3818228493)
+[First BeSTGRID Test Grid](first-bestgrid-test-grid.md)
 
-[Auckland BeSTGRID Computational Grid Resources](/wiki/spaces/BeSTGRID/pages/3818228944)
+[Auckland BeSTGRID Computational Grid Resources](computational-grid.md)
 
 Using Grix Tool
 
 # Sakai 
 
-[Sakai Server Installation](/wiki/spaces/BeSTGRID/pages/3818228714)
+[Sakai Server Installation](sakai-server-install.md)
 
-[Quick URL for VRE sites](/wiki/spaces/BeSTGRID/pages/3818228473)
+[Quick URL for VRE sites](quick-url-for-vre-sites.md)
 
-[How to configure Sakai to store uploaded files on the filesystem](/wiki/spaces/BeSTGRID/pages/3818228447)
+[How to configure Sakai to store uploaded files on the filesystem](store-files-on-filesystem.md)
 
-[Creating WebDAV Folder in Windows](/wiki/spaces/BeSTGRID/pages/3818228607)
+[Creating WebDAV Folder in Windows](webdav-folder-in-windows.md)

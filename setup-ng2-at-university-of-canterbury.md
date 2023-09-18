@@ -461,5 +461,5 @@ Note that in order for the wsrf-query command to work, certain jars with Java XM
 
 # Additional Modifications
 
-- [PBS job tagging](/wiki/spaces/BeSTGRID/pages/3818228870) to make distinguished name and email address of the user submitting the job available to PBS.
+- [PBS job tagging](pbs-job-tagging.md) to make distinguished name and email address of the user submitting the job available to PBS.
 - [Fixing startup order](vladimirs-grid-notes.md#Vladimir&#39;sgridnotes-Fixingstartuporder) to avoid problems when Globus RFT starts before MySQL.

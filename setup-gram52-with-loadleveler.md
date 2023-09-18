@@ -2,7 +2,7 @@
 
 This page provides the LoadLeveler specific details for setting up a GRAM5.2 grid gateway.
 
-**Note: This page is a GRAM 5.2 rehash of ****[Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228499)** |
+**Note: This page is a GRAM 5.2 rehash of ****[Setup GRAM5 with LoadLeveler](setup-gram5-with-loadleveler.md)** |
 
 Start by first installing a plain GRAM5.2, following the instructions on the [Setup GRAM5 on CentOS 5](setup-gram5-on-centos-5.md) page (skipping all PBS-specific steps), then proceed from here.
 

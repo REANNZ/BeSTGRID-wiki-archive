@@ -10,7 +10,7 @@
 
 ## Auckland
 
-- [Data Storage at the University of Auckland](/wiki/spaces/BeSTGRID/pages/3818228796)
+- [Data Storage at the University of Auckland](data-storage-at-the-university-of-auckland.md)
 
 
 

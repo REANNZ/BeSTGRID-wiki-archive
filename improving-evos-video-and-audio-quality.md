@@ -11,7 +11,7 @@ If at all possible, all people involved in the meeting should use headsets:
 - Logitech USB headsets are highly recommended
 
 ![Logitech350.jpg](./attachments/Logitech350.jpg)
-- Here are some [Additional Instructions on fine-tuning EVO's Audio](/wiki/spaces/BeSTGRID/pages/3818228528)
+- Here are some [Additional Instructions on fine-tuning EVO's Audio](additional-instructions-on-fine-tuning-evos-audio.md)
 
 ## Have your University open a port in the University Firewall for your computer
 
@@ -23,10 +23,10 @@ If at all possible, all people involved in the meeting should use headsets:
 >  Both IN and OUT, Both UDP and TCP: Port Number 46015
 >  Both IN and OUT, Both UDP and TCP: Port Number 46015
 
-## Make sure you are connected to the BeSTGRID_NZ [Panda Server](/wiki/spaces/BeSTGRID/pages/3818228619)
+## Make sure you are connected to the BeSTGRID_NZ [Panda Server](evo-panda-reflector-node-setup.md)
 
 - (For New Zealand based users)
-- The New Zealand production EVO [Panda Server is BeSTGRID_NZ](/wiki/spaces/BeSTGRID/pages/3818228619).
+- The New Zealand production EVO [Panda Server is BeSTGRID_NZ](evo-panda-reflector-node-setup.md).
 - the Panda server you are connected to is listed in the bottom left of the Koala window.
 - You are automatically connected to the nearest Panda server – sometime EVO doesn't make the best decision. You should aim to connect to BeSTGRID_NZ.
 - To reconnect to the BeSTGRID_NZ panda choose: Koala menu -> Koala Monitoring. Select "evo.bestgrid.org" from the "Best Panda Servers:" drop-down list, and Click "Connect to Selected Panda".

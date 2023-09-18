@@ -192,7 +192,7 @@ See my description of the [problem](vladimirs-grid-notes.md#Vladimir&#39;sgridno
 
 Install customized pbs.pm into /opt/vdt/globus/lib/perl/Globus/GRAM/JobManager
 
-See [Canterbury NG2 installation](/wiki/spaces/BeSTGRID/pages/3818228687) and [Canterbury gateway enhancements for a list of features](/wiki/spaces/BeSTGRID/pages/3818228905).
+See [Canterbury NG2 installation](setup-ng2-at-university-of-canterbury.md) and [Canterbury gateway enhancements for a list of features](grid-gateway-enhancements-at-university-of-canterbury.md).
 
 - Retrieving User DN from early audit database - needs `GetJobDN.sh` script + sudo access in /etc/sudoers:
 

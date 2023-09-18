@@ -7,7 +7,7 @@ I have decided to use GridGwTest also as a test system for SRB.  For this, I had
 - Shut the system down.
 - Mount the system's partition in the Xen host.
 - Move everything to `/centos4-vdt161-backup`
-- [Install CentOS 5](/wiki/spaces/BeSTGRID/pages/3818228741) - see notes, it's more than 
+- [Install CentOS 5](installing-a-centos-5-xen-vm-on-a-centos-4-xen-host-system.md) - see notes, it's more than 
 
 ``` 
 ./bootstrapvm /mnt/vmRoot/ gridgwtest CentOS-5

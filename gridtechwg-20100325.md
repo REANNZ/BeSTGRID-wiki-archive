@@ -34,7 +34,7 @@ project up at the meeting - or invite the future users.
 
 Attending: Vladimir Mencl, Guy Kloss, Stuart Charters, Tim Molteno, Mik Black, Kevin Buckley, Andrey Kharuk, Yuriy Halytskyy
 
-- Vladimir gave a brief overview of iRODS and of the [iRODS deployment plan](/wiki/spaces/BeSTGRID/pages/3818228549)
+- Vladimir gave a brief overview of iRODS and of the [iRODS deployment plan](irods-deployment-plan.md)
 
 - Mik suggests two initial projects:
 	

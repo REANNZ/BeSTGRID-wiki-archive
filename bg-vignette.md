@@ -1,7 +1,7 @@
 # BG vignette
 
 
-- [What is BeSTGRID?](bestgrid-about.md) - [Media and Presentations](/wiki/spaces/BeSTGRID/pages/3818228512)
+- [What is BeSTGRID?](bestgrid-about.md) - [Media and Presentations](media-and-presentations.md)
 
 BeSTGRID delivers services and tools to support research and research [collaboration](category-collaboration.md), on shared [data](category-data-grid.md) sets, and in accessing non trivial amounts of [computational](category-computational-grid.md) resources.
 

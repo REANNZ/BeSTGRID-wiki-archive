@@ -5,7 +5,7 @@
 
 - [Mathematics](category-mathematics.md)
 
-[Secondary Mathematics Teachers Content Knowledge](/wiki/spaces/BeSTGRID/pages/3818228878)
+[Secondary Mathematics Teachers Content Knowledge](secondary-mathematics-teachers-content-knowledge.md)
 
 # BeSTGRID Access GRID Equipment
 
@@ -21,25 +21,25 @@
 
 - [Further information](bestgrid-bioengineering-access-grid-node.md)
 
-## Proposed [School of Biological Sciences AccessGRID Node](/wiki/spaces/BeSTGRID/pages/3818228884)
+## Proposed [School of Biological Sciences AccessGRID Node](school-of-biological-sciences-accessgrid-node.md)
 
 >  ***Status:** Planning 2007
 >  ***Design** Graeme Glen
 >  ***Location** Mac1 Seminar Room, SBS, University of Auckland, Auckland
 
-## [Event Setup procedure for portable AccessGRID nodes](/wiki/spaces/BeSTGRID/pages/3818228690)
+## [Event Setup procedure for portable AccessGRID nodes](event-setup-procedure-for-portable-accessgrid-nodes.md)
 
-## [BeSTGRID Portable Access Grid Node](/wiki/spaces/BeSTGRID/pages/3818228487)
+## [BeSTGRID Portable Access Grid Node](bestgrid-portable-access-grid-node.md)
 
 >  ***Status:** Operational
 
-## [Software Configuration for Portable Node](/wiki/spaces/BeSTGRID/pages/3818228554)
+## [Software Configuration for Portable Node](software-configuration-for-portable-node.md)
 
-## [Access GRID sessions to UK sites](/wiki/spaces/BeSTGRID/pages/3818228423)
+## [Access GRID sessions to UK sites](access-grid-sessions-to-uk-sites.md)
 
 ## [Advice on using unicast/multicast bridges](advice-on-using-unicast-multicast-bridges.md)
 
-## [Advice and discussion on meeting protocols](/wiki/spaces/BeSTGRID/pages/3818228731)
+## [Advice and discussion on meeting protocols](advice-and-discussion-on-meeting-protocols.md)
 
 ### Suppliers and Specs
 

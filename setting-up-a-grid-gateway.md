@@ -23,6 +23,6 @@ The following documentation is relevant for this task:
 
 - [Setup GRAM5 on CentOS 5](setup-gram5-on-centos-5.md) (PBS centric)
 	
-- [Setup GRAM5 with LoadLeveler](/wiki/spaces/BeSTGRID/pages/3818228499) (LoadLeveler specific details)
+- [Setup GRAM5 with LoadLeveler](setup-gram5-with-loadleveler.md) (LoadLeveler specific details)
 
-- [Updating a grid gateway](/wiki/spaces/BeSTGRID/pages/3818228831)
+- [Updating a grid gateway](updating-a-grid-gateway.md)

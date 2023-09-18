@@ -4,40 +4,40 @@
 
 ## Auckland Cluster
 
-[Auckland Cluster Testing](/wiki/spaces/BeSTGRID/pages/3818228618)
+[Auckland Cluster Testing](auckland-cluster-testing.md)
 
-[Auckland Cluster Infrastructure](/wiki/spaces/BeSTGRID/pages/3818228628)
+[Auckland Cluster Infrastructure](auckland-cluster-infrastructure.md)
 
-[Audit Database](/wiki/spaces/BeSTGRID/pages/3818228433)
+[Audit Database](audit-database.md)
 
 ## Globus
 
-[Auckland Test Gateway](/wiki/spaces/BeSTGRID/pages/3818228485)
+[Auckland Test Gateway](auckland-test-gateway.md)
 
-[Auckland NG2 Setup with VDT 1.10](/wiki/spaces/BeSTGRID/pages/3818228730)
+[Auckland NG2 Setup with VDT 1.10](auckland-ng2-setup-with-vdt-110.md)
 
-[Auckland GUMS Server](/wiki/spaces/BeSTGRID/pages/3818228749)
+[Auckland GUMS Server](auckland-gums-server.md)
 
-[APAC Test Suite For Auckland Gateway](/wiki/spaces/BeSTGRID/pages/3818228561)
+[APAC Test Suite For Auckland Gateway](apac-test-suite-for-auckland-gateway.md)
 
-[Running Jobs via Globus](/wiki/spaces/BeSTGRID/pages/3818228623)
+[Running Jobs via Globus](running-jobs-via-globus.md)
 
-[Grisu Tutorials](/wiki/spaces/BeSTGRID/pages/3818228729)
+[Grisu Tutorials](grisu-tutorials.md)
 
-[Random Globus Notes](/wiki/spaces/BeSTGRID/pages/3818228755)
+[Random Globus Notes](massey-cluster-head-node.md)
 
-[Access to ATLAS cluster](/wiki/spaces/BeSTGRID/pages/3818228971)
+[Access to ATLAS cluster](access-to-atlas-cluster.md)
 
-[Setup GRAM5 on Debian](/wiki/spaces/BeSTGRID/pages/3818228869)
+[Setup GRAM5 on Debian](setup-gram5-on-debian.md)
 
 # GUMS
 
-[LDAP-based GUMS mapping to individual accounts](/wiki/spaces/BeSTGRID/pages/3818228472)
+[LDAP-based GUMS mapping to individual accounts](ldap-based-gums-mapping-to-individual-accounts.md)
 
 ## Rocks
 
-[Rocks Utilities](/wiki/spaces/BeSTGRID/pages/3818228919)
+[Rocks Utilities](rocks-utilities.md)
 
-[Rocks Database](/wiki/spaces/BeSTGRID/pages/3818228718)
+[Rocks Database](rocks-database.md)
 
-[RSH on Rocks](/wiki/spaces/BeSTGRID/pages/3818228521)
+[RSH on Rocks](rsh-on-rocks.md)

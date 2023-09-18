@@ -2,9 +2,9 @@
 
 ## Internal Links
 
-- [Media and Presentations](/wiki/spaces/BeSTGRID/pages/3818228512)
-- [Institutional Repositories](/wiki/spaces/BeSTGRID/pages/3818228669)
-- [Tools for eResearch](/wiki/spaces/BeSTGRID/pages/3818228626)
+- [Media and Presentations](media-and-presentations.md)
+- [Institutional Repositories](institutional-repositories.md)
+- [Tools for eResearch](tools-for-eresearch.md)
 
 ## External Links
 

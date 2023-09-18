@@ -40,13 +40,13 @@ Landcare Research
 ## Partners
 
 
->  ***[Partner projects and applications](/wiki/spaces/BeSTGRID/pages/3818228898)**
+>  ***[Partner projects and applications](partner-projects-and-applications.md)**
 
 - [Category__Projects](category-projects.md)
 
 ## 15 min Video Summary
 
-[A recorded 15min presentation](/wiki/spaces/BeSTGRID/pages/3818228660) by Paul Bonnington given at the KAREN “Building Communities for Collaboration” Conference early in July 2007 about the BeSTGRID project. It highlights some of the services and demonstrates how one can engage with the computational GRID.
+[A recorded 15min presentation](a-recorded-15min-presentation.md) by Paul Bonnington given at the KAREN “Building Communities for Collaboration” Conference early in July 2007 about the BeSTGRID project. It highlights some of the services and demonstrates how one can engage with the computational GRID.
 
 ## BeSTGRID
 

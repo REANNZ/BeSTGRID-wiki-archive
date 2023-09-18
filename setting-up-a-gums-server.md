@@ -21,7 +21,7 @@ The installation is based on the [ARCS NgGums installation guide](http://project
 
 When users have personal accounts on the cluster and it's desired to let them access the personal accounts via the grid, then this installation should be followed by installing the AuthTool and the [Shibbolized AuthTool](deploying-shibbolized-authtool-on-a-gums-server.md).
 
-As a "parallel companion" to this page, setup instructions are given for GUMS on an Ubuntu server base system: [Setting up a GUMS server on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228431)
+As a "parallel companion" to this page, setup instructions are given for GUMS on an Ubuntu server base system: [Setting up a GUMS server on Ubuntu](setting-up-a-gums-server-on-ubuntu.md)
 
 **NOTE:** The original method described on this page results in all BeSTGRID users using a common username and home directory, which is a security risk. It is recommended that all production sites switch to using [pooled and individual accounts](configuring-a-gums-server-with-pooled-accounts.md).
 
@@ -60,7 +60,7 @@ The following is recommended:
 
 ## Certificates
 
-Before proceeding with the certificate, [obtain a host certificate](/wiki/spaces/BeSTGRID/pages/3818228502) for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates)
+Before proceeding with the certificate, [obtain a host certificate](requesting-host-certificates.md) for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates)
 
 - If no other software has created the directories `/etc/grid-security` and `/etc/grid-security/http` then they need to be created
 
@@ -574,4 +574,4 @@ Now, proceed to installing the Auth Tool:
 
 >  yum groupinstall "Development Tools"
 
-More information can be found in the [Canterbury local accounts setup](http://www.bestgrid.org/index.php/Setup_NGGums_at_University_of_Canterbury#Mapping_to_local_user_accounts) and [Canterbury Auth Tool setup](/wiki/spaces/BeSTGRID/pages/3818228894) - including advanced topics like using ssh to verify local account credentials.
+More information can be found in the [Canterbury local accounts setup](http://www.bestgrid.org/index.php/Setup_NGGums_at_University_of_Canterbury#Mapping_to_local_user_accounts) and [Canterbury Auth Tool setup](setup-authtool-for-hpc-at-university-of-canterbury.md) - including advanced topics like using ssh to verify local account credentials.

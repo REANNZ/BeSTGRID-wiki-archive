@@ -1,6 +1,6 @@
 # Setup AUT GUMS server
 
-This page documents the setup of a GUMS server at AUT, as a part of their grid gateway.  There's nothing atypical at this server and the installation primarily follows [https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums).  See the [Otago GUMS installation notes](/wiki/spaces/BeSTGRID/pages/3818228928) for more verbose documentation of a similar install.
+This page documents the setup of a GUMS server at AUT, as a part of their grid gateway.  There's nothing atypical at this server and the installation primarily follows [https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](https://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums).  See the [Otago GUMS installation notes](setup-otago-gums-server.md) for more verbose documentation of a similar install.
 
 ## Preliminaries
 

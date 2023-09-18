@@ -1,6 +1,6 @@
 # Installing Blender on CentOS 5 x86 64
 
-Installing Blender on CentOS 5 has been much simpler then on [CentOS 4](/wiki/spaces/BeSTGRID/pages/3818228609) - all of the dependencies are available as RPMs, in either CentOS core distribution or in EPEL.
+Installing Blender on CentOS 5 has been much simpler then on [CentOS 4](installing-blender-on-centos-4.md) - all of the dependencies are available as RPMs, in either CentOS core distribution or in EPEL.
 
 This page is specifically about installing Blender on CentOS 5 x86_64 - but the same would apply to CentOS 5 i386 (minus the changes related to the lib64 directory name).
 

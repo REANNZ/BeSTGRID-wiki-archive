@@ -2,7 +2,7 @@
 
 # Introduction
 
-The Modular Information Provider (MIP) is the software implementation populating the local [MDS](/wiki/spaces/BeSTGRID/pages/3818228972) on a sites job submission gateway (a.k.a. NG2 or NG1) and this information gets then pushed to the central MDS index held at the [ARCS MDS directory](http://www.sapac.edu.au/webmds/).
+The Modular Information Provider (MIP) is the software implementation populating the local [MDS](mds.md) on a sites job submission gateway (a.k.a. NG2 or NG1) and this information gets then pushed to the central MDS index held at the [ARCS MDS directory](http://www.sapac.edu.au/webmds/).
 
 These pages cover advanced configuration of MIP and specific information about how to configure applications for MIP.
 

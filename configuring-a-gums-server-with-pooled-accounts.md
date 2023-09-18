@@ -27,7 +27,7 @@ To illustrate this, a very simple approach to creating the accounts would be:
 
 >  ACCT=1 ; while [Configuring a GUMS server with pooled accounts](configuring-a-gums-server-with-pooled-accounts.md) ; do ACCT_NAME=$( printf 'grid%03d' $A ) ; adduser $ACCT_NAME ; ACCT=$(( $ACCT + 1 )) ; done
 
-A a more detailed description how this would be done [on a Rocks cluster](/wiki/spaces/BeSTGRID/pages/3818228667)
+A a more detailed description how this would be done [on a Rocks cluster](setting-up-pool-users-for-gums.md)
 
 # Configuring GUMS
 

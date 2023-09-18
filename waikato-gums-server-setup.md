@@ -4,7 +4,7 @@
 
 As recommended in the deployment guidelines for ARCS and BeSTGRID, this GUMS server is being deployed.
 
-This host is a Virtual Machine, using the x86_64 64 bit system architecture.  The Distribution is Debian Lenny (5.0), amd64.  The system image is based on a `debootstrap` generated system image, rather than an install from an ISO.  This meant that various debconf settings were not done on installation.  See [Debian Tips](/wiki/spaces/BeSTGRID/pages/3818228765)
+This host is a Virtual Machine, using the x86_64 64 bit system architecture.  The Distribution is Debian Lenny (5.0), amd64.  The system image is based on a `debootstrap` generated system image, rather than an install from an ISO.  This meant that various debconf settings were not done on installation.  See [Debian Tips](debian-tips.md)
 
 It was installed following these documents:
 
@@ -34,7 +34,7 @@ Contact email: symphony_admins@wand.net.nz
 
 Emails with regard to renewal will come to the above address.  The certificate, its signing request, and the key can all be found in `/etc/grid-security` on the machine.  The key file is unencrypted. This certificate request and key are read-only for the root user.
 
-The steps in [Debian Tips](/wiki/spaces/BeSTGRID/pages/3818228765) were carried out to make the machine more administrator friendly, with an emphasis on remote access.
+The steps in [Debian Tips](debian-tips.md) were carried out to make the machine more administrator friendly, with an emphasis on remote access.
 
 # SMTP Mail Server Details
 

@@ -19,7 +19,7 @@
 [**Vladimir Mencl**](vladimirbestgridorg.md) - Blue Fern Group, University of Canterbury
 
 ***Project Governance***
-- [Steering Committee](/wiki/spaces/BeSTGRID/pages/3818228876)
+- [Steering Committee](steering-committee.md)
 
 ### Technical Working Group
 

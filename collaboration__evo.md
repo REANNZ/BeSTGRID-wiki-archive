@@ -20,6 +20,6 @@ To **access EVO**, use the EVO Client 'Koala'
 ;Status
 
 - Experiment in the EVO "Universe" community including running of [BeSTGRID Steering Committee](category-steering-committee.md) meetings.
-- First [New Zealand EVO Panda reflector node setup](/wiki/spaces/BeSTGRID/pages/3818228619) at the University of Auckland within BeSTGRID by Phillipe Galvez on 15th December - thanks Phillipe!
+- First [New Zealand EVO Panda reflector node setup](evo-panda-reflector-node-setup.md) at the University of Auckland within BeSTGRID by Phillipe Galvez on 15th December - thanks Phillipe!
 
 ![Bestgrid-panda.jpg](./attachments/Bestgrid-panda.jpg)

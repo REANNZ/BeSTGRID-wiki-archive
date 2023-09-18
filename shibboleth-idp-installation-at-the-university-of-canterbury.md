@@ -1,6 +1,6 @@
 # Shibboleth IdP Installation at the University of Canterbury
 
-This page documents installing the Shibboleth Identity Provider (IdP) at the University of Canterbury.  The installation primarily follows the [MAMS IdP installation instructions](http://www.federation.org.au/twiki/bin/view/Federation/ManualInstallIdP), and builds on the experience from [installing the Test IdP](/wiki/spaces/BeSTGRID/pages/3818228985).  Thus, this page is rather brief, and documents mainly what was done differently, and focuses on details of the key commands and configuration entries used.
+This page documents installing the Shibboleth Identity Provider (IdP) at the University of Canterbury.  The installation primarily follows the [MAMS IdP installation instructions](http://www.federation.org.au/twiki/bin/view/Federation/ManualInstallIdP), and builds on the experience from [installing the Test IdP](shibboleth-idp-test-installation-at-the-university-of-canterbury.md).  Thus, this page is rather brief, and documents mainly what was done differently, and focuses on details of the key commands and configuration entries used.
 
 # Installation Prerequisites
 

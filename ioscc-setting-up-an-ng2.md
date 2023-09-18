@@ -705,7 +705,7 @@ This section assumes you'll be advertising in MDS:
 
 - If you need to advertise more ComputeElements, adjust the configuration accordingly (providing multiple IDs/names for the elements) - but please do not advertise multiple queues providing access to the same physical resources.  That would break the metascheduling algorithms used in Grisu.
 - If you need to advertise multiple clusters (with the same home directories and user accounts), the changes will be still straightforward.
-- If you need to advertise multiple clusters with the different home directories and user accounts (and you are already running multiple NG2s), it will be more complex - and you may have to use MIP integrator to aggregate data from multiple NG2s.  See [Setup MIP on NG2HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228466) for more information on how that was done at Canterbury.
+- If you need to advertise multiple clusters with the different home directories and user accounts (and you are already running multiple NG2s), it will be more complex - and you may have to use MIP integrator to aggregate data from multiple NG2s.  See [Setup MIP on NG2HPC at University of Canterbury](setup-mip-on-ng2hpc-at-university-of-canterbury.md) for more information on how that was done at Canterbury.
 
 ### default.pl
 

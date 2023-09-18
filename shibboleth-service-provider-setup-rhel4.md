@@ -86,7 +86,7 @@ xerces-c-2.6.1-2.i386.rpm xml-security-c-1.2.0-2.i386.rpm
 
 - Configure the Service Provider by edit the shibboleth.xml (usually at /etc/shibboleth/)
 
-- Download the example [Shibboleth.xml](/wiki/spaces/BeSTGRID/pages/3818228679).
+- Download the example [Shibboleth.xml](shibbolethxml.md).
 
 - urn:mace namespace is a Uniform Resource Name namespace for [MACE](http://middleware.internet2.edu/MACE/) working groups. The namespace is intended to be delegated to different working groups or organizations that registered with MACE. For example, the URN namespace of the University of Auckland (UoA) in MACE is 'urn:mace:UoAFederation'.
 
@@ -334,7 +334,7 @@ The following explanation of Attribute Acceptance Policy (AAP) is directly quote
 
 - *Aliases by which attributes can be referenced in access control policy rules, such as Apache require commands. SAML attributes tend to have machine-friendly names, so aliases allow more admin-friendly names to be used instead.*
 
-- Download the example [AAP.xml](/wiki/spaces/BeSTGRID/pages/3818228812) and save it to the URI that defined by the AAPProvider element. (usually at /etc/shibboleth/)
+- Download the example [AAP.xml](aapxml.md) and save it to the URI that defined by the AAPProvider element. (usually at /etc/shibboleth/)
 
 - An example of [how to obtain attributes from an Identity Provider](#ShibbolethServiceProviderSetup-RHEL4-HowtoobtainattributesfromanIdentityProvider) is shown below .
 
@@ -671,5 +671,5 @@ A possible solution for this error is to disable both "checkAddress" and "consis
 
 # Appendix
 
-- [Shibboleth.xml](/wiki/spaces/BeSTGRID/pages/3818228679)
-- [AAP.xml](/wiki/spaces/BeSTGRID/pages/3818228812)
+- [Shibboleth.xml](shibbolethxml.md)
+- [AAP.xml](aapxml.md)

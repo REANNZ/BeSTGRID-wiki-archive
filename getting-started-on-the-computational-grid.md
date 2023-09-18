@@ -16,7 +16,7 @@ After logging in, you should see an XML response where the second line says:
 <Status>Success</Status>
 ```
 
-If your institution is not Tuakiri member, you may still be able to access the computational grid by [Getting an ASGCCA grid certificate](/wiki/spaces/BeSTGRID/pages/3818228614)
+If your institution is not Tuakiri member, you may still be able to access the computational grid by [Getting an ASGCCA grid certificate](getting-an-asgcca-grid-certificate.md)
 
 # Register for the Grid BeSTGRID VO
 

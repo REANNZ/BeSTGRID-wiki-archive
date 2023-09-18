@@ -4,7 +4,7 @@
 
 |  Services                                                                          |  News and Events  |
 | ---------------------------------------------------------------------------------- | ----------------- |
-|  `Events`### [Recent News and Events...](/wiki/spaces/BeSTGRID/pages/3818228852) 
+|  `Events`### [Recent News and Events...](recent-news-and-events.md) 
  |                   |
 |  Related Projects                                                                  |                   |
 |  left                                                                              |  frame            |

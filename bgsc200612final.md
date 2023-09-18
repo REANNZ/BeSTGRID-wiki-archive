@@ -31,7 +31,7 @@ Meeting to be held via **[EVO](http://nextgen-caltech.cern.ch/evoGate/)**
 
 - Previous Meeting
 
-[5th December 2006](/wiki/spaces/BeSTGRID/pages/3818228766)
+[5th December 2006](bgsc200612.md)
 - Next Meeting
 
 [30th January 2007](bgsc200701.md)

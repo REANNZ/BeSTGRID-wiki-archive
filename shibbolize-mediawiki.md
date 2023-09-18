@@ -146,7 +146,7 @@ The extension below was originally written by the Administrative Computing and T
 
 ## Installation
 
-Download [ShibAuthPlugin.php](/wiki/spaces/BeSTGRID/pages/3818228612) and save this extension into **web_root**/wiki/extensions/
+Download [ShibAuthPlugin.php](shibauthpluginphp.md) and save this extension into **web_root**/wiki/extensions/
 
 ## Configuration
 

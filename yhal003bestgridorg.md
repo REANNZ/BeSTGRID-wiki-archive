@@ -1,3 +1,3 @@
 # Yhal003@bestgrid.org
 
-[Software List On BeSTGRID Resources](/wiki/spaces/BeSTGRID/pages/3818228813)
+[Software List On BeSTGRID Resources](software-list-on-bestgrid-resources.md)

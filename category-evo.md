@@ -8,15 +8,15 @@
 
 - [EVO Overview](category-evo.md)
 - [Two page flyer about EVO (PDF File)](attachments/EVO-flyer-2007-oct-8.pdf)
-- [See EVO in Action](/wiki/spaces/BeSTGRID/pages/3818228733)
+- [See EVO in Action](see-evo-in-action.md)
 - [Recommended Equipment for Windows XP users](getting-started-with-evo-in-new-zealand.md)
 - [Getting Started with EVO in New Zealand](getting-started-with-evo-in-new-zealand.md)
-- [Configuring EVO for the first time](/wiki/spaces/BeSTGRID/pages/3818228555)
-- [Improving EVO's Video and Audio Quality](/wiki/spaces/BeSTGRID/pages/3818228670)
-- [A complete EVO setup for cross-institutional small-room teaching and seminars](/wiki/spaces/BeSTGRID/pages/3818228966)
-- [How to have a successful multi-party meeting with EVO](/wiki/spaces/BeSTGRID/pages/3818228799)
+- [Configuring EVO for the first time](configuring-evo-for-the-first-time.md)
+- [Improving EVO's Video and Audio Quality](improving-evos-video-and-audio-quality.md)
+- [A complete EVO setup for cross-institutional small-room teaching and seminars](a-complete-evo-setup-for-cross-institutional-small-room-teaching-and-seminars.md)
+- [How to have a successful multi-party meeting with EVO](how-to-have-a-successful-multi-party-meeting-with-evo.md)
 
-- [Discussion Paper about EVO in NZ](/wiki/spaces/BeSTGRID/pages/3818228897)
+- [Discussion Paper about EVO in NZ](evo-in-nz.md)
 
 ## OS Support
 

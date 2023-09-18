@@ -4,7 +4,7 @@
 
 The article covers all details of the installation of Shibboleth IdP for The University of Auckland (UoA). It also describes the process about how to take part in Australian Access Federation (AAF). 
 
-For general Shibboleth IdP installation, please refer to [general Shibboleth IdP installation](/wiki/spaces/BeSTGRID/pages/3818228900) or [OpenIdP installation](install-open-identity-provider.md)
+For general Shibboleth IdP installation, please refer to [general Shibboleth IdP installation](shibboleth-idp.md) or [OpenIdP installation](install-open-identity-provider.md)
 
 # Installation Environment
 
@@ -75,7 +75,7 @@ worker.default.lbfactor=1
 
 # Configure Shibboleth IdP
 
-**The main configuration of Identity Provider is located in *idp_home**/etc/idp.xml, other important configuration files include attribute source (e.g resolver.ldap.xml), metadata files (e.g. bestgrid-metadata.xml) and attribute release policy files (e.g. arp.site.xml). Please have a look the [General Shibboleth IdP Installation Guide](/wiki/spaces/BeSTGRID/pages/3818228900#Shibboleth-idp-Step_10___Configure_Shibboleth_IdP) for more details. 
+**The main configuration of Identity Provider is located in *idp_home**/etc/idp.xml, other important configuration files include attribute source (e.g resolver.ldap.xml), metadata files (e.g. bestgrid-metadata.xml) and attribute release policy files (e.g. arp.site.xml). Please have a look the [General Shibboleth IdP Installation Guide](shibboleth-idp.md#Shibboleth-idp-Step_10___Configure_Shibboleth_IdP) for more details. 
 
 - Please have a look the example configuration files below:
 
@@ -83,7 +83,7 @@ worker.default.lbfactor=1
 
 *[resolver.ldap.xml](uoa-idp-resolverldapxml.md) (NOTE: If you are using secure connection for LDAP, please append the CA into Java cacerts by using keytool)
 
-*[arp.site.xml](/wiki/spaces/BeSTGRID/pages/3818228668)
+*[arp.site.xml](arpsitexml.md)
 
 *[bestgrid-metadata.xml](https://wayf.bestgrid.org/metadata/bestgrid-metadata.xml)
 

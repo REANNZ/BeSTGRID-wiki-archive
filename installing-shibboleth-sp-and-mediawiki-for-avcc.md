@@ -340,7 +340,7 @@ The default MAMS instructions ask for a line in the HTTPS Virtual host configura
 
 # Configuring MediaWiki for Shibboleth authentication
 
-Following the guide on [shibbolizing mediawiki](/wiki/spaces/BeSTGRID/pages/3818228873), I could get this done pretty easily.  The very essence is just the matter of installing the [ShibAuthPlugin.php](/wiki/spaces/BeSTGRID/pages/3818228612) into `/var/www/extensions`, and configuring `LocalSettings.php` to use the plugin for authentication.
+Following the guide on [shibbolizing mediawiki](shibbolize-mediawiki.md), I could get this done pretty easily.  The very essence is just the matter of installing the [ShibAuthPlugin.php](shibauthpluginphp.md) into `/var/www/extensions`, and configuring `LocalSettings.php` to use the plugin for authentication.
 
 - ShibAuthPlugin: even though at MediaWiki, version 1.1.6 is already available ([http://www.mediawiki.org/wiki/Extension:Shibboleth_Authentication](http://www.mediawiki.org/wiki/Extension:Shibboleth_Authentication), with an older version at [http://meta.wikimedia.org/w/index.php?title=Shibboleth_Authentication&oldid=401874](http://meta.wikimedia.org/w/index.php?title=Shibboleth_Authentication&oldid=401874)), this version is smaller and "looks older" than the version 1.1.3 at www.bestgrid.org, so I'm installing the BeSTGRID one instead.
 
@@ -489,7 +489,7 @@ Access to pages would be controlled with /accesscontrol/um,,uc,,ua,,sc//accessco
 
 Group membership would be controlled via pages named Usergroup:groupname
 
-Installation of the extension is described at [BeSTGRID Shibbolized Wiki Group Control](/wiki/spaces/BeSTGRID/pages/3818228907).
+Installation of the extension is described at [BeSTGRID Shibbolized Wiki Group Control](bestgrid-shibbolized-wiki-group-control.md).
 
 Note: when comparing the accesscontrol package source distribution and the version installed at the BeSTGRID wiki, there are no modifications to the code itself, and only minor modifications to the configuration:
 
@@ -708,7 +708,7 @@ if (isset($_GET['target'] )) {
 
 # Upgrade to MediaWiki 1.13
 
-Please see the detailed notes on [Re-installing ShibAuthPlugin after upgrading AVCC MediaWiki to 1.13](/wiki/spaces/BeSTGRID/pages/3818228786)
+Please see the detailed notes on [Re-installing ShibAuthPlugin after upgrading AVCC MediaWiki to 1.13](re-installing-shibauthplugin-after-upgrading-avcc-mediawiki-to-113.md)
 
 # Debian notes
 

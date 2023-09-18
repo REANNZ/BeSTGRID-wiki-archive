@@ -17,7 +17,7 @@
 
 Established in August 2007, NZSSDS provides access to New Zealand social science survey data and metadata, with online analysis, and download, available through registration. NZSSDS also provides a wiki environment for collaborative documents, and a set of analytical tools.
 
-The NZSSDS data catalogues use Nesstar software for the dissemination of data and metadata, with a web interface for viewing, analysing, and downloading data sets. To provide data safety mechanism 7 days incremental [backup procedure](/wiki/spaces/BeSTGRID/pages/3818228494) has been implemented.
+The NZSSDS data catalogues use Nesstar software for the dissemination of data and metadata, with a web interface for viewing, analysing, and downloading data sets. To provide data safety mechanism 7 days incremental [backup procedure](backup-procedure.md) has been implemented.
 
 - www
 [http://www.nzssds.org/](http://www.nzssds.org/)

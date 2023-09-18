@@ -10,6 +10,6 @@ BeSTGRID focuses on how to make eResearch work, to create a fully-functional eRe
 **For futher information and status on BeSTGRID's activities please see:**
 
 - **[Data theme]****,**
-- **[Computational theme](/wiki/spaces/BeSTGRID/pages/3818228944)****,**
+- **[Computational theme](computational-grid.md)****,**
 	
 - [[Access GRID |

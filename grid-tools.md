@@ -93,7 +93,7 @@ crl.startssl.com 70.167.227.245 [http]
 - [BeSTGRID GridSphere portal](https://ngportal.canterbury.ac.nz/gridsphere/gridsphere) allows a user to submit a job from anywhere, just by using a web browser and uploading the files they would like to process on the grid.
 	
 - The portal so far supports several bioinformatics applications, but please ask us if you would like to see your favorite application there.
-- See the brief guide on [Getting started with the portal](/wiki/spaces/BeSTGRID/pages/3818228738).
+- See the brief guide on [Getting started with the portal](getting-started-with-the-portal.md).
 - Open the portal at [https://ngportal.canterbury.ac.nz/gridsphere/gridsphere](https://ngportal.canterbury.ac.nz/gridsphere/gridsphere)
 
 # File Management

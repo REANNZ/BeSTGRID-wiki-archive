@@ -17,11 +17,11 @@ Using a GUMS server will completely eliminate the need for and the use of the `g
 
 The GUMS configuration mechanism is fairly flexible, and with multiple `HostGroup` elements, it is possible to specify different mappings for individual hosts (such as mapping everyone to `tomcat` on `ngportal`, or using different usernames (`grid-bgd`, `grid-adm`) on `ng2hpc`).
 
-The installation was based on the [ARCS NgGums installation](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums) page, and was rather simple.  Afterwards, it was necessary to configure the GUMS server with local authorization policies.  Finally, it was necessary to install [AuthTool for the University of Canterbury HPC facility](/wiki/spaces/BeSTGRID/pages/3818228894).
+The installation was based on the [ARCS NgGums installation](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums) page, and was rather simple.  Afterwards, it was necessary to configure the GUMS server with local authorization policies.  Finally, it was necessary to install [AuthTool for the University of Canterbury HPC facility](setup-authtool-for-hpc-at-university-of-canterbury.md).
 
 # System Install
 
-Note: I installed the server by upgrading from a VDT 1.6.1 installation of GUMS.  The old installation is backed up in `/opt/vdt161` and `/etc/grid-security-161`.  The system is a CentOS Xen VM [bootstrapped in a standard way](bootstrapping-a-virtual-machine-at-university-of-canterbury.md), and [updated](/wiki/spaces/BeSTGRID/pages/3818228636) to CentOS 4.6.
+Note: I installed the server by upgrading from a VDT 1.6.1 installation of GUMS.  The old installation is backed up in `/opt/vdt161` and `/etc/grid-security-161`.  The system is a CentOS Xen VM [bootstrapped in a standard way](bootstrapping-a-virtual-machine-at-university-of-canterbury.md), and [updated](updating-a-virtual-machine-at-university-of-canterbury.md) to CentOS 4.6.
 
 The basic install proceeds with the instructions at [http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums](http://projects.arcs.org.au/trac/systems/wiki/HowTo/InstallNgGums), and also with the instructions for [upgrading a gateway from VDT 1.6.1 to VDT 1.8.1](http://projects.arcs.org.au/trac/systems/wiki/ReleaseNotes/080125).
 
@@ -225,7 +225,7 @@ In order to allow users to map to their local accounts, we need to install a sep
 
 Afterwards, a Python script ([gumsmanualmap.py](http://projects.arcs.org.au/trac/systems/attachment/wiki/HowTo/InstallAuthTool/gumsmanualmap.py.txt)) propagates the mapping from the mapfile into GUMS server's internal MySQL database.  After this done, the mapping is active, and is the user's default mapping if no VO mapping is requested (i.e., when the user authenticates with plain proxy with no VOMS attribute certificate).
 
-I describe the [AuthTool installation for the HPC cluster](/wiki/spaces/BeSTGRID/pages/3818228894) on a separate page - before doing so, please configure the following GUMS server entries as prerequisites for installing AuthTool:
+I describe the [AuthTool installation for the HPC cluster](setup-authtool-for-hpc-at-university-of-canterbury.md) on a separate page - before doing so, please configure the following GUMS server entries as prerequisites for installing AuthTool:
 
 Note that I am installing AuthTool for mapping users from distinct administrative domains, the HPC and SGE (Oldesparky) clusters.  If you are installing AuthTool for just a single cluster, drop the "HPC" component from the names of the configuration entries.
 
@@ -268,7 +268,7 @@ Accounting VO: blank
 
 - Finally, add the groupToAccount mapping (ManualMapperHPC) as first mapping in HostToGroup mapping for `ng2hpc.canterbury.ac.nz`.
 
-Now, proceed to [install the AuthTool](/wiki/spaces/BeSTGRID/pages/3818228894), and check that the user's can create mappings in the GUMS server.
+Now, proceed to [install the AuthTool](setup-authtool-for-hpc-at-university-of-canterbury.md), and check that the user's can create mappings in the GUMS server.
 
 To check this, a GUMS admin can visit the **Manual User Group Members** and **Manual Account Mappings** pages.
 

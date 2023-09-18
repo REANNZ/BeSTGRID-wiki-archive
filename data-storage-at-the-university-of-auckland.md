@@ -10,7 +10,7 @@
 ## Usage
 
 - The storage is now available for housing Research Data
-- [Research Projects using the BeSTGRID Data GRID](/wiki/spaces/BeSTGRID/pages/3818228401)
+- [Research Projects using the BeSTGRID Data GRID](research-projects-using-the-bestgrid-data-grid.md)
 - It is currently available as smb (SAMBA) network storage internally to the University of Auckland. Hence, it can be made available to any Mac, Linux or Windows PC Desktop
 - We can also provide access via NFS to select servers in the University
 - Other services (such as rsync) are also available

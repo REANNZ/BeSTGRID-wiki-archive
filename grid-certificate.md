@@ -15,7 +15,7 @@
 - [Revoking a Grid Certificate](#revoking-a-grid-certificate)
 # Introduction
 
-In order to use any of the BeSTGRID [Computational Grid](/wiki/spaces/BeSTGRID/pages/3818228944) services a *Grid User* is required to identify themselves with either a University or CRI *Identity Provider* or by obtaining a [Grid Certificate](grid-certificate.md). BeSTGRID Grid Certificates are provided by the [APACGrid Certificate Authority](https://ca.apac.edu.au/pub) and are used by a variety of applications, such as web browsers and [Grid Tools](grid-tools.md), to allow access to sites and services provided by *BeSTGRID* and its partners such as *ARCS*. This document will provide an overview on how a *Grid User* obtains, uses, and maintains their [Grid Certificate](grid-certificate.md).
+In order to use any of the BeSTGRID [Computational Grid](computational-grid.md) services a *Grid User* is required to identify themselves with either a University or CRI *Identity Provider* or by obtaining a [Grid Certificate](grid-certificate.md). BeSTGRID Grid Certificates are provided by the [APACGrid Certificate Authority](https://ca.apac.edu.au/pub) and are used by a variety of applications, such as web browsers and [Grid Tools](grid-tools.md), to allow access to sites and services provided by *BeSTGRID* and its partners such as *ARCS*. This document will provide an overview on how a *Grid User* obtains, uses, and maintains their [Grid Certificate](grid-certificate.md).
 
 # Grid Certificate Policies
 
@@ -108,7 +108,7 @@ Once proof of identity has been established, the RAO may be happy to renew Grid 
 
 **WHAT TO DO NEXT**
 
-Once a Grid User has been issued with a Grid Certificate they will need to use *Grix* to [apply for BeSTGRID Virtual Organisation membership](/wiki/spaces/BeSTGRID/pages/3818228478)
+Once a Grid User has been issued with a Grid Certificate they will need to use *Grix* to [apply for BeSTGRID Virtual Organisation membership](apply-for-vo-membership.md)
 
 # Renewing a Grid Certificate
 

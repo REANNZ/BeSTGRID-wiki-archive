@@ -898,7 +898,7 @@ don't forget to wipe the `/root/.mysql_history` again, as there's a password in 
 	
 - This allows users using a SLCS certificate to authenticate with their Shibboleth login and link their SLCS DN with a local account.
 
-More information can be found in the [Canterbury local accounts setup](http://www.bestgrid.org/index.php/Setup_NGGums_at_University_of_Canterbury#Mapping_to_local_user_accounts) and [Canterbury Auth Tool setup](/wiki/spaces/BeSTGRID/pages/3818228894) - including advanced topics like using ssh to verify local account credentials.
+More information can be found in the [Canterbury local accounts setup](http://www.bestgrid.org/index.php/Setup_NGGums_at_University_of_Canterbury#Mapping_to_local_user_accounts) and [Canterbury Auth Tool setup](setup-authtool-for-hpc-at-university-of-canterbury.md) - including advanced topics like using ssh to verify local account credentials.
 
 ## Extra Notes
 

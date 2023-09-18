@@ -1,6 +1,6 @@
 # Installing and Evaluating Wikis considered at University of Canterbury___Evaluation summary
 
-This page summarizes the experience learned when [installing the three wikis considered](/wiki/spaces/BeSTGRID/pages/3818228420).
+This page summarizes the experience learned when [installing the three wikis considered](installing-and-evaluating-wikis-considered-at-university-of-canterbury.md).
 
 The wikis evaluated are:
 

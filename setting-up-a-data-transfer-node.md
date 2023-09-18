@@ -330,7 +330,7 @@ If your OS distribution is not listed at [http://toolkit.globus.org/toolkit/down
 In the ideal situation, it would be the case of
 
 
-For platform specific details of resolving build issues, please document them here - and possibly refer to the notes on installing [Installing Globus 5.0.0 on AIX](/wiki/spaces/BeSTGRID/pages/3818228673)
+For platform specific details of resolving build issues, please document them here - and possibly refer to the notes on installing [Installing Globus 5.0.0 on AIX](installing-globus-500-on-aix.md)
 
 # Additional configuration
 

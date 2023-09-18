@@ -764,7 +764,7 @@ export MYPROXY_SERVER
 
 # Upgrading Davis
 
-This section has moved to [Administering the DataFabric#Upgrading Davis](/wiki/spaces/BeSTGRID/pages/3818228984#AdministeringtheDataFabric-UpgradingDavis)
+This section has moved to [Administering the DataFabric#Upgrading Davis](administering-the-datafabric.md#AdministeringtheDataFabric-UpgradingDavis)
 
 # Deploying Griffin
 

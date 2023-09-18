@@ -1,6 +1,6 @@
 # What is eResearch?
 
-[A recorded 15min presentation](/wiki/spaces/BeSTGRID/pages/3818228660) by Paul Bonnington at the KAREN “Building Communities for Collaboration” Conference early July about our BeSTGRID project. It highlights some of our services and demonstrates how one could engage with the computational GRID.
+[A recorded 15min presentation](a-recorded-15min-presentation.md) by Paul Bonnington at the KAREN “Building Communities for Collaboration” Conference early July about our BeSTGRID project. It highlights some of our services and demonstrates how one could engage with the computational GRID.
 
 # From 'hyphen - connecting KAREN communities' REANNZ our quarterly newsletter
 

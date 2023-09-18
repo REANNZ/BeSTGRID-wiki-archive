@@ -20,7 +20,7 @@ See my description of the [problem](vladimirs-grid-notes.md#Vladimir&#39;sgridno
 
 # PBS job tagging
 
-See [PBS job tagging](/wiki/spaces/BeSTGRID/pages/3818228870)
+See [PBS job tagging](pbs-job-tagging.md)
 
 # StartUp VO: limit wall clock time
 

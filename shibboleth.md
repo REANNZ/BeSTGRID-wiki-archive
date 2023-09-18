@@ -4,7 +4,7 @@ Shibboleth [is an open, standards based solution to federated identity managemen
 
 A good introduction to Shibboleth can be found on the shibboleth site[http://shibboleth.internet2.edu/](http://shibboleth.internet2.edu/)
 
-Shibboleth is based on the [Security Assertion Markup Language](/wiki/spaces/BeSTGRID/pages/3818228476).
+Shibboleth is based on the [Security Assertion Markup Language](security-assertion-markup-language.md).
 
 # Shibboleth Browser/POST Profile with WAYF Service
 
@@ -14,7 +14,7 @@ Shibboleth is based on the [Security Assertion Markup Language](/wiki/spaces/BeS
 
 # Install Shibboleth Service Provider 2 on Red Hat Enterprise Linux Server release 5.3
 
-[Shibboleth Service Provider Setup - RHEL5.3](/wiki/spaces/BeSTGRID/pages/3818228689)
+[Shibboleth Service Provider Setup - RHEL5.3](shibboleth-service-provider-setup-rhel53.md)
 
 # Install Shibboleth Service Provider 1.3 on RedHat Advanced Server 4
 
@@ -26,7 +26,7 @@ Shibboleth is based on the [Security Assertion Markup Language](/wiki/spaces/BeS
 
 # Install Higher Availability Shibboleth
 
-[Higher Availability Shibboleth](/wiki/spaces/BeSTGRID/pages/3818228797)
+[Higher Availability Shibboleth](hashib.md)
 
 # Shibbolizing Drupal
 
@@ -38,19 +38,19 @@ An instruction to how to [Shibbolize MediaWiki](shibbolize-mediawiki.md)
 
 # Shibbolizing Sakai VRE
 
-- [Sakai and Shibboleth Integration](/wiki/spaces/BeSTGRID/pages/3818228491)
+- [Sakai and Shibboleth Integration](sakai-and-shibboleth-integration.md)
 
 # JMeter
 
-Please click here to see how to set up a test plan for Shibboleth-IdP with [JMeter](/wiki/spaces/BeSTGRID/pages/3818228713)
+Please click here to see how to set up a test plan for Shibboleth-IdP with [JMeter](jmeter.md)
 
 # Install Shibboleth Identity Provider (IdP) 1.3 on MS Windows XP
 
-[Shibboleth-idp](/wiki/spaces/BeSTGRID/pages/3818228900)
+[Shibboleth-idp](shibboleth-idp.md)
 
 # Prototyping @ UoA
 
-[Shibboleth Prototyping](/wiki/spaces/BeSTGRID/pages/3818228665)
+[Shibboleth Prototyping](shibboleth-prototyping.md)
 
 # Interesting Links
 

@@ -27,8 +27,8 @@ Tim Molteno has taken the following notes (edited by Vladimir):
 	
 - Install the SLCS CA from ARCS. No face-to-face meeting. Limited to 1 million seconds. Instructions on BestGRID.
 		
-- Admin instructions: [Configuring IdP for SLCS certificates](/wiki/spaces/BeSTGRID/pages/3818228428)
-- User instructions: [Using SLCS certificates at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228446)
+- Admin instructions: [Configuring IdP for SLCS certificates](configuring-idp-for-slcs-certificates.md)
+- User instructions: [Using SLCS certificates at University of Canterbury](using-slcs-certificates-at-university-of-canterbury.md)
 
 - Status of Institutions.
 	

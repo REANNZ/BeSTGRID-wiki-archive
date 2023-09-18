@@ -16,7 +16,7 @@ This guide is based on the [ARCS NG2 installation guide](http://projects.arcs.or
 
 The installation of an NG2 is very site specific - it depends a lot on the LRM - but also on other aspects, such as the user account management system and the filesystem used for home directories.  This guide will cover the default case (PBS is the LRM) and will hint on solutions for the other situations.
 
-As a "parallel companion" to this page, setup instructions are given for an NG2 on an Ubuntu server base system: [Setting up an NG2 on Ubuntu](/wiki/spaces/BeSTGRID/pages/3818228397)
+As a "parallel companion" to this page, setup instructions are given for an NG2 on an Ubuntu server base system: [Setting up an NG2 on Ubuntu](setting-up-an-ng2-on-ubuntu.md)
 
 This page uses the following LRM-specific pages as supplementary material:
 
@@ -100,7 +100,7 @@ and those you provide upon the cluster, and hence on the NG2.
 
 ## Certificates
 
-Before proceeding with the certificate, [obtain a host certificate](/wiki/spaces/BeSTGRID/pages/3818228502) for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates)
+Before proceeding with the certificate, [obtain a host certificate](requesting-host-certificates.md) for this system from the [APACGrid CA](http://wiki.arcs.org.au/bin/view/Main/HostCertificates)
 
 - If no other software has created the directory `/etc/grid-security` then it needs to be created
 
@@ -510,7 +510,7 @@ This section assumes you'll be advertising in MDS:
 
 - If you need to advertise more ComputeElements, adjust the configuration accordingly (providing multiple IDs/names for the elements) - but please do not advertise multiple queues providing access to the same physical resources.  That would break the metascheduling algorithms used in Grisu.
 - If you need to advertise multiple clusters (with the same home directories and user accounts), the changes will be still straightforward.
-- If you need to advertise multiple clusters with the different home directories and user accounts (and you are already running multiple NG2s), it will be more complex - and you may have to use MIP integrator to aggregate data from multiple NG2s.  See [Setup MIP on NG2HPC at University of Canterbury](/wiki/spaces/BeSTGRID/pages/3818228466) for more information on how that was done at Canterbury.
+- If you need to advertise multiple clusters with the different home directories and user accounts (and you are already running multiple NG2s), it will be more complex - and you may have to use MIP integrator to aggregate data from multiple NG2s.  See [Setup MIP on NG2HPC at University of Canterbury](setup-mip-on-ng2hpc-at-university-of-canterbury.md) for more information on how that was done at Canterbury.
 
 ### Configure default.pl
 
@@ -637,7 +637,7 @@ APACSchemaDirectory: /usr/local/share/
 
 ### Testing and finishing up
 
-- [Define software packages](/wiki/spaces/BeSTGRID/pages/3818228867) in /usr/local/mip/modules/apac_py/SubCluster/softwareInfoData/localSoftware.xml
+- [Define software packages](mip-defining-software-packages.md) in /usr/local/mip/modules/apac_py/SubCluster/softwareInfoData/localSoftware.xml
 - Test your MIP works and produces valid information
 	
 - Run 

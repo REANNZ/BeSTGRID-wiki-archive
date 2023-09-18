@@ -9,7 +9,7 @@
 
 ## Total Cost ~$21,000 all up
 
-### [Photos of some individual components used in portable node](/wiki/spaces/BeSTGRID/pages/3818228724)
+### [Photos of some individual components used in portable node](photos-of-some-individual-components-used-in-portable-node.md)
 
 ### Video capture
 
